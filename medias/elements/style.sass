@@ -1,0 +1,353 @@
+---
+permalink: style.css
+---
+
+// Variables
+$main: 18
+$line: 30
+
+// Vertical rhythm
+
+=font($size)
+  font-size: #{$size/$main}em
+  line-height: #{$line/$size}
+
+=padding($size,$top:0, $bottom:0, $lateral:0)
+  padding: $top*$line/$size+em $lateral+em $bottom*$line/$size+em
+
+// Main elements
+
+*
+  padding: 0
+  margin: 0 auto
+  list-style-type: none
+  font-weight: normal
+  text-align: justify
+  -webkit-text-size-adjust: none
+
+body
+  font: #{$main/16}em / #{$line/$main} PT Serif, Cambria, Georgia, serif
+  @media screen and (max-width: 470px)
+    font-size: .875em
+  @media screen and (min-width: 1200px)
+    font-size: 1.1875em
+
+a
+  color: #156f8f
+  text-decoration: none
+  &:hover
+    color: #0c4255
+    text-decoration: underline
+
+img
+  width: 100%
+
+.article, .nav ul
+  max-width: 31em
+  +padding($main,0,0,1)
+
+h1, h2, hr, .date, .nav, .foot
+  text-align: center
+
+p
+  +padding($main,1,0)
+
+// Titles
+
+h2
+  position: relative
+  top: .5*$line/25+em
+  +font(25)
+  +padding(25,1,1)
+  font-style: italic
+  color: #666
+  background: linear-gradient(#fff 52%, #e8e8e8 52%, #fff 53.5%)
+  text-shadow: -.2em 0 #fff, .2em 0 #fff, -.1em 0 #fff, .1em 0 #fff
+
+h3
+  +font(21)
+  +padding(21,1,0)
+  color: #888
+
+// Articles list
+
+.list
+  +padding(18,1)
+  h2
+    color: #ccc
+    +font(19)
+    padding: 0
+    margin: $line/19+em 0
+  a
+    +font(20)
+    display: block
+    max-width: 19em
+
+    div
+      +font(13)
+      margin-left: -3em
+      text-align: right
+      width: 2em
+      position: absolute
+      color: #ddd
+
+// Projects list
+
+.project
+  +padding(18,0,3,3)
+
+  li
+    +padding(18,2,0)
+
+  h3
+    +padding(19)
+    +font(19)
+    color: #156f8f
+    text-align: left
+
+  .sub
+    +font(16)
+    +padding(16)
+    color: #999
+    text-align: left
+
+  .img
+    img
+      margin-left: 1em
+      float: right
+      height: 7.3em
+      width: 10em
+      opacity: .8
+      box-shadow: 0 0 6px 0 rgba(0,0,0,0.25)
+
+  .desc
+    +font(17)
+    +padding(17,.5,.5)
+    color: #444
+
+  a
+    text-decoration: none
+
+    &:hover
+      h3
+        color: #0c4255
+        text-decoration: underline
+
+      .sub
+        color: #666
+
+      .desc
+        color: #000
+
+      .img
+        img
+          opacity: .9
+
+
+// Other pages
+
+.date+p:first-letter
+  float: left
+  margin: 0.13em 0.05em 0 -0.05em
+  font-size: 3.333em
+  line-height: 0.75em
+
+sup
+  font-size: 0.8em
+
+.date
+  +padding(19,3,1)
+  +font(19)
+  font-style: italic
+  color: #ccc
+
+p+ul li
+  padding-left: 2em
+  &:before
+    content: "– "
+
+// Head and foot
+
+h1
+  +font(26)
+  background: #252525 center
+  background-size: cover
+  color: #fff
+  top: 0
+  text-shadow: 0 0 0 #000, 0 0 .3em #000
+  border-top: 2*$line/26+em #191919 solid
+  +padding(26,2,2)
+
+.page h1
+  //+padding(26,2.5,2.5)
+
+
+.nav, .foot
+  position: absolute
+  left: 0
+  width: 100%
+
+.nav, .foot
+  z-index: 1
+
+.nav
+  position: fixed
+  background-color: #191919
+
+  li
+    float: left
+    padding: 0
+    &:first-child a
+      color: #ddd
+  a
+    +padding($main,.5,.5,.5)
+    display: block
+    float: left
+    color: #777
+
+  a:hover, .en .en, .de .de
+    color: #fff
+
+  .lang
+    float: right
+
+.en .en, .de .de
+  color: #fff
+
+.foot
+  +font(16)
+  //+padding(16,1,1)
+  position: absolute
+  color: #ddd
+  background: #fcfcfc
+
+  span, a
+    color: #d0d0d0
+
+  a:hover
+    color: #999
+
+hr
+  +font(24)
+  +padding(24,2,3)
+  border: 0
+  color: #ccc
+
+  &:before
+    //content: "*\a*\00a0\00a0\00a0\00a0*"
+    //white-space: pre
+
+// Code
+
+code
+  font-family: PT Sans, Calibri, Arial, sans
+  color: #4D4E53
+  line-height: 1
+
+pre
+  +padding($main,.5,.5,.75)
+  font-family: monospace, monospace
+  margin: $line/$main/2+em 0 $line/$main/2+em -6px
+  overflow-x: auto
+  background: #f5f5f5
+  counter-reset: line
+  border-left: 6px solid #eee
+  line-height: 0
+  code
+    counter-increment: line
+    +font(18)
+    &:before
+      +font(10)
+      display: block
+      float: left
+      clear: both
+      color: #ddd
+      width: 2em
+      padding: 0
+      font-weight: bold
+      content: counter(line)
+      -webkit-user-select: none
+
+.ge,.gs
+  color: #93a1a1
+
+.nb
+  color: #b58900
+
+.c,.cm,.c1,.sb
+  color: #586e75
+
+.err,.g,.l,.n,.p,.go,.gp,.gt,.ld,.na,.nl,.nn,.nx,.py,.w,.sd,.sh
+  color: #93a1a1
+
+.k,.o,.cp,.cs,.gi,.kn,.kp,.ow
+  color: #859900
+
+.x,.gh,.gu,.kc,.no,.ni,.ne,.se
+  color: #cb4b16
+
+.gd,.m,.s,.mf,.mh,code .mi,code .mo,.sc,.s2,.si,.sx,.s1,.ss,.il
+  color: #2aa198
+
+.gr,.kt,.sr
+  color: #dc322f
+
+.kd,.kr,.nc,.nd,.nf,.nt,.nv,.bp,.vc,.vg,.vi
+  color: #268bd2
+
+// Marginalias
+
+@media screen and (min-width: 1000px)
+  .as:after
+    //content: "*"
+    color: #DDD
+  .br
+    display: none
+
+  .mar
+    +font(14)
+    font-style: italic
+    position: absolute
+    left: 58%
+    right: 1em
+    margin-left: 17em
+    max-width: 16em
+    text-align: left
+    color: #e0e0e0
+
+    &:before
+      //content: "* "
+
+    &:after
+      //content: "."
+
+    code, a
+      color: #ccc
+      font-style: normal
+
+    a:hover
+      color: #aaa
+
+#instantclick
+  display: none
+
+// LaTeX logo
+
+.latex
+  letter-spacing: .8px
+  sup, sub
+    position: relative
+    vertical-align: 0
+    text-transform: uppercase
+
+.latex sup
+  bottom: .15em
+  margin-left: -0.36em
+  margin-right: -0.15em
+  font-size: 0.85em
+
+.latex sub
+  top: .25em
+  margin-left: -0.1667em
+  margin-right: -0.125em
+  font-size: 1em
