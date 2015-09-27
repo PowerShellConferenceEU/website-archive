@@ -1,8 +1,8 @@
 en:
   created: "Published on the"
   author: "by"
-  description: "Personal website, made with real pieces of code: articles about Jekyll, Raspberry Pi, R..."
+  description: "PowerShell Conference Europe"
 de:
-  created: "Publié le"
-  author: "par"
-  description: "Site personnel, avec des vrais bouts de code dedans : articles sur Jekyll, Raspberry Pi, R..."
+  created: "Veröffentlicht am"
+  author: "von"
+  description: "PowerShell Conference Europe"
