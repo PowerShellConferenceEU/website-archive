@@ -1,0 +1,43 @@
+permalink: /:title/
+base: http://www.psconf.eu/
+title: "PSConfEU"
+
+markdown: kramdown
+
+gems:
+  - jekyll-redirect-from
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      lang: en
+      layout: default
+  -
+    scope:
+      path: _posts/de
+    values:
+      lang: de
+  -
+    scope:
+      path: _posts/de/pages
+    values:
+      type: pages
+      desc: "PowerShell Conference Europe"
+  -
+    scope:
+      path: _posts/en/pages
+    values:
+      type: pages
+      desc: "PowerShell Conference Europe"
+  -
+    scope:
+      path: _posts/de/blog
+    values:
+      type: blog
+  -
+    scope:
+      path: _posts/en/blog
+    values:
+      type: blog
