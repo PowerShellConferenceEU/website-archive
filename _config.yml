@@ -31,13 +31,3 @@ defaults:
     values:
       type: pages
       desc: "PowerShell Conference Europe"
-  -
-    scope:
-      path: _posts/de/blog
-    values:
-      type: blog
-  -
-    scope:
-      path: _posts/en/blog
-    values:
-      type: blog
