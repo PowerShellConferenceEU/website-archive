@@ -1,0 +1,38 @@
+showsitename: "false"
+en:
+ - name: "Home"
+   link: "#"
+
+ - name: "About"
+   link: "#about"
+   
+ - name: "Speakers"
+   link: "#speakers"
+   
+ - name: "Schedule"
+   link: "#schedule"
+   
+ - name: "Register"
+   link: "#register"
+   
+ - name: "Venue"
+   link: "#venue"
+
+de:
+ - name: "Home"
+   link: "#"
+
+ - name: "Über"
+   link: "#about"
+   
+ - name: "Speakers"
+   link: "#speakers"
+   
+ - name: "Schedule"
+   link: "#schedule"
+   
+ - name: "Registrieren"
+   link: "#register"
+   
+ - name: "Venue"
+   link: "#venue"

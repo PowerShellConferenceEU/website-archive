@@ -1,0 +1,16 @@
+en:
+  name: "PowerShell Conference EU 2016"
+  location: "Hannover, Germany"
+  start: "20.04.2016"
+  end: "22.04.2016"
+de:
+  name: "PowerShell Konferenz EU 2016"
+  location: "Hannover, Deutschland"
+  start: "20.04.2016"
+  end: "22.04.2016"
+startyear: 2016
+#months are zero-based so subtract by 1
+startmonth: 3
+startday: 20
+starthour: 9
+startminute: 0
