@@ -6,6 +6,7 @@ en:
   time: "Time"
   track1: "Track #1: English"
   track2: "Track #2: German"
+  schedule: "Schedule"
   sessionSlots:
      - time: "09:00 - 09:45"
        track1Name: "Keynote"
@@ -26,6 +27,7 @@ de:
   time: "Zeit"
   track1: "Track #1: Englisch"
   track2: "Track #2: Deutsch"
+  schedule: "Agenda"
   sessionSlots:
      - time: "09:00 - 09:45"
        track1Name: "Keynote"

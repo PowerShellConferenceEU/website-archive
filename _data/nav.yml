@@ -25,14 +25,14 @@ de:
  - name: "Über"
    link: "#about"
    
- - name: "Speakers"
+ - name: "Referenten"
    link: "#speakers"
    
- - name: "Schedule"
+ - name: "Agenda"
    link: "#schedule"
    
  - name: "Registrieren"
    link: "#register"
    
- - name: "Venue"
+ - name: "Veranstaltungsort"
    link: "#venue"

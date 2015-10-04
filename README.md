@@ -55,6 +55,7 @@ Todo
 - [ ] Translate English text to German
 - [ ] Add Legal text
 - [ ] Set up a contact form
+- [ ] Figure out how we integrate registration/payment
 - [ ] Other stuff
 
 About us
