@@ -17,7 +17,7 @@ The site follows standard Jekyll site structure.
  * img
  * js
 
-**_data** 
+**_data**  
 This folder contains data files read and used by Jekyll. These files are YAML files and are used for organized data, such as the navigation of the site as well as simple translations and event data.
 
 **_includes**  
