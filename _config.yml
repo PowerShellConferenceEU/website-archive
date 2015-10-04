@@ -1,33 +1,7 @@
-permalink: /:title/
-base: http://www.psconf.eu/
-title: "PSConfEU"
-
+title: PSConfEU
+name: PowerShell Conference EU 2016
+description: PowerShell Conference EU 2016
+author:
+lang: en
+baseurl: ""
 markdown: kramdown
-
-gems:
-  - jekyll-redirect-from
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      lang: en
-      layout: default
-  -
-    scope:
-      path: _posts/de
-    values:
-      lang: de
-  -
-    scope:
-      path: _posts/de/pages
-    values:
-      type: pages
-      desc: "PowerShell Conference Europe"
-  -
-    scope:
-      path: _posts/en/pages
-    values:
-      type: pages
-      desc: "PowerShell Conference Europe"
