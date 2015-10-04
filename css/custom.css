@@ -1,0 +1,91 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
+section {
+  padding-top: 50px;
+}
+
+.navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #fed136!important;
+}
+
+.navbar-inverse .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    /*font-weight: 300;
+    letter-spacing: 1px;*/
+    color: #fff;
+}
+
+.navbar-inverse .nav li a:hover,
+.navbar-inverse .nav li a:focus {
+    outline: 0;
+    color: #fed136;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #fed136;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #fec503;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.flip-clock-wrapper {
+  width: auto;
+  display: inline-block;
+}
+
+@media screen and (max-width: 767px) {
+	
+	/*.flip-clock-wrapper ul { height: 50px; line-height: 50px; }*/
+  .flip-clock-wrapper ul { height: 50px; line-height: 50px; }
+	/*.flip-clock-wrapper ul li a div.up:after { top: 24px; }*/
+  .flip-clock-wrapper ul li a div.up:after { top: 24px; }
+  .flip-clock-wrapper ul li {line-height: 50px;}
+	.flip-clock-divider { height: 50px; }
+	.flip-clock-dot { height: 6px; width: 6px; left: 7px;}
+	/*.flip-clock-dot.top { top: 17px; }*/
+  .flip-clock-dot.top { top: 20px; }
+	.flip-clock-dot.bottom { bottom: 8px; }
+	
+	.flip-clock-divider .flip-clock-label { font-size: 16px; }
+	.flip-clock-divider.hours .flip-clock-label { right: -66px; }
+	.flip-clock-divider.minutes .flip-clock-label { right: -78px; }
+	.flip-clock-divider.seconds .flip-clock-label { right: -78px; }
+	
+	.flip-clock-wrapper ul { width: 37px; }
+	.flip-clock-wrapper ul li a div div.inn { font-size: 30px; }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
