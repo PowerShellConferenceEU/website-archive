@@ -1,3 +1,4 @@
+# this file contains structured data about the event
 en:
   name: "PowerShell Conference EU 2016"
   location: "Hannover, Germany"
@@ -8,8 +9,10 @@ de:
   location: "Hannover, Deutschland"
   start: "20.04.2016"
   end: "22.04.2016"
+
+# this are used by the countdown timer
+# months are zero-based so subtract by 1
 startyear: 2016
-#months are zero-based so subtract by 1
 startmonth: 3
 startday: 20
 starthour: 9
