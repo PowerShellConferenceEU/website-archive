@@ -4,7 +4,7 @@ layout: scaffolding
 {% include heading.html %}
 {% include {{page.lang}}/about.html %}
 {% include {{page.lang}}/speakers.html %}
-{% include schedule.html %}
+{% if site.data.schedule.showschedule == 'true' %}{% include schedule.html %}{% endif %}
 {% include venue.html %}
 {% include map.html %}
 {% include footer.html %}

@@ -15,8 +15,8 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     
-    <!-- FlipClock CSS -->
-    <link href="{{ "/css/flipclock.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <!-- soon plugin -->
+    <link href="{{ "/css/soon.min.css" | prepend: site.baseurl }}" rel="stylesheet">
     
     <!-- Custom CSS -->
     <link href="{{ "/css/custom.css" | prepend: site.baseurl }}" rel="stylesheet">  
@@ -76,8 +76,8 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="{{ "/js/jquery.photoset-grid.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/flipclock.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/smooth-scroll.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/soon.min.js" | prepend: site.baseurl }}"></script>
     <script>
       // smoothscroll
       smoothScroll.init({
@@ -92,31 +92,6 @@
         // Set the gutter between columns and rows
         gutter: '5px'
       });
-      
-      // flipclock
-      // change the language based on the page language
-      {% if page.lang == 'en' %}
-        var language = "english";
-      {% else %}
-        var language = "german";
-      {% endif %}
-      // calculate date diff to use for the event countdown timer
-      var now = new Date();
-      var date = new Date({{site.data.event.startyear}},{{site.data.event.startmonth}},{{site.data.event.startday}},{{site.data.event.starthour}},{{site.data.event.startminute}});
-      var diff = (date.getTime()/1000) - (now.getTime()/1000);
-      if(diff > 0) {
-        var clock = $('.countdown').FlipClock(diff,{
-          clockFace: 'DailyCounter',
-          countdown: true,
-          showSeconds: false,
-          language: language,
-          callbacks: {
-                  stop: function() {
-                      $(".countdown").hide();
-                  }
-              }
-        });
-      }
     </script>
   </body>
 </html>

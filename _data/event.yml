@@ -9,11 +9,3 @@ de:
   location: "Hannover, Deutschland"
   start: "20.04.2016"
   end: "22.04.2016"
-
-# this are used by the countdown timer
-# months are zero-based so subtract by 1
-startyear: 2016
-startmonth: 3
-startday: 20
-starthour: 9
-startminute: 0

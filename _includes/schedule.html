@@ -1,41 +1,30 @@
 <section id="schedule">
 	<div class="container">
 		<h2>Schedule</h2>
-		<div class="table-responsive">
+		<!--<div class="table-responsive">-->
+		<div class="table">
 			<table class="table table-hover table-bordered">
 				<thead>
-					<th>Time</th>
-					<th>Track #1: English</th>
-					<th>Track #2: German</th>
+					<th>{{ site.data.schedule[page.lang].time }}</th>
+					<th>{{ site.data.schedule[page.lang].track1 }}</th>
+					<th>{{ site.data.schedule[page.lang].track2 }}</th>
 				</thead>
 				<tbody>
+					{% for slot in site.data.schedule[page.lang].sessionSlots %}
 					<tr>
-						<td>09:00 - 09:45</td>
-						<td>Keynote - Tobias<br><br>
-							Tobias will officially open the conference and give some pratical information to all participants.
+						<td>{{ slot.time}}</td>
+						<td>
+							{{ slot.track1Name }} - {{ slot.track1Speaker }}
+							<br><br>
+							{{ slot.track1Description }}
 						</td>
-						<td>Keynote - Tobias<br><br>
-							Tobias will officially open the conference and give some pratical information to all participants.
+						<td>
+							{{ slot.track2Name }} - {{ slot.track2Speaker }}
+							<br><br>
+							{{ slot.track2Description }}
 						</td>
 					</tr>
-					<tr>
-						<td>10:00 - 10:45</td>
-						<td>Something<br><br>
-							Description of the session.
-						</td>
-						<td>Something else<br><br>
-							Description of the session.
-						</td>
-					</tr>
-					<tr>
-						<td>11:00 - 11:45</td>
-						<td>Something<br><br>
-							Description of the session.
-						</td>
-						<td>Something else<br><br>
-							Description of the session.
-						</td>
-					</tr>
+					{% endfor %}
 				</tbody>
 			</table>
 		</div>
