@@ -1,0 +1,18 @@
+en:
+  title: "Contact us"
+  name: "Name"
+  namePlaceholder: "Enter your name"
+  email: "Email"
+  emailPlaceholder: "Enter your email address"
+  message: "Message"
+  messagePlaceholder: "Enter your message"
+  send: "Send"
+de:
+  title: "Contact us"
+  name: "Name"
+  namePlaceholder: "Enter your name"
+  email: "Email"
+  emailPlaceholder: "Enter your email address"
+  message: "Message"
+  messagePlaceholder: "Enter your message"
+  send: "Send"
