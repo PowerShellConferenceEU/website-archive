@@ -72,3 +72,23 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
+.back-to-top {
+  position: fixed;
+	opacity: 0;
+	visibility: hidden;
+  z-index: 99999999;
+  right: 30px;
+	bottom: 30px;
+  -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.back-to-top.show {
+  visibility:visible;
+  cursor:pointer;
+	opacity: 1.0;
+}

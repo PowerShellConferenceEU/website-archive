@@ -68,10 +68,13 @@
       </div>
     </nav>
     
+    <!-- Scroll to top -->
+    <div class="back-to-top"><a data-scroll href="#" class="text-muted"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></a></div>
+    
     {% include {{page.lang}}/legal.html %}
     
     {{ content }}
-
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -86,12 +89,23 @@
         easing: 'easeOutQuint', // Easing pattern to use
         updateURL: false, // Boolean. Whether or not to update the URL with the anchor hash on scroll
         offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
-    });
+      });
 
       // photogrid
       $('.photogrid').photosetGrid({
         // Set the gutter between columns and rows
         gutter: '5px'
+      });
+      
+      // Scroll to top
+      $(function(){
+        $(document).on( 'scroll', function(){
+          if ($(window).scrollTop() > 100) {
+            $('.back-to-top').addClass('show');
+          } else {
+            $('.back-to-top').removeClass('show');
+          }
+	     });
       });
     </script>
   </body>
