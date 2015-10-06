@@ -1,15 +1,15 @@
 <section id="contact">
 	<div class="container">
 		<h2>{{ site.data.contact[page.lang].title }}</h2>
-		<form class="form-horizontal" id="contactform">
-			
+		<form class="form-horizontal" id="contactform" action="http://formspree.io/contact@psconf.eu" method="post">
+			<!--<fieldset>-->
 			<!-- Name -->
 			<div class="form-group has-feedback">
 				<label class="control-label col-sm-4">{{ site.data.contact[page.lang].name }}</label>
 				<div class="col-sm-5">
 					<div class="input-group">
 						<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-						<input type="text" placeholder="{{ site.data.contact[page.lang].namePlaceholder }}" class="form-control">
+						<input type="text" name="name" placeholder="{{ site.data.contact[page.lang].namePlaceholder }}" class="form-control">
 					</div>
 				</div>
 			</div>
@@ -20,7 +20,7 @@
 				<div class="col-sm-5">
 					<div class="input-group">
 						<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-						<input type="text" placeholder="{{ site.data.contact[page.lang].emailPlaceholder }}" class="form-control">
+						<input type="text" name="email" placeholder="{{ site.data.contact[page.lang].emailPlaceholder }}" class="form-control">
 					</div>
 				</div>
 			</div>
@@ -31,18 +31,21 @@
 				<div class="col-sm-5">
 					<div class="input-group">
 						<span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-						<textarea class="form-control" rows="8" placeholder="{{ site.data.contact[page.lang].messagePlaceholder }}"></textarea>
+						<textarea class="form-control" name="message" rows="8" placeholder="{{ site.data.contact[page.lang].messagePlaceholder }}"></textarea>
 					</div>
 				</div>
-			</div>	
+			</div>
+			
+			<input type="hidden" name="_subject" value="Message from website" />
 		
 			<!-- Send button -->
 			<div class="form-group">
 				<label class="control-label col-sm-4"></label>
 				<div class="col-sm-5">
-					<button type="submit" class="btn btn-warning">{{ site.data.contact[page.lang].send }} <span class="glyphicon glyphicon-send"></span></button>
+					<button type="submit" class="btn btn-primary">{{ site.data.contact[page.lang].send }} <span class="glyphicon glyphicon-send"></span></button>
 				</div>
 			</div>
+		<!--</fieldset>-->
 		</form>
 	</div>
 </section>
