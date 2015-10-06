@@ -1,5 +1,5 @@
 # set to "false" to hide schedule
-showschedule: "true"
+showschedule: "false"
 
 # schedule/session data
 en:
