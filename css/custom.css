@@ -12,7 +12,8 @@ section {
 
 .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136!important;
+    /*color: #fed136!important;*/
+    color: dodgerblue!important;
 }
 
 .navbar-inverse .nav li a {
@@ -24,11 +25,16 @@ section {
     color: #fff;
 }
 
-.navbar-inverse .nav li a:hover,
-.navbar-inverse .nav li a:focus {
+.navbar-inverse .nav li a:hover {
     outline: 0;
-    color: #fed136;
+    /*color: #fed136*/
+    color: dodgerblue;
 }
+/*.navbar-inverse .nav li a:focus {
+    outline: 0;
+    color: #fff;
+    /*color: #fed136;*/
+/*}*/
 
 .navbar-inverse .navbar-nav>.active>a {
     border-radius: 0;
