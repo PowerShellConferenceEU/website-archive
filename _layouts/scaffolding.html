@@ -33,7 +33,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body  id="page-top">
   
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -46,7 +46,7 @@
           </button>
           <!-- Controlling whether the sitename is added to the navbar or not are done from _data/nav.yml -->
           {% if site.data.nav.showsitename == "true" %}
-            <a class="navbar-brand" href="#">{{ site.name }}</a>
+            <a class="navbar-brand" href="#page-top">{{ site.name }}</a>
           {% endif %}
         </div>
         <div id="navbar" class="collapse navbar-collapse">
@@ -57,10 +57,10 @@
             {% endfor %}
             <!-- The Legal link as well as the language switcher are handled separately -->
             {% if page.lang == 'en' %}
-            <li><a href="#" data-toggle="modal" data-target="#Legal">Legal</a></li>
+            <li><a href="#page-top" data-toggle="modal" data-target="#Legal">Legal</a></li>
             <li><a href="{{ "/de/" | prepend: site.baseurl }}">Deutsch</a></li>
             {% else %}
-            <li><a href="#" data-toggle="modal" data-target="#Legal">Impressum</a></li>
+            <li><a href="#page-top" data-toggle="modal" data-target="#Legal">Impressum</a></li>
             <li><a href="{{ "/" | prepend: site.baseurl }}">English</a></li>
             {% endif %}
           </ul>
@@ -69,7 +69,7 @@
     </nav>
     
     <!-- Scroll to top -->
-    <div class="back-to-top"><a data-scroll href="#" class="text-muted"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></a></div>
+    <div class="back-to-top"><a data-scroll href="#page-top" class="text-muted"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></a></div>
     
     {% include {{page.lang}}/legal.html %}
     

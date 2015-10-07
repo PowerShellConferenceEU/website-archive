@@ -1,7 +1,7 @@
 showsitename: "false"
 en:
  - name: "Home"
-   link: "#"
+   link: "#page-top"
 
  - name: "About"
    link: "#about"
@@ -13,14 +13,14 @@ en:
    link: "#schedule"
    
  - name: "Register"
-   link: "#"
+   link: "#page-top"
    
  - name: "Venue"
    link: "#venue"
 
 de:
  - name: "Home"
-   link: "#"
+   link: "#page-top"
 
  - name: "Über"
    link: "#about"
@@ -32,7 +32,7 @@ de:
    link: "#schedule"
    
  - name: "Registrieren"
-   link: "#"
+   link: "#page-top"
    
  - name: "Veranstaltungsort"
    link: "#venue"
