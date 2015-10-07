@@ -13,7 +13,7 @@ en:
    link: "#schedule"
    
  - name: "Register"
-   link: "#register"
+   link: "#"
    
  - name: "Venue"
    link: "#venue"
@@ -32,7 +32,7 @@ de:
    link: "#schedule"
    
  - name: "Registrieren"
-   link: "#register"
+   link: "#"
    
  - name: "Veranstaltungsort"
    link: "#venue"
