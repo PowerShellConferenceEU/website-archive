@@ -1,6 +1,8 @@
 PowerShellConferenceEU.github.io
 ================================
 
+[![Build Status](https://travis-ci.org/PowerShellConferenceEU/PowerShellConferenceEU.github.io.svg?branch=Dev)](https://travis-ci.org/PowerShellConferenceEU/PowerShellConferenceEU.github.io)
+
 This is the [website](http://psconf.eu "website") for PowerShell Conference Europe. The site in bilingual; supporting English as the main language as well German. 
 
 The site is hosted on [GitHub Pages](https://pages.github.com/ "GitHub Pages") and are running on the [Jekyll](http://jekyllrb.com/ "Jekyll") engine, with [Bootstrap](http://getbootstrap.com/ "Bootstrap") as the main styling framework. We have tried to make the site structure easy to maintain as well as update, as well as multilingual. It should be fairly easy to add inn extra languages if needed.
