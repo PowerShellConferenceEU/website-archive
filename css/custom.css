@@ -74,7 +74,8 @@ section {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #f5f5f5;
+  /*background-color: #f5f5f5;*/
+  background-color: #46494C;
 }
 
 html {
@@ -111,3 +112,9 @@ body {
 #my-soon-counter {background-position:top;}
 #my-soon-counter {color:#030303;color:rgba(3,3,3,0.25);}
 #my-soon-counter {font-family:"Oswald",sans-serif;font-weight:normal;font-style:normal;font-size: 36px;}
+
+#venue-map {
+  margin: 0;
+  padding: 0;
+  height: 600px;
+}
