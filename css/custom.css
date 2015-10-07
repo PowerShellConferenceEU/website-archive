@@ -4,6 +4,7 @@ body {
   padding-bottom: 20px;
   font-size: 16px;
   font-family: 'Halant', serif;
+  background-color: #E6EBE0;
 }
 
 section {
@@ -27,7 +28,9 @@ section {
 
 .navbar-inverse .nav li a:hover {
     outline: 0;
-    color: dodgerblue;
+    /*color: dodgerblue;*/
+    /*color: #ED6A5A;*/
+    color: #5CA4A9;
 }
 .navbar-inverse .nav li a:focus {
     outline: 0;
@@ -46,12 +49,14 @@ section {
 }
 
 .navbar-inverse {
-  background-color: #1d2120;
+  /*background-color: #1d2120;*/
+  background-color: #46494C;
 }
 
 .jumbotron {
   text-align: center;
   background-color: #bcd5d1;
+  
 }
 
 @media screen and (min-width: 500px) and (max-width: 767px) {
