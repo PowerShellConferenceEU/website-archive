@@ -8,11 +8,13 @@ body {
 
 section {
   padding-top: 50px;
+  margin-top: -50px;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
 }
 
 .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    /*color: #fed136!important;*/
     color: dodgerblue!important;
 }
 
@@ -20,21 +22,16 @@ section {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 12px;
-    /*font-weight: 300;
-    letter-spacing: 1px;*/
     color: #fff;
 }
 
 .navbar-inverse .nav li a:hover {
     outline: 0;
-    /*color: #fed136*/
     color: dodgerblue;
 }
-/*.navbar-inverse .nav li a:focus {
+.navbar-inverse .nav li a:focus {
     outline: 0;
-    color: #fff;
-    /*color: #fed136;*/
-/*}*/
+}
 
 .navbar-inverse .navbar-nav>.active>a {
     border-radius: 0;
@@ -48,8 +45,13 @@ section {
     background-color: #fec503;
 }
 
+.navbar-inverse {
+  background-color: #1d2120;
+}
+
 .jumbotron {
   text-align: center;
+  background-color: #bcd5d1;
 }
 
 @media screen and (min-width: 500px) and (max-width: 767px) {
