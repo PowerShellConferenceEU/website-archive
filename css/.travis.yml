@@ -1,0 +1,16 @@
+language: ruby
+rvm:
+  - 2.1.1
+
+install:
+  - pip install --user html5validator
+  - gem install github-pages html-proofer
+  
+script:
+  - jekyll build
+  - htmlproof ./_site
+  - html5validator --root ./_site
+
+branches:
+  only:
+    - Dev
