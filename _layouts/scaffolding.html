@@ -34,7 +34,7 @@
     <![endif]-->
   </head>
   <body  id="page-top">
-  
+
     <nav class="navbar navbar-inverse navbar-fixed-top">
     <!--<nav class="navbar navbar-fixed-top">-->
       <div class="container">
@@ -68,6 +68,7 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+    <div id="top-shadow"></div>
     
     <!-- Scroll to top -->
     <div class="back-to-top"><a data-scroll href="#page-top" class="text-muted"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></a></div>
@@ -109,6 +110,18 @@
             $('.back-to-top').removeClass('show');
           }
 	     });
+      });
+      
+      // navbar shadow on scroll
+      $(document).ready(function(){
+        $(window).scroll(function(){
+          var y = $(window).scrollTop();
+          if( y > 0 ){
+              $("#top-shadow").css({'display':'block', 'opacity':y/20});
+          } else {
+              $("#top-shadow").css({'display':'block', 'opacity':y/20});
+          }
+        });
       });
       
       var map;
