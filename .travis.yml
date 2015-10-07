@@ -8,8 +8,8 @@ install:
   
 script:
   - jekyll build
-  - htmlproof ./_site
-  - html5validator --root ./_site
+#  - htmlproof ./_site
+#  - html5validator --root ./_site
 
 branches:
   only:
