@@ -118,3 +118,5 @@ body {
   padding: 0;
   height: 600px;
 }
+
+#success_message{ display: none;}

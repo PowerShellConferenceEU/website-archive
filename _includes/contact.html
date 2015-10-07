@@ -1,7 +1,7 @@
 <section id="contact">
 	<div class="container">
 		<h2>{{ site.data.contact[page.lang].title }}</h2>
-		<form class="form-horizontal" id="contactform" action="http://formspree.io/contact@psconf.eu" method="post">
+		<form class="form-horizontal" id="contactform" action="http://formspree.io/contact@psconf.eu" method="post" data-toggle="validator">
 			<!--<fieldset>-->
 			<!-- Name -->
 			<div class="form-group has-feedback">
@@ -9,7 +9,7 @@
 				<div class="col-sm-5">
 					<div class="input-group">
 						<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-						<input type="text" name="name" placeholder="{{ site.data.contact[page.lang].namePlaceholder }}" class="form-control">
+						<input type="text" name="name" placeholder="{{ site.data.contact[page.lang].namePlaceholder }}" class="form-control" required>
 					</div>
 				</div>
 			</div>
@@ -20,8 +20,9 @@
 				<div class="col-sm-5">
 					<div class="input-group">
 						<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-						<input type="text" name="email" placeholder="{{ site.data.contact[page.lang].emailPlaceholder }}" class="form-control">
+						<input type="email" name="email" placeholder="{{ site.data.contact[page.lang].emailPlaceholder }}" class="form-control" data-error="Invalid email address"  required>
 					</div>
+					<div class="help-block with-errors"></div>
 				</div>
 			</div>
 			
@@ -31,12 +32,17 @@
 				<div class="col-sm-5">
 					<div class="input-group">
 						<span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-						<textarea class="form-control" name="message" rows="8" placeholder="{{ site.data.contact[page.lang].messagePlaceholder }}"></textarea>
+						<textarea class="form-control" name="message" rows="8" placeholder="{{ site.data.contact[page.lang].messagePlaceholder }}" required></textarea>
 					</div>
 				</div>
 			</div>
 			
 			<input type="hidden" name="_subject" value="Message from website" />
+			
+			<!-- Success message -->
+			<div class="alert alert-success" role="alert" id="success_message">
+				<p class="text-center">{{ site.data.contact[page.lang].success }} <i class="glyphicon glyphicon-thumbs-up"></i> {{ site.data.contact[page.lang].successMessage }}</p>
+			</div>
 		
 			<!-- Send button -->
 			<div class="form-group">
