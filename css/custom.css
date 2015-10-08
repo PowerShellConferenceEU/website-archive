@@ -2,8 +2,10 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
-  font-size: 16px;
-  font-family: 'Halant', serif;
+  font-size: 18px;
+  /*font-family: 'Halant', serif;*/
+  /*font-family: 'Domine', serif;*/
+  font-family: 'EB Garamond', serif;
   background-color: #E6EBE0;
 }
 
