@@ -3,5 +3,6 @@ name: PowerShell Conference EU 2016
 description: PowerShell Conference EU 2016
 author:
 lang: en
-baseurl: "/dev"
+baseurl: ""
+url: "PowerShellConferenceEU.github.io/dev"
 markdown: kramdown
