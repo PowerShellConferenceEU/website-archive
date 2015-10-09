@@ -5,3 +5,4 @@ author:
 lang: en
 baseurl: ""
 markdown: kramdown
+exclude: [vendor]
