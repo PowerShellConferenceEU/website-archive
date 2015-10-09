@@ -1,7 +1,10 @@
 language: ruby
 rvm:
 - 2.1.1
-install: gem install jekyll html-proofer
+install: 
+  - gem install jekyll html-proofer
+  - chmod +x $HOME/scripts/deploy.sh
+  - chmod +x $HOME/scripts/build.sh
 script: scripts/deploy.sh
 
 branches:
