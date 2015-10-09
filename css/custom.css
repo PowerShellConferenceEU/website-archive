@@ -3,8 +3,6 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
   font-size: 18px;
-  /*font-family: 'Halant', serif;*/
-  /*font-family: 'Domine', serif;*/
   font-family: 'EB Garamond', serif;
   background-color: #E6EBE0;
 }
@@ -16,11 +14,6 @@ section {
   background-clip: content-box;
 }
 
-.navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: dodgerblue!important;
-}
-
 .navbar-inverse .nav li a {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -30,10 +23,9 @@ section {
 
 .navbar-inverse .nav li a:hover {
     outline: 0;
-    /*color: dodgerblue;*/
-    /*color: #ED6A5A;*/
     color: #5CA4A9;
 }
+
 .navbar-inverse .nav li a:focus {
     outline: 0;
 }
@@ -51,7 +43,6 @@ section {
 }
 
 .navbar-inverse {
-  /*background-color: #1d2120;*/
   background-color: #46494C;
 }
 
@@ -60,7 +51,7 @@ section {
   background-color: #bcd5d1;
   
 }
-
+/*
 @media screen and (min-width: 500px) and (max-width: 767px) {
 	
 	
@@ -68,7 +59,8 @@ section {
 
 @media screen and (max-width: 499px) {
   
-}
+}*/
+
 
 .footer {
   position: absolute;
@@ -76,7 +68,6 @@ section {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  /*background-color: #f5f5f5;*/
   background-color: #46494C;
 }
 
@@ -84,6 +75,7 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
@@ -133,6 +125,3 @@ body {
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
     display: none;
 }
-
-/* not currently in use */
-#success_message{ display: none;}
