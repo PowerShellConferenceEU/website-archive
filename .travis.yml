@@ -1,19 +1,9 @@
 language: ruby
 rvm:
 - 2.1.1
-install:
-- gem install github-pages html-proofer
-before_script:
-- git config user.name "Travis-CI"
-- git config user.email "noreply@travis-ci.org"
-script:
-- jekyll build
-- git init
-- git add .
-- git commit -m "Deploy to Github Pages"
-- git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" dev:gh-pages
-deploy:
-  skip_cleanup: true
+install: gem install jekyll html-proofer
+script: scripts/deploy.sh
+
 branches:
   only:
   - Dev
