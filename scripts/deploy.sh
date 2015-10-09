@@ -6,7 +6,7 @@ rm -rf out || exit 0;
 mkdir out;
 
 # run the build script
-./build.sh
+./scripts/build.sh
 
 # go to the out directory and create a new git repo
 cd out
