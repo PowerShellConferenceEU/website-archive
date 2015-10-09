@@ -3,7 +3,7 @@ rvm:
   - 2.1.1
 
 install:
-  - pip install --user html5validator
+  #- pip install --user html5validator
   - gem install github-pages html-proofer
 
 before_script:
@@ -20,7 +20,7 @@ script:
   - git init
   - git add .
   - git commit -m "Deploy to Github Pages"
-  - git push --force --quiet "https://${GH_TOKEN}${GH_REF}" master:gh-pages
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
 
 branches:
   only:
