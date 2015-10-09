@@ -5,7 +5,7 @@ pwd
 ls
 
 rm -fv CNAME
-cp -fv ./_config.yml ../_config.yml
+cp -fv scripts/_config.yml ./_config.yml
 
 ls
 
