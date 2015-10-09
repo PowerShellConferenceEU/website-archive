@@ -1,33 +1,22 @@
 language: ruby
 rvm:
-  - 2.1.1
-
+- 2.1.1
 install:
-  #- pip install --user html5validator
-  - gem install github-pages html-proofer
-
+- gem install github-pages html-proofer
 before_script:
-  - git config user.name "Travis-CI"
-  - git config user.email "noreply@travis-ci.org"
-
+- git config user.name "Travis-CI"
+- git config user.email "noreply@travis-ci.org"
 script:
-  - jekyll build
-#  - htmlproof ./_site
-#  - html5validator --root ./_site
-#  - Dir.chdir("./_site") do
-#      #system "rails server &"
-#    end
-  - git init
-  - git add .
-  - git commit -m "Deploy to Github Pages"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
-
+- jekyll build
+- git init
+- git add .
+- git commit -m "Deploy to Github Pages"
+- git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
 branches:
   only:
-    - Dev
-
+  - Dev
 env:
   global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-    - secure: "O1jBEXzVR/p9/wJdsJ4VKnjUU/Qc3rfSkuxdxfAnyUSM1lXngOFUxorLKR9GsfZV3yB2DSYkzZx89GFUkquC+vUl/jr5G/NEQo1kBxd5tLGtq7RuNJT4UhC4/qGOjKZ52hAKZV6mdg4g0Sfih/4hdtcVFFuvtFDKNQEM76yfxCp1YZS7xc9if4IWJ8J0VrVXl4Bzsa2AIOF925U8jttg9b3/SVgYJcsJVNAJ9/TJ31kRZSWoO1P0Ck1qW8J48HG+V4iwzHo6uVkp2vkV1fP0xuITZ4fQimgT6DYxAHOJTK2Wko7YOgkY9UDwj044C8bZBroXRHdtFzKFjRYcv6w0tsrVcN4VXU+VRZJUcz224kqDO9k0PazKph0XNqCb7+ShLiYg+jsHC/bj7er/W3KiUcby5LT1QuIdlsgFm6gvJPw0/zy2UZXmYyvfqrJCkX7APJ7jx9n7e5gGQT4bKZiHifaBs4MjMq0XaJDQZIvHMuAjckDq/vJ443aJ2ngEC9nneA/JD1AHSe8FMpRuurj+goPssZSCkyhcAu98Sgl8eeYvtpZGKusOmTFydm4tsulTD3kpwIamsLIQK19Q/F6pnR5PlybLlbSNJAg8Gv8hSWzpu2xf/vvWczuY++9qzHRbKE3OZPr9MgUuWJultrX9JRrUh3lyjnqzYYnipBT9prc="
-    - GH_REF: github.com/PowerShellConferenceEU/dev.git
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - GH_REF: github.com/PowerShellConferenceEU/dev.git
+  - secure: Xc0hCYj/ONxyB4OXlLnQuB2qsdCXKByZQd7Dt9kHGS0931E6tojd9JqdMKJLpPbV39btL/PPRSp7J6RhUFegi7PYrSBeXB+RN99YTUQENtVPL6MXJ+EpLjkV70xMR++qzHuuUJ0TFVCSXqzxMOTJflMn4hRLhX/l+XLMIZV/n7Nq+XcpSAZuWU5loYASzeFAuXk8Z9nFWs5Fqoy6vbWt8qGm3NDRShLVy1oUCRCeMioCpUC20chdUgsGBXKVj6NN8NZRYfkWQNrITv3A5DECu/T8or8rCvEOyKEqyGwtVNUatX/AnisPOAQRYU6oWrLpiIGIJI8YYxfwnrLATnBjCTfX6aKdTqgVdzo5VruTIaW3v8rPQoQw6zGbi+dhogztc/sbqIdEOyPDD6EUQR5Sa5xm+Yhp+sWHQtbRnx++pMiSSV4uYh3xLyyDavBtUZTbRgJx+z5o6eyR1UUDW9Dd2Oncb9jhRqjOSgbLWL/Z3CnbFCCo3l5WUealrdAdEW3T8aTim+ztfiE9tknI/9Sb89wPpwro7SUNnCqLVfnY3PA0t8np3CjhVLeaVmxfCMbqKTWxc8Nk7PiXM2iuCCzQ8GbD2B7ISrTf26ktSJaoB1UbH+kUbhu1Sr73GlR4E5DVc7aFII6sFZINt+S2P3pxeH7n4aml/dmFkbtUrvGw6o4=
