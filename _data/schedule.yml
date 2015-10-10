@@ -1,6 +1,3 @@
-# set to "false" to hide schedule
-showschedule: "true"
-
 # schedule/session data
 en:
   time: "Time"

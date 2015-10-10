@@ -1,1 +1,10 @@
+# Turn on or off site features
+includeAbout: true
+includeSpeakers: true
+includeSchedule: false
+incldudeRegister: false
+includeVenue: true
 includeLegal: true
+includeMap: true
+includeContact: true
+includeFooter: true

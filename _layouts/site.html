@@ -6,10 +6,35 @@ layout: scaffolding
 {% endif %}
 
 {% include heading.html %}
-{% include {{page.lang}}/about.html %}
-{% include {{page.lang}}/speakers.html %}
-{% if site.data.schedule.showschedule == 'true' %}{% include schedule.html %}{% endif %}
-{% include {{page.lang}}/venue.html %}
-{% include map.html %}
-{% include contact.html %}
-{% include footer.html %}
+
+{% if site.data.features.includeAbout %}
+	{% include {{page.lang}}/about.html %}
+{% endif %}
+
+{% if site.data.features.includeSpeakers %}
+	{% include {{page.lang}}/speakers.html %}
+{% endif %}
+
+{% if site.data.features.includeSchedule %}
+	{% include schedule.html %}
+{% endif %}
+
+{% if site.data.features.includeRegister %}
+<!-- page not made yet -->
+{% endif %}
+
+{% if site.data.features.includeVenue %}
+	{% include {{page.lang}}/venue.html %}
+{% endif %}
+
+{% if site.data.features.includeMap %}
+	{% include map.html %}
+{% endif %}
+
+{% if site.data.features.includeContact %}
+	{% include contact.html %}
+{% endif %}
+
+{% if site.data.features.includeFooter %}
+	{% include footer.html %}
+{% endif %}

@@ -7,6 +7,9 @@ This is the [website](http://psconf.eu "website") for PowerShell Conference Euro
 
 The site is hosted on [GitHub Pages](https://pages.github.com/ "GitHub Pages") and are running on the [Jekyll](http://jekyllrb.com/ "Jekyll") engine, with [Bootstrap](http://getbootstrap.com/ "Bootstrap") as the main styling framework. We have tried to make the site structure easy to maintain as well as update, as well as multilingual. It should be fairly easy to add inn extra languages if needed.
 
+** A note about encoding **
+It's important that all files are encoded in UTF-8, as Jekyll will do strange things if the file encoding is wrong. Even using UTF-8-DOM is frowned upon by our Mr. Jekyll I'm afraid.
+
 Site structure
 --------------  
 The site follows standard Jekyll site structure.
@@ -54,9 +57,9 @@ Todo
 ----
 
 - [x] Make site bilingual
-- [ ] Translate English text to German
-- [ ] Add Legal text
-- [ ] Set up a contact form
+- [x] Translate English text to German
+- [x] Add Legal text
+- [x] Set up a contact form
 - [ ] Figure out how we integrate registration/payment
 - [ ] Other stuff
 
