@@ -9,7 +9,7 @@ layout: scaffolding
 {% include {{page.lang}}/about.html %}
 {% include {{page.lang}}/speakers.html %}
 {% if site.data.schedule.showschedule == 'true' %}{% include schedule.html %}{% endif %}
-{% include venue.html %}
+{% include {{page.lang}}/venue.html %}
 {% include map.html %}
 {% include contact.html %}
 {% include footer.html %}
