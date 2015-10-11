@@ -1,8 +1,0 @@
-<ul class="frontpage">
-  {% assign posts=site.posts | where:"lang", page.lang | where:"type", 'frontpage' %}
-  {% for post in posts %}
-  <li>
-	{{post.content | markdownify }}
-   </li>
-  {% endfor %}
-</ul>
