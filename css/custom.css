@@ -1,7 +1,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;*/
   font-size: 18px;
   font-family: 'EB Garamond', serif;
   background-color: #E6EBE0;
@@ -9,6 +9,7 @@ body {
 
 section {
   padding-top: 50px;
+  padding-bottom: 20px;
   margin-top: -50px;
   -webkit-background-clip: content-box;
   background-clip: content-box;
@@ -61,14 +62,22 @@ section {
   
 }*/
 
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -360px;
+  padding: 0 0 360px;
+}
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  /*position: absolute;*/
+  /*bottom: 0;*/
+  /*width: 100%;*/
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 360px;
   background-color: #46494C;
+  color: white;
 }
 
 html {
@@ -78,7 +87,7 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  /*margin-bottom: 60px;*/
 }
 
 .back-to-top {

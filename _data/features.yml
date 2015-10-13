@@ -6,5 +6,5 @@ incldudeRegister: false
 includeVenue: true
 includeLegal: true
 includeMap: true
-includeContact: true
+includeContact: false
 includeFooter: true
