@@ -2,21 +2,21 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<h3>PowerShell Conference Europe</h3>
-				<p><small>This website is created by the European PowerShell community.</small></p>
+				<h3>{{ site.data.misc[page.lang].footerHeading }}</h3>
+				<p><small>{{ site.data.misc[page.lang].footerText }}</small></p>
 				
-				<h3><small>Keep up to date. Subscribe to our newsletter.</small></h3>			
+				<h3><small>{{ site.data.misc[page.lang].newsletterText }}</small></h3>			
 				<form class="form-inline" action="//psconf.us11.list-manage.com/subscribe/post?u=92f8fe6c03bcf5a3af9fa2017&amp;id=0b39d3b5d1" method="post" target="_blank" novalidate>
 					<div class="form-group">
 						<!--<label for="mce-EMAIL">Email </label>-->
-						<input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Enter your email address">
+						<input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="{{ site.data.misc[page.lang].newsletterMailText }}">
 						<div id="mce-responses" class="clear">
 							<div class="response" id="mce-error-response" style="display:none"></div>
 							<div class="response" id="mce-success-response" style="display:none"></div>
 						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 					</div>
     				<div style="position: absolute; left: -5000px;"><input type="text" name="b_92f8fe6c03bcf5a3af9fa2017_0b39d3b5d1" tabindex="-1" value=""></div>
-					<button type="submit" class="btn btn-default" id="mc-embedded-subscribe">Subscribe</button>
+					<button type="submit" class="btn btn-default" id="mc-embedded-subscribe">{{ site.data.misc[page.lang].subscribe }}</button>
 				</form>
 				
 			</div>
