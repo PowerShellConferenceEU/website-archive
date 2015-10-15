@@ -1,62 +1,102 @@
 <section id="register">
+	<div id="registerJumbotron" class="jumbotron">
 	<div class="container">
+		
+		<h2>Register</h2>
 		<div class="row">
 			<div class="col-md-6">
-				<h2>Register</h2>
 				<p>
-					Descriptive text about the registration.
+					Registration is limited to 160 attendees on a first come, first serve basis. Registration fee
+					is EUR 699,- plus 19% VAT, and covers all three conference days. It also includes food and
+					beverages throughout the conference days, and the evening event including food and drinks.
+				</p>
+				<p>
+					It does not include accomodation. We have reserved a hotel contingent for you (100 rooms in the 
+					congress hotel right next to the venue). You can also search for accommodation in Hannover yourself. 
+					Make sure it is located close to a tram station.
+				</p>
+				<p>
+					When you register, we send an invoice to the email address you specify, with the billing address you 
+					specified. You then have 30 days to pay the invoice, provided there are still seats available. After 30 days, 
+					your registration request is automatically cancelled. Once the invoice is paid, you receive a registration 
+					confirmation. If you decide to not pay the invoice in time, your registration is automatically cancelled. 
+					If you pay the invoice after all seats were already taken, we reimburse your payment. If you need changes 
+					to your invoice before you paid (address change etc), register again with the correct details. If you need 
+					changes after you registered (i.e. attendee changes),  or if you have other questions, don't hesitate to
+					<a href="mailto:contact@psconf.eu">contact us</a>. 
 				</p>
 			</div>
 			<div class="col-md-6">
-				<form>
+				<form class="form-horizontal">
 					<!-- Name -->
 					<div class="form-group">
-						<label for="attendeeName">Attendee Name</label>
-						<input type="text" class="form-control" id="attendeeName" placeholder="Name" aria-describedby="nameHelp">
-						<span id="nameHelp" class="help-block">Full name of person attending the conference.</span>
+						<label for="attendeeName" class="col-sm-4">Attendee Name</label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control" id="attendeeName" placeholder="Full name of person attending the conference">
+						</div>
 					</div>
 					
 					<!-- Company -->
 					<div class="form-group">
-						<label for="company">Company</label>
-						<input type="text" class="form-control" id="company" placeholder="Company">
+						<label for="company" class="col-sm-4">Company</label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control" id="company" placeholder="Company">
+						</div>
 					</div>
 					
 					<!-- Billing address -->
 					<div class="form-group">
-						<label for="billingAddress">Billing Address</label>
-						<!--<input type="text" class="form-control" id="billingAddress" placeholder="Address" aria-describedby="addressHelp">-->
-						<textarea class="form-control" rows="3" id="billingAddress" placeholder="Address" aria-describedby="addressHelp"></textarea>
-						<span id="addressHelp" class="help-block">Complete address as it appears on invoice. Make sure this is the
-							correct address you need.</span>
+						<label for="billingAddress" class="col-sm-4">Billing Address</label>
+						<div class="col-sm-8">
+							<textarea class="form-control" rows="3" id="billingAddress" placeholder="Complete address as it appears on invoice. Make sure this is the correct address you need."></textarea>
+						</div>
 					</div>
 					
 					<!-- VAT ID -->
 					<div class="form-group">
-						<label for="vatId">VAT ID</label>
-						<input type="text" class="form-control" id="vatId" placeholder="VAT ID" aria-describedby="vatHelp">
-						<span id="vatHelp" class="help-block">If available, else leave blank.</span>
+						<label for="vatId" class="col-sm-4">VAT ID</label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control" id="vatId" placeholder="If available, else leave blank">
+						</div>
 					</div>
 					
 					<!-- Email address -->
 					<div class="form-group">
-						<label for="email">Email address</label>
-						<input type="email" class="form-control" id="email" placeholder="Email address" aria-describedby="emailHelp">
-						<span id="emailHelp" class="help-block">Invoice will be sent to this address.</span>
+						<label for="email" class="col-sm-4">Email address</label>
+						<div class="col-sm-8">
+							<input type="email" class="form-control" id="email" placeholder="Invoice will be sent to this address">
+						</div>
+					</div>
+					
+					<!-- Country -->
+					<div class="form-group">
+						<label for="country" class="col-sm-4">Country</label>
+						<div class="col-sm-8">
+							<select id="country" class="form-control bfh-countries" data-country=""></select>
+						</div>
 					</div>
 					
 					<!-- Phone number -->
 					<div class="form-group">
-						<label for="phone">Phone number</label>
-						<input type="text" class="form-control" id="phone" placeholder="Phone number" aria-describedby="phoneHelp">
-						<span id="phoneHelp" class="help-block">Attendee phone number to reach you in case of last-minute
-							organizational changes. Optional</span>
+						<label for="phone" class="col-sm-4">Phone number</label>
+						<div class="col-sm-8">
+							<!--<input type="text" class="form-control" id="phone" placeholder="Phone number" aria-describedby="phoneHelp">-->
+							<input type="text" class="form-control bfh-phone" data-country="country" placeholder="Attendee phone number">
+						</div>
 					</div>
 					
+					<!-- Other comments -->
+					<div class="form-group">
+						<label for="comments" class="col-sm-4">Other comments</label>
+						<div class="col-sm-8">
+							<textarea class="form-control" rows="3" id="billingAddress"></textarea>
+							<span class="help-block">If you have any addition information that you feel we should be aware of, for instance any dietary needs etc., please use this field to let us know.</span>
+						</div>
+					</div>
 					<button type="submit" class="btn btn-default">Register</button>
 				</form>
 			</div>
 		</div>
-		<br>
+		</div>
 	</div>
 </section>
