@@ -1,0 +1,62 @@
+<section id="register">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h2>Register</h2>
+				<p>
+					Descriptive text about the registration.
+				</p>
+			</div>
+			<div class="col-md-6">
+				<form>
+					<!-- Name -->
+					<div class="form-group">
+						<label for="attendeeName">Attendee Name</label>
+						<input type="text" class="form-control" id="attendeeName" placeholder="Name" aria-describedby="nameHelp">
+						<span id="nameHelp" class="help-block">Full name of person attending the conference.</span>
+					</div>
+					
+					<!-- Company -->
+					<div class="form-group">
+						<label for="company">Company</label>
+						<input type="text" class="form-control" id="company" placeholder="Company">
+					</div>
+					
+					<!-- Billing address -->
+					<div class="form-group">
+						<label for="billingAddress">Billing Address</label>
+						<!--<input type="text" class="form-control" id="billingAddress" placeholder="Address" aria-describedby="addressHelp">-->
+						<textarea class="form-control" rows="3" id="billingAddress" placeholder="Address" aria-describedby="addressHelp"></textarea>
+						<span id="addressHelp" class="help-block">Complete address as it appears on invoice. Make sure this is the
+							correct address you need.</span>
+					</div>
+					
+					<!-- VAT ID -->
+					<div class="form-group">
+						<label for="vatId">VAT ID</label>
+						<input type="text" class="form-control" id="vatId" placeholder="VAT ID" aria-describedby="vatHelp">
+						<span id="vatHelp" class="help-block">If available, else leave blank.</span>
+					</div>
+					
+					<!-- Email address -->
+					<div class="form-group">
+						<label for="email">Email address</label>
+						<input type="email" class="form-control" id="email" placeholder="Email address" aria-describedby="emailHelp">
+						<span id="emailHelp" class="help-block">Invoice will be sent to this address.</span>
+					</div>
+					
+					<!-- Phone number -->
+					<div class="form-group">
+						<label for="phone">Phone number</label>
+						<input type="text" class="form-control" id="phone" placeholder="Phone number" aria-describedby="phoneHelp">
+						<span id="phoneHelp" class="help-block">Attendee phone number to reach you in case of last-minute
+							organizational changes. Optional</span>
+					</div>
+					
+					<button type="submit" class="btn btn-default">Register</button>
+				</form>
+			</div>
+		</div>
+		<br>
+	</div>
+</section>

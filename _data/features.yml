@@ -2,7 +2,7 @@
 includeAbout: true
 includeSpeakers: true
 includeSchedule: false
-incldudeRegister: false
+includeRegister: true
 includeVenue: true
 includeLegal: true
 includeMap: true

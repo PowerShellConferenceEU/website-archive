@@ -20,7 +20,7 @@ layout: scaffolding
 {% endif %}
 
 {% if site.data.features.includeRegister %}
-<!-- page not made yet -->
+	{% include {{page.lang}}/register.html %}
 {% endif %}
 
 {% if site.data.features.includeVenue %}
