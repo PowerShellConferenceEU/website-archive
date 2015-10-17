@@ -3,34 +3,32 @@
 		<h2>Register<small>- {{site.data.event.seatsLeft }} seats left</small></h2>
 		<div class="row">
 			<div class="col-md-6">
-				<div class="alert alert-danger" role="alert">Normal registration fee is EUR 999, but for the first 100
-					registrations, we lower the fee to EUR 899,- so it pays to register early!
+				<div class="alert alert-danger" role="alert">Die normale Teilnahmegebühr beträgt 999€. Für die ersten 100 Anmeldungen senken wir den Preis auf 899€.
+					Eine frühzeitige Anmeldung lohnt sich!
 				</div>
-				<p>Registration is limited to 160 attendees on a first come, first serve basis.</p>
+				<p>Die Teilnehmerzahl ist auf 160 begrenzt. Anmeldungen werden nach der Eingangsreihenfolge bearbeitet. Wer zuerst kommt, mahlt zuerst.)</p>
 				<p> 
-					Registration fee is <b>EUR 899,-</b> (including 19% VAT) for the <u>first 100 registrations</u> and <b>EUR 999,-</b> after that, 
-					and covers all three conference days. It also includes food and
-					beverages throughout the conference days, and the evening event including food and drinks.
+					Die Teilnahmegebühr für alle drei Konferenztage beträgt <b>899,-€</b> (inklusive 19% MwSt.) für die <u>ersten 100 Anmeldungen</u> und <b>999,-€</b>(inklusive 19% MwSt.) für alle danach folgenden.
+					In der Teilnahmegebühr sind Speisen und Getränke während der Konferenztage und die Abendveranstaltung im "Yukon Bay" inklusive Speisen und Getränken enthalten.
 				</p>
 				<p>
-					The price does not include accomodation. We have reserved a hotel contingent for you (100 rooms in the 
-					<a href="http://www.congress-hotel-hannover.de/" target="_blank">congress hotel</a> right next to the venue). 
-					You can also search for accommodation in Hannover yourself.	Make sure it is located close to a tram station.
+					Unterbringung ist nicht im Konferenzpreis enthalten. Im <a href="http://www.congress-hotel-hannover.de/" target="_blank">Congress Hotel</a> direkt neben dem
+					Veranstaltungsort konnten wir 100 Zimmer vorreservieren. 
+					Sollten Sie ein anderes Hotel buchen, empfehlen wir eines in der Nähe einer Tram-Station.
 				</p>
 				<p>
-					When you register, we send an invoice to the email address you specify, with the billing address you 
-					specified. You then have 30 days to pay the invoice, provided there are still seats available. After 30 days, 
-					your registration request is automatically cancelled. 
+					Nachdem Sie sich angemeldet haben, senden wir eine Rechnung an die von Ihnen angegebene E-Mail Adresse mit der von Ihnen angegebenen Rechnungsadresse.
+					Sofern noch Plätze verfügbar sind, haben Sie 30 Tage Zeit die Rechnung zu bezahlen. Nach 30 Tagen verfällt Ihre Anmeldung automatisch. 
 				</p>
 				<p>
-					Once the invoice is paid, you receive a registration confirmation. 
-					If you decide to not pay the invoice in time, your registration is automatically cancelled. 
-					If you pay the invoice after all seats were already taken, we reimburse your payment. If you need changes 
-					to your invoice before you paid (address change etc), register again with the correct details. 
+					Sobald die Rechung bezahlt ist, erhalten Sie eine Anmeldebestätigung. 
+					Wenn Sie sich dazu entscheiden die Rechnung nicht innerhalb der angegebenen Zeit bezahlen, verfällt Ihre Anmeldung automatisch. 
+					Falls Sie die Rechnung bezahlen, nachdem bereits alle Plätze vergeben sind, werden wir die Zahlung zurückerstatten.
+					Sollten Sie Änderungen an der Anmeldung vornehmen wollen (z.Bsp. Änderung der Rechnungsadresse) bevor Sie bezahlt haben, melden Sie sich bitte
+					mit den richtigen Angaben erneut an. 
 				</p>
 				<p>
-					If you need	changes after you registered (i.e. attendee changes),  or if you have other questions, don't hesitate to
-					<a href="mailto:contact@psconf.eu">contact us</a>. 
+					Für Änderungen nach bestätigter Anmeldung oder sonstige Fragen wenden Sie sich bitte <a href="mailto:contact@psconf.eu">per E-Mail</a> an uns. 
 				</p>
 			</div>
 			<div class="col-md-6">
@@ -39,47 +37,47 @@
 				<form class="form-horizontal" id="registerForm" action="http://formspree.io/register@psconf.eu" method="post" data-toggle="validator">
 					<!-- Name -->
 					<div class="form-group">
-						<label for="attendeeName" class="col-sm-4">Attendee Name</label>
+						<label for="attendeeName" class="col-sm-4">Name</label>
 						<div class="col-sm-8">
-							<input type="text" name="Name" class="form-control" id="attendeeName" placeholder="Full name of person attending the conference" required>
+							<input type="text" name="Name" class="form-control" id="attendeeName" placeholder="Vollständiger Name des Konferenzteilnehmers" required>
 						</div>
 					</div>
 					
 					<!-- Company -->
 					<div class="form-group">
-						<label for="company" class="col-sm-4">Company</label>
+						<label for="company" class="col-sm-4">Firma</label>
 						<div class="col-sm-8">
-							<input type="text" name="Company" class="form-control" id="company" placeholder="Company">
+							<input type="text" name="Company" class="form-control" id="company" placeholder="Firmenname">
 						</div>
 					</div>
 					
 					<!-- Billing address -->
 					<div class="form-group">
-						<label for="billingAddress" class="col-sm-4">Billing Address</label>
+						<label for="billingAddress" class="col-sm-4">Rechnungsadresse</label>
 						<div class="col-sm-8">
-							<textarea class="form-control" name="Address" rows="3" id="billingAddress" placeholder="Complete address as it appears on invoice. Make sure this is the correct address you need." required></textarea>
+							<textarea class="form-control" name="Address" rows="3" id="billingAddress" placeholder="Vollständige Adresse wie sie auf der Rechnung erscheinen soll." required></textarea>
 						</div>
 					</div>
 					
 					<!-- VAT ID -->
 					<div class="form-group">
-						<label for="vatId" class="col-sm-4">VAT ID</label>
+						<label for="vatId" class="col-sm-4">Umsatzsteuernummer</label>
 						<div class="col-sm-8">
-							<input type="text" name="VAT" class="form-control" id="vatId" placeholder="If available, else leave blank">
+							<input type="text" name="VAT" class="form-control" id="vatId" placeholder="Falls vorhanden">
 						</div>
 					</div>
 					
 					<!-- Email address -->
 					<div class="form-group">
-						<label for="email" class="col-sm-4">Email address</label>
+						<label for="email" class="col-sm-4">E-Mail Addresse</label>
 						<div class="col-sm-8">
-							<input type="email" name="Email" class="form-control" id="email" placeholder="Invoice will be sent to this address" required>
+							<input type="email" name="Email" class="form-control" id="email" placeholder="Die Rechnung wird an diese Adresse gesendet" required>
 						</div>
 					</div>
 					
 					<!-- Country -->
 					<div class="form-group">
-						<label for="countries_phone1" class="col-sm-4">Country</label>
+						<label for="countries_phone1" class="col-sm-4">Land</label>
 						<div class="col-sm-8">
 							<select id="countries_phone1" name="Country" class="form-control bfh-countries" data-country="DE" required></select>
 						</div>
@@ -87,7 +85,7 @@
 					
 					<!-- Phone number -->
 					<div class="form-group">
-						<label for="phone" class="col-sm-4">Phone number</label>
+						<label for="phone" class="col-sm-4">Telefon</label>
 						<div class="col-sm-8">
 							<!--<input type="text" class="form-control" id="phone" placeholder="Phone number" aria-describedby="phoneHelp">-->
 							<input type="text" name="Phone" class="form-control bfh-phone" data-country="countries_phone1" required>
@@ -96,10 +94,10 @@
 					
 					<!-- Other comments -->
 					<div class="form-group">
-						<label for="comments" class="col-sm-4">Other comments</label>
+						<label for="comments" class="col-sm-4">Sonstige Informationen</label>
 						<div class="col-sm-8">
 							<textarea class="form-control" name="Comments" rows="3" id="billingAddress"></textarea>
-							<span class="help-block">If you have any addition information that you feel we should be aware of, for instance any dietary needs etc., please use this field to let us know.</span>
+							<span class="help-block">Nutzen Sie dieses Feld, um uns weitere Informationen wie z.B. speziell benötigte Diäten mitzuteilen.</span>
 						</div>
 					</div>
 					
@@ -110,7 +108,7 @@
 					<!-- Submit button -->
 					<div class="form-group">
 						<div class="col-sm-8">
-							<button type="submit" class="btn btn-default">Register</button>
+							<button type="submit" class="btn btn-default">Anmelden</button>
 						</div>
 					</div>
 				</form>
