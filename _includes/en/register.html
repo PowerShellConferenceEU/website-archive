@@ -1,99 +1,120 @@
 <section id="register">
-	<div id="registerJumbotron" class="jumbotron">
-		<div class="container">
-			<h2>Register</h2>
-			<div class="row">
-				<div class="col-md-6">
-					<p>
-						Registration is limited to 160 attendees on a first come, first serve basis. Registration fee
-						is EUR 699,- plus 19% VAT, and covers all three conference days. It also includes food and
-						beverages throughout the conference days, and the evening event including food and drinks.
-					</p>
-					<p>
-						It does not include accomodation. We have reserved a hotel contingent for you (100 rooms in the 
-						congress hotel right next to the venue). You can also search for accommodation in Hannover yourself. 
-						Make sure it is located close to a tram station.
-					</p>
-					<p>
-						When you register, we send an invoice to the email address you specify, with the billing address you 
-						specified. You then have 30 days to pay the invoice, provided there are still seats available. After 30 days, 
-						your registration request is automatically cancelled. Once the invoice is paid, you receive a registration 
-						confirmation. If you decide to not pay the invoice in time, your registration is automatically cancelled. 
-						If you pay the invoice after all seats were already taken, we reimburse your payment. If you need changes 
-						to your invoice before you paid (address change etc), register again with the correct details. If you need 
-						changes after you registered (i.e. attendee changes),  or if you have other questions, don't hesitate to
-						<a href="mailto:contact@psconf.eu">contact us</a>. 
-					</p>
+	<div class="container">
+		<h2>Register<small>- {{site.data.event.seatsLeft }} seats left</small></h2>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="alert alert-danger" role="alert">Normal registration fee is EUR 999, but for the first 100
+					registrations, we lower the fee to EUR 899,- so it pays to register early!
 				</div>
-				<div class="col-md-6">
-					<form class="form-horizontal">
-						<!-- Name -->
-						<div class="form-group">
-							<label for="attendeeName" class="col-sm-4">Attendee Name</label>
-							<div class="col-sm-8">
-								<input type="text" class="form-control" id="attendeeName" placeholder="Full name of person attending the conference">
-							</div>
+				<p>Registration is limited to 160 attendees on a first come, first serve basis.</p>
+				<p> 
+					Registration fee is <b>EUR 899,-</b> (including 19% VAT) for the <u>first 100 registrations</u> and <b>EUR 999,-</b> after that, 
+					and covers all three conference days. It also includes food and
+					beverages throughout the conference days, and the evening event including food and drinks.
+				</p>
+				<p>
+					The price does not include accomodation. We have reserved a hotel contingent for you (100 rooms in the 
+					<a href="http://www.congress-hotel-hannover.de/" target="_blank">congress hotel</a> right next to the venue). 
+					You can also search for accommodation in Hannover yourself.	Make sure it is located close to a tram station.
+				</p>
+				<p>
+					When you register, we send an invoice to the email address you specify, with the billing address you 
+					specified. You then have 30 days to pay the invoice, provided there are still seats available. After 30 days, 
+					your registration request is automatically cancelled. 
+				</p>
+				<p>
+					Once the invoice is paid, you receive a registration confirmation. 
+					If you decide to not pay the invoice in time, your registration is automatically cancelled. 
+					If you pay the invoice after all seats were already taken, we reimburse your payment. If you need changes 
+					to your invoice before you paid (address change etc), register again with the correct details. 
+				</p>
+				<p>
+					If you need	changes after you registered (i.e. attendee changes),  or if you have other questions, don't hesitate to
+					<a href="mailto:contact@psconf.eu">contact us</a>. 
+				</p>
+			</div>
+			<div class="col-md-6">
+				<div class="panel panel-default box-shadow--3dp">
+				<div class="panel-body">
+				<form class="form-horizontal" id="registerForm" action="http://formspree.io/register@psconf.eu" method="post" data-toggle="validator">
+					<!-- Name -->
+					<div class="form-group">
+						<label for="attendeeName" class="col-sm-4">Attendee Name</label>
+						<div class="col-sm-8">
+							<input type="text" name="Name" class="form-control" id="attendeeName" placeholder="Full name of person attending the conference" required>
 						</div>
-						
-						<!-- Company -->
-						<div class="form-group">
-							<label for="company" class="col-sm-4">Company</label>
-							<div class="col-sm-8">
-								<input type="text" class="form-control" id="company" placeholder="Company">
-							</div>
+					</div>
+					
+					<!-- Company -->
+					<div class="form-group">
+						<label for="company" class="col-sm-4">Company</label>
+						<div class="col-sm-8">
+							<input type="text" name="Company" class="form-control" id="company" placeholder="Company">
 						</div>
-						
-						<!-- Billing address -->
-						<div class="form-group">
-							<label for="billingAddress" class="col-sm-4">Billing Address</label>
-							<div class="col-sm-8">
-								<textarea class="form-control" rows="3" id="billingAddress" placeholder="Complete address as it appears on invoice. Make sure this is the correct address you need."></textarea>
-							</div>
+					</div>
+					
+					<!-- Billing address -->
+					<div class="form-group">
+						<label for="billingAddress" class="col-sm-4">Billing Address</label>
+						<div class="col-sm-8">
+							<textarea class="form-control" name="Address" rows="3" id="billingAddress" placeholder="Complete address as it appears on invoice. Make sure this is the correct address you need." required></textarea>
 						</div>
-						
-						<!-- VAT ID -->
-						<div class="form-group">
-							<label for="vatId" class="col-sm-4">VAT ID</label>
-							<div class="col-sm-8">
-								<input type="text" class="form-control" id="vatId" placeholder="If available, else leave blank">
-							</div>
+					</div>
+					
+					<!-- VAT ID -->
+					<div class="form-group">
+						<label for="vatId" class="col-sm-4">VAT ID</label>
+						<div class="col-sm-8">
+							<input type="text" name="VAT" class="form-control" id="vatId" placeholder="If available, else leave blank">
 						</div>
-						
-						<!-- Email address -->
-						<div class="form-group">
-							<label for="email" class="col-sm-4">Email address</label>
-							<div class="col-sm-8">
-								<input type="email" class="form-control" id="email" placeholder="Invoice will be sent to this address">
-							</div>
+					</div>
+					
+					<!-- Email address -->
+					<div class="form-group">
+						<label for="email" class="col-sm-4">Email address</label>
+						<div class="col-sm-8">
+							<input type="email" name="Email" class="form-control" id="email" placeholder="Invoice will be sent to this address" required>
 						</div>
-						
-						<!-- Country -->
-						<div class="form-group">
-							<label for="country" class="col-sm-4">Country</label>
-							<div class="col-sm-8">
-								<select id="country" class="form-control bfh-countries" data-country=""></select>
-							</div>
+					</div>
+					
+					<!-- Country -->
+					<div class="form-group">
+						<label for="countries_phone1" class="col-sm-4">Country</label>
+						<div class="col-sm-8">
+							<select id="countries_phone1" name="Country" class="form-control bfh-countries" data-country="DE" required></select>
 						</div>
-						
-						<!-- Phone number -->
-						<div class="form-group">
-							<label for="phone" class="col-sm-4">Phone number</label>
-							<div class="col-sm-8">
-								<!--<input type="text" class="form-control" id="phone" placeholder="Phone number" aria-describedby="phoneHelp">-->
-								<input type="text" class="form-control bfh-phone" data-country="country" placeholder="Attendee phone number">
-							</div>
+					</div>
+					
+					<!-- Phone number -->
+					<div class="form-group">
+						<label for="phone" class="col-sm-4">Phone number</label>
+						<div class="col-sm-8">
+							<!--<input type="text" class="form-control" id="phone" placeholder="Phone number" aria-describedby="phoneHelp">-->
+							<input type="text" name="Phone" class="form-control bfh-phone" data-country="countries_phone1" required>
 						</div>
-						
-						<!-- Other comments -->
-						<div class="form-group">
-							<label for="comments" class="col-sm-4">Other comments</label>
-							<div class="col-sm-8">
-								<textarea class="form-control" rows="3" id="billingAddress"></textarea>
-								<span class="help-block">If you have any addition information that you feel we should be aware of, for instance any dietary needs etc., please use this field to let us know.</span>
-							</div>
+					</div>
+					
+					<!-- Other comments -->
+					<div class="form-group">
+						<label for="comments" class="col-sm-4">Other comments</label>
+						<div class="col-sm-8">
+							<textarea class="form-control" name="Comments" rows="3" id="billingAddress"></textarea>
+							<span class="help-block">If you have any addition information that you feel we should be aware of, for instance any dietary needs etc., please use this field to let us know.</span>
 						</div>
-						<button type="submit" class="btn btn-default">Register</button>
-					</form>
+					</div>
+					
+					<input type="hidden" name="_subject" value="New registration from site" />
+					<!--<input type="hidden" name="_next" value="/index.html" />-->
+					<input type="text" name="_gotcha" style="display:none" />
+					
+					<!-- Submit button -->
+					<div class="form-group">
+						<div class="col-sm-8">
+							<button type="submit" class="btn btn-default">Register</button>
+						</div>
+					</div>
+				</form>
+				</div>
 				</div>
 			</div>
 		</div>

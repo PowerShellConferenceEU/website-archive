@@ -60,7 +60,15 @@
     <script src="{{ "/js/smooth-scroll.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/soon.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/validator.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/bootstrap-formhelpers.js" | prepend: site.baseurl }}"></script>
+    <!--<script src="{{ "/js/bootstrap-formhelpers.js" | prepend: site.baseurl }}"></script>-->
+    <script src="{{ "/js/bootstrap-formhelpers-countries.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/bootstrap-formhelpers-phone.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/bootstrap-formhelpers-phone.en_US.js" | prepend: site.baseurl }}"></script>
+    {% if page.lang == 'en' %}
+    <script src="{{ "/js/bootstrap-formhelpers-countries.en_US.js" | prepend: site.baseurl }}"></script>
+    {% else %}
+    <script src="{{ "/js/bootstrap-formhelpers-countries.de_DE.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <script src="{{ "/js/custom.js" | prepend: site.baseurl }}"></script>
   </body>
