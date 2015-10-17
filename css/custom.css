@@ -73,30 +73,57 @@ section {
   /*font-weight:200*/
 }
 
-/*
+@media screen and (min-width: 768px) {
+  .footer {
+    height: 520px;
+  }
+  
+  #wrap {
+    margin: 0 auto -520px;
+    padding: 0 0 520px;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer {
+    height: 360px;
+  }
+  
+  #wrap {
+    margin: 0 auto -360px;
+    padding: 0 0 360px;
+  }
+}
+
 @media screen and (min-width: 500px) and (max-width: 767px) {
-	
-	
+  .footer {
+    height: 580px;
+  }
+  
+  #wrap {
+    margin: 0 auto -580px;
+    padding: 0 0 580px;
+  }
 }
 
 @media screen and (max-width: 499px) {
+  .footer {
+    height: 640px;
+  }
   
-}*/
+  #wrap {
+    margin: 0 auto -640px;
+    padding: 0 0 640px;
+  }
+}
 
 #wrap {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -360px;
-  padding: 0 0 360px;
 }
 
 .footer {
-  /*position: absolute;*/
-  /*bottom: 0;*/
-  /*width: 100%;*/
-  /* Set the fixed height of the footer here */
-  height: 360px;
   background-color: #46494C;
   color: white;
 }
@@ -104,11 +131,6 @@ section {
 html {
   position: relative;
   min-height: 100%;
-}
-
-body {
-  /* Margin bottom by footer height */
-  /*margin-bottom: 60px;*/
 }
 
 .back-to-top {
