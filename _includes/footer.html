@@ -8,7 +8,6 @@
 				<h3><small>{{ site.data.misc[page.lang].newsletterText }}</small></h3>			
 				<form class="form-inline" action="//psconf.us11.list-manage.com/subscribe/post?u=92f8fe6c03bcf5a3af9fa2017&amp;id=0b39d3b5d1" method="post" target="_blank" novalidate>
 					<div class="form-group">
-						<!--<label for="mce-EMAIL">Email </label>-->
 						<input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="{{ site.data.misc[page.lang].newsletterMailText }}">
 						<div id="mce-responses" class="clear">
 							<div class="response" id="mce-error-response" style="display:none"></div>
@@ -40,7 +39,6 @@
 						<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
 						<input type="email" name="email" placeholder="{{ site.data.contact[page.lang].emailPlaceholder }}" class="form-control" required>
 					</div>
-					<!--<div class="help-block with-errors"></div>-->
 				</div>
 			
 				<!-- Message -->
@@ -52,11 +50,12 @@
 				</div>
 			
 				<input type="hidden" name="_subject" value="Message from website" />
+				<input type="text" name="_gotcha" style="display:none" />
 		
 				<!-- Send button -->
 				<div class="form-group">
 					<label class="control-label"></label>
-					<button type="submit" class="btn btn-primary">{{ site.data.contact[page.lang].send }} <span class="glyphicon glyphicon-send"></span></button>
+					<button type="submit" class="btn btn-default">{{ site.data.contact[page.lang].send }} <span class="glyphicon glyphicon-send"></span></button>
 				</div>
 				</form>
 			</div>

@@ -13,6 +13,7 @@ en:
   newsletterText: "Keep up to date. Subscribe to our newsletter."
   newsletterMailText: "Enter your email address"
   subscribe: "Subscribe"
+  registerNow: "Register now!"
 de:
   map: "Karte"
   home: "Home"
@@ -28,3 +29,4 @@ de:
   newsletterText: "Bleiben Sie auf dem Laufenden. Abonnieren Sie unseren Newsletter."
   newsletterMailText: "Geben Sie Ihre E-Mail Adresse ein"
   subscribe: "Abonnieren"
+  registerNow: "Register now!"
