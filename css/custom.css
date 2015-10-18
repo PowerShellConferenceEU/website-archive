@@ -74,6 +74,10 @@ section {
     margin: 0 auto -520px;
     padding: 0 0 520px;
   }
+  
+  .navbar-inverse .nav li a {
+    font-size: 10px!important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -84,6 +88,10 @@ section {
   #wrap {
     margin: 0 auto -360px;
     padding: 0 0 360px;
+  }
+  
+  .navbar-inverse .nav li a {
+    font-size: 12px!important;
   }
 }
 

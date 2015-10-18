@@ -61,7 +61,7 @@ Todo
 - [x] Translate English text to German
 - [x] Add Legal text
 - [x] Set up a contact form
-- [ ] Figure out how we integrate registration/payment
+- [x] Figure out how we integrate registration/payment
 - [ ] Other stuff
 
 About us

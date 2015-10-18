@@ -1,7 +1,7 @@
 # Turn on or off site features
 includeAbout: true
 includeSpeakers: true
-includeSchedule: false
+includeSchedule: true
 includeRegister: true
 includeVenue: true
 includeLegal: true
