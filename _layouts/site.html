@@ -15,6 +15,13 @@ layout: scaffolding
 	{% include {{page.lang}}/speakers.html %}
 {% endif %}
 
+{% if site.data.features.includefull-schedule %}
+	{% include preconf-schedule.html %}
+    {% include schedule-day1.html %}
+    {% include schedule-day2.html %}
+    {% include schedule-day3.html %}
+{% endif %}
+
 {% if site.data.features.includepreconf-schedule %}
 	{% include preconf-schedule.html %}
 {% endif %}

@@ -1,11 +1,12 @@
 # Turn on or off site features
 includeAbout: true
-includeSpeakers: false
-includepreconf-schedule : true
-includeSchedule-Day1: true
-includeSchedule-Day2: true
-includeSchedule-Day3: true
-includeRegister: false
+includeSpeakers: true
+includefull-schedule : true
+includepreconf-schedule : false
+includeSchedule-Day1: false
+includeSchedule-Day2: false
+includeSchedule-Day3: false
+includeRegister: true
 includeVenue: true
 includeLegal: true
 includeMap: true
