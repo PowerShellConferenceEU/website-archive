@@ -1,0 +1,32 @@
+<section id="schedule">
+	<div class="container">
+		<h2>{{ site.data.preconf-schedule[page.lang].schedule }}</h2>
+		<!--<div class="table-responsive">-->
+		<div class="table">
+			<table class="table table-hover table-bordered">
+				<thead>
+					<th>{{ site.data.preconf-schedule[page.lang].time }}</th>
+					<th>{{ site.data.preconf-schedule[page.lang].track1 }}</th>
+					<th>{{ site.data.preconf-schedule[page.lang].track2 }}</th>
+				</thead>
+				<tbody>
+					{% for slot in site.data.preconf-schedule[page.lang].sessionSlots %}
+					<tr>
+						<td>{{ slot.time}}</td>
+						<td>
+							{{ slot.track1Name }} - {{ slot.track1Speaker }}
+							<br><br>
+							{{ slot.track1Description }}
+						</td>
+						<td>
+							{{ slot.track2Name }} - {{ slot.track2Speaker }}
+							<br><br>
+							{{ slot.track2Description }}
+						</td>
+					</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+		</div>
+	</div>
+</section>
