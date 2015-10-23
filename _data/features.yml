@@ -1,4 +1,5 @@
 # Turn on or off site features
+includeCountdown: true
 includeAbout: true
 includeSpeakers: true
 includefull-schedule : true
