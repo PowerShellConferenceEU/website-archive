@@ -1,19 +1,30 @@
 ---
 layout: scaffolding
 ---
+<!-- Legal -->
 {% if site.data.features.includeLegal %}
 	{% include {{page.lang}}/legal.html %}
 {% endif %}
 
+<!-- Heading -->
 {% include heading.html %}
 
+<!-- About -->
 {% if site.data.features.includeAbout %}
 	{% include {{page.lang}}/about.html %}
 {% endif %}
 
+<!-- Call for Speakers -->
+{% if site.data.features.includeCallforSpeakers %}
+	{% include {{page.lang}}/callforspeakers.html %}
+{% endif %}
+
+<!-- Speakers -->
 {% if site.data.features.includeSpeakers %}
 	{% include {{page.lang}}/speakers.html %}
 {% endif %}
+
+{% include schedule_tabs.html %}
 
 {% if site.data.features.includefull-schedule %}
 	{% include preconf-schedule.html %}
@@ -38,18 +49,22 @@ layout: scaffolding
 	{% include schedule-day3.html %}
 {% endif %}
 
+<!-- Register -->
 {% if site.data.features.includeRegister %}
 	{% include {{page.lang}}/register.html %}
 {% endif %}
 
+<!-- Venue -->
 {% if site.data.features.includeVenue %}
 	{% include {{page.lang}}/venue.html %}
 {% endif %}
 
+<!-- Map -->
 {% if site.data.features.includeMap %}
 	{% include map.html %}
 {% endif %}
 
+<!-- Contact form -->
 {% if site.data.features.includeContact %}
 	{% include contact.html %}
 {% endif %}

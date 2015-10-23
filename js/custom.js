@@ -71,3 +71,8 @@ function initialize() {
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+
+// bootstrap tooltips
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
