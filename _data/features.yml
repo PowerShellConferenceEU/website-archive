@@ -12,5 +12,6 @@ includeRegister: false
 includeVenue: true
 includeLegal: true
 includeMap: true
+includeSponsors: true
 includeContact: false
 includeFooter: true
