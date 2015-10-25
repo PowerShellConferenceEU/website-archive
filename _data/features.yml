@@ -1,13 +1,10 @@
 # Turn on or off site features
 includeCountdown: true
+includeEventStats: true
 includeAbout: true
 includeCallforSpeakers: true
 includeSpeakers: false
 includeSchedule : true
-includepreconf-schedule : false
-includeSchedule-Day1: false
-includeSchedule-Day2: false
-includeSchedule-Day3: false
 includeRegister: false
 includeVenue: true
 includeLegal: true

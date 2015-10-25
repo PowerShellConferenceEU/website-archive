@@ -1,0 +1,14 @@
+seatsTotal: 160
+days: 3
+speakers: 20
+sessions: 50
+en:
+  daysText: "of awesome PowerShell content!"
+  attendeesText: "from all over Europe!"
+  speakersText: "ready to help you reach the next level!"
+  sessionsText: "in a variety of different topics, in two languages!"
+de:
+  daysText: "of awesome PowerShell content!"
+  attendeesText: "from all over Europe!"
+  speakersText: "ready to help you reach the next level!"
+  sessionsText: "in a variety of different topics, in two languages!"

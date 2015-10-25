@@ -1,13 +1,13 @@
 <section id="schedule">
 	<div class="container">
-		<h2>Schedule</h2>
+		<h2>{{ site.data.schedule[page.lang].schedule }}</h2>
 		<div class="panel panel-default box-shadow--1dp">
 			<div class="panel-body">
 				
 				<!-- Tab navigation -->
 				<ul class="nav nav-tabs" role="tablist">
 					{% for day in site.data.schedule.days %}
-					<li role="presentation" {% if day.active %}class="active"{% endif %}><a href="#{{ day.id }}" role="tab" data-toggle="tab">{{ day.title }}</a></li>
+					<li role="presentation" {% if day.active %}class="active"{% endif %}><a href="#{{ day.id }}" role="tab" data-toggle="tab">{{ day.title[page.lang] }}</a></li>
 					{% endfor %}
 				</ul>
 				
@@ -20,7 +20,7 @@
 							<table class="table table-hover table-bordered">
 								<thead>
 									{% for header in day.trackHeaders %}
-										<th>{{ header.title }}</th>
+										<th>{{ header.title[page.lang] }}</th>
 									{% endfor %}
 								</thead>
 								<tbody>
@@ -45,23 +45,6 @@
 						</div>
 					</div>
 					{% endfor %}
-					
-					<!--<div role="tabpanel" class="tab-pane fade" id="preconf">
-						<br>
-						Preconference schedule
-					</div>
-					<div role="tabpanel" class="tab-pane fade in active" id="day1">
-						<br>
-						Something else
-					</div>
-					<div role="tabpanel" class="tab-pane fade" id="day2">
-						<br>
-						Something else
-					</div>
-					<div role="tabpanel" class="tab-pane fade" id="day3">
-						<br>
-						Something else
-					</div>-->
 			</div>
 		</div>
 	</div>

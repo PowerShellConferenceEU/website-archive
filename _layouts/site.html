@@ -9,6 +9,11 @@ layout: scaffolding
 <!-- Heading -->
 {% include heading.html %}
 
+<!-- Event Stats -->
+{% if site.data.features.includeEventStats %}
+	{% include eventstats.html %}
+{% endif %}
+
 <!-- About -->
 {% if site.data.features.includeAbout %}
 	{% include {{page.lang}}/about.html %}
@@ -24,29 +29,9 @@ layout: scaffolding
 	{% include {{page.lang}}/speakers.html %}
 {% endif %}
 
-{% include schedule_tabs.html %}
-
-{% if site.data.features.includefull-schedule %}
-	{% include preconf-schedule.html %}
-    {% include schedule-day1.html %}
-    {% include schedule-day2.html %}
-    {% include schedule-day3.html %}
-{% endif %}
-
-{% if site.data.features.includepreconf-schedule %}
-	{% include preconf-schedule.html %}
-{% endif %}
-
-{% if site.data.features.includeSchedule-Day1 %}
-	{% include schedule-day1.html %}
-{% endif %}
-
-{% if site.data.features.includeSchedule-Day2 %}
-	{% include schedule-day2.html %}
-{% endif %}
-
-{% if site.data.features.includeSchedule-Day3 %}
-	{% include schedule-day3.html %}
+<!-- Schedule -->
+{% if site.data.features.includeSchedule %}
+	{% include schedule.html %}
 {% endif %}
 
 <!-- Register -->
