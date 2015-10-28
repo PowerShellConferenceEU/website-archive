@@ -39,6 +39,11 @@ layout: scaffolding
 	{% include {{page.lang}}/register.html %}
 {% endif %}
 
+<!-- Evening Event -->
+{% if site.data.features.includeEveningEvent %}
+	{% include {{page.lang}}/eveningEvent.html %}
+{% endif %}
+
 <!-- Venue -->
 {% if site.data.features.includeVenue %}
 	{% include {{page.lang}}/venue.html %}
