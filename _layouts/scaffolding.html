@@ -12,8 +12,17 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
     <!-- soon plugin -->
     <link href="{{ "/css/soon.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    
+    <!-- formhelpers -->
+    <link href="{{ "/css/bootstrap-formhelpers.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    
+    <!-- overlay-bootstrap -->
+    <link href="{{ "/css/overlay-bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="{{ "/css/custom.css" | prepend: site.baseurl }}" rel="stylesheet">  
@@ -21,6 +30,9 @@
     <!-- Custom Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,7 +48,15 @@
     <!-- Scroll to top -->
     <div class="back-to-top"><a data-scroll href="#page-top" class="text-muted"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></a></div>
 
+    <div id="wrap">
+
     {{ content }}
+    
+    </div>
+    
+    {% if site.data.features.includeFooter %}
+      {% include footer.html %}
+    {% endif %}
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -46,6 +66,15 @@
     <script src="{{ "/js/smooth-scroll.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/soon.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/validator.min.js" | prepend: site.baseurl }}"></script>
+    <!--<script src="{{ "/js/bootstrap-formhelpers.js" | prepend: site.baseurl }}"></script>-->
+    <script src="{{ "/js/bootstrap-formhelpers-countries.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/bootstrap-formhelpers-phone.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/bootstrap-formhelpers-phone.en_US.js" | prepend: site.baseurl }}"></script>
+    {% if page.lang == 'en' %}
+    <script src="{{ "/js/bootstrap-formhelpers-countries.en_US.js" | prepend: site.baseurl }}"></script>
+    {% else %}
+    <script src="{{ "/js/bootstrap-formhelpers-countries.de_DE.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <script src="{{ "/js/custom.js" | prepend: site.baseurl }}"></script>
   </body>

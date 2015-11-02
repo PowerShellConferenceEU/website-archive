@@ -50,6 +50,7 @@ The following frameworks and third-party plugins/modules are used on this site:
 - [jquery-photoset-grid.js](http://stylehatch.github.io/photoset-grid/ "jquery-photoset-grid.js")
 - [smooth-scroll.js](https://github.com/cferdinandi/smooth-scroll "smooth-scroll.js")
 - [soon countdown pack*](http://codecanyon.net/item/soon-countdown-pack-responsive-jquery-plugin/9485513 "soon countdown pack")
+- [overlay-bootstrap](https://github.com/karbonn/Overlay-Bootstrap "overlay-bootstrap")
 
 *The soon countdown pack is a paid third party plugin. If you fork this project to use for another site, please remove this plugin or you are in violation of the terms for this plugin.
 
@@ -60,7 +61,7 @@ Todo
 - [x] Translate English text to German
 - [x] Add Legal text
 - [x] Set up a contact form
-- [ ] Figure out how we integrate registration/payment
+- [x] Figure out how we integrate registration/payment
 - [ ] Other stuff
 
 About us

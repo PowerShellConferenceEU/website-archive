@@ -1,32 +1,51 @@
 <section id="schedule">
 	<div class="container">
 		<h2>{{ site.data.schedule[page.lang].schedule }}</h2>
-		<!--<div class="table-responsive">-->
-		<div class="table">
-			<table class="table table-hover table-bordered">
-				<thead>
-					<th>{{ site.data.schedule[page.lang].time }}</th>
-					<th>{{ site.data.schedule[page.lang].track1 }}</th>
-					<th>{{ site.data.schedule[page.lang].track2 }}</th>
-				</thead>
-				<tbody>
-					{% for slot in site.data.schedule[page.lang].sessionSlots %}
-					<tr>
-						<td>{{ slot.time}}</td>
-						<td>
-							{{ slot.track1Name }} - {{ slot.track1Speaker }}
-							<br><br>
-							{{ slot.track1Description }}
-						</td>
-						<td>
-							{{ slot.track2Name }} - {{ slot.track2Speaker }}
-							<br><br>
-							{{ slot.track2Description }}
-						</td>
-					</tr>
+		<div class="panel panel-default box-shadow--1dp">
+			<div class="panel-body">
+				
+				<!-- Tab navigation -->
+				<ul class="nav nav-tabs" role="tablist">
+					{% for day in site.data.schedule.days %}
+					<li role="presentation" {% if day.active %}class="active"{% endif %}><a href="#{{ day.id }}" role="tab" data-toggle="tab">{{ day.title[page.lang] }}</a></li>
 					{% endfor %}
-				</tbody>
-			</table>
+				</ul>
+				
+				<!-- Tab content -->
+				<div class="tab-content">
+					{% for day in site.data.schedule.days %}
+					<div role="tabpanel" class="tab-pane fade {% if day.active %} in active{% endif %}" id="{{ day.id }}">
+						<h4>{{ day.date }}</h4>
+						<div class="table">
+							<table class="table table-hover table-bordered">
+								<thead>
+									{% for header in day.trackHeaders %}
+										<th>{{ header.title[page.lang] }}</th>
+									{% endfor %}
+								</thead>
+								<tbody>
+									{% for slot in day.timeSlots %}
+										<tr>
+											<td>{{ slot.time }}</td>
+											{% for track in slot.tracks %}
+												<td>
+													{% if track.name != '' %}
+														<strong>{{ track.name }}</strong> - {{ track.speaker }}<br>
+														Language: {{ track.language }}<br><br>
+													{% endif %}
+													<p>
+													{{ track.description[page.lang] }}
+													</p>
+												</td>
+											{% endfor %}
+										</tr>
+									{% endfor %}
+								</tbody>
+							</table>
+						</div>
+					</div>
+					{% endfor %}
+			</div>
 		</div>
 	</div>
 </section>

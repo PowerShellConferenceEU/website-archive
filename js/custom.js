@@ -17,8 +17,10 @@ $(function(){
       $(document).on( 'scroll', function(){
             if ($(window).scrollTop() > 100) {
                   $('.back-to-top').addClass('show');
+                  //console.log("Show scroll-to-top");
             } else {
                   $('.back-to-top').removeClass('show');
+                  //console.log("Hide scroll-to-top");
             }
       });
 });
@@ -69,3 +71,8 @@ function initialize() {
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+
+// bootstrap tooltips
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
