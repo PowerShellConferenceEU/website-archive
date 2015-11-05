@@ -1,0 +1,348 @@
+en:
+  schedule: "Schedule"
+de:
+  schedule: "Agenda"
+days:
+  - date: "19.04.2016"
+    title: 
+      en: "Preconference"
+      de: "Preconference"
+    id: "preconf"
+    active: false
+    trackHeaders:
+      - title:
+          en: "Time"
+          de: "Zeit"
+      - title:
+          en: "Track 1"
+          de: "Track 1"
+      - title:
+          en: "Track 2"
+          de: "Track 2" 
+    timeSlots:
+      - time: "09:00 - 12:30"
+        tracks:
+          - name: "Preconference track"
+            speaker: "Tobias"
+            language: "English"
+            description:
+              en: "Keynote description in English"
+              de: "Keynote description in German"
+          - name: "Preconference track"
+            speaker: "Speaker"
+            language: "German"
+            description:
+              en: "Keynote description in English"
+              de: "Keynote description in German"
+
+      - time: "13:00 - 16:30"
+        tracks:
+          - name: "Preconference track"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+          - name: "Preconference track"
+            speaker: "SpeakerName"
+            language: "German"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+              
+  - date: "20.04.2016"
+    title: 
+      en: "Day 1"
+      de: "Tag 1"
+    id: "day1"
+    active: true
+    trackHeaders:
+      - title:
+          en: "Time"
+          de: "Zeit"
+      - title:
+          en: "Track 1"
+          de: "Track 1"
+      - title:
+          en: "Track 2"
+          de: "Track 2" 
+    timeSlots:
+      - time: "09:00 - 09:45"
+        tracks:
+          - name: "Keynote"
+            speaker: "Tobias"
+            language: "English"
+            description:
+              en: "Keynote description in English"
+              de: "Keynote description in German"
+
+      - time: "10:00 - 10:45"
+        tracks:
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "German"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+              
+      - time: "11:00 - 11:45"
+        tracks:
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "German"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+
+      - time: "12:00 - 13:00"
+        tracks:
+          - name: ""
+            speaker: ""
+            language: ""
+            description:
+              en: "Lunch"
+              de: "Lunch"
+          - name: ""
+            speaker: ""
+            language: ""
+            description:
+              en: "Lunch"
+              de: "Lunch"
+
+      - time: "13:00 - 13:45"
+        tracks:
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "German"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+
+      - time: "14:00 - 14:45"
+        tracks:
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "German"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+
+      - time: "15:00 - 15:45"
+        tracks:
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "German"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+
+      - time: "16:00 - 16:45"
+        tracks:
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "German"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+              
+  - date: "21.04.2016"
+    title: 
+      en: "Day 2"
+      de: "Tag 2"
+    id: "day2"
+    active: false
+    trackHeaders:
+      - title:
+          en: "Time"
+          de: "Zeit"
+      - title:
+          en: "Track 1"
+          de: "Track 1"
+      - title:
+          en: "Track 2"
+          de: "Track 2" 
+      - title:
+          en: "Track 3"
+          de: "Track 3"
+      - title:
+          en: "Track 4"
+          de: "Track 4" 
+    timeSlots:
+      - time: "09:00 - 09:45"
+        tracks:
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Keynote description in English"
+              de: "Keynote description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Keynote description in English"
+              de: "Keynote description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Keynote description in English"
+              de: "Keynote description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Keynote description in English"
+              de: "Keynote description in German"
+
+      - time: "10:00 - 10:45"
+        tracks:
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "German"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Keynote description in English"
+              de: "Keynote description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Keynote description in English"
+              de: "Keynote description in German"
+              
+      - time: "11:00 - 11:45"
+        tracks:
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "German"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Keynote description in English"
+              de: "Keynote description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Keynote description in English"
+              de: "Keynote description in German"
+              
+  - date: "22.04.2016"
+    title: 
+      en: "Day 3"
+      de: "Tag 3"
+    id: "day3"
+    active: false
+    trackHeaders:
+      - title:
+          en: "Time"
+          de: "Zeit"
+      - title:
+          en: "Track 1"
+          de: "Track 1"
+      - title:
+          en: "Track 2"
+          de: "Track 2" 
+    timeSlots:
+      - time: "09:00 - 09:45"
+        tracks:
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Keynote description in English"
+              de: "Keynote description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Keynote description in English"
+              de: "Keynote description in German"
+
+      - time: "10:00 - 10:45"
+        tracks:
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "German"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+              
+      - time: "11:00 - 11:45"
+        tracks:
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "English"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"
+          - name: "SessionName"
+            speaker: "SpeakerName"
+            language: "German"
+            description:
+              en: "Session description in English"
+              de: "Session description in German"

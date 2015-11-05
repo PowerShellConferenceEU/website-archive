@@ -1,0 +1,129 @@
+<section id="register">
+	<div class="container">
+		<h2>Anmeldung<small>- {{site.data.event.seatsLeft }} Plätze frei</small></h2>
+		<div class="row">
+			<div class="col-md-6">
+				
+				<div class="alert alert-danger" role="alert">
+					Die reguläre Teilnahmegebühr beträgt 999 €. Für die ersten 100 Anmeldungen (Early Bird) beträgt die Teilnahmegebühr 899 € 
+					(alle Preise inkl. 19% MwSt.).  Die Teilnehmerzahl ist auf 160 begrenzt. Anmeldungen werden nach der Eingangsreihenfolge bearbeitet.
+				</div>
+								
+				<p>In der Teilnahmegebühr enthalten ist die Teilnahme an allen 3 Konferenztagen, Kaffeepausen und Mittagessen an diesen Tagen, sowie die 
+				Abendveranstaltung einschließlich Speisen und Getränken. Hotelübernachtungen können bei Bedarf selbst gebucht werden und sind nicht in den 
+				Teilnahmegebühren enthalten. Im direkt benachbarten <a href="https://www.cbooking.de/v3/Login.aspx?id=congresshannover&allotmentcode=psconf.eu&lang=de" target="_blank">Kongresshotel</a> steht ein Kontingent zur Verfügung. Möchten Sie ein anderes Hotel buchen, 
+				empfehlen wir eines in der Nähe einer Straßenbahn-Haltestelle.</p>
+								
+				<p>Optional können Sie sich außerdem für den Präkonferenz-Workshoptag anmelden (EUR 499,- inkl. 19% MwSt.). Die Teilnehmerzahl an den 
+				Präkonferenz-Workshops ist auf 20 Teilnehmer pro Workshop begrenzt.</p>
+				
+				<p>Eine Anmeldung geschieht vorbehaltlich noch verfügbarer Kapazität. Nach der Anmeldung senden wir eine Rechnung an die von Ihnen angegebene 
+				E-Mail Adresse mit der von Ihnen angegebenen Rechnungsadresse. Die Rechnung ist zahlbar innerhalb von 30 Tagen. 
+				Danach verfällt die Anmeldung automatisch.</p>
+				
+				<p>Nach Zahlung der Anmeldegebühr erhalten Sie eine Anmeldebestätigung. Sollten zu diesem Zeitpunkt alle Plätze bereits ausgebucht sein, 
+				erstatten wir den Rechnungsbetrag umgehend zurück.</p>
+
+				<p>Die Anmeldung zur Konferenz ist übertragbar und nicht an einen bestimmten Teilnehmer gebunden. Bringen Sie Ihre Anmeldebestätigung mit zur '
+				Konferenz. Anmeldungen sind nicht stornierbar.</p>
+				
+				<p>Für Änderungen nach bestätigter Anmeldung oder sonstige Fragen wenden Sie sich bitte <a href="mailto:contact@psconf.eu">per E-Mail</a> an uns.</p>
+				
+				<p>Hotline bei Fragen: 0511-16592550 (sponsored by <a href="http://www.netz-weise.de" target="_blank">www.netz-weise.de</a>)</p>
+			</div>
+			<div class="col-md-6">
+				<div class="panel panel-default box-shadow--3dp">
+				<div class="panel-body">
+				<form class="form-horizontal" id="registerForm" action="http://formspree.io/register@psconf.eu" method="post" data-toggle="validator">
+					<!-- Name -->
+					<div class="form-group">
+						<label for="attendeeName" class="col-sm-4">Name</label>
+						<div class="col-sm-8">
+							<input type="text" name="Name" class="form-control" id="attendeeName" placeholder="Vollständiger Name des Konferenzteilnehmers" required>
+						</div>
+					</div>
+					
+					<!-- Company -->
+					<div class="form-group">
+						<label for="company" class="col-sm-4">Firma</label>
+						<div class="col-sm-8">
+							<input type="text" name="Company" class="form-control" id="company" placeholder="Firmenname">
+						</div>
+					</div>
+					
+					<!-- Billing address -->
+					<div class="form-group">
+						<label for="billingAddress" class="col-sm-4">Rechnungsadresse</label>
+						<div class="col-sm-8">
+							<textarea class="form-control" name="Address" rows="3" id="billingAddress" placeholder="Vollständige Adresse wie sie auf der Rechnung erscheinen soll." required></textarea>
+						</div>
+					</div>
+					
+					<!-- VAT ID -->
+					<div class="form-group">
+						<label for="vatId" class="col-sm-4">Umsatzsteuernummer</label>
+						<div class="col-sm-8">
+							<input type="text" name="VAT" class="form-control" id="vatId" placeholder="Falls vorhanden">
+						</div>
+					</div>
+					
+					<!-- Email address -->
+					<div class="form-group">
+						<label for="email" class="col-sm-4">E-Mail Addresse</label>
+						<div class="col-sm-8">
+							<input type="email" name="Email" class="form-control" id="email" placeholder="Die Rechnung wird an diese Adresse gesendet" required>
+						</div>
+					</div>
+					
+					<!-- Country -->
+					<div class="form-group">
+						<label for="countries_phone1" class="col-sm-4">Land</label>
+						<div class="col-sm-8">
+							<select id="countries_phone1" name="Country" class="form-control bfh-countries" data-country="DE" required></select>
+						</div>
+					</div>
+					
+					<!-- Phone number -->
+					<div class="form-group">
+						<label for="phone" class="col-sm-4">Telefon</label>
+						<div class="col-sm-8">
+							<!--<input type="text" class="form-control" id="phone" placeholder="Phone number" aria-describedby="phoneHelp">-->
+							<input type="text" name="Phone" class="form-control bfh-phone" data-country="countries_phone1" required>
+						</div>
+					</div>
+					
+					<!-- Other comments -->
+					<div class="form-group">
+						<label for="comments" class="col-sm-4">Sonstige Informationen</label>
+						<div class="col-sm-8">
+							<textarea class="form-control" name="Comments" rows="3" id="billingAddress"></textarea>
+							<span class="help-block">Nutzen Sie dieses Feld, um uns weitere Informationen wie z.B. speziell benötigte Diäten mitzuteilen.</span>
+						</div>
+					</div>
+					
+					<!-- Pre-Conference -->
+					<div class="form-group">
+                        <label for="Pre-Conference" class="col-sm-4">Preconference</label>
+                        <div class="col-sm-8">
+                            <input type="checkbox" name="Pre-Conference" id="Pre-Conference" data-toggle="tooltip" data-placement="bottom" title="Durch Markieren dieses Kästchens bestätigen Sie, dass Sie an der Vorveranstaltung teilnehmen wollen und Ihrer Rechnung wird eine weitere Gebühr hinzugefügt!" data-container="body" />
+                            <!--<span class="help-block">Please Check this box if you wish to attend the Pre-Conference Sessions and are happy to be invoiced for this on top of the Standard Conference Registration Fee </span>-->
+                        </div>
+                    </div>
+					
+					<input type="hidden" name="_subject" value="New registration from site" />
+					<!--<input type="hidden" name="_next" value="/index.html" />-->
+					<input type="text" name="_gotcha" style="display:none" />
+					
+					<!-- Submit button -->
+					<div class="form-group">
+						<div class="col-sm-8">
+							<button type="submit" class="btn btn-default">Anmelden</button>
+						</div>
+					</div>
+				</form>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
