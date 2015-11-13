@@ -1,8 +1,12 @@
 <section id="sponsors">
-	<div class="container">
-		<h2>{{ site.data.misc[page.lang].sponsors }}</h2>
-		<div class="well well-lg">
-			{{ site.data.misc[page.lang].sponsorText }}
-		</div>
-	</div>
+    <div class="container">
+        <h2>Sponsors</h2>
+        <div class="container-flex">
+            {% for sponsor in site.data.sponsors.sponsors %}
+            <div class="thumbnail">
+                <h4>{{sponsor.name}}</h4><img alt="responsive image" class="img-responsive" onclick="{{ sponsor.url }}" src="{{ sponsor.img }}">
+            </div>
+            {% endfor %}
+        </div>
+    </div>
 </section>
