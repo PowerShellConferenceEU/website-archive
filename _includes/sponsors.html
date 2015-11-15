@@ -1,11 +1,14 @@
 <section id="sponsors">
     <div class="container">
         <h2>Sponsors</h2>
-        <div class="container-flex">
+        <div class="speakers">
             {% for sponsor in site.data.sponsors.sponsors %}
-            <div class="thumbnail">
-                <h4>{{sponsor.name}}</h4><img alt="responsive image" class="img-responsive" onclick="{{ sponsor.url }}" src="{{ sponsor.img }}">
-            </div>
+            <li class="col-md-{{site.data.sponsors.col_md}} col-sm-{{site.data.sponsors.col_sm}} col-xs-{{site.data.sponsors.col_xs}}">
+                <a href="{{ sponsor.url }}"<centre><h4>{{sponsor.name}}</h4></centre>
+                <div class="thumbnail">
+                   <img alt="responsive image" class="img-responsive" onclick="{{ sponsor.url }}" src="{{ sponsor.img }}">
+                </div>
+            </li>
             {% endfor %}
         </div>
     </div>

@@ -4,9 +4,9 @@ col_sm: 4
 col_xs: 6
 
 sponsors:
-  - name: "Test"
+  - name: "Netz Weise IT"
     img: "/img/Logo_Netzweise_tr.png"
     url: "http://www.netz-weise-it.training/"
-  - name: "Test"
-    img: "/img/Logo_Netzweise_tr.png"
-    url: "http://www.netz-weise-it.training/"    
+  - name: "Peerlyst"
+    img: "/img/Logo_peerlyst.png"
+    url: "https://www.peerlyst.com/"    
