@@ -4,11 +4,9 @@ col_sm: 4
 col_xs: 6
 
 sponsors:
-  - name: "Netz Weise IT"
+  - name: "Net Wiese"
     img: "/img/sponsors/netzweise.png"
     url: "http://www.netz-weise-it.training/"
- - name: "Peerlyst"
+  - name: "Peerlyst"
     img: "/img/sponsors/peerlyst.png"
     url: "https://www.peerlyst.com/"    
-
-
