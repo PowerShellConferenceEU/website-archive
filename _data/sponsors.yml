@@ -8,5 +8,10 @@ sponsors:
     img: "/img/sponsors/netzweise.png"
     url: "http://www.netz-weise-it.training/"
   - name: "Peerlyst"
+<<<<<<< HEAD:_data/Sponsors.yml
     img: "/img/sponsors/peerlyst.png"
     url: "https://www.peerlyst.com/"    
+=======
+    img: "/img/logo_peerlyst.png"
+    url: "https://www.peerlyst.com/"
+>>>>>>> c0639fcd6a5642cd4b5645f8b6a062ad52f022a4:_data/sponsors.yml
