@@ -243,3 +243,7 @@ html {
     -webkit-flex: 2;
     flex: 2;
 }
+.thumbnail {
+    background: transparent;
+    border: none
+}
