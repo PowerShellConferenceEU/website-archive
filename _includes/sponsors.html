@@ -1,8 +1,17 @@
 <section id="sponsors">
-	<div class="container">
-		<h2>{{ site.data.misc[page.lang].sponsors }}</h2>
-		<div class="well well-lg">
-			{{ site.data.misc[page.lang].sponsorText }}
-		</div>
-	</div>
+    <div class="container">
+        <h2>Sponsors</h2>
+        <div class="speakers">
+            <ul class="row">
+                {% for sponsor in site.data.sponsors.sponsors %}
+                <li class="col-md-{{site.data.sponsors.col_md}} col-sm-{{site.data.sponsors.col_sm}} col-xs-{{site.data.sponsors.col_xs}}">
+                    <a href="{{ sponsor.url }}"<centre><h4>{{sponsor.name}}</h4></centre>
+                    <div class="thumbnail">
+                    <img alt="responsive image" class="img-responsive" onclick="{{ sponsor.url }}" src="{{ sponsor.img | prepend: site.baseurl }}">
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
 </section>
