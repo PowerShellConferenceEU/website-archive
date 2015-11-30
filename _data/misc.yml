@@ -9,12 +9,12 @@ en:
   legal: "Legal"
   toggleNavigation: "Toggle navigation"
   footerHeading: "PowerShell Conference Europe"
-  footerText: "This website is created by the European PowerShell community."
+  footerText: "This website is maintained by the European PowerShell community."
   newsletterText: "Keep up to date. Subscribe to our newsletter."
   newsletterMailText: "Enter your email address"
   subscribe: "Subscribe"
   registerNow: "Register now!"
-   
+
 de:
   map: "Karte"
   home: "Home"
