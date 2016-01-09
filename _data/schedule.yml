@@ -88,7 +88,12 @@ days:
             speaker: "Dr. Tobias Weltner & Jeffrey Snover"
             language: "English"
             description:
-              en: ""
+              en: "In this keynote, we take a look at how PowerShell evolved from Version 1 in 2006 to Version 5 today. Tobias highlights and demos the
+              key features introduced in each version and chats with PowerShell inventor, mastermind and Microsoft Technical Fellow Jeffrey Snover about
+              his motifs behind the features and how they unfold Jeffreys vision of \"Monadology\" that he borrowed from the great philosopher Leibniz.
+              This keynote will provide you with a clear understanding of how all these PowerShell versions differ, how the features introduced build
+              upon each other and resemble the foundation of many of the new features in PowerShell 5. It is the perfect primer for the remaining
+              conference and the specialty talks that follow."
               de: ""
 
       - time: "10:15 - 11:15"
@@ -103,8 +108,12 @@ days:
             speaker: "Dr. Holger Schwichtenberg"
             language: "German"
             description:
-              en: ""
-              de: ""
+              en: "Bisher war es doch recht umständlich, objektorientiert in PowerShell-Skripte zu programmieren. In PowerShell 5.0 gibt es nun endlich
+              Klassen. Der Vortrag erläutert die Konzepte der PowerShell-Klassen (Attribute, Methoden, Konstruktoren, Statische Mitglieder und zeigt die
+              praktischen Einsatzgebiete der PowerShell-Klassen auf."
+              de: "Bisher war es doch recht umständlich, objektorientiert in PowerShell-Skripte zu programmieren. In PowerShell 5.0 gibt es nun endlich
+              Klassen. Der Vortrag erläutert die Konzepte der PowerShell-Klassen (Attribute, Methoden, Konstruktoren, Statische Mitglieder und zeigt die
+              praktischen Einsatzgebiete der PowerShell-Klassen auf."
 
       - time: "11:30 - 12:30"
         tracks:
@@ -118,8 +127,14 @@ days:
             speaker: "David das Neves"
             language: "German"
             description:
-              en: ""
-              de: ""
+              en: "In dieser Session zeigt David, wie sich moderne grafische WPF-Benutzeroberflächen in nur wenigen Zeilen Code direkt mit PowerShell
+              erstellen lassen. Dabei wird gezeigt, wie man XAML verwendet, Ressourcen wie Bilder oder Icons lädt, und auf Events wie
+              Button-Klicks reagiert. Ein besonderer Schwerpunkt liegt hier auf sogenannten Bindings, die sehr viel effizienteren
+              PowerShell-Code ermöglichen."
+              de: "In dieser Session zeigt David, wie sich moderne grafische WPF-Benutzeroberflächen in nur wenigen Zeilen Code direkt mit PowerShell
+              erstellen lassen. Dabei wird gezeigt, wie man XAML verwendet, Ressourcen wie Bilder oder Icons lädt, und auf Events wie
+              Button-Klicks reagiert. Ein besonderer Schwerpunkt liegt hier auf sogenannten Bindings, die sehr viel effizienteren
+              PowerShell-Code ermöglichen."
 
       - time: "12:30 - 13:30"
         tracks:
@@ -163,8 +178,14 @@ days:
             speaker: "Holger Voges"
             language: "German"
             description:
-              en: ""
-              de: ""
+              en: "Azure Automation ist der neue Ansatz von Microsoft, mit Hilfe von Powershell Workflows regelmässig Wiederkehrende Aufgaben in großen
+              Umgebungen zu automatisieren. Es werden sogennante Runbooks erstellt, die dann zeit- oder Ereignisgesteuert gestartet werden können. Der
+              grafische Runbook Editor macht das Erstellen dabei auch für den Laien einfach. In dieser Session stellt Holger Voges die Grundlagen der
+              Runbooks vor und zeigt, was Sie mit Azure Automation erreichen können."
+              de: "Azure Automation ist der neue Ansatz von Microsoft, mit Hilfe von Powershell Workflows regelmässig Wiederkehrende Aufgaben in großen
+              Umgebungen zu automatisieren. Es werden sogennante Runbooks erstellt, die dann zeit- oder Ereignisgesteuert gestartet werden können. Der
+              grafische Runbook Editor macht das Erstellen dabei auch für den Laien einfach. In dieser Session stellt Holger Voges die Grundlagen der
+              Runbooks vor und zeigt, was Sie mit Azure Automation erreichen können."
 
       - time: "16:00 - 17:00"
         tracks:
@@ -178,8 +199,14 @@ days:
             speaker: "Thorsten Butz"
             language: "German"
             description:
-              en: ""
-              de: ""
+              en: "In 2016 wird Microsoft mit dem \"Nano Server\" eine minimale Installationsoption anbieten, die ausschließlich remote administrieren
+              lassen wird. Die PowerShell, auf dem Nano Server selbst in einer speziellen CoreCLR-Variante (.NET Core runtime) vorhanden, wird zum Dreh-
+              und Angelpunkt der (Remote-) Verwaltung. In der Session werfen wir einen Blick auf den Lifecycle einer Nano Server-Installation,
+              untersuchen die Auswirkungen der funktional beschränkten CoreCLR und stellen typische Automatisierungsbeispiele vor."
+              de: "In 2016 wird Microsoft mit dem \"Nano Server\" eine minimale Installationsoption anbieten, die ausschließlich remote administrieren
+              lassen wird. Die PowerShell, auf dem Nano Server selbst in einer speziellen CoreCLR-Variante (.NET Core runtime) vorhanden, wird zum Dreh-
+              und Angelpunkt der (Remote-) Verwaltung. In der Session werfen wir einen Blick auf den Lifecycle einer Nano Server-Installation,
+              untersuchen die Auswirkungen der funktional beschränkten CoreCLR und stellen typische Automatisierungsbeispiele vor."
 
       - time: "17:00 - 18:00"
         tracks:
@@ -188,7 +215,10 @@ days:
             language: "English"
             description:
               en: "combined session: Speakers Panel with all speakers (Beethoven-Saal)"
-              de: "Gemeinsame Session: Speakers Panel mit allen Speakern (Beethoven-Saal)"
+              de: "Großes Speaker-Panel mit allen anwesenden Speakern. In dieser gemeinsamen Session wird das Fazit des Tages gezogen und der Dialog mit
+              den Delegierten gesucht. Fragen, Anregungen und Feedback, auch für die kommenden beiden Konferenztage, finden hier Raum.
+              Anschließend gehen wir gemeinsam zum Abendevent im Zoo Hannover: in Yukon Bay wird der Tag in einer nachgebildeten Goldgräberstadt ausklingen,
+              natürlich mit Eisbär-Fütterung und Fütterung der Delegierten mit Speis und Trank."
           - name: "Combined Session"
             speaker: "All Speakers"
             language: "English"
