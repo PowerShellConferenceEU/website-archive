@@ -4,8 +4,8 @@ includeEventStats: false
 includeAbout: true
 includeEveningEvent: true
 includeCallforSpeakers: false
-includeSpeakers: false
-includeSchedule : false
+includeSpeakers: true
+includeSchedule : true
 includeRegister: true
 includeVenue: true
 includeLegal: true

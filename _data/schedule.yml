@@ -4,7 +4,7 @@ de:
   schedule: "Agenda"
 days:
   - date: "19.04.2016"
-    title: 
+    title:
       en: "Preconference"
       de: "Preconference"
     id: "preconf"
@@ -18,40 +18,55 @@ days:
           de: "Track 1"
       - title:
           en: "Track 2"
-          de: "Track 2" 
+          de: "Track 2"
     timeSlots:
-      - time: "09:00 - 12:30"
+      - time: "09:00 - 12:00"
         tracks:
-          - name: "Preconference track"
-            speaker: "Tobias"
-            language: "English"
-            description:
-              en: "Keynote description in English"
-              de: "Keynote description in German"
-          - name: "Preconference track"
-            speaker: "Speaker"
+          - name: "Remoting, Just Enough Admin"
+            speaker: "Dr. Tobias Weltner"
             language: "German"
             description:
-              en: "Keynote description in English"
-              de: "Keynote description in German"
+              en: ""
+              de: ""
+          - name: "PowerShell Refresher"
+            speaker: "Dr. Holger Schwichtenberg"
+            language: "German"
+            description:
+              en: ""
+              de: ""
 
-      - time: "13:00 - 16:30"
+      - time: "12:00 - 13:00"
         tracks:
-          - name: "Preconference track"
-            speaker: "SpeakerName"
-            language: "English"
+          - name: "Mittagessen"
+            speaker: ""
+            language: ""
             description:
-              en: "Session description in English"
-              de: "Session description in German"
-          - name: "Preconference track"
-            speaker: "SpeakerName"
+              en: ""
+              de: ""
+          - name: "Mittagessen"
+            speaker: ""
+            language: ""
+            description:
+              en: ""
+              de: ""
+
+      - time: "13:00 - 16:00"
+        tracks:
+          - name: "Advanced PowerShell, Workflows"
+            speaker: "Dr. Tobias Weltner"
             language: "German"
             description:
-              en: "Session description in English"
-              de: "Session description in German"
-              
+              en: ""
+              de: ""
+          - name: "PowerShell für Developer"
+            speaker: "Dr. Holger Schwichtenberg"
+            language: "German"
+            description:
+              en: ""
+              de: ""
+
   - date: "20.04.2016"
-    title: 
+    title:
       en: "Day 1"
       de: "Tag 1"
     id: "day1"
@@ -65,48 +80,48 @@ days:
           de: "Track 1"
       - title:
           en: "Track 2"
-          de: "Track 2" 
+          de: "Track 2"
     timeSlots:
-      - time: "09:00 - 09:45"
+      - time: "09:00 - 10:00"
         tracks:
-          - name: "Keynote"
-            speaker: "Tobias"
+          - name: "Keynote - 10 Years with PowerShell:<br>An evolutionary journey in the light of Leibniz and Monadology"
+            speaker: "Dr. Tobias Weltner & Jeffrey Snover"
             language: "English"
             description:
-              en: "Keynote description in English"
-              de: "Keynote description in German"
+              en: ""
+              de: ""
 
-      - time: "10:00 - 10:45"
+      - time: "10:15 - 11:15"
         tracks:
-          - name: "SessionName"
-            speaker: "SpeakerName"
+          - name: "TBD"
+            speaker: "Bruce Payette"
             language: "English"
             description:
-              en: "Session description in English"
-              de: "Session description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
+              en: ""
+              de: ""
+          - name: "Objektorientiertes Programmieren mit der PowerShell 5.0"
+            speaker: "Dr. Holger Schwichtenberg"
             language: "German"
             description:
-              en: "Session description in English"
-              de: "Session description in German"
-              
-      - time: "11:00 - 11:45"
+              en: ""
+              de: ""
+
+      - time: "11:30 - 12:30"
         tracks:
-          - name: "SessionName"
-            speaker: "SpeakerName"
+          - name: "Old Dog, New Tricks: Forensics With PowerShell"
+            speaker: "Jared Atkinson"
             language: "English"
             description:
               en: "Session description in English"
               de: "Session description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
+          - name: "Deep Dive Powershell GUIs with XAML"
+            speaker: "David das Neves"
             language: "German"
             description:
-              en: "Session description in English"
-              de: "Session description in German"
+              en: ""
+              de: ""
 
-      - time: "12:00 - 13:00"
+      - time: "12:30 - 13:30"
         tracks:
           - name: ""
             speaker: ""
@@ -121,68 +136,68 @@ days:
               en: "Lunch"
               de: "Lunch"
 
-      - time: "13:00 - 13:45"
+      - time: "13:30 - 14:30"
         tracks:
-          - name: "SessionName"
-            speaker: "SpeakerName"
+          - name: "TBD"
+            speaker: ""
             language: "English"
             description:
-              en: "Session description in English"
-              de: "Session description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
+              en: ""
+              de: ""
+          - name: "TBD"
+            speaker: ""
             language: "German"
             description:
-              en: "Session description in English"
-              de: "Session description in German"
+              en: ""
+              de: ""
 
-      - time: "14:00 - 14:45"
+      - time: "14:45 - 15:45"
         tracks:
-          - name: "SessionName"
-            speaker: "SpeakerName"
+          - name: "Azure Automation DSC"
+            speaker: "Ben+Aleksandar"
             language: "English"
             description:
-              en: "Session description in English"
-              de: "Session description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
+              en: ""
+              de: ""
+          - name: "Automatisierung mit Azure Automation, Runbooks und Workflows"
+            speaker: "Holger Voges"
             language: "German"
             description:
-              en: "Session description in English"
-              de: "Session description in German"
+              en: ""
+              de: ""
 
-      - time: "15:00 - 15:45"
+      - time: "16:00 - 17:00"
         tracks:
-          - name: "SessionName"
-            speaker: "SpeakerName"
+          - name: "Building an Empire with PowerShell"
+            speaker: "Will Harmjoy"
             language: "English"
             description:
-              en: "Session description in English"
-              de: "Session description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
+              en: ""
+              de: ""
+          - name: "Administration des NANO-Servers"
+            speaker: "Thorsten Butz"
             language: "German"
             description:
-              en: "Session description in English"
-              de: "Session description in German"
+              en: ""
+              de: ""
 
-      - time: "16:00 - 16:45"
+      - time: "17:00 - 18:00"
         tracks:
-          - name: "SessionName"
-            speaker: "SpeakerName"
+          - name: "Combined Session"
+            speaker: "All Speakers"
             language: "English"
             description:
-              en: "Session description in English"
-              de: "Session description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
-            language: "German"
+              en: "combined session: Speakers Panel with all speakers (Beethoven-Saal)"
+              de: "Gemeinsame Session: Speakers Panel mit allen Speakern (Beethoven-Saal)"
+          - name: "Combined Session"
+            speaker: "All Speakers"
+            language: "English"
             description:
-              en: "Session description in English"
-              de: "Session description in German"
-              
+              en: "combined session: Speakers Panel with all speakers (Beethoven-Saal)"
+              de: "Gemeinsame Session: Speakers Panel mit allen Speakern (Beethoven-Saal)"
+
   - date: "21.04.2016"
-    title: 
+    title:
       en: "Day 2"
       de: "Tag 2"
     id: "day2"
@@ -192,101 +207,258 @@ days:
           en: "Time"
           de: "Zeit"
       - title:
-          en: "Track 1"
-          de: "Track 1"
+          en: "Track 1 - Big Room (GER)"
+          de: "Track 1 - Big Room (GER)"
       - title:
-          en: "Track 2"
-          de: "Track 2" 
+          en: "Track 2 - General Topics - Smaller Room (ENG)"
+          de: "Track 2 - General Topics - Smaller Room (ENG)"
       - title:
-          en: "Track 3"
-          de: "Track 3"
+          en: "Track 3 - SQL, Azure & OMI - Smaller Room (ENG)"
+          de: "Track 3 - SQL, Azure & OMI - Smaller Room (ENG)"
       - title:
-          en: "Track 4"
-          de: "Track 4" 
-    timeSlots:
-      - time: "09:00 - 09:45"
-        tracks:
-          - name: "SessionName"
-            speaker: "SpeakerName"
-            language: "English"
-            description:
-              en: "Keynote description in English"
-              de: "Keynote description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
-            language: "English"
-            description:
-              en: "Keynote description in English"
-              de: "Keynote description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
-            language: "English"
-            description:
-              en: "Keynote description in English"
-              de: "Keynote description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
-            language: "English"
-            description:
-              en: "Keynote description in English"
-              de: "Keynote description in German"
+          en: "Track 4 - Security - Bigger Room (ENG)"
+          de: "Track 4 - Security - Bigger Room (ENG)"
+      - title:
+          en: "Breakout Session"
+          de: "Breakout Session"
 
-      - time: "10:00 - 10:45"
+    timeSlots:
+      - time: "09:00 - 10:00"
         tracks:
-          - name: "SessionName"
-            speaker: "SpeakerName"
-            language: "English"
-            description:
-              en: "Session description in English"
-              de: "Session description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
+          - name: "TBD"
+            speaker: "Dr. Holger Schwichtenberg"
             language: "German"
             description:
-              en: "Session description in English"
-              de: "Session description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
+              en: ""
+              de: ""
+          - name: "Containers vs. Virtual Machines"
+            speaker: "Richard Siddaway"
             language: "English"
             description:
-              en: "Keynote description in English"
-              de: "Keynote description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
+              en: ""
+              de: ""
+          - name: "SQL Server through PowerShell"
+            speaker: "Dimitri Koens"
             language: "English"
             description:
-              en: "Keynote description in English"
-              de: "Keynote description in German"
-              
-      - time: "11:00 - 11:45"
+              en: ""
+              de: ""
+          - name: "JEA: Ending 15 years of Pain for the Active Directory Admin"
+            speaker: "Matt Hitchcock"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+
+      - time: "10:15 - 11:15"
         tracks:
-          - name: "SessionName"
-            speaker: "SpeakerName"
-            language: "English"
-            description:
-              en: "Session description in English"
-              de: "Session description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
+          - name: "Configuration von Windows Container Hosts und Containern selbst"
+            speaker: "Rinon Belegu"
             language: "German"
             description:
-              en: "Session description in English"
-              de: "Session description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
+              en: ""
+              de: ""
+          - name: "Remote Management Nano"
+            speaker: "Aleksandar"
             language: "English"
             description:
-              en: "Keynote description in English"
-              de: "Keynote description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
+              en: ""
+              de: ""
+          - name: "PowerShell and SQL Server: My Journey to 100,000 rows a second"
+            speaker: "Chrissy LeMaire"
             language: "English"
             description:
-              en: "Keynote description in English"
-              de: "Keynote description in German"
-              
+              en: ""
+              de: ""
+          - name: "Offensive Active Directory"
+            speaker: "Will Harmjoy"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+
+      - time: "11:30 - 12:30"
+        tracks:
+          - name: "PowerShell in Deployment-Szenarien"
+            speaker: "Christian Krüger und Waldemar Schmidt"
+            language: "German"
+            description:
+              en: ""
+              de: ""
+          - name: "Get-Contributing - Contributing to community resources"
+            speaker: "Simon Wahlin"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Power Bi, PowerShell and DBA"
+            speaker: "Rob Sewell"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Lockdown your System - Secure event logging"
+            speaker: "Jaap Brasser"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Workflows: Unterbrechungen in Workflows und Gültigkeit von Variablen"
+            speaker: "Stephan Kulla"
+            language: "German"
+            description:
+              en: ""
+              de: ""
+
+      - time: "12:30 - 13:30"
+        tracks:
+          - name: ""
+            speaker: ""
+            language: ""
+            description:
+              en: "Lunch"
+              de: "Lunch"
+          - name: ""
+            speaker: ""
+            language: ""
+            description:
+              en: "Lunch"
+              de: "Lunch"
+          - name: ""
+            speaker: ""
+            language: ""
+            description:
+              en: "Lunch"
+              de: "Lunch"
+          - name: ""
+            speaker: ""
+            language: ""
+            description:
+              en: "Lunch"
+              de: "Lunch"
+
+      - time: "13:30 - 14:30"
+        tracks:
+          - name: "\"Ich hasse PowerShell\"  - top 10 Stolperstellen"
+            speaker: "Thorsten Butz"
+            language: "German"
+            description:
+              en: ""
+              de: ""
+          - name: "Making PowerShell useful for your team"
+            speaker: "Rob Sewell"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Simplifying SQL Server Migrations using PowerShell"
+            speaker: "Chrissy LeMaire"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "System Center, PowerShell and 802.1x network protection – Connecting the dots for easy device integration"
+            speaker: "Christian Lehrer"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Networking mit der PowerShell"
+            speaker: "Thorsten Butz"
+            language: "German"
+            description:
+              en: ""
+              de: ""
+
+      - time: "14:45 - 15:45"
+        tracks:
+          - name: "Automatisierung von System Center Konfiguration Manger mit PowerShell"
+            speaker: "Rinon Belegu"
+            language: "German"
+            description:
+              en: ""
+              de: ""
+          - name: "Test-Driven Development with Pester"
+            speaker: "June Blender"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Lessons Learned from implementing Azure Automation"
+            speaker: "Trond Hindenes"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "JEA - Demo based Session"
+            speaker: "Jaap Brasser"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+
+      - time: "16:00 - 17:00"
+        tracks:
+          - name: "Bereitstellung von virtuellen Maschinen mit DSC und Chef / Puppet"
+            speaker: "Holger Voges"
+            language: "German"
+            description:
+              en: ""
+              de: ""
+          - name: "PowerShell in WinDbg"
+            speaker: "Staffan Gustafsson"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Azure Resource Manager"
+            speaker: "Aleksandar Ben"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "PowerShell and KeePass - A poor persons Credential Database"
+            speaker: "Christan Lehrer"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+
+      - time: "17:10 - 18:00"
+        tracks:
+          - name: "Zentraler Business-Repo-Server (TBD)"
+            speaker: "David das Neves"
+            language: "German"
+            description:
+              en: ""
+              de: ""
+          - name: "A practical example of how to approach (and deliver) a large and complex script project"
+            speaker: "Øyvind Kallstad"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "CIM, OMI, WMI - Querying and Considerations"
+            speaker: "Jaap Brasser"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Creating an Agent-less Host Intrusion Detection System using PowerShell and WMI"
+            speaker: "Jared Atkinson"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Usergroups"
+            speaker: ""
+            language: ""
+            description:
+              en: "Usergroups present themselves. Come and make plans for tonight!"
+              de: "Usergroups stellen sich vor. Verabredungsmöglichkeit für gemeinsames Abendprogramm!"
+
   - date: "22.04.2016"
-    title: 
+    title:
       en: "Day 3"
       de: "Tag 3"
     id: "day3"
@@ -296,53 +468,263 @@ days:
           en: "Time"
           de: "Zeit"
       - title:
-          en: "Track 1"
-          de: "Track 1"
+          en: "Track 1 - Big Room (GER)"
+          de: "Track 1 - Big Room (GER)"
       - title:
-          en: "Track 2"
-          de: "Track 2" 
+          en: "Track 2 - DSC - Big Room (ENG)"
+          de: "Track 2 - DSC - Big Room (ENG)"
+      - title:
+          en: "Track 3 - Generic - Smaller Room (ENG)"
+          de: "Track 3 - Generic - Smaller Room (ENG)"
+      - title:
+          en: "Track 4 - Generic - Smaller Room (ENG)"
+          de: "Track 4 - Generic - Smaller Room (ENG)"
+      - title:
+          en: "Breakout Session"
+          de: "Breakout Session"
     timeSlots:
-      - time: "09:00 - 09:45"
+      - time: "09:00 - 10:00"
         tracks:
-          - name: "SessionName"
-            speaker: "SpeakerName"
+          - name: "System Center, PowerShell and 802.1x Netzwerkabsicherung – Connecting the dots für eine einfache Geräte-Integration"
+            speaker: "Christian Lehrer"
+            language: "German"
+            description:
+              en: ""
+              de: ""
+          - name: "DSC Resource creation / debugging"
+            speaker: "Ben Gelens"
             language: "English"
             description:
-              en: "Keynote description in English"
-              de: "Keynote description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
+              en: ""
+              de: ""
+          - name: "Unleash the Power of Hyper-V through PowerShell (and find some hidden gems on the way)"
+            speaker: "Dimitri Koens"
             language: "English"
             description:
-              en: "Keynote description in English"
-              de: "Keynote description in German"
+              en: ""
+              de: ""
+          - name: "XML is your friend!"
+            speaker: "Bartek Bielawski"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Praktische Lösungen mit der Powershell in der Praxis"
+            speaker: "Stephan Kulla"
+            language: "German"
+            description:
+              en: ""
+              de: ""
 
-      - time: "10:00 - 10:45"
+      - time: "10:15 - 11:15"
         tracks:
-          - name: "SessionName"
-            speaker: "SpeakerName"
-            language: "English"
-            description:
-              en: "Session description in English"
-              de: "Session description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
+          - name: "Automatisierte Umsetzung von Active Directory Sicherheitskonzepten (Teil 1)"
+            speaker: "Kai Wilke & Waldemar Schmidt"
             language: "German"
             description:
-              en: "Session description in English"
-              de: "Session description in German"
-              
-      - time: "11:00 - 11:45"
-        tracks:
-          - name: "SessionName"
-            speaker: "SpeakerName"
+              en: ""
+              de: ""
+          - name: "Pimp My Resources: Controlling APIs via DSC"
+            speaker: "Benjamin Hodge"
             language: "English"
             description:
-              en: "Session description in English"
-              de: "Session description in German"
-          - name: "SessionName"
-            speaker: "SpeakerName"
+              en: ""
+              de: ""
+          - name: "Advanced Logging with log4net: principle, practice and applications"
+            speaker: "Gael Colas"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Parallelizing PowerShell"
+            speaker: "Staffan Gustafsson"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Azure Site (Disaster) Recovery mit PowerShell (Teil 1)"
+            speaker: "Rinon Belegu"
             language: "German"
             description:
-              en: "Session description in English"
-              de: "Session description in German"
+              en: ""
+              de: ""
+
+      - time: "11:30 - 12:30"
+        tracks:
+          - name: "Automatisierte Umsetzung von Active Directory Sicherheitskonzepten (Teil 2)"
+            speaker: "Kai Wilke & Waldemar Schmidt"
+            language: "German"
+            description:
+              en: ""
+              de: ""
+          - name: "Deep dive into DSC partial configurations and cross-machine synchronization"
+            speaker: "Ravikanth Chaganti"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Lockdown your System - Secure event logging"
+            speaker: "Jaap Brasser"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Chasing the seconds: Optimizing file enumeration by diving deep into the Windows API"
+            speaker: "Øyvind Kallstad"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Azure Site (Disaster) Recovery mit PowerShell (Teil 2)"
+            speaker: "Rinon Belegu"
+            language: "German"
+            description:
+              en: ""
+              de: ""
+
+      - time: "12:30 - 13:30"
+        tracks:
+          - name: ""
+            speaker: ""
+            language: ""
+            description:
+              en: "Lunch"
+              de: "Lunch"
+          - name: ""
+            speaker: ""
+            language: ""
+            description:
+              en: "Lunch"
+              de: "Lunch"
+          - name: ""
+            speaker: ""
+            language: ""
+            description:
+              en: "Lunch"
+              de: "Lunch"
+          - name: ""
+            speaker: ""
+            language: ""
+            description:
+              en: "Lunch"
+              de: "Lunch"
+
+      - time: "13:30 - 14:30"
+        tracks:
+          - name: "PowerShell und KeePass - Eine Credential Database für Arme"
+            speaker: "Christian Lehrer"
+            language: "German"
+            description:
+              en: ""
+              de: ""
+          - name: "Using imperative syntax to create declarative code"
+            speaker: "Jeff Wouters"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "QA: Will it break?"
+            speaker: "Simon Wahlin"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Professional PowerShell Help for Modules"
+            speaker: "June Blender"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "PowerShell goes Software Engineeering"
+            speaker: "Jan Lindmeier"
+            language: "German"
+            description:
+              en: ""
+              de: ""
+
+      - time: "14:45 - 15:45"
+        tracks:
+          - name: "PowerShell in Deployment-Szenarien"
+            speaker: "Christian Krüger & Waldemar Schmidt"
+            language: "German"
+            description:
+              en: ""
+              de: ""
+          - name: "Building your continuous integration infrastructure"
+            speaker: "Jeff Wouters"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Measure Twice; Cut Once: Designing Better Code"
+            speaker: "Benjamin Hodge"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Regular Expressions and PowerShell"
+            speaker: "Øyvind Kallstad"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Pimp-MyComputer: Verwalte Deinen eigenen Rechner wie ein Profi!"
+            speaker: "Thorsten Butz"
+            language: "German"
+            description:
+              en: ""
+              de: ""
+
+      - time: "16:00 - 17:00"
+        tracks:
+          - name: "SSH gegen den Rest der Welt"
+            speaker: "Thorsten Butz"
+            language: "German"
+            description:
+              en: ""
+              de: ""
+          - name: "Azure Automation DSC"
+            speaker: "Aleksandar Ben"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "PowerShell DSC and Octopus: better together"
+            speaker: "Bartek Bielawski"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "PowerShell Desired State Configuration and SharePoint for Service Delivery"
+            speaker: "Ryan Yates"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+
+      - time: "17:00 - 18:00"
+        tracks:
+          - name: "SQL-Server verwalten mit Powershell"
+            speaker: "Holger Voges"
+            language: "German"
+            description:
+              en: ""
+              de: ""
+          - name: "Operational validation for infrastructure as code"
+            speaker: "Ravikanth Chaganti"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "Should I use Chef or DSC?"
+            speaker: "Steven Murawski"
+            language: "English"
+            description:
+              en: ""
+              de: ""
+          - name: "TBD"
+            speaker: "TBD"
+            language: "English"
+            description:
+              en: ""
+              de: ""
