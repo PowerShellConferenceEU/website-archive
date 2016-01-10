@@ -69,12 +69,12 @@ section {
   .footer {
     height: 520px;
   }
-  
+
   #wrap {
     margin: 0 auto -520px;
     padding: 0 0 520px;
   }
-  
+
   .navbar-inverse .nav li a {
     font-size: 10px!important;
   }
@@ -84,12 +84,12 @@ section {
   .footer {
     height: 360px;
   }
-  
+
   #wrap {
     margin: 0 auto -360px;
     padding: 0 0 360px;
   }
-  
+
   .navbar-inverse .nav li a {
     font-size: 12px!important;
   }
@@ -99,7 +99,7 @@ section {
   .footer {
     height: 580px;
   }
-  
+
   #wrap {
     margin: 0 auto -580px;
     padding: 0 0 580px;
@@ -110,7 +110,7 @@ section {
   .footer {
     height: 640px;
   }
-  
+
   #wrap {
     margin: 0 auto -640px;
     padding: 0 0 640px;
@@ -207,7 +207,7 @@ html {
   margin-bottom:25px;
 }
 
-.row-flex, .row-flex > div[class*='col-'] {  
+.row-flex, .row-flex > div[class*='col-'] {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;

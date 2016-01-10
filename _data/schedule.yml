@@ -78,7 +78,7 @@ days:
           en: "Track 2 (German)"
           de: "Track 2 (German)"
     timeSlots:
-      - time: "09:00 - 10:00"
+      - time: "09:00 - 10:30"
         tracks:
           - name: "Keynote - 10 Years with PowerShell:<br>An evolutionary journey in the light of Leibniz and Monadology"
             speaker: "Dr. Tobias Weltner & Jeffrey Snover"
@@ -94,7 +94,7 @@ days:
               conference and the specialty talks that follow."
               de: ""
 
-      - time: "10:15 - 11:15"
+      - time: "10:45 - 11:45"
         tracks:
           - name: "TBD"
             speaker: "Bruce Payette"
@@ -113,7 +113,18 @@ days:
               Klassen. Der Vortrag erläutert die Konzepte der PowerShell-Klassen (Attribute, Methoden, Konstruktoren, Statische Mitglieder und zeigt die
               praktischen Einsatzgebiete der PowerShell-Klassen auf."
 
-      - time: "11:30 - 12:30"
+      - time: "12:00 - 13:00"
+        tracks:
+          - name: "Lunch"
+            speaker: ""
+            language: ""
+            span: true
+            spanLength: 2
+            description:
+              en: "Lunch"
+              de: "Lunch"
+
+      - time: "13:00 - 14:00"
         tracks:
           - name: "Old Dog, New Tricks: Forensics With PowerShell"
             speaker: "Jared Atkinson"
@@ -134,18 +145,7 @@ days:
               Button-Klicks reagiert. Ein besonderer Schwerpunkt liegt hier auf sogenannten Bindings, die sehr viel effizienteren
               PowerShell-Code ermöglichen."
 
-      - time: "12:30 - 13:30"
-        tracks:
-          - name: "Lunch"
-            speaker: ""
-            language: ""
-            span: true
-            spanLength: 2
-            description:
-              en: "Lunch"
-              de: "Lunch"
-
-      - time: "13:30 - 14:30"
+      - time: "14:15 - 15:15"
         tracks:
           - name: "TBD"
             speaker: ""
@@ -160,7 +160,7 @@ days:
               en: ""
               de: ""
 
-      - time: "14:45 - 15:45"
+      - time: "15:30 - 16:30"
         tracks:
           - name: "Azure Automation DSC"
             speaker: "Ben+Aleksandar"
@@ -181,7 +181,7 @@ days:
               grafische Runbook Editor macht das Erstellen dabei auch für den Laien einfach. In dieser Session stellt Holger Voges die Grundlagen der
               Runbooks vor und zeigt, was Sie mit Azure Automation erreichen können."
 
-      - time: "16:00 - 17:00"
+      - time: "16:45 - 17:45"
         tracks:
           - name: "Building an Empire with PowerShell"
             speaker: "Will Harmjoy"
@@ -202,7 +202,7 @@ days:
               und Angelpunkt der (Remote-) Verwaltung. In der Session werfen wir einen Blick auf den Lifecycle einer Nano Server-Installation,
               untersuchen die Auswirkungen der funktional beschränkten CoreCLR und stellen typische Automatisierungsbeispiele vor."
 
-      - time: "17:00 - 18:00"
+      - time: "17:45 - 18:15"
         tracks:
           - name: "Combined Session"
             speaker: "All Speakers"
@@ -215,6 +215,17 @@ days:
               den Delegierten gesucht. Fragen, Anregungen und Feedback, auch für die kommenden beiden Konferenztage, finden hier Raum.
               Anschließend gehen wir gemeinsam zum Abendevent im Zoo Hannover: in Yukon Bay wird der Tag in einer nachgebildeten Goldgräberstadt ausklingen,
               natürlich mit Eisbär-Fütterung und Fütterung der Delegierten mit Speis und Trank."
+
+      - time: "18:45 - 01:00"
+        tracks:
+          - name: "Evening Event"
+            speaker:
+            language:
+            span: true
+            spanLength: 2
+            description:
+              en: "Evening Event at Yukon Bay (incl. dinner)"
+              de: "Evening Event at Yukon Bay (inkl. Abendessen)"
 
   - date: "21.04.2016"
     title:
@@ -682,8 +693,8 @@ days:
             description:
               en: ""
               de: ""
-          - name: "Lockdown your System - Secure event logging"
-            speaker: "Jaap Brasser"
+          - name: "TBD"
+            speaker: "TBD"
             language: "English"
             description:
               en: ""
@@ -828,8 +839,8 @@ days:
               nie verstummten. Im Sommer 2015 kündigte Redmond an, eine OpenSSH-basierte Lösung in Ihre Produkte zu integrieren. Der Vortrag
               stellt den aktuellen Stand der Implementierung vor. Darüber hinaus werfen wir einen Blick auf alternative SSH-Implementierungen
               für die Windows PowerShell, die den objektorientierten Ansatz der PowerShell mit der SecureShell verbindet."
-          - name: "Azure Automation DSC"
-            speaker: "Aleksandar Ben"
+          - name: "TBD"
+            speaker: "TBD"
             language: "English"
             description:
               en: ""
