@@ -313,6 +313,20 @@ days:
             description:
               en: ""
               de: ""
+          - name: "Networking mit der PowerShell"
+            speaker: "Thorsten Butz"
+            language: "German"
+            description:
+              en: "$oldschool = \'ping\', \'net\', \'nslookup\', \'netsh\', \'whois\', \'ifconfig\', \'nmap\', \'lsof\', \'host\', \'traceroute\', \'finger\' - In der
+              täglichen Netzwerkarbeit des Admins fristet die PowerShell ein Schattendasein. Warum eigentlich? Bietet die PowerShell keine (besseren)
+              Alternativen oder ist es schlicht die Macht der Gewohnheit, die uns ausgetretene Pfade beschreiten lässt. Der Vortrag stellt
+              (wenig bekannte) PowerShell-Cmdlets zur Netzwerkadministration und -analyse vor und zeigt darüber hinausgehende Scriptlösungen,
+              die die PowerShell zum Alltagswerkzeug in Netzwerkangelegenheiten werden lässt."
+              de: "$oldschool = \'ping\', \'net\', \'nslookup\', \'netsh\', \'whois\', \'ifconfig\', \'nmap\', \'lsof\', \'host\', \'traceroute\', \'finger\' - In der
+              täglichen Netzwerkarbeit des Admins fristet die PowerShell ein Schattendasein. Warum eigentlich? Bietet die PowerShell keine (besseren)
+              Alternativen oder ist es schlicht die Macht der Gewohnheit, die uns ausgetretene Pfade beschreiten lässt. Der Vortrag stellt
+              (wenig bekannte) PowerShell-Cmdlets zur Netzwerkadministration und -analyse vor und zeigt darüber hinausgehende Scriptlösungen,
+              die die PowerShell zum Alltagswerkzeug in Netzwerkangelegenheiten werden lässt."
 
       - time: "11:30 - 12:30"
         tracks:
@@ -414,20 +428,6 @@ days:
               fast integration of legacy systems into a 802.1x secured network. In an 802.1x secured network most is done by certificates. But there
               are exeptions when you have old hardware that needs to be integrated using the MAC-address. With Service Manager, Orchestrator, PowerShell
               and an ARUBA Radius, integrating those devices to the network can be done from a self service portal in a standardised and easy way."
-          - name: "Networking mit der PowerShell"
-            speaker: "Thorsten Butz"
-            language: "German"
-            description:
-              en: "$oldschool = \'ping\', \'net\', \'nslookup\', \'netsh\', \'whois\', \'ifconfig\', \'nmap\', \'lsof\', \'host\', \'traceroute\', \'finger\' - In der
-              täglichen Netzwerkarbeit des Admins fristet die PowerShell ein Schattendasein. Warum eigentlich? Bietet die PowerShell keine (besseren)
-              Alternativen oder ist es schlicht die Macht der Gewohnheit, die uns ausgetretene Pfade beschreiten lässt. Der Vortrag stellt
-              (wenig bekannte) PowerShell-Cmdlets zur Netzwerkadministration und -analyse vor und zeigt darüber hinausgehende Scriptlösungen,
-              die die PowerShell zum Alltagswerkzeug in Netzwerkangelegenheiten werden lässt."
-              de: "$oldschool = \'ping\', \'net\', \'nslookup\', \'netsh\', \'whois\', \'ifconfig\', \'nmap\', \'lsof\', \'host\', \'traceroute\', \'finger\' - In der
-              täglichen Netzwerkarbeit des Admins fristet die PowerShell ein Schattendasein. Warum eigentlich? Bietet die PowerShell keine (besseren)
-              Alternativen oder ist es schlicht die Macht der Gewohnheit, die uns ausgetretene Pfade beschreiten lässt. Der Vortrag stellt
-              (wenig bekannte) PowerShell-Cmdlets zur Netzwerkadministration und -analyse vor und zeigt darüber hinausgehende Scriptlösungen,
-              die die PowerShell zum Alltagswerkzeug in Netzwerkangelegenheiten werden lässt."
 
       - time: "14:45 - 15:45"
         tracks:
