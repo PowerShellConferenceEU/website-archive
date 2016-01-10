@@ -3,21 +3,21 @@
 		<h2>{{ site.data.schedule[page.lang].schedule }}</h2>
 		<div class="panel panel-default box-shadow--1dp">
 			<div class="panel-body">
-				
+
 				<!-- Tab navigation -->
 				<ul class="nav nav-tabs" role="tablist">
 					{% for day in site.data.schedule.days %}
 					<li role="presentation" {% if day.active %}class="active"{% endif %}><a href="#{{ day.id }}" role="tab" data-toggle="tab">{{ day.title[page.lang] }}</a></li>
 					{% endfor %}
 				</ul>
-				
+
 				<!-- Tab content -->
 				<div class="tab-content">
 					{% for day in site.data.schedule.days %}
 					<div role="tabpanel" class="tab-pane fade {% if day.active %} in active{% endif %}" id="{{ day.id }}">
 						<h4>{{ day.date }}</h4>
 						<div class="table">
-							<table class="table table-hover table-bordered">
+							<table class="table table-hover table-bordered table-condensed">
 								<thead>
 									{% for header in day.trackHeaders %}
 										<th>{{ header.title[page.lang] }}</th>
@@ -28,14 +28,22 @@
 										<tr>
 											<td>{{ slot.time }}</td>
 											{% for track in slot.tracks %}
-												<td>
+                                                {% if track.span == true %}
+                                                    <td colspan="{{track.spanLength}}">
+                                                {% else %}
+												    <td>
+                                                {% endif %}
 													{% if track.name != '' %}
-														<strong>{{ track.name }}</strong> - {{ track.speaker }}<br>
-														Language: {{ track.language }}<br><br>
+														<a href="#this" data-toggle="popover" data-html="true" data-trigger="focus" data-placement="bottom" data-container="body" data-content="{{track.description[page.lang]}}"><strong>{{ track.name }}</strong></a>
+                                                        {% if track.speaker != '' %}<br><i>{{ track.speaker }}</i>{% endif %}<br>
+														<!-- Language: {{ track.language }}<br><br>-->
 													{% endif %}
+                                                    <!--
+                                                    <br>
 													<p>
 													{{ track.description[page.lang] }}
 													</p>
+                                                    -->
 												</td>
 											{% endfor %}
 										</tr>
