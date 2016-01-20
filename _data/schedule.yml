@@ -31,8 +31,8 @@ days:
             speaker: "Holger Voges"
           -
             description:
-              de: ""
-              en: "DSC is a ‘make it so’ technology – you declare what you want the server configuration to be then PowerShell and DSC make it happen. There are a number of components in DSC you need to understand – push/pull servers; configurations; resources and mof files. In this workshop discover how to get started with DSC and how to make the most of this technology. Along the way you can take your first steps into the brave new world of devops.  DSC provides a way into ‘Infrastructure as Code’. We’ll bring everything together by implementing the DSC configurations necessary to bring a new server online. There are a lot of resources available for DSC but it may be that you want to do something for which there isn’t a resource – now you have to write your own. The easiest way to do this is to use PowerShell classes (new to PowerShell 5.0). We’ll work through creating a using a new resource. "
+              de: "DSC is a ‘make it so’ technology – you declare what you want the server configuration to be then PowerShell and DSC make it happen. There are a number of components in DSC you need to understand – push/pull servers; configurations; resources and mof files. In this workshop discover how to get started with DSC and how to make the most of this technology. Along the way you can take your first steps into the brave new world of devops.  DSC provides a way into ‘Infrastructure as Code’. We’ll bring everything together by implementing the DSC configurations necessary to bring a new server online. There are a lot of resources available for DSC but it may be that you want to do something for which there isn’t a resource – now you have to write your own. The easiest way to do this is to use PowerShell classes (new to PowerShell 5.0). We’ll work through creating a using a new resource."
+              en: "DSC is a ‘make it so’ technology – you declare what you want the server configuration to be then PowerShell and DSC make it happen. There are a number of components in DSC you need to understand – push/pull servers; configurations; resources and mof files. In this workshop discover how to get started with DSC and how to make the most of this technology. Along the way you can take your first steps into the brave new world of devops.  DSC provides a way into ‘Infrastructure as Code’. We’ll bring everything together by implementing the DSC configurations necessary to bring a new server online. There are a lot of resources available for DSC but it may be that you want to do something for which there isn’t a resource – now you have to write your own. The easiest way to do this is to use PowerShell classes (new to PowerShell 5.0). We’ll work through creating a using a new resource."
             language: English
             name: "Desired State Configuration Quick Start"
             speaker: "Richard Siddaway"
@@ -74,7 +74,7 @@ days:
             speaker: "Holger Voges"
           -
             description:
-              de: ""
+              de: "CIM (WMI) has been around since Windows NT 4 but has a reputation for being difficult to work with. In this deep dive you’ll learn about the new CIM API introduced in PowerShell 3.0; the differences between the WMI cmdlets and the CIM cmdlets; discovering CIM classes and getting the most from the CIM cmdlets. You’ll learn the problems of working with CIM and how you can overcome them.  CIM sessions are similar to PowerShell remoting sessions but only for use with the CIM cmdlets (so why do so many cmdlets in Windows 8,and later, have a CimSession parameter– come to the workshop and find out). CIM sessions enable you  work with remote machines and can, in some circumstances survive a reboot on the target machine. By the end of the workshop you’ll have deep understanding of CIM that will enable you get the most from this Cinderella technology."
               en: "CIM (WMI) has been around since Windows NT 4 but has a reputation for being difficult to work with. In this deep dive you’ll learn about the new CIM API introduced in PowerShell 3.0; the differences between the WMI cmdlets and the CIM cmdlets; discovering CIM classes and getting the most from the CIM cmdlets. You’ll learn the problems of working with CIM and how you can overcome them.  CIM sessions are similar to PowerShell remoting sessions but only for use with the CIM cmdlets (so why do so many cmdlets in Windows 8,and later, have a CimSession parameter– come to the workshop and find out). CIM sessions enable you  work with remote machines and can, in some circumstances survive a reboot on the target machine. By the end of the workshop you’ll have deep understanding of CIM that will enable you get the most from this Cinderella technology."
             language: English
             name: "CIM Deep Dive"
@@ -114,7 +114,7 @@ days:
         tracks: 
           - 
             description: 
-              de: ""
+              de: "In this keynote, we take a look at how PowerShell evolved from Version 1 in 2006 to Version 5 today. Tobias highlights and demos the key features introduced in each version and chats with PowerShell inventor, mastermind and Microsoft Technical Fellow Jeffrey Snover about his motifs behind the features and how they unfold Jeffreys vision of 'Monadology' that he borrowed from the great philosopher Leibniz. This keynote will provide you with a clear understanding of how all these PowerShell versions differ, how the features introduced build upon each other and resemble the foundation of many of the new features in PowerShell 5. It is the perfect primer for the remaining conference and the specialty talks that follow."
               en: "In this keynote, we take a look at how PowerShell evolved from Version 1 in 2006 to Version 5 today. Tobias highlights and demos the key features introduced in each version and chats with PowerShell inventor, mastermind and Microsoft Technical Fellow Jeffrey Snover about his motifs behind the features and how they unfold Jeffreys vision of 'Monadology' that he borrowed from the great philosopher Leibniz. This keynote will provide you with a clear understanding of how all these PowerShell versions differ, how the features introduced build upon each other and resemble the foundation of many of the new features in PowerShell 5. It is the perfect primer for the remaining conference and the specialty talks that follow."
             language: English
             name: "Keynote - 10 Years with PowerShell:<br>An evolutionary journey in the light of Leibniz and Monadology"
@@ -126,8 +126,8 @@ days:
         tracks: 
           - 
             description: 
-              de: ""
-              en: ""
+              de: "Session Details to be Determined"
+              en: "Session Details to be Determined"
             language: English
             name: TBD
             speaker: "Bruce Payette"
@@ -155,7 +155,11 @@ days:
         tracks: 
           - 
             description: 
-              de: "Session description in German"
+              de: "Recent intrusion into the networks of organizations like Office of Personnel Management, Sony, JPMorgan Chase, and British Airways have shown that the question isn’t if your organization will be targeted, but when. With these attacks and many others in recent years, incident response teams have had to rapidly change tactics from the image-and-forget methodology to live box forensics and containment. 
+              During these engagements, forensic analysts must actively track and monitor an adversary in their network while preventing the adversary from recognizing detection but most tools are not up to the job. 
+              PowerShell brings the flexibility and in-memory nature to defenders to tackle live threats.
+              In this talk, I will cover how my project, PowerForensics, can provide the Digital Forensics/Incident Response community with an all in one toolset for attack response and investigation. By leveraging PowerShell’s access to the Windows API and .NET framework, PowerForensics provides investigators with a forensically sound “live” 
+              investigation platform without the need to image the hard drive. I’ll cover the background and overview of PowerForensics, including how its various capabilities can facilitate the investigation of advanced actors at scale. Finally, I’ll cap off with a complex demo, showing how PowerForensics can help blue teams investigate the real attacks they’re now facing."
               en: "Recent intrusion into the networks of organizations like Office of Personnel Management, Sony, JPMorgan Chase, and British Airways have shown that the question isn’t if your organization will be targeted, but when. With these attacks and many others in recent years, incident response teams have had to rapidly change tactics from the image-and-forget methodology to live box forensics and containment. 
               During these engagements, forensic analysts must actively track and monitor an adversary in their network while preventing the adversary from recognizing detection but most tools are not up to the job. 
               PowerShell brings the flexibility and in-memory nature to defenders to tackle live threats.
@@ -176,24 +180,24 @@ days:
         tracks: 
           - 
             description: 
-              de: ""
-              en: ""
+              de: "Session Details to be Determined"
+              en: "Session Details to be Determined"
             language: English
             name: TBD
             speaker: "Jeffery Snover"
           - 
             description: 
-              de: ""
-              en: ""
+              de: "Session Details to be Determined"
+              en: "Session Details to be Determined"
             language: German
             name: TBD
-            speaker: ""
+            speaker: "TBD"
       - 
         time: "15:30 - 16:30"
         tracks: 
           - 
             description: 
-              de: ""
+              de: "This session will be an intro to DSC pull server/pull server as an Azure service, how to onboard nodes, simple example to show full workflow, complex example to include advanced features"
               en: "This session will be an intro to DSC pull server/pull server as an Azure service, how to onboard nodes, simple example to show full workflow, complex example to include advanced features"
             language: English
             name: "Azure Automation DSC"
@@ -210,7 +214,7 @@ days:
         tracks: 
           - 
             description: 
-              de: ""
+              de: "Over the past few years, attackers have started to realize that the same aspects of PowerShell that make it an excellent Windows automation solution also make it an ideal attack platform. The Empire project aims to bring together various offensive projects into a fully-functional malware agent (written purely in PowerShell) that can be used offensively by red teams and used to train blue teams to defend against these types of attacks. Empire implements the ability to control remote machines without needing powershell.exe and includes nearly all the capabilities of a traditional remote access tool (RAT)- credential stealing, keylogging, screenshoting, etc. but allows for faster development and extensibility than traditional compiled malware. We’ll also cover the forensic disk and memory footprints of the agent, and how how teams can detect and stop offensive toolsets like Empire."
               en: "Over the past few years, attackers have started to realize that the same aspects of PowerShell that make it an excellent Windows automation solution also make it an ideal attack platform. The Empire project aims to bring together various offensive projects into a fully-functional malware agent (written purely in PowerShell) that can be used offensively by red teams and used to train blue teams to defend against these types of attacks. Empire implements the ability to control remote machines without needing powershell.exe and includes nearly all the capabilities of a traditional remote access tool (RAT)- credential stealing, keylogging, screenshoting, etc. but allows for faster development and extensibility than traditional compiled malware. We’ll also cover the forensic disk and memory footprints of the agent, and how how teams can detect and stop offensive toolsets like Empire."
             language: English
             name: "Building an Empire with PowerShell"
@@ -279,14 +283,18 @@ days:
             speaker: "Dr. Holger Schwichtenberg"
           - 
             description: 
-              de: ""
-              en: ""
+              de: "Windows Containers are a new lightweight virtualization option in Windows Server 2016. In this session you’ll be introduced to Windows Containers and shown the difference between a Container and virtual machine.  You’ll learn how to configure a machine to support containers, how to create and manage containers using the PowerShell Container module. Containers are available on Linux machines and you’ll learn how manage Windows or Linux based containers using the Docker API.  This will be a code heavy session with a maximum of demonstration and minimum of slides."
+              en: "Windows Containers are a new lightweight virtualization option in Windows Server 2016. In this session you’ll be introduced to Windows Containers and shown the difference between a Container and virtual machine.  You’ll learn how to configure a machine to support containers, how to create and manage containers using the PowerShell Container module. Containers are available on Linux machines and you’ll learn how manage Windows or Linux based containers using the Docker API.  This will be a code heavy session with a maximum of demonstration and minimum of slides."
             language: English
-            name: Containers vs. Virtual Machines - Session 1
+            name: Creating and Managing Windows Containers
             speaker: Richard Siddaway
           - 
             description: 
-              de: ""
+              de: "Could you just tell me……….? This may cost 10 seconds of time or it may take several hours but it will definitely stop the current task and impact its completion
+              A SQL DBA will be required to provide a myriad of information in many different ways to many different types of people, answering questions from technical teams, technology teams, other parts of the business as well as directors and external parties. 
+              In this session you will learn the why, what and how of automating the gathering, storing and displaying of information enabling self-service and reducing the interruptive calls on your time whilst ensuring that the data is correct and trustworthy. I will also show you how you can use this to enable consistency across your estate. This session will be of benefit to the Accidental DBAs as well as DBAs looking after large estates
+              The majority of the session will concentrate on the way I use PowerShell to gather the information and store it. I will also show you how to enable self-service with natural language query using PowerBi.
+              You will leave the session with all of the tools you need to return to work and convince your boss this is a worthwhile use of your time and to implement this solution to provide a modern way of providing accurate information about your estate"
               en: "Could you just tell me……….? This may cost 10 seconds of time or it may take several hours but it will definitely stop the current task and impact its completion
               A SQL DBA will be required to provide a myriad of information in many different ways to many different types of people, answering questions from technical teams, technology teams, other parts of the business as well as directors and external parties. 
               In this session you will learn the why, what and how of automating the gathering, storing and displaying of information enabling self-service and reducing the interruptive calls on your time whilst ensuring that the data is correct and trustworthy. I will also show you how you can use this to enable consistency across your estate. This session will be of benefit to the Accidental DBAs as well as DBAs looking after large estates
@@ -297,7 +305,7 @@ days:
             speaker: "Rob Sewell"
           - 
             description: 
-              de: ""
+              de: "Since the beginning, AD Service Admins have struggled to delegate Domain Controller management permissions to different support teams. Its always been a requirement, whether to enable Follow-the-Sun support or to free up senior Admin time to do more value-added tasks or something along those lines. Sadly, while well intentioned, it has always led to a battle because Domain Controller delegation has never been straightforward. It's almost a case of granting Domain Admin rights or Bust"
               en: "Since the beginning, AD Service Admins have struggled to delegate Domain Controller management permissions to different support teams. Its always been a requirement, whether to enable Follow-the-Sun support or to free up senior Admin time to do more value-added tasks or something along those lines. Sadly, while well intentioned, it has always led to a battle because Domain Controller delegation has never been straightforward. It's almost a case of granting Domain Admin rights or Bust"
             language: English
             name: "JEA: Ending 15 years of Pain for the Active Directory Admin"
@@ -314,14 +322,18 @@ days:
             speaker: "Rinon Belegu"
           - 
             description: 
-              de: ""
-              en: ""
+              de: "Windows Containers are a new lightweight virtualization option in Windows Server 2016. In this session you’ll learn about the sorts of applications that are supported in Windows containers as well as how to configure containers and install applications. Many organizations are investing a devops approach and you’ll learn how containers can be used to easily move applications through development, testing and into production. This will be a code heavy session with a maximum of demonstration and minimum of slides."
+              en: "Windows Containers are a new lightweight virtualization option in Windows Server 2016. In this session you’ll learn about the sorts of applications that are supported in Windows containers as well as how to configure containers and install applications. Many organizations are investing a devops approach and you’ll learn how containers can be used to easily move applications through development, testing and into production. This will be a code heavy session with a maximum of demonstration and minimum of slides."
             language: English
-            name: Containers vs. Virtual Machines - Session 2
+            name: Managing applications in Windows Containers
             speaker: Richard Siddaway
           - 
             description: 
-              de: ""
+              de: "Could you just tell me……….? This may cost 10 seconds of time or it may take several hours but it will definitely stop the current task and impact its completion
+              A SQL DBA will be required to provide a myriad of information in many different ways to many different types of people, answering questions from technical teams, technology teams, other parts of the business as well as directors and external parties. 
+              In this session you will learn the why, what and how of automating the gathering, storing and displaying of information enabling self-service and reducing the interruptive calls on your time whilst ensuring that the data is correct and trustworthy. I will also show you how you can use this to enable consistency across your estate. This session will be of benefit to the Accidental DBAs as well as DBAs looking after large estates
+              The majority of the session will concentrate on the way I use PowerShell to gather the information and store it. I will also show you how to enable self-service with natural language query using PowerBi.
+              You will leave the session with all of the tools you need to return to work and convince your boss this is a worthwhile use of your time and to implement this solution to provide a modern way of providing accurate information about your estate"
               en: "Could you just tell me……….? This may cost 10 seconds of time or it may take several hours but it will definitely stop the current task and impact its completion
               A SQL DBA will be required to provide a myriad of information in many different ways to many different types of people, answering questions from technical teams, technology teams, other parts of the business as well as directors and external parties. 
               In this session you will learn the why, what and how of automating the gathering, storing and displaying of information enabling self-service and reducing the interruptive calls on your time whilst ensuring that the data is correct and trustworthy. I will also show you how you can use this to enable consistency across your estate. This session will be of benefit to the Accidental DBAs as well as DBAs looking after large estates
@@ -332,8 +344,8 @@ days:
             speaker: "Rob Sewell"
           - 
             description: 
-              de: ""
-              en: ""
+              de: "Active Directory has been covered from a system administration aspect for as long as it has existed. However, much less information exists on how adversaries abuse and backdoor AD, leaving many defenders blind to the attacks being executed in their own environment. This talk will cover Active Directory from an offensive perspective, illustrating ways that attackers move through Windows networks with ease. PowerView (the PowerShell domain enumeration tool) will be highlighted, including how to use it for local administrator enumeration, domain trust hopping, user hunting, ACL auditing, and more. Much of PowerView can be used from a defensive perspective as well, allowing defenders to enumerate and plug holes in their networks before attackers find them."
+              en: "Active Directory has been covered from a system administration aspect for as long as it has existed. However, much less information exists on how adversaries abuse and backdoor AD, leaving many defenders blind to the attacks being executed in their own environment. This talk will cover Active Directory from an offensive perspective, illustrating ways that attackers move through Windows networks with ease. PowerView (the PowerShell domain enumeration tool) will be highlighted, including how to use it for local administrator enumeration, domain trust hopping, user hunting, ACL auditing, and more. Much of PowerView can be used from a defensive perspective as well, allowing defenders to enumerate and plug holes in their networks before attackers find them."
             language: English
             name: "Offensive Active Directory"
             speaker: "Will Harmjoy"
@@ -356,21 +368,21 @@ days:
             speaker: "Christian Krüger und Waldemar Schmidt"
           - 
             description: 
-              de: ""
+              de: "More and more PowerShell resources are being published as open source projects on GitHub. Most PowerShell enthusiasts have got the and started to put their work in source control but not all feel comfortable to contribute to a public project hosted by strangers. In this session Simon Wåhlin will share his experience of contributing to public repositories and show the process of working with git from the command line. Attend to listen and maybe learn something or, even better, attend and share your experience! Because that's what the community is really all about, sharing experiences"
               en: "More and more PowerShell resources are being published as open source projects on GitHub. Most PowerShell enthusiasts have got the and started to put their work in source control but not all feel comfortable to contribute to a public project hosted by strangers. In this session Simon Wåhlin will share his experience of contributing to public repositories and show the process of working with git from the command line. Attend to listen and maybe learn something or, even better, attend and share your experience! Because that's what the community is really all about, sharing experiences"
             language: English
             name: "Get-Contributing - Contributing to community resources"
             speaker: "Simon Wahlin"
           - 
             description: 
-              de: ""
+              de: "Automate management tasks like backup, find performance bottlenecks and resolve them, strengthen the security level of your servers, save PowerShell output in SQL Server, get data from SQL Server to process in PowerShell, and much more."
               en: "Automate management tasks like backup, find performance bottlenecks and resolve them, strengthen the security level of your servers, save PowerShell output in SQL Server, get data from SQL Server to process in PowerShell, and much more."
             language: English
             name: "SQL Server through PowerShell"
             speaker: "Dimitri Koens"
           - 
             description: 
-              de: ""
+              de: "In this session Jaap will show how setup protected event logging. This will be a demo heavy session in which Japp will show how to set up protected event logging, configuring the certificates required, describe what the pitfalls are and what the pros and cons of the different configuration options are."
               en: "In this session Jaap will show how setup protected event logging. This will be a demo heavy session in which Japp will show how to set up protected event logging, configuring the certificates required, describe what the pitfalls are and what the pros and cons of the different configuration options are."
             language: English
             name: "Lockdown your System - Protected event logging"
@@ -406,7 +418,14 @@ days:
             speaker: "Thorsten Butz"
           - 
             description: 
-              de: ""
+              de: "Come on a journey from The bloke that wrote some scripts to a professional solution for a whole IT team.
+              A session for Powershell beginners and those wishing to improve how their team use PowerShell
+              Each organization requires specific tasks that can be accomplished using PowerShell. I will show you how you can achieve this by demonstrating 
+              An easy way to learn the syntax 
+              How to explore objects with Powershell and turn your one off scripts into shareable functions 
+              How to ensure that your team can easily and quickly make use of and contribute to PowerShell solutions 
+ 
+              A fast-paced session with ideas and discussion points for you to take back to work"
               en: "Come on a journey from The bloke that wrote some scripts to a professional solution for a whole IT team.
               A session for Powershell beginners and those wishing to improve how their team use PowerShell
               Each organization requires specific tasks that can be accomplished using PowerShell. I will show you how you can achieve this by demonstrating 
@@ -420,7 +439,7 @@ days:
             speaker: "Rob Sewell"
           - 
             description: 
-              de: ""
+              de: "-WhatIf migrating an entire SQL Server instance was as simple as executing a single cmdlet? In this session, you'll learn about the challenges of SQL Server migrations using native tools, and how PowerShell can be used to simplify the entire process."
               en: "-WhatIf migrating an entire SQL Server instance was as simple as executing a single cmdlet? In this session, you'll learn about the challenges of SQL Server migrations using native tools, and how PowerShell can be used to simplify the entire process."
             language: English
             name: "Simplifying SQL Server Migrations using PowerShell"
@@ -444,7 +463,11 @@ days:
             speaker: "Rinon Belegu"
           - 
             description: 
-              de: ""
+              de: "Pester is an excellent tool, but its value depends on using it to its fullest potential. It's designed for test-driven development, but few people use it that way.
+
+In this Pester deep-dive, June introduces the concept of test-driven development, shows how to implement these concepts in a scalable process, and runs through several real-world scenarios using PowerShell Help as a specification and test generator, and Pester in its most powerful mode as a test-driven development tool.
+
+We'll also visit the PowerShell.org Community Build Server and learn how to set up automated continuous Pester testing of open-source projects. You'll leave with a clear sense of the value of this discipline and its benefits for large- and small-scale professional PowerShell development."
               en: "Pester is an excellent tool, but its value depends on using it to its fullest potential. It's designed for test-driven development, but few people use it that way.
 
 In this Pester deep-dive, June introduces the concept of test-driven development, shows how to implement these concepts in a scalable process, and runs through several real-world scenarios using PowerShell Help as a specification and test generator, and Pester in its most powerful mode as a test-driven development tool.
@@ -479,14 +502,14 @@ We'll also visit the PowerShell.org Community Build Server and learn how to set 
             speaker: "Holger Voges"
           - 
             description: 
-              de: ""
+              de: "In this session we will Deep dive into using a PowerShell host written for WinDbg to enable advanced debugging scenarios."
               en: "In this session we will Deep dive into using a PowerShell host written for WinDbg to enable advanced debugging scenarios."
             language: English
             name: "PowerShell in WinDbg"
             speaker: "Staffan Gustafsson"
           - 
             description: 
-              de: ""
+              de: "This session will cover both the imperative (cmdlets) and declarative (templates) approach, applying to Azure and Azure Stack"
               en: "This session will cover both the imperative (cmdlets) and declarative (templates) approach, applying to Azure and Azure Stack"
             language: English
             name: "Azure Resource Manager"
@@ -510,22 +533,25 @@ We'll also visit the PowerShell.org Community Build Server and learn how to set 
             speaker: "David das Neves"
           - 
             description: 
-              de: ""
-              en: "In this session I will go through a practical example of how a collegue of mine and me planned and
-              executed a large complex scripting project. This is not going to be a correct answer of how to do it, but an example of how we solved it that hopefully can give you some tips for similar projects."
+              de: "In this session Øyvind will go through a practical example of how a collegue of mine and me planned and executed a large complex scripting project. This is not going to be a correct answer of how to do it, but an example of how we solved it that hopefully can give you some tips for similar projects."
+              en: "In this session Øyvind will go through a practical example of how a collegue of mine and me planned and executed a large complex scripting project. This is not going to be a correct answer of how to do it, but an example of how we solved it that hopefully can give you some tips for similar projects."
             language: English
             name: "A practical example of how to approach (and deliver) a large and complex script project"
             speaker: "Øyvind Kallstad"
           - 
             description: 
-              de: ""
+              de: "In this session Jaap will discuss some of the different methods of querying remote systems for information as well as the performance and security considerations of each approach. From there on Jaap will show how parallelize queries and how to reduce the workload on both the local as well as the remote system. The session will go beyond querying from there on and show how to manage systems complete with demos."
               en: "In this session Jaap will discuss some of the different methods of querying remote systems for information as well as the performance and security considerations of each approach. From there on Jaap will show how parallelize queries and how to reduce the workload on both the local as well as the remote system. The session will go beyond querying from there on and show how to manage systems complete with demos."
             language: English
             name: "CIM, OMI, WMI - Querying and Considerations"
             speaker: "Jaap Brasser"
           - 
             description: 
-              de: ""
+              de: "In today’s assume breach school of thought, the defensive stance of an enterprise is often left to an expensive and bloated host-based agent. 
+              As it turns out, however, Microsoft already provides an agent that can detect attacker activity in real-time… and it’s free! This agent persists across reboots and can execute commands in response to nearly any conceivable operating system event. Windows Management Instrumentation (WMI) permanent event subscriptions provide this functionality and can be used to transform any machine dating back to Windows 95 into a powerful host-based intrusion detection system (HIDS). 
+              Permanent WMI event queries are notoriously difficult to craft, however. 
+              Fortunately, PowerShell can come to our rescue!
+              Uproot is an open source PowerShell module specifically tailored to leverage WMI permanent event subscriptions, transforming any Windows system into a powerful HIDS. In this presentation, we will briefly cover WMI permanent event subscriptions, Uproot’s architecture, and how to configure it as a HIDS to monitor your network for attacks. We will finish the presentation with a practical demonstration of Uproot detecting a simulated real-world attack."
               en: "In today’s assume breach school of thought, the defensive stance of an enterprise is often left to an expensive and bloated host-based agent. 
               As it turns out, however, Microsoft already provides an agent that can detect attacker activity in real-time… and it’s free! This agent persists across reboots and can execute commands in response to nearly any conceivable operating system event. Windows Management Instrumentation (WMI) permanent event subscriptions provide this functionality and can be used to transform any machine dating back to Windows 95 into a powerful host-based intrusion detection system (HIDS). 
               Permanent WMI event queries are notoriously difficult to craft, however. 
@@ -593,14 +619,14 @@ We'll also visit the PowerShell.org Community Build Server and learn how to set 
             speaker: "Ben Gelens"
           - 
             description: 
-              de: ""
+              de: "You can manage Hyper-V servers through Hyper-V manager. Managing multiple Hyper-V servers can be done with the same tool, but it's very cumbersome, and some interesting features are only exposed through PowerShell. Learn in this session about: manage multiple Hyper-V hosts as a group, measure and optimize performance of your hosts and VMs, enable hidden networking features, customize Hyper-V Replica, integrate with Azure, and much more"
               en: "You can manage Hyper-V servers through Hyper-V manager. Managing multiple Hyper-V servers can be done with the same tool, but it's very cumbersome, and some interesting features are only exposed through PowerShell. Learn in this session about: manage multiple Hyper-V hosts as a group, measure and optimize performance of your hosts and VMs, enable hidden networking features, customize Hyper-V Replica, integrate with Azure, and much more"
             language: English
             name: "Unleash the Power of Hyper-V through PowerShell (and find some hidden gems on the way)"
             speaker: "Dimitri Koens"
           - 
             description: 
-              de: ""
+              de: "Working with XML in PowerShell can come in handy in many scenarios. In this session I will show you some tips and tricks that may make you more effective when working with XML as a structured text document. Expect “implicit foreach”, XPath and XSLT on the horizon! I will do my best to make sure that you know how to use them when you get back home."
               en: "Working with XML in PowerShell can come in handy in many scenarios. In this session I will show you some tips and tricks that may make you more effective when working with XML as a structured text document. Expect “implicit foreach”, XPath and XSLT on the horizon! I will do my best to make sure that you know how to use them when you get back home."
             language: English
             name: "XML is your friend!"
@@ -624,14 +650,16 @@ We'll also visit the PowerShell.org Community Build Server and learn how to set 
             speaker: "Kai Wilke & Waldemar Schmidt"
           - 
             description: 
-              de: ""
+              de: "How do you bring the benefits of Configuration Management via DSC to 3rd party systems & Applications? In this presnetation Benjamin will take a look at how common APIs work & how you can create custom DSC Resource wrappers quickly & easily so that you can integrate these systems with your standard DSC configurations"
               en: "How do you bring the benefits of Configuration Management via DSC to 3rd party systems & Applications? In this presnetation Benjamin will take a look at how common APIs work & how you can create custom DSC Resource wrappers quickly & easily so that you can integrate these systems with your standard DSC configurations"
             language: English
             name: "Pimp My Resources: Controlling APIs via DSC"
             speaker: "Benjamin Hodge"
           - 
             description: 
-              de: ""
+              de: "Although logging PowerShell activity for security can be implemented by 'Over-the-shoulder transcription' in v5, you may want to add some advanced logging to your scripts, while minimizing log management and keeping it consistent across your environments. 
+Using the log4net library as a base and leveraging it with PowerShell, the log4ps module enables you to implement structured logging for your scripts, driven by XML files, picking up changes on the fly without the need to restart your script.
+With no more code than you already have, you can send logs to files, with a cap on their size, roll them automatically, use buffers, time stamps, context and so on. But if you really want to push further, by simply editing the XML definition you can log to EventLog, SMTP, Databases, SysLog, TCP Sink, UDP endpoints, ELMAH, Logstash for elastic search, Loggly, AWS or Message Queues directly from your script!"
               en: "Although logging PowerShell activity for security can be implemented by 'Over-the-shoulder transcription' in v5, you may want to add some advanced logging to your scripts, while minimizing log management and keeping it consistent across your environments. 
 Using the log4net library as a base and leveraging it with PowerShell, the log4ps module enables you to implement structured logging for your scripts, driven by XML files, picking up changes on the fly without the need to restart your script.
 With no more code than you already have, you can send logs to files, with a cap on their size, roll them automatically, use buffers, time stamps, context and so on. But if you really want to push further, by simply editing the XML definition you can log to EventLog, SMTP, Databases, SysLog, TCP Sink, UDP endpoints, ELMAH, Logstash for elastic search, Loggly, AWS or Message Queues directly from your script!"
@@ -640,7 +668,7 @@ With no more code than you already have, you can send logs to files, with a cap 
             speaker: "Gael Colas"
           - 
             description: 
-              de: ""
+              de: "A look at how Runspaces and a runspace pool can be used to implement Invoke-Parallel: a cmdlet in C# that invokes multiple instances of runspaces concurrently."
               en: "A look at how Runspaces and a runspace pool can be used to implement Invoke-Parallel: a cmdlet in C# that invokes multiple instances of runspaces concurrently."
             language: English
             name: "Parallelizing PowerShell"
@@ -664,7 +692,11 @@ With no more code than you already have, you can send logs to files, with a cap 
             speaker: "Kai Wilke & Waldemar Schmidt"
           - 
             description: 
-              de: ""
+              de: "DSC v1 lacked support for real enterprise scenarios where more than one person or team is responsible for deploying configuration of a system or solution. 
+
+DSC v2 solves this with the introduction of partial configurations. Partial configurations allow departmental delegation and incremental configuration 
+
+updates. Cross-machine synchronization along with partial configurations can be used to build complex multi-tier solution infrastructures. This session demonstrates this and dives deep into the features."
               en: "DSC v1 lacked support for real enterprise scenarios where more than one person or team is responsible for deploying configuration of a system or solution. 
 
 DSC v2 solves this with the introduction of partial configurations. Partial configurations allow departmental delegation and incremental configuration 
@@ -675,15 +707,15 @@ updates. Cross-machine synchronization along with partial configurations can be 
             speaker: "Ravikanth Chaganti"
           - 
             description: 
-              de: ""
-              en: "Using my module, Import-CsvToSql, you can import up to 200,000 rows a second. But it didn't start out that way. In this session, I'll show you some best practices and techniques that will help make your PowerShell scripts super fast."
+              de: "Using the module, Import-CsvToSql which is developed by Chrissie, you can import up to 200,000 rows a second. But it didn't start out that way. In this session, I'll show you some best practices and techniques that will help make your PowerShell scripts super fast."
+              en: "Using my module, Import-CsvToSql which is developed by Chrissie, you can import up to 200,000 rows a second. But it didn't start out that way. In this session, I'll show you some best practices and techniques that will help make your PowerShell scripts super fast."
             language: English
             name: "PowerShell and SQL Server: My Journey to 200,000 rows a second"
             speaker: "Chrissy LeMaire"
           - 
             description: 
-              de: ""
-              en: "I will show you my journey in optimizing a script to enumerate millions of files and folders. I will start by using PowerShell, dive into .NET and end up in the wonderful world of the Win32 API. You will be amazed!"
+              de: "Øyvind will show you my journey in optimizing a script to enumerate millions of files and folders. I will start by using PowerShell, dive into .NET and end up in the wonderful world of the Win32 API. You will be amazed!"
+              en: "Øyvind will show you my journey in optimizing a script to enumerate millions of files and folders. I will start by using PowerShell, dive into .NET and end up in the wonderful world of the Win32 API. You will be amazed!"
             language: English
             name: "Chasing the seconds: Optimizing file enumeration by diving deep into the Windows API"
             speaker: "Øyvind Kallstad"
@@ -728,14 +760,16 @@ PowerShell: The power of Developers with the usability Operations needs."
             speaker: "Jeff Wouters"
           - 
             description: 
-              de: ""
+              de: "No, this is a new attempt of creating new viral marketing campaign. This is a serious question we all should ask ourselves each time we change a piece of code. Making sure that not only the intended new feature or functionality works but also making sure that all previous functionality is intact can be a frustrating and time consuming task. But don't worry, Pester is here to save us from much of those tedious tasks! Get started with unit testing your code today by learning the basics of the Pester framework."
               en: "No, this is a new attempt of creating new viral marketing campaign. This is a serious question we all should ask ourselves each time we change a piece of code. Making sure that not only the intended new feature or functionality works but also making sure that all previous functionality is intact can be a frustrating and time consuming task. But don't worry, Pester is here to save us from much of those tedious tasks! Get started with unit testing your code today by learning the basics of the Pester framework."
             language: English
             name: "QA: Will it break?"
             speaker: "Simon Wahlin"
           - 
             description: 
-              de: ""
+              de: "Comment-based help is good start, but professional modules, including open-source projects and modules in PowerShell Gallery require more professional help.
+ 
+In this talk about implementing PowerShell Help for modules, we'll cover the basic and advanced features of XML help, including naming and locating files, supporting online help, implementing updatable help, and providing help in multiple spoken languages. We'll also cover a few basic troubleshooting scenarios and variations to comply with help system rules in different versions of Windows PowerShell."
               en: "Comment-based help is good start, but professional modules, including open-source projects and modules in PowerShell Gallery require more professional help.
  
 In this talk about implementing PowerShell Help for modules, we'll cover the basic and advanced features of XML help, including naming and locating files, supporting online help, implementing updatable help, and providing help in multiple spoken languages. We'll also cover a few basic troubleshooting scenarios and variations to comply with help system rules in different versions of Windows PowerShell."
@@ -761,7 +795,10 @@ In this talk about implementing PowerShell Help for modules, we'll cover the bas
             speaker: "Christian Krüger & Waldemar Schmidt"
           - 
             description: 
-              de: ""
+              de: "Using PowerShell and/or Desired State Configuration you're able to do 'infrastructure as code'.
+During this session I'll show you just how I've made that possible in my environment based on PowerShell, DSC, Git, Ansible and Azure.
+Using PowerShell and/or Desired State Configuration you're able to do 'infrastructure as code'.
+During this session I'll show you just how I've made that possible in my environment based on PowerShell, DSC, Git, Ansible and Azure."
               en: "Using PowerShell and/or Desired State Configuration you're able to do 'infrastructure as code'.
 During this session I'll show you just how I've made that possible in my environment based on PowerShell, DSC, Git, Ansible and Azure.
 Using PowerShell and/or Desired State Configuration you're able to do 'infrastructure as code'.
@@ -771,14 +808,15 @@ During this session I'll show you just how I've made that possible in my environ
             speaker: "Jeff Wouters"
           - 
             description: 
-              de: ""
+              de: "How much time do you spend planning a Powershell script or Module before starting to code it? If you're like most people the answer is probably pretty small (or even zero!). In this presentation Benjamin will show you how to create better solutions to real world problems using simple techniques such as Pseudo-code & UML.  Not only will you get the solution right faster but it'll be easier to maintain & support."
               en: "How much time do you spend planning a Powershell script or Module before starting to code it? If you're like most people the answer is probably pretty small (or even zero!). In this presentation Benjamin will show you how to create better solutions to real world problems using simple techniques such as Pseudo-code & UML.  Not only will you get the solution right faster but it'll be easier to maintain & support."
             language: English
             name: "Measure Twice; Cut Once: Designing Better Code"
             speaker: "Benjamin Hodge"
           - 
             description: 
-              de: ""
+              de: "In this session we will uncover the secret world of Regular Expressions and see how and when we can or should use it in PowerShell. No knowledge of Regex is needed to follow this session as we will
+start with the basics and learn through demos and examples."
               en: "In this session we will uncover the secret world of Regular Expressions and see how and when we can or should use it in PowerShell. No knowledge of Regex is needed to follow this session as we will
 start with the basics and learn through demos and examples."
             language: English
@@ -803,14 +841,14 @@ start with the basics and learn through demos and examples."
             speaker: "Thorsten Butz"
           - 
             description: 
-              de: ""
+              de: "This talk will showcase management via WMI, PowerShell, and Desired State Configuration including remote script authoring, remote debugging, improved file transfer"
               en: "This talk will showcase management via WMI, PowerShell, and Desired State Configuration including remote script authoring, remote debugging, improved file transfer"
             language: English
             name: "Remote Management Nano"
             speaker: Aleksandar Nikolic
           - 
             description: 
-              de: ""
+              de: "PowerShell DSC as it stands now has some limitations. In this session I will try to explain what these limitations are and how other tools can help us address them. We will take a closer look at Octopus and how it can work hand in hand with DSC to solve problems around “getting job done” in dynamic environments."
               en: "PowerShell DSC as it stands now has some limitations. In this session I will try to explain what these limitations are and how other tools can help us address them. We will take a closer look at Octopus and how it can work hand in hand with DSC to solve problems around “getting job done” in dynamic environments."
             language: English
             name: "PowerShell DSC and Octopus: better together"
@@ -834,7 +872,13 @@ start with the basics and learn through demos and examples."
             speaker: "Holger Voges"
           - 
             description: 
-              de: ""
+              de: "Infrastructure as code represents the evolving trend in the data center deployment and configuration management. Infra as code preaches that the 
+
+infrastructure developers or administrators look at configuration of components as code and follow development practices such source control and unit 
+
+testing. However, this alone won't complete infra as code story. There must be an operations validation framework that follows infra as code. This session 
+
+intends to show how Pester can be used for not just unit testing of your code but also for operations validation. This is demonstrated by showcasing the power of Pester along with custom scripting to validate the configuration of heterogeneous systems in the solution."
               en: "Infrastructure as code represents the evolving trend in the data center deployment and configuration management. Infra as code preaches that the 
 
 infrastructure developers or administrators look at configuration of components as code and follow development practices such source control and unit 
@@ -847,7 +891,7 @@ intends to show how Pester can be used for not just unit testing of your code bu
             speaker: "Ravikanth Chaganti"
           - 
             description: 
-              de: ""
+              de: "Why should we even question this?  Of course the answer is, use both!  Let's look at how DSC and Chef can be used to build better infrastructure together, including what might be missing in your DSC-only environments."
               en: "Why should we even question this?  Of course the answer is, use both!  Let's look at how DSC and Chef can be used to build better infrastructure together, including what might be missing in your DSC-only environments."
             language: English
             name: Should I use Chef or DSC?
