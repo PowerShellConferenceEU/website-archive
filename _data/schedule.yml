@@ -176,22 +176,23 @@ days:
             name: "Deep Dive Powershell GUIs with XAML"
             speaker: "David das Neves"
       - 
-        time: "14:15 - 15:15"
+        time:  "14:15 - 15:15"
         tracks: 
           - 
             description: 
-              de: "Session Details to be Determined"
-              en: "Session Details to be Determined"
+              de: "Over the past few years, attackers have started to realize that the same aspects of PowerShell that make it an excellent Windows automation solution also make it an ideal attack platform. The Empire project aims to bring together various offensive projects into a fully-functional malware agent (written purely in PowerShell) that can be used offensively by red teams and used to train blue teams to defend against these types of attacks. Empire implements the ability to control remote machines without needing powershell.exe and includes nearly all the capabilities of a traditional remote access tool (RAT)- credential stealing, keylogging, screenshoting, etc. but allows for faster development and extensibility than traditional compiled malware. We’ll also cover the forensic disk and memory footprints of the agent, and how how teams can detect and stop offensive toolsets like Empire."
+              en: "Over the past few years, attackers have started to realize that the same aspects of PowerShell that make it an excellent Windows automation solution also make it an ideal attack platform. The Empire project aims to bring together various offensive projects into a fully-functional malware agent (written purely in PowerShell) that can be used offensively by red teams and used to train blue teams to defend against these types of attacks. Empire implements the ability to control remote machines without needing powershell.exe and includes nearly all the capabilities of a traditional remote access tool (RAT)- credential stealing, keylogging, screenshoting, etc. but allows for faster development and extensibility than traditional compiled malware. We’ll also cover the forensic disk and memory footprints of the agent, and how how teams can detect and stop offensive toolsets like Empire."
             language: English
-            name: TBD
-            speaker: "Jeffery Snover"
+            name: "Building an Empire with PowerShell"
+            speaker: "Will Harmjoy"
           - 
             description: 
-              de: "Session Details to be Determined"
-              en: "Session Details to be Determined"
+              de: "In 2016 wird Microsoft mit dem 'Nano Server' eine minimale Installationsoption anbieten, die ausschließlich remote administrieren lassen wird. Die PowerShell, auf dem Nano Server selbst in einer speziellen CoreCLR-Variante (.NET Core runtime) vorhanden, wird zum Dreh- und Angelpunkt der (Remote-) Verwaltung. In der Session werfen wir einen Blick auf den Lifecycle einer Nano Server-Installation, untersuchen die Auswirkungen der funktional beschränkten CoreCLR und stellen typische Automatisierungsbeispiele vor."
+              en: "In 2016 wird Microsoft mit dem 'Nano Server' eine minimale Installationsoption anbieten, die ausschließlich remote administrieren lassen wird. Die PowerShell, auf dem Nano Server selbst in einer speziellen CoreCLR-Variante (.NET Core runtime) vorhanden, wird zum Dreh- und Angelpunkt der (Remote-) Verwaltung. In der Session werfen wir einen Blick auf den Lifecycle einer Nano Server-Installation, untersuchen die Auswirkungen der funktional beschränkten CoreCLR und stellen typische Automatisierungsbeispiele vor."
             language: German
-            name: TBD
-            speaker: "TBD"
+            name: "Administration des NANO-Servers"
+            speaker: "Thorsten Butz"
+
       - 
         time: "15:30 - 16:30"
         tracks: 
@@ -214,18 +215,14 @@ days:
         tracks: 
           - 
             description: 
-              de: "Over the past few years, attackers have started to realize that the same aspects of PowerShell that make it an excellent Windows automation solution also make it an ideal attack platform. The Empire project aims to bring together various offensive projects into a fully-functional malware agent (written purely in PowerShell) that can be used offensively by red teams and used to train blue teams to defend against these types of attacks. Empire implements the ability to control remote machines without needing powershell.exe and includes nearly all the capabilities of a traditional remote access tool (RAT)- credential stealing, keylogging, screenshoting, etc. but allows for faster development and extensibility than traditional compiled malware. We’ll also cover the forensic disk and memory footprints of the agent, and how how teams can detect and stop offensive toolsets like Empire."
-              en: "Over the past few years, attackers have started to realize that the same aspects of PowerShell that make it an excellent Windows automation solution also make it an ideal attack platform. The Empire project aims to bring together various offensive projects into a fully-functional malware agent (written purely in PowerShell) that can be used offensively by red teams and used to train blue teams to defend against these types of attacks. Empire implements the ability to control remote machines without needing powershell.exe and includes nearly all the capabilities of a traditional remote access tool (RAT)- credential stealing, keylogging, screenshoting, etc. but allows for faster development and extensibility than traditional compiled malware. We’ll also cover the forensic disk and memory footprints of the agent, and how how teams can detect and stop offensive toolsets like Empire."
+              de: "Session Details to be Determined"
+              en: "Session Details to be Determined"
             language: English
-            name: "Building an Empire with PowerShell"
-            speaker: "Will Harmjoy"
-          - 
-            description: 
-              de: "In 2016 wird Microsoft mit dem 'Nano Server' eine minimale Installationsoption anbieten, die ausschließlich remote administrieren lassen wird. Die PowerShell, auf dem Nano Server selbst in einer speziellen CoreCLR-Variante (.NET Core runtime) vorhanden, wird zum Dreh- und Angelpunkt der (Remote-) Verwaltung. In der Session werfen wir einen Blick auf den Lifecycle einer Nano Server-Installation, untersuchen die Auswirkungen der funktional beschränkten CoreCLR und stellen typische Automatisierungsbeispiele vor."
-              en: "In 2016 wird Microsoft mit dem 'Nano Server' eine minimale Installationsoption anbieten, die ausschließlich remote administrieren lassen wird. Die PowerShell, auf dem Nano Server selbst in einer speziellen CoreCLR-Variante (.NET Core runtime) vorhanden, wird zum Dreh- und Angelpunkt der (Remote-) Verwaltung. In der Session werfen wir einen Blick auf den Lifecycle einer Nano Server-Installation, untersuchen die Auswirkungen der funktional beschränkten CoreCLR und stellen typische Automatisierungsbeispiele vor."
-            language: German
-            name: "Administration des NANO-Servers"
-            speaker: "Thorsten Butz"
+            name: TBD
+            speaker: "Jeffery Snover"
+            span: true
+            spanLength: 2
+            
       - 
         time: "17:45 - 18:15"
         tracks: 
