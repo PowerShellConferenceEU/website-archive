@@ -2,21 +2,21 @@
     {
         "type": "photo",
         "category": "USA",
-        "thumbnail": "/img/speakers/JeffreySnover_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/JeffreySnover_200x300.jpg",
         "title": "Jeffrey Snover",
         "description": "Description text goes here."
     },
     {
         "type": "photo",
         "category": "Germany",
-        "thumbnail": "/img/speakers/TobiasWeltner_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/TobiasWeltner_200x300.jpg",
         "title": "Tobias Weltner",
         "description": "Germany-based Dr. Tobias Weltner is a long-term PowerShell MVP, creator of the 'PowerShell Conference EU', and a renown PowerShell teacher and developer. Throughout Europe, he trains staff and supports projects. <br><br>Tobias created the 'ISESteroids' dev extension for PowerShell professionals, has written 150+ IT books, and is on the editorial board of powershellmagazine.com. He also started the powershell.com online community and submits his famous daily 'PowerShell tip' over the past 9 years. <br><br>In his private life, as a Rotarian he supports international youth exchange and enjoys crew rowing. <br><br>Contact: tobias.weltner@email.de, Twitter @tobiaspsp, or visit his homepage www.powertheshell.com."
     },
     {
         "type": "photo",
         "category": "Germany",
-        "thumbnail": "/img/speakers/HolgerSchwichtenberg_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/HolgerSchwichtenberg_200x300.jpg",
         "title": "Holger Schwichtenberg",
         "description": "Description text goes here."
     },
@@ -37,14 +37,14 @@
     {
         "type": "photo",
         "category": "Germany",
-        "thumbnail": "/img/speakers/DavidDasNeves_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/DavidDasNeves_200x300.jpg",
         "title": "David das Neves",
         "description": "David das Neves works as Premier Field Engineer at Microsoft Germany in Munich. He gives workshops and supports the premier customers at the topics SCCM / MDM and Win10 Client. Before that David has been a former .Net developer and has therefore very strong understandings in development and automization techniques. He uses them today in combination with Powershell and tries to convince the people at the DevOps front. <br><br>Beside that he writes his own blog and is very active at the german Technet forum to help the people."
     },
     {
         "type": "photo",
         "category": "USA",
-        "thumbnail": "/img/speakers/WillSchroeder_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/WillSchroeder_200x300.jpg",
         "title": "Will Schroeder",
         "description": "Will Schroeder is a security researcher and redteamer for Veris Group’s Adaptive Threat Division. He has presented at a number of security conferences including Shmooon, Defcon, Derbycon and several Security BSides conferences on topics spanning AV-evasion, post-exploitation, red teaming tradecraft, and offensive PowerShell. <br><br>Will is a co-founder of the Veil-Framework, developed PowerView and PowerUp, is an active developer on the PowerSploit project, and is a co-founder and core developer of Empire, the PowerShell post-exploitation agent. He enjoys exploring the offensive capabilities of PowerShell and helping clients secure themselves against the “real” bad guys."
     },
@@ -58,7 +58,7 @@
     {
         "type": "photo",
         "category": "Netherlands",
-        "thumbnail": "/img/speakers/BenGelens_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/BenGelens_200x300.jpg",
         "title": "Ben Gelens",
         "description": "Ben Gelens is a PowerShell MVP and technical consultant at Inovativ in the Netherlands where he works as a member of the CloudOS team. While building clouds for his customers, Ben’s primary focus is automation and orchestration. As such, Ben has a great deal of field experience on all kinds of PowerShell subjects (e.g. Remoting, Tool making, DSC, SMA, Workflow) in all kinds of areas (e.g. Windows Azure Pack, Active Directory, Office 365, Server Management, Azure). <br><br>Ben is an active IT community participant and speaker. He is a member of the Hyper-V.nu community, a member of the Dutch PowerShell User Group and a contributing author for PowerShell magazine."
     },
@@ -72,7 +72,7 @@
     {
         "type": "photo",
         "category": "Germany",
-        "thumbnail": "/img/speakers/HolgerVoges_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/HolgerVoges_200x300.jpg",
         "title": "Holger Voges",
         "description": "Description text goes here."
     },
@@ -86,28 +86,28 @@
     {
         "type": "photo",
         "category": "United Kingdom",
-        "thumbnail": "/img/speakers/RobSewell_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/RobSewell_200x300.jpg",
         "title": "Rob Sewell",
         "description": "Rob is a SQL Server DBA with a passion for Powershell, Azure, Automation, and SQL (PaaS geddit?). He has volunteered and spoken at SQL community events through the UK and Europe and is a member of the committee that organises SQL Saturday Exeter. He is a proud supporter of the SQL and Powershell communities. <br><br>He relishes sharing and learning and can be found doing both via Twitter and his blog. He spends most of his time looking at a screen and loves to solve problems. He knows that looking at a screen so much is bad for him because his wife tells him so.  Thus, you can find him on the cricket field in the summer and flying a drone in the winter. <br><br>He has a fabulous beard."
     },
     {
         "type": "photo",
         "category": "",
-        "thumbnail": "/img/speakers/MatthewHitchcock_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/MatthewHitchcock_200x300.jpg",
         "title": "Matthew Hitchcock",
         "description": "Matthew is a PowerShell MVP (now Cloud & Datacenter Management) and works as a Consultant at Microsoft Singapore. He specializes in Hybrid Cloud (Azure & System Center), Identity Management (including Azure AD) and Datacenter Management projects. Matthew has spent most of his career in the Identity & Directory Services space, dealing with complex Identity and Migration scenarios including Roles Based Access, Directory Services Automation and Provisioning processes. <br><br>Matthew leads the Singapore PowerShell Group and contributes to the Windows IT Pro User Group. He is an honorary Scripting Guy and is a Technical Reviewer for publications on Group Policy and Windows PowerShell."
     },
     {
         "type": "photo",
         "category": "",
-        "thumbnail": "/img/speakers/RinonBelegu_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/RinonBelegu_200x300.jpg",
         "title": "Rinon Belegu",
         "description": "Description text goes here."
     },
     {
         "type": "photo",
         "category": "",
-        "thumbnail": "/img/speakers/ChristianKrueger_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/ChristianKrueger_200x300.jpg",
         "title": "Christian Krüger",
         "description": "Description text goes here."
     },
@@ -121,7 +121,7 @@
     {
         "type": "photo",
         "category": "Sweden",
-        "thumbnail": "/img/speakers/SimonWahlin_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/SimonWahlin_200x300.jpg",
         "title": "Simon Wåhlin",
         "description": "Simon Wåhlin is a consultant at Knowledge Factory in Stockholm, Sweden and has a focus on PowerShell and automation. He helps customers with both strategy, design and implementation of modern infrastructure solutions. <br><br>He also teaches PowerShell, hosts user group meetings, blogs and talks at conferences. With a background in IT-support and IT-operations and a strong interest for development he is trying to find his place in the gap between Dev and Ops."
     },
@@ -142,28 +142,28 @@
     {
         "type": "photo",
         "category": "",
-        "thumbnail": "/img/speakers/StephanKulla_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/StephanKulla_200x300.jpg",
         "title": "Stephan Kulla",
         "description": "Description text goes here."
     },
     {
         "type": "photo",
         "category": "USA",
-        "thumbnail": "/img/speakers/ChrissyLeMaire_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/ChrissyLeMaire_200x300.jpg",
         "title": "Chrissy LeMaire",
         "description": "Chrissy LeMaire is a Windows PowerShell MVP who has worked in IT for nearly 20 years. She currently serves as SQL Server DBA for NATO Special Ops in Belgium, and is pursuing an MS in Systems Engineering at Regis University. <br><br>In her spare time, she maintains her two websites, netnerds.net and RealCajunRecipes.com. She also contributes to the Hey, Scripting Guy! Blog and runs the Belgian PowerShell User Group with Luc Dekens. <br><br>You can follow her on Twitter at @cl."
     },
     {
         "type": "photo",
         "category": "Germany",
-        "thumbnail": "/img/speakers/ChristianLehrer_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/ChristianLehrer_200x300.jpg",
         "title": "Christian Lehrer",
         "description": "Description text goes here."
     },
     {
         "type": "photo",
         "category": "USA",
-        "thumbnail": "/img/speakers/JuneBlender_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/JuneBlender_200x300.jpg",
         "title": "June Blender",
         "description": "June Blender is a technology evangelist for SAPIEN Technologies, Inc., a Windows PowerShell MVP, an honorary Scripting Guy, and a PowerShell Hero. <br><br>She blogs, writes scripts and help, talks to conferences and groups, and teaches PowerShell at all levels. <br><br>In a previous life, she wrote the Get-Help content for Windows PowerShell 1.0 - 3.0, the Azure Active Directory SDK and Azure PowerShell Help, Windows Driver Kits, Windows Support Tools, and Windows Resource Kits. <br><br>She's is a frequent contributor to the Hey, Scripting Guy! Blog and PowerShell.org. <br><br>She lives in magnificent Escalante, Utah, where she works remotely when she's not out hiking, canyoneering, or convincing lost tourists to try Windows PowerShell. <br><br>You can follow her on Twitter at @juneb_get_help."
     },
@@ -177,28 +177,28 @@
     {
         "type": "photo",
         "category": "Sweden",
-        "thumbnail": "/img/speakers/StaffanGustafsson_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/StaffanGustafsson_200x300.jpg",
         "title": "Staffan Gustafsson",
         "description": "Staffan Gustafsson is a Software Developer and founder of PowerCode Consulting AB, specializing in advanced development and debugging on the Windows platform. He is interested in programming languages in general but specializes on C++, C# and PowerShell. <br><br>Most of his career, Staffan has been tinkering with debuggers, scripting them and writing extensions to them. After years of frustration with the limitations of CMD.exe, Staffan was an early adopter of PowerShell, and ever since the first beta, he has been exploring the platform and language with great joy. He shares his modules on github and the PowerShell gallery."
     },
     {
         "type": "photo",
         "category": "Norway",
-        "thumbnail": "/img/speakers/OyvindKallstad_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/OyvindKallstad_200x300.jpg",
         "title": "Øyvind Kallstad",
         "description": "Description text goes here."
     },
     {
         "type": "photo",
         "category": "Netherlands",
-        "thumbnail": "/img/speakers/BartekBielawski_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/BartekBielawski_200x300.jpg",
         "title": "Bartek Bielawski",
         "description": "Bartosz (Bartek) Bielawski is a busy Windows engineer for Optiver, an international company. He loves PowerShell and automation and that love earned him the honor of Microsoft MVP. He shares his knowledge mainly in PowerShell Magazine, in his blogs, and through articles published in the Polish “IT Professional” magazine. He is also a co-author of the PowerShell Deep Dives book."
     },
     {
         "type": "photo",
         "category": "",
-        "thumbnail": "/img/speakers/KaiWilke_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/KaiWilke_200x300.jpg",
         "title": "Kai Wilke",
         "description": "Description text goes here."
     },
@@ -233,7 +233,7 @@
     {
         "type": "photo",
         "category": "",
-        "thumbnail": "/img/speakers/JanLindmeier_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/JanLindmeier_200x300.jpg",
         "title": "Jan Lindmeier",
         "description": "Description text goes here."
     },
