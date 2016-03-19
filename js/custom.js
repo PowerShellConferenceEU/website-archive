@@ -85,8 +85,8 @@ $(function () {
 // Flow Gallery
 $('#speakers-gallery').flowGallery({
             gridType: 'columns',
-            //columns: {320: 3, 480: 5, 720: 6, 960: 7, 1200: 8},
-            columns: 6,
+            columns: {320: 2, 480: 4, 720: 4, 960: 6, 1200: 6},
+            //columns: 6,
             //rowItemMinWidth: 150,
             //justifyLastRow: false,
             horizontalGutter: 10,
