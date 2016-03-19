@@ -30,7 +30,7 @@
     {
         "type": "photo",
         "category": "USA",
-        "thumbnail": "/img/speakers/JaredAtkinson_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/JaredAtkinson_200x300.jpg",
         "title": "Jared Atkinson",
         "description": "Jared Atkinson is the Hunt capability lead with Veris Group’s Adaptive Threat Division. Before working for Veris Group, Jared spent 4 years leading incident response missions for the U.S. Air Force Hunt Team, detecting and removing Advanced Persistent Threats on Air Force and DoD networks. <br><br>Passionate about PowerShell and the Open Source community, Jared is the lead developer of the PowerForensics project, an open source forensics framework for PowerShell, Uproot, a WMI based IDS, and maintains a DFIR focused blog at www.invoke-ir.com. <br><br>Jared holds a Masters of Science in Information Assurance and Security and holds numerous industry certifications including GIAC Certified Forensic Analyst (GCFA) and GIAC Certified Windows Security Administrator (GCWN)."
     },
