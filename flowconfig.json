@@ -23,7 +23,7 @@
     {
         "type": "photo",
         "category": "USA",
-        "thumbnail": "http://placehold.it/200x300",
+        "thumbnail": "http://placehold.it/200x300?text=?",
         "title": "Bruce Payette",
         "description": "Description text goes here."
     },
@@ -51,7 +51,7 @@
     {
         "type": "photo",
         "category": "Germany",
-        "thumbnail": "http://placehold.it/200x300",
+        "thumbnail": "http://placehold.it/200x300?text=?",
         "title": "Thorsten Butz",
         "description": "Description text goes here."
     },
@@ -65,7 +65,7 @@
     {
         "type": "photo",
         "category": "Serbia",
-        "thumbnail": "http://placehold.it/200x300",
+        "thumbnail": "http://placehold.it/200x300?text=?",
         "title": "Aleksandar Nikolic",
         "description": "Description text goes here."
     },
@@ -79,7 +79,7 @@
     {
         "type": "photo",
         "category": "United Kingdom",
-        "thumbnail": "http://placehold.it/200x300",
+        "thumbnail": "http://placehold.it/200x300?text=?",
         "title": "Richard Siddaway",
         "description": "Description text goes here."
     },
@@ -114,7 +114,7 @@
     {
         "type": "photo",
         "category": "",
-        "thumbnail": "http://placehold.it/200x300",
+        "thumbnail": "http://placehold.it/200x300?text=?",
         "title": "Waldemar Schmidt",
         "description": "Description text goes here."
     },
@@ -128,14 +128,14 @@
     {
         "type": "photo",
         "category": "Netherlands",
-        "thumbnail": "http://placehold.it/200x300",
+        "thumbnail": "http://placehold.it/200x300?text=?",
         "title": "Dimitri Koens",
         "description": "Description text goes here."
     },
     {
         "type": "photo",
         "category": "Netherlands",
-        "thumbnail": "http://placehold.it/200x300",
+        "thumbnail": "http://placehold.it/200x300?text=?",
         "title": "Jaap Brasser",
         "description": "Description text goes here."
     },
@@ -170,7 +170,7 @@
     {
         "type": "photo",
         "category": "Norway",
-        "thumbnail": "http://placehold.it/200x300",
+        "thumbnail": "http://placehold.it/200x300?text=?",
         "title": "Trond Hindenes",
         "description": "Description text goes here."
     },
@@ -190,7 +190,14 @@
     },
     {
         "type": "photo",
-        "category": "Netherlands",
+        "category": "United Kingdom",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/RyanYates_200x300.jpg",
+        "title": "Ryan Yates",
+        "description": "Description text goes here."
+    },
+    {
+        "type": "photo",
+        "category": "Poland",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/BartekBielawski_200x300.jpg",
         "title": "Bartek Bielawski",
         "description": "Bartosz (Bartek) Bielawski is a busy Windows engineer for Optiver, an international company. He loves PowerShell and automation and that love earned him the honor of Microsoft MVP. He shares his knowledge mainly in PowerShell Magazine, in his blogs, and through articles published in the Polish “IT Professional” magazine. He is also a co-author of the PowerShell Deep Dives book."
@@ -205,28 +212,28 @@
     {
         "type": "photo",
         "category": "",
-        "thumbnail": "http://placehold.it/200x300",
+        "thumbnail": "http://placehold.it/200x300?text=?",
         "title": "Benjamin Hodge",
         "description": "Description text goes here."
     },
     {
         "type": "photo",
         "category": "United Kingdom",
-        "thumbnail": "http://placehold.it/200x300",
+        "thumbnail": "http://placehold.it/200x300?text=?",
         "title": "Gael Colas",
         "description": "Description text goes here."
     },
     {
         "type": "photo",
         "category": "India",
-        "thumbnail": "http://placehold.it/200x300",
+        "thumbnail": "http://placehold.it/200x300?text=?",
         "title": "Ravikanth Chaganti",
         "description": "Description text goes here."
     },
     {
         "type": "photo",
         "category": "Netherlands",
-        "thumbnail": "http://placehold.it/200x300",
+        "thumbnail": "http://placehold.it/200x300?text=?",
         "title": "Jeff Wouters",
         "description": "Description text goes here."
     },
@@ -240,7 +247,7 @@
     {
         "type": "photo",
         "category": "USA",
-        "thumbnail": "http://placehold.it/200x300",
+        "thumbnail": "http://placehold.it/200x300?text=?",
         "title": "Steven Murawski",
         "description": "Description text goes here."
     }
