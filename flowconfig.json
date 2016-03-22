@@ -4,7 +4,7 @@
         "category": "USA",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/JeffreySnover_200x300.jpg",
         "title": "Jeffrey Snover",
-        "description": "Description text goes here."
+        "description": "Jeffrey Snover is a Technical Fellow at Microsoft and the Chief Architect for the Enterprise Cloud Group which includes Azure Stack, Windows Server, System Center and Operations Management Suite.<br><br>Snover is the inventor of Windows PowerShell, an object-based distributed automation engine, scripting language, and command line shell. Snover joined Microsoft in 1999 as divisional architect for the Management and Services Division, providing technical direction across Microsoft's management technologies and products.<br><br>Snover has over 30 years of industry experience with a focus on management technologies and solutions. He was an architect in the office of the CTO at Tivoli and a development manager at NetView. He has worked also as a consulting engineer and development manager at DEC, where he led various network and systems management projects.<br><br>Snover is a frequent speaker at industry and research conferences on a variety of cloud, management and language topics."
     },
     {
         "type": "photo",
@@ -33,6 +33,20 @@
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/JaredAtkinson_200x300.jpg",
         "title": "Jared Atkinson",
         "description": "Jared Atkinson is the Hunt capability lead with Veris Group’s Adaptive Threat Division. Before working for Veris Group, Jared spent 4 years leading incident response missions for the U.S. Air Force Hunt Team, detecting and removing Advanced Persistent Threats on Air Force and DoD networks. <br><br>Passionate about PowerShell and the Open Source community, Jared is the lead developer of the PowerForensics project, an open source forensics framework for PowerShell, Uproot, a WMI based IDS, and maintains a DFIR focused blog at www.invoke-ir.com. <br><br>Jared holds a Masters of Science in Information Assurance and Security and holds numerous industry certifications including GIAC Certified Forensic Analyst (GCFA) and GIAC Certified Windows Security Administrator (GCWN)."
+    },
+    {
+        "type": "photo",
+        "category": "USA",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/DavidWilson_200x300.jpg",
+        "title": "David Wilson",
+        "description": "David Wilson is a software engineer in the PowerShell team at Microsoft, primarily focused on development tools such as the PowerShell ISE, the PowerShell extension for Visual Studio Code, and PowerShell Editor Services.  His mission is to bring a first-class PowerShell authoring experience to all developers regardless of which editor they prefer.<br><br>You can find him on Twitter and GitHub at @daviwil"
+    },
+    {
+        "type": "photo",
+        "category": "",
+        "thumbnail": "http://placehold.it/200x300?text=?",
+        "title": "Hemant Mahawar",
+        "description": "?"
     },
     {
         "type": "photo",
@@ -114,9 +128,9 @@
     {
         "type": "photo",
         "category": "",
-        "thumbnail": "http://placehold.it/200x300?text=?",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/WaldemarSchmidt_200x300.jpg",
         "title": "Waldemar Schmidt",
-        "description": "Description text goes here."
+        "description": "Waldemar Schmidt works as a consultant for systems management at ITaCS in Berlin. He automates just about anything that can be automated. This includes automated deployment of demo and training environments as well as creating user provisioning solutions, and automated analysis of Active Directory, Sharepoint, and DSF data."
     },
     {
         "type": "photo",

@@ -126,10 +126,10 @@ days:
         tracks:
           -
             description:
-              de: "Session Details to be Determined"
-              en: "Session Details to be Determined"
+              de: "In this session, we’ll go beyond the GUI and look into the advanced features for debugging PowerShell including remote debugging and runspaces. There’s a lot more to debugging than F9!"
+              en: "In this session, we’ll go beyond the GUI and look into the advanced features for debugging PowerShell including remote debugging and runspaces. There’s a lot more to debugging than F9!"
             language: English
-            name: TBD
+            name: "Debugging Deep Dive"
             speaker: "Bruce Payette"
           -
             description:
@@ -346,13 +346,6 @@ days:
             language: English
             name: "Offensive Active Directory"
             speaker: "Will Schroeder"
-          -
-            description:
-              de: "$oldschool = 'ping', 'net', 'nslookup', 'netsh', 'whois', 'ifconfig', 'nmap', 'lsof', 'host', 'traceroute', 'finger' - In der täglichen Netzwerkarbeit des Admins fristet die PowerShell ein Schattendasein. Warum eigentlich? Bietet die PowerShell keine (besseren) Alternativen oder ist es schlicht die Macht der Gewohnheit, die uns ausgetretene Pfade beschreiten lässt. Der Vortrag stellt (wenig bekannte) PowerShell-Cmdlets zur Netzwerkadministration und -analyse vor und zeigt darüber hinausgehende Scriptlösungen, die die PowerShell zum Alltagswerkzeug in Netzwerkangelegenheiten werden lässt."
-              en: "$oldschool = 'ping', 'net', 'nslookup', 'netsh', 'whois', 'ifconfig', 'nmap', 'lsof', 'host', 'traceroute', 'finger' - In der täglichen Netzwerkarbeit des Admins fristet die PowerShell ein Schattendasein. Warum eigentlich? Bietet die PowerShell keine (besseren) Alternativen oder ist es schlicht die Macht der Gewohnheit, die uns ausgetretene Pfade beschreiten lässt. Der Vortrag stellt (wenig bekannte) PowerShell-Cmdlets zur Netzwerkadministration und -analyse vor und zeigt darüber hinausgehende Scriptlösungen, die die PowerShell zum Alltagswerkzeug in Netzwerkangelegenheiten werden lässt."
-            language: German
-            name: "Networking mit der PowerShell"
-            speaker: "Thorsten Butz"
       -
         time: "11:30 - 12:30"
         tracks:
@@ -448,6 +441,13 @@ days:
             language: English
             name: "System Center, PowerShell and 802.1x network protection – Connecting the dots for easy device integration"
             speaker: "Christian Lehrer"
+          -
+            description:
+              de: ""
+              en: ""
+            language: English
+            name: "Applied PowerShell Workflow"
+            speaker: "Bruce Payette"
       -
         time: "14:45 - 15:45"
         tracks:
@@ -819,22 +819,15 @@ start with the basics and learn through demos and examples."
             language: English
             name: "Regular Expressions and PowerShell"
             speaker: "Øyvind Kallstad"
-          -
-            description:
-              de: "Angst vor der Neuinstallation des eigenen PC? 'mstsc.exe' ist Dein wichtigstes Tool? Ohne lokale Adminrechte kannst Du nicht arbeiten? Nie standen dem Windowsadmin mächtigere Bordmittel zur Verfügung als heute, aber hat sich unsere Arbeitsweise den (neuen) Möglichkeiten angepasst? Die Session zeigt Wege zum effektiven Umgang mit der eigenen Arbeitsstation auf; von der Installation neuer Software, der scriptgesteuerten Konfiguration, dem Roaming von (PowerShell) Profilen, aber auch vom sinnvollen Umgang mit Benutzerrechten und der User Account Control. Wir beweisen, dass der Windows Explorer kein Ersatz für die Kommandozeile und RDP-Sitzungen kein Ersatz für das Powershell-Remoting sind."
-              en: "Angst vor der Neuinstallation des eigenen PC? 'mstsc.exe' ist Dein wichtigstes Tool? Ohne lokale Adminrechte kannst Du nicht arbeiten? Nie standen dem Windowsadmin mächtigere Bordmittel zur Verfügung als heute, aber hat sich unsere Arbeitsweise den (neuen) Möglichkeiten angepasst? Die Session zeigt Wege zum effektiven Umgang mit der eigenen Arbeitsstation auf; von der Installation neuer Software, der scriptgesteuerten Konfiguration, dem Roaming von (PowerShell) Profilen, aber auch vom sinnvollen Umgang mit Benutzerrechten und der User Account Control. Wir beweisen, dass der Windows Explorer kein Ersatz für die Kommandozeile und RDP-Sitzungen kein Ersatz für das Powershell-Remoting sind."
-            language: German
-            name: "Pimp-MyComputer: Verwalte Deinen eigenen Rechner wie ein Profi!"
-            speaker: "Thorsten Butz"
       -
         time: "16:00 - 17:00"
         tracks:
           -
             description:
-              de: "Viele Jahre rückte Microsoft alternative Verfahren zur Remoteadministration in heterogenen Netzwerken in den Fokus. SSH blieb jedoch der de-facto-Standard außerhalb der Microsoftwelt, sodass die Vorderungen nach einer integrierten SSH-Lösung nie verstummten. Im Sommer 2015 kündigte Redmond an, eine OpenSSH-basierte Lösung in Ihre Produkte zu integrieren. Der Vortrag stellt den aktuellen Stand der Implementierung vor. Darüber hinaus werfen wir einen Blick auf alternative SSH-Implementierungen für die Windows PowerShell, die den objektorientierten Ansatz der PowerShell mit der SecureShell verbindet."
-              en: "Viele Jahre rückte Microsoft alternative Verfahren zur Remoteadministration in heterogenen Netzwerken in den Fokus. SSH blieb jedoch der de-facto-Standard außerhalb der Microsoftwelt, sodass die Vorderungen nach einer integrierten SSH-Lösung nie verstummten. Im Sommer 2015 kündigte Redmond an, eine OpenSSH-basierte Lösung in Ihre Produkte zu integrieren. Der Vortrag stellt den aktuellen Stand der Implementierung vor. Darüber hinaus werfen wir einen Blick auf alternative SSH-Implementierungen für die Windows PowerShell, die den objektorientierten Ansatz der PowerShell mit der SecureShell verbindet."
+              de: "$oldschool = 'ping', 'net', 'nslookup', 'netsh', 'whois', 'ifconfig', 'nmap', 'lsof', 'host', 'traceroute', 'finger' - In der täglichen Netzwerkarbeit des Admins fristet die PowerShell ein Schattendasein. Warum eigentlich? Bietet die PowerShell keine (besseren) Alternativen oder ist es schlicht die Macht der Gewohnheit, die uns ausgetretene Pfade beschreiten lässt. Der Vortrag stellt (wenig bekannte) PowerShell-Cmdlets zur Netzwerkadministration und -analyse vor und zeigt darüber hinausgehende Scriptlösungen, die die PowerShell zum Alltagswerkzeug in Netzwerkangelegenheiten werden lässt."
+              en: "$oldschool = 'ping', 'net', 'nslookup', 'netsh', 'whois', 'ifconfig', 'nmap', 'lsof', 'host', 'traceroute', 'finger' - In der täglichen Netzwerkarbeit des Admins fristet die PowerShell ein Schattendasein. Warum eigentlich? Bietet die PowerShell keine (besseren) Alternativen oder ist es schlicht die Macht der Gewohnheit, die uns ausgetretene Pfade beschreiten lässt. Der Vortrag stellt (wenig bekannte) PowerShell-Cmdlets zur Netzwerkadministration und -analyse vor und zeigt darüber hinausgehende Scriptlösungen, die die PowerShell zum Alltagswerkzeug in Netzwerkangelegenheiten werden lässt."
             language: German
-            name: "SSH gegen den Rest der Welt"
+            name: "Networking mit der PowerShell"
             speaker: "Thorsten Butz"
           -
             description:
@@ -852,11 +845,11 @@ start with the basics and learn through demos and examples."
             speaker: "Bartek Bielawski"
           -
             description:
-              de: ""
-              en: ""
+              de: "Many modern code editors allow you to add new functionality in their native language.  What if you’d like to add new functionality but you don’t have time to learn Python, JavaScript, or another language?  This session will demonstrate our work to allow you to extend Visual Studio Code and the PowerShell ISE Preview using PowerShell.  Come see how you can use your existing module code in a new way!"
+              en: "Many modern code editors allow you to add new functionality in their native language.  What if you’d like to add new functionality but you don’t have time to learn Python, JavaScript, or another language?  This session will demonstrate our work to allow you to extend Visual Studio Code and the PowerShell ISE Preview using PowerShell.  Come see how you can use your existing module code in a new way!"
             language: English
-            name: "TBD"
-            speaker: "TBD"
+            name: "Extending Modern Code Editors with PowerShell"
+            speaker: "David Wilson"
       -
         time: "17:00 - 18:00"
         tracks:
@@ -895,11 +888,11 @@ intends to show how Pester can be used for not just unit testing of your code bu
             speaker: Steven Murawski
           -
             description:
-              de: ""
-              en: ""
+              de: "Has PowerShell Desired State Configuration (DSC) become an important part of your IT/DevOps management processes? Come deepen your knowledge and understanding of DSC including the new features and functionality added in WMF 5.0 as we dive into some of the coolest and least understood parts of DSC with you. We will then open it up for your questions so if you ever wondered how or why some DSC feature or functionality works the way that it does, ask and we will enlighten you or hear your feedback about ways for us to improve."
+              en: "Has PowerShell Desired State Configuration (DSC) become an important part of your IT/DevOps management processes? Come deepen your knowledge and understanding of DSC including the new features and functionality added in WMF 5.0 as we dive into some of the coolest and least understood parts of DSC with you. We will then open it up for your questions so if you ever wondered how or why some DSC feature or functionality works the way that it does, ask and we will enlighten you or hear your feedback about ways for us to improve."
             language: English
-            name: TBD
-            speaker: TBD
+            name: "PowerShell DSC: A Look Under the Hood"
+            speaker: "Hemant Mahawar"
     title:
       de: "Tag 3"
       en: "Day 3"
