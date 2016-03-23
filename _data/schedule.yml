@@ -215,10 +215,10 @@ days:
         tracks:
           -
             description:
-              de: "Session Details to be Determined"
-              en: "Session Details to be Determined"
+              de: "Windows Server 2016 introduces a new edition of Powershell: PowerShell Core.  PowerShell Core is a reboot of the PowerShell ecosystem based upon .Net Core.  This session explains why we are doing PowerShell Core and what it means to the future of PowerShell."
+              en: "Windows Server 2016 introduces a new edition of Powershell: PowerShell Core.  PowerShell Core is a reboot of the PowerShell ecosystem based upon .Net Core.  This session explains why we are doing PowerShell Core and what it means to the future of PowerShell."
             language: English
-            name: TBD
+            name: "PowerShell Core – why and what?"
             speaker: "Jeffery Snover"
             span: true
             spanLength: 2
