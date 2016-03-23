@@ -273,3 +273,7 @@ html {
 .flow-gallery .flow-menu {
   background-color: #bcd5d1 !important;
 }
+
+.card-reveal {
+    padding: 10px !important;
+}
