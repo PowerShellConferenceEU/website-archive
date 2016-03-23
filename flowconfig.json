@@ -23,7 +23,7 @@
     {
         "type": "photo",
         "category": "USA",
-        "thumbnail": "http://placehold.it/200x300?text=?",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/BrucePayette_200x300.jpg",
         "title": "Bruce Payette",
         "description": "Description text goes here."
     },
@@ -44,7 +44,7 @@
     {
         "type": "photo",
         "category": "",
-        "thumbnail": "http://placehold.it/200x300?text=?",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/HemantMahawar_200x300.jpg",
         "title": "Hemant Mahawar",
         "description": "?"
     },
@@ -65,7 +65,7 @@
     {
         "type": "photo",
         "category": "Germany",
-        "thumbnail": "http://placehold.it/200x300?text=?",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/ThorstenButz_200x300.jpg",
         "title": "Thorsten Butz",
         "description": "Description text goes here."
     },
@@ -79,8 +79,8 @@
     {
         "type": "photo",
         "category": "Serbia",
-        "thumbnail": "http://placehold.it/200x300?text=?",
-        "title": "Aleksandar Nikolic",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/AleksandarNikolic_200x300.jpg",
+        "title": "Aleksandar Nikolić",
         "description": "Description text goes here."
     },
     {
@@ -93,7 +93,7 @@
     {
         "type": "photo",
         "category": "United Kingdom",
-        "thumbnail": "http://placehold.it/200x300?text=?",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/RichardSiddaway_200x300.jpg",
         "title": "Richard Siddaway",
         "description": "Description text goes here."
     },
@@ -149,7 +149,7 @@
     {
         "type": "photo",
         "category": "Netherlands",
-        "thumbnail": "http://placehold.it/200x300?text=?",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/JaapBrasser_200x300.jpg",
         "title": "Jaap Brasser",
         "description": "Description text goes here."
     },
@@ -184,7 +184,7 @@
     {
         "type": "photo",
         "category": "Norway",
-        "thumbnail": "http://placehold.it/200x300?text=?",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/TrondHindenes_200x300.jpg",
         "title": "Trond Hindenes",
         "description": "Description text goes here."
     },
@@ -240,14 +240,14 @@
     {
         "type": "photo",
         "category": "India",
-        "thumbnail": "http://placehold.it/200x300?text=?",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/RavikanthChaganti_200x300.jpg",
         "title": "Ravikanth Chaganti",
         "description": "Description text goes here."
     },
     {
         "type": "photo",
         "category": "Netherlands",
-        "thumbnail": "http://placehold.it/200x300?text=?",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/JeffWouters_200x300.jpg",
         "title": "Jeff Wouters",
         "description": "Description text goes here."
     },
@@ -261,7 +261,7 @@
     {
         "type": "photo",
         "category": "USA",
-        "thumbnail": "http://placehold.it/200x300?text=?",
+        "thumbnail": "http://www.psconf.eu/dev/img/speakers/StevenMurawski_200x300.jpg",
         "title": "Steven Murawski",
         "description": "Description text goes here."
     }
