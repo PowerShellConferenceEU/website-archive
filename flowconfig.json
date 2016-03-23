@@ -18,14 +18,14 @@
         "category": "Germany",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/HolgerSchwichtenberg_200x300.jpg",
         "title": "Holger Schwichtenberg",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
         "category": "USA",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/BrucePayette_200x300.jpg",
         "title": "Bruce Payette",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
@@ -46,7 +46,7 @@
         "category": "",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/HemantMahawar_200x300.jpg",
         "title": "Hemant Mahawar",
-        "description": "?"
+        "description": ""
     },
     {
         "type": "photo",
@@ -67,7 +67,7 @@
         "category": "Germany",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/ThorstenButz_200x300.jpg",
         "title": "Thorsten Butz",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
@@ -81,21 +81,21 @@
         "category": "Serbia",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/AleksandarNikolic_200x300.jpg",
         "title": "Aleksandar Nikolić",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
         "category": "Germany",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/HolgerVoges_200x300.jpg",
         "title": "Holger Voges",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
         "category": "United Kingdom",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/RichardSiddaway_200x300.jpg",
         "title": "Richard Siddaway",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
@@ -116,14 +116,14 @@
         "category": "",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/RinonBelegu_200x300.jpg",
         "title": "Rinon Belegu",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
         "category": "",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/ChristianKrueger_200x300.jpg",
         "title": "Christian Krüger",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
@@ -144,21 +144,21 @@
         "category": "Netherlands",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/DimitriKoens_200x300.jpg",
         "title": "Dimitri Koens",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
         "category": "Netherlands",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/JaapBrasser_200x300.jpg",
         "title": "Jaap Brasser",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
         "category": "",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/StephanKulla_200x300.jpg",
         "title": "Stephan Kulla",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
@@ -172,7 +172,7 @@
         "category": "Germany",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/ChristianLehrer_200x300.jpg",
         "title": "Christian Lehrer",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
@@ -186,7 +186,7 @@
         "category": "Norway",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/TrondHindenes_200x300.jpg",
         "title": "Trond Hindenes",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
@@ -200,14 +200,14 @@
         "category": "Norway",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/OyvindKallstad_200x300.jpg",
         "title": "Øyvind Kallstad",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
         "category": "United Kingdom",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/RyanYates_200x300.jpg",
         "title": "Ryan Yates",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
@@ -221,48 +221,48 @@
         "category": "",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/KaiWilke_200x300.jpg",
         "title": "Kai Wilke",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
         "category": "",
         "thumbnail": "http://placehold.it/200x300?text=?",
         "title": "Benjamin Hodge",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
         "category": "United Kingdom",
         "thumbnail": "http://placehold.it/200x300?text=?",
         "title": "Gael Colas",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
         "category": "India",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/RavikanthChaganti_200x300.jpg",
         "title": "Ravikanth Chaganti",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
         "category": "Netherlands",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/JeffWouters_200x300.jpg",
         "title": "Jeff Wouters",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
         "category": "",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/JanLindmeier_200x300.jpg",
         "title": "Jan Lindmeier",
-        "description": "Description text goes here."
+        "description": ""
     },
     {
         "type": "photo",
         "category": "USA",
         "thumbnail": "http://www.psconf.eu/dev/img/speakers/StevenMurawski_200x300.jpg",
         "title": "Steven Murawski",
-        "description": "Description text goes here."
+        "description": ""
     }
 ]
