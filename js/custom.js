@@ -81,3 +81,33 @@ $(function () {
 $(function () {
   $('[data-toggle="popover"]').popover()
 })
+
+// Flow Gallery
+$('#speakers-gallery').flowGallery({
+            gridType: 'columns',
+            columns: {320: 2, 480: 3, 720: 4, 960: 5, 1200: 6},
+            //columns: 6,
+            //rowItemMinWidth: 150,
+            //justifyLastRow: false,
+            horizontalGutter: 10,
+            verticalGutter: 10,
+            items: {style: 'card'},
+            card: {
+                alwaysShowCaption: true,
+                descriptionInCaption: false
+            },
+            captionShowAnimation: 'pushUp',
+            enableCache: false,
+            enableDeepLinking: false,
+            loadItemChunks: false,
+            enableSocialShare: false,
+            showFileTypeIcons: false,
+            categoryFilters: ["United Kingdom","USA","Netherlands","Norway","Sweden","India","Germany","Serbia","Poland"],
+            showFileTypeFilters: false,
+            hideEmptyCategories: true,
+            showFullscreenButton: false,
+            sortBy: [],
+            fixMenuOnScroll: true,
+            menuFixOffset: 50,
+            configUrl: 'flowconfig.json'
+        });
