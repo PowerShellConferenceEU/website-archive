@@ -704,8 +704,8 @@ updates. Cross-machine synchronization along with partial configurations can be 
             speaker: "Ravikanth Chaganti"
           -
             description:
-              de: "Using the module, Import-CsvToSql which is developed by Chrissie, you can import up to 200,000 rows a second. But it didn't start out that way. In this session, I'll show you some best practices and techniques that will help make your PowerShell scripts super fast."
-              en: "Using my module, Import-CsvToSql which is developed by Chrissie, you can import up to 200,000 rows a second. But it didn't start out that way. In this session, I'll show you some best practices and techniques that will help make your PowerShell scripts super fast."
+              de: "Using the module, Import-CsvToSql which is developed by Chrissy, you can import up to 200,000 rows a second. But it didn't start out that way. In this session, I'll show you some best practices and techniques that will help make your PowerShell scripts super fast."
+              en: "Using my module, Import-CsvToSql which is developed by Chrissy, you can import up to 200,000 rows a second. But it didn't start out that way. In this session, I'll show you some best practices and techniques that will help make your PowerShell scripts super fast."
             language: English
             name: "PowerShell and SQL Server: My Journey to 200,000 rows a second"
             speaker: "Chrissy LeMaire"

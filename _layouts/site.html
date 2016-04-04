@@ -14,6 +14,11 @@ layout: scaffolding
 	{% include eventstats.html %}
 {% endif %}
 
+<!-- ExtraInfoBox -->
+{% if site.data.features.includeExtraInfoBox %}
+	{% include extrainfobox.html %}
+{% endif %}
+
 <!-- About -->
 {% if site.data.features.includeAbout %}
 	{% include {{page.lang}}/about.html %}
