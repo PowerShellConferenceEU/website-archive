@@ -107,13 +107,6 @@
     {
         "type": "photo",
         "category": "",
-        "thumbnail": "http://www.psconf.eu/img/speakers/MatthewHitchcock_200x300.jpg",
-        "title": "Matthew Hitchcock",
-        "description": "Matthew is a PowerShell MVP (now Cloud & Datacenter Management) and works as a Consultant at Microsoft Singapore. He specializes in Hybrid Cloud (Azure & System Center), Identity Management (including Azure AD) and Datacenter Management projects. Matthew has spent most of his career in the Identity & Directory Services space, dealing with complex Identity and Migration scenarios including Roles Based Access, Directory Services Automation and Provisioning processes. <br><br>Matthew leads the Singapore PowerShell Group and contributes to the Windows IT Pro User Group. He is an honorary Scripting Guy and is a Technical Reviewer for publications on Group Policy and Windows PowerShell."
-    },
-    {
-        "type": "photo",
-        "category": "",
         "thumbnail": "http://www.psconf.eu/img/speakers/RinonBelegu_200x300.jpg",
         "title": "Rinon Belegu",
         "description": ""
@@ -180,13 +173,6 @@
         "thumbnail": "http://www.psconf.eu/img/speakers/JuneBlender_200x300.jpg",
         "title": "June Blender",
         "description": "June Blender is a technology evangelist for SAPIEN Technologies, Inc., a Windows PowerShell MVP, an honorary Scripting Guy, and a PowerShell Hero. <br><br>She blogs, writes scripts and help, talks to conferences and groups, and teaches PowerShell at all levels. <br><br>In a previous life, she wrote the Get-Help content for Windows PowerShell 1.0 - 3.0, the Azure Active Directory SDK and Azure PowerShell Help, Windows Driver Kits, Windows Support Tools, and Windows Resource Kits. <br><br>She's is a frequent contributor to the Hey, Scripting Guy! Blog and PowerShell.org. <br><br>She lives in magnificent Escalante, Utah, where she works remotely when she's not out hiking, canyoneering, or convincing lost tourists to try Windows PowerShell. <br><br>You can follow her on Twitter at @juneb_get_help."
-    },
-    {
-        "type": "photo",
-        "category": "Norway",
-        "thumbnail": "http://www.psconf.eu/img/speakers/TrondHindenes_200x300.jpg",
-        "title": "Trond Hindenes",
-        "description": ""
     },
     {
         "type": "photo",
@@ -260,9 +246,9 @@
     },
     {
         "type": "photo",
-        "category": "USA",
-        "thumbnail": "http://www.psconf.eu/img/speakers/StevenMurawski_200x300.jpg",
-        "title": "Steven Murawski",
+        "category": "",
+        "thumbnail": "http://www.psconf.eu/img/speakers/NiklasAkerlund_200x300.jpg",
+        "title": "Niklas Akerlund",
         "description": ""
     }
 ]
