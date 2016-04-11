@@ -302,11 +302,23 @@ days:
             speaker: "Rob Sewell"
           -
             description:
-              de: "Since the beginning, AD Service Admins have struggled to delegate Domain Controller management permissions to different support teams. Its always been a requirement, whether to enable Follow-the-Sun support or to free up senior Admin time to do more value-added tasks or something along those lines. Sadly, while well intentioned, it has always led to a battle because Domain Controller delegation has never been straightforward. It's almost a case of granting Domain Admin rights or Bust"
-              en: "Since the beginning, AD Service Admins have struggled to delegate Domain Controller management permissions to different support teams. Its always been a requirement, whether to enable Follow-the-Sun support or to free up senior Admin time to do more value-added tasks or something along those lines. Sadly, while well intentioned, it has always led to a battle because Domain Controller delegation has never been straightforward. It's almost a case of granting Domain Admin rights or Bust"
+              de: "Infrastructure as code represents the evolving trend in the data center deployment and configuration management. Infra as code preaches that the
+
+infrastructure developers or administrators look at configuration of components as code and follow development practices such source control and unit
+
+testing. However, this alone won't complete infra as code story. There must be an operations validation framework that follows infra as code. This session
+
+intends to show how Pester can be used for not just unit testing of your code but also for operations validation. This is demonstrated by showcasing the power of Pester along with custom scripting to validate the configuration of heterogeneous systems in the solution."
+              en: "Infrastructure as code represents the evolving trend in the data center deployment and configuration management. Infra as code preaches that the
+
+infrastructure developers or administrators look at configuration of components as code and follow development practices such source control and unit
+
+testing. However, this alone won't complete infra as code story. There must be an operations validation framework that follows infra as code. This session
+
+intends to show how Pester can be used for not just unit testing of your code but also for operations validation. This is demonstrated by showcasing the power of Pester along with custom scripting to validate the configuration of heterogeneous systems in the solution."
             language: English
-            name: "JEA: Ending 15 years of Pain for the Active Directory Admin"
-            speaker: "Matt Hitchcock"
+            name: "Operational validation for infrastructure as code"
+            speaker: "Ravikanth Chaganti"
       -
         time: "10:15 - 11:15"
         tracks:
@@ -475,11 +487,11 @@ We'll also visit the PowerShell.org Community Build Server and learn how to set 
             speaker: "June Blender"
           -
             description:
-              de: ""
-              en: "This will be a level-100 introduction to Azure Automation, what it is and how it can be used. We'll also do a walk-through of a real-life implementation using Azure Automation and look at lessons learned from that project"
+              de: "Why should we even question this?  Of course the answer is, use both!  Let's look at how DSC and Chef can be used to build better infrastructure together, including what might be missing in your DSC-only environments."
+              en: "Why should we even question this?  Of course the answer is, use both!  Let's look at how DSC and Chef can be used to build better infrastructure together, including what might be missing in your DSC-only environments."
             language: English
-            name: "Lessons Learned from implementing Azure Automation"
-            speaker: "Trond Hindenes"
+            name: Should I use Chef or DSC?
+            speaker: "Niklas Akerlund"
           -
             description:
               de: ""
@@ -862,30 +874,18 @@ start with the basics and learn through demos and examples."
             speaker: "Holger Voges"
           -
             description:
-              de: "Infrastructure as code represents the evolving trend in the data center deployment and configuration management. Infra as code preaches that the
-
-infrastructure developers or administrators look at configuration of components as code and follow development practices such source control and unit
-
-testing. However, this alone won't complete infra as code story. There must be an operations validation framework that follows infra as code. This session
-
-intends to show how Pester can be used for not just unit testing of your code but also for operations validation. This is demonstrated by showcasing the power of Pester along with custom scripting to validate the configuration of heterogeneous systems in the solution."
-              en: "Infrastructure as code represents the evolving trend in the data center deployment and configuration management. Infra as code preaches that the
-
-infrastructure developers or administrators look at configuration of components as code and follow development practices such source control and unit
-
-testing. However, this alone won't complete infra as code story. There must be an operations validation framework that follows infra as code. This session
-
-intends to show how Pester can be used for not just unit testing of your code but also for operations validation. This is demonstrated by showcasing the power of Pester along with custom scripting to validate the configuration of heterogeneous systems in the solution."
+              de: ""
+              en: ""
             language: English
-            name: "Operational validation for infrastructure as code"
-            speaker: "Ravikanth Chaganti"
+            name: "TBC"
+            speaker: "TBC"
           -
             description:
-              de: "Why should we even question this?  Of course the answer is, use both!  Let's look at how DSC and Chef can be used to build better infrastructure together, including what might be missing in your DSC-only environments."
-              en: "Why should we even question this?  Of course the answer is, use both!  Let's look at how DSC and Chef can be used to build better infrastructure together, including what might be missing in your DSC-only environments."
+              de: "TBC"
+              en: "TBC"
             language: English
-            name: Should I use Chef or DSC?
-            speaker: Steven Murawski
+            name: TBC
+            speaker: Ryan Yates
           -
             description:
               de: "Has PowerShell Desired State Configuration (DSC) become an important part of your IT/DevOps management processes? Come deepen your knowledge and understanding of DSC including the new features and functionality added in WMF 5.0 as we dive into some of the coolest and least understood parts of DSC with you. We will then open it up for your questions so if you ever wondered how or why some DSC feature or functionality works the way that it does, ask and we will enlighten you or hear your feedback about ways for us to improve."
