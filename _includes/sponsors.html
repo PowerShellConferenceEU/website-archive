@@ -5,7 +5,11 @@
             {% for sponsor in site.data.sponsors.sponsors %}
             <div class="col-md-{{ site.data.sponsors.col_md }} col-sm-{{ site.data.sponsors.col_sm }} col-xs-{{ site.data.sponsors.col_xs }}">
                 <center>
-                <a href="{{ sponsor.url }}"><img alt="logo" class="img-responsive" src="{{ sponsor.img | prepend: site.baseurl }}"></a><br>
+
+                <a href="{{ sponsor.url }}">
+                    <img alt="logo" class="img-responsive" src="{{ sponsor.img | prepend: site.baseurl }}">
+                </a><br>
+
                 </center>
             </div>
             {% endfor %}

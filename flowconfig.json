@@ -32,7 +32,7 @@
         "category": "",
         "thumbnail": "http://www.psconf.eu/img/speakers/HemantMahawar_200x300.jpg",
         "title": "Hemant Mahawar",
-        "description": ""
+        "description": "Hemant Mahawar is a Senior Program Manager in the Windows Server Division. He is responsible for various Windows PowerShell features across multiple releases that makes the foundation for Automation Platform for Windows Server.<br><br>Currently, Hemant is focused on various PowerShell Desired State Configuration (DSC) features. Prior to working on DSC, for PowerShell 3.0, Hemant managed PowerShell’s multi-machine management feature – PowerShell Workflows that integrates Windows PowerShell with Windows Workflow Foundation. Earlier, for PowerShell 2.0, Hemant was responsible for PowerShell's remoting capability that allows easy remote management as well as was responsible for PowerShell's rich API surface.<br><br>Hemant joined Microsoft in 2006 as a Program Manager on the Windows PowerShell team. Hemant holds a Master's and Doctorate degree in Computer Science from the Texas A&M University as well as a Bachelor’s in Electrical Engineering from the Indian Institute of Technology."
     },
     {
         "type": "photo",
@@ -137,7 +137,7 @@
         "category": "Netherlands",
         "thumbnail": "http://www.psconf.eu/img/speakers/DimitriKoens_200x300.jpg",
         "title": "Dimitri Koens",
-        "description": ""
+        "description": "Dimitri Koens is a self-employed consultant and trainer based in the Netherlands. He started working in the IT-industry in 1994. Nowadays he is specialized in System Center Operations Manager, SQL Server and PowerShell. He implements and optimizes infrastructure solutions and has trained thousands of students in infrastructure technology.<br><br>Dimitri holds numerous certifications including Microsoft (Private cloud, SQL, Windows Server, MCT), Certified Ethical Hacking, VMware VCP and CTT+.<br><br>He lives in Alphen aan den Rijn, is happily married and has two kids. When he has some spare time he connects Arduino to the internet, or can be found on a wakeboard on lake Zegerplas. He teaches programming in Python with Minecraft to kids from the age of 10."
     },
     {
         "type": "photo",
