@@ -32,7 +32,7 @@
         "category": "",
         "thumbnail": "http://www.psconf.eu/img/speakers/HemantMahawar_200x300.jpg",
         "title": "Hemant Mahawar",
-        "description": ""
+        "description": "Hemant Mahawar is a Senior Program Manager in the Windows Server Division. He is responsible for various Windows PowerShell features across multiple releases that makes the foundation for Automation Platform for Windows Server.<br><br>Currently, Hemant is focused on various PowerShell Desired State Configuration (DSC) features. Prior to working on DSC, for PowerShell 3.0, Hemant managed PowerShell’s multi-machine management feature – PowerShell Workflows that integrates Windows PowerShell with Windows Workflow Foundation. Earlier, for PowerShell 2.0, Hemant was responsible for PowerShell's remoting capability that allows easy remote management as well as was responsible for PowerShell's rich API surface.<br><br>Hemant joined Microsoft in 2006 as a Program Manager on the Windows PowerShell team. Hemant holds a Master's and Doctorate degree in Computer Science from the Texas A&M University as well as a Bachelor’s in Electrical Engineering from the Indian Institute of Technology."
     },
     {
         "type": "photo",
@@ -107,13 +107,6 @@
     {
         "type": "photo",
         "category": "",
-        "thumbnail": "http://www.psconf.eu/img/speakers/MatthewHitchcock_200x300.jpg",
-        "title": "Matthew Hitchcock",
-        "description": "Matthew is a PowerShell MVP (now Cloud & Datacenter Management) and works as a Consultant at Microsoft Singapore. He specializes in Hybrid Cloud (Azure & System Center), Identity Management (including Azure AD) and Datacenter Management projects. Matthew has spent most of his career in the Identity & Directory Services space, dealing with complex Identity and Migration scenarios including Roles Based Access, Directory Services Automation and Provisioning processes. <br><br>Matthew leads the Singapore PowerShell Group and contributes to the Windows IT Pro User Group. He is an honorary Scripting Guy and is a Technical Reviewer for publications on Group Policy and Windows PowerShell."
-    },
-    {
-        "type": "photo",
-        "category": "",
         "thumbnail": "http://www.psconf.eu/img/speakers/RinonBelegu_200x300.jpg",
         "title": "Rinon Belegu",
         "description": ""
@@ -144,7 +137,7 @@
         "category": "Netherlands",
         "thumbnail": "http://www.psconf.eu/img/speakers/DimitriKoens_200x300.jpg",
         "title": "Dimitri Koens",
-        "description": ""
+        "description": "Dimitri Koens is a self-employed consultant and trainer based in the Netherlands. He started working in the IT-industry in 1994. Nowadays he is specialized in System Center Operations Manager, SQL Server and PowerShell. He implements and optimizes infrastructure solutions and has trained thousands of students in infrastructure technology.<br><br>Dimitri holds numerous certifications including Microsoft (Private cloud, SQL, Windows Server, MCT), Certified Ethical Hacking, VMware VCP and CTT+.<br><br>He lives in Alphen aan den Rijn, is happily married and has two kids. When he has some spare time he connects Arduino to the internet, or can be found on a wakeboard on lake Zegerplas. He teaches programming in Python with Minecraft to kids from the age of 10."
     },
     {
         "type": "photo",
@@ -180,13 +173,6 @@
         "thumbnail": "http://www.psconf.eu/img/speakers/JuneBlender_200x300.jpg",
         "title": "June Blender",
         "description": "June Blender is a technology evangelist for SAPIEN Technologies, Inc., a Windows PowerShell MVP, an honorary Scripting Guy, and a PowerShell Hero. <br><br>She blogs, writes scripts and help, talks to conferences and groups, and teaches PowerShell at all levels. <br><br>In a previous life, she wrote the Get-Help content for Windows PowerShell 1.0 - 3.0, the Azure Active Directory SDK and Azure PowerShell Help, Windows Driver Kits, Windows Support Tools, and Windows Resource Kits. <br><br>She's is a frequent contributor to the Hey, Scripting Guy! Blog and PowerShell.org. <br><br>She lives in magnificent Escalante, Utah, where she works remotely when she's not out hiking, canyoneering, or convincing lost tourists to try Windows PowerShell. <br><br>You can follow her on Twitter at @juneb_get_help."
-    },
-    {
-        "type": "photo",
-        "category": "Norway",
-        "thumbnail": "http://www.psconf.eu/img/speakers/TrondHindenes_200x300.jpg",
-        "title": "Trond Hindenes",
-        "description": ""
     },
     {
         "type": "photo",
@@ -260,9 +246,9 @@
     },
     {
         "type": "photo",
-        "category": "USA",
-        "thumbnail": "http://www.psconf.eu/img/speakers/StevenMurawski_200x300.jpg",
-        "title": "Steven Murawski",
+        "category": "",
+        "thumbnail": "http://www.psconf.eu/img/speakers/NiklasAkerlund_200x300.jpg",
+        "title": "Niklas Akerlund",
         "description": ""
     }
 ]
