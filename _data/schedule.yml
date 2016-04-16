@@ -846,7 +846,7 @@ start with the basics and learn through demos and examples."
               de: "This talk will showcase management via WMI, PowerShell, and Desired State Configuration including remote script authoring, remote debugging, improved file transfer"
               en: "This talk will showcase management via WMI, PowerShell, and Desired State Configuration including remote script authoring, remote debugging, improved file transfer"
             language: English
-            name: "Remote Management Nano"
+            name: "Remote Management of Nano Server"
             speaker: Aleksandar Nikolic
           -
             description:
