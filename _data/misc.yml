@@ -14,7 +14,7 @@ en:
   newsletterMailText: "Enter your email address"
   subscribe: "Subscribe"
   registerNow: "Register now!"
-  extraInfoText: "For travel and location info, visit <a href=\"http://whova.com/event/direction/?event=power_201604\" class=\"alert-link\">http://whova.com/event/direction/?event=power_201604</a>. And don't forget to download the free conference app, and start building your personal agenda: <a href=\"http://whova.com/portal/power_201604\" class=\"alert-link\">http://whova.com/portal/power_201604</a>"
+  extraInfoText: "Session recordings are now live on <a href=\"https://www.youtube.com/c/powershellconferenceeu\" class=\"alert-link\">YouTube.</a><br>Session materials (slides and demos) are located on <a href=\"https://github.com/psconfeu/2016\" class=\"alert-link\">GitHub</a>."
 
 de:
   map: "Karte"
