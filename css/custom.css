@@ -7,7 +7,12 @@ body {
   /*font-family: 'Gentium Book Basic', serif;*/
   /*font-family: 'Merriweather', serif;*/
   font-family: 'PT Serif', serif;
-  background-color: #E6EBE0;
+  /*background-color: #E6EBE0;*/
+  background-color: #D3D0CB;
+}
+
+h1 small {
+  color: #E2C044; 
 }
 
 p {
@@ -32,7 +37,8 @@ section {
 
 .navbar-inverse .nav li a:hover {
     outline: 0;
-    color: #5CA4A9;
+    /*color: #5CA4A9;*/
+    color: #E2C044;
 }
 
 .navbar-inverse .nav li a:focus {
@@ -57,7 +63,9 @@ section {
 
 .jumbotron {
   text-align: center;
-  background-color: #bcd5d1;
+  /*background-color: #bcd5d1;*/
+  /*background-color: #355C7D;*/
+  background-color: #6E8898;
 }
 
 .jumbotron p{
