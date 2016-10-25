@@ -8,7 +8,7 @@ includeCallforSpeakers: false
 includeSpeakers: false
 includeSchedule : false
 includeRegister: false
-includeVenue: false
+includeVenue: true
 includeLegal: true
 includeMap: true
 includeSponsors: false
