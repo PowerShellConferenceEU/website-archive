@@ -2,17 +2,18 @@
 body {
   padding-top: 50px;
   /*padding-bottom: 20px;*/
-  font-size: 16px;
+  font-size: 18px;
   /*font-family: 'EB Garamond', serif;*/
   /*font-family: 'Gentium Book Basic', serif;*/
   /*font-family: 'Merriweather', serif;*/
-  font-family: 'PT Serif', serif;
+  /*font-family: 'PT Serif', serif;*/
+  font-family: 'Open Sans', sans-serif;
   /*background-color: #E6EBE0;*/
   background-color: #D3D0CB;
 }
 
 h1 small {
-  color: #E2C044; 
+  color: #E2C044;
 }
 
 p {
