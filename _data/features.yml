@@ -1,5 +1,5 @@
 # Turn on or off site features
-includeExtraInfoBox: true
+includeExtraInfoBox: false
 includeCountdown: true
 includeEventStats: false
 includeAbout: true
