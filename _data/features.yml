@@ -4,11 +4,11 @@ includeCountdown: true
 includeEventStats: false
 includeAbout: true
 includeEveningEvent: false
-includeCallforSpeakers: false
+includeCallforSpeakers: true
 includeSpeakers: false
 includeSchedule : false
 includeRegister: false
-includeVenue: false
+includeVenue: true
 includeLegal: true
 includeMap: true
 includeSponsors: false

@@ -2,17 +2,18 @@
 body {
   padding-top: 50px;
   /*padding-bottom: 20px;*/
-  font-size: 16px;
+  font-size: 18px;
   /*font-family: 'EB Garamond', serif;*/
   /*font-family: 'Gentium Book Basic', serif;*/
   /*font-family: 'Merriweather', serif;*/
-  font-family: 'PT Serif', serif;
+  /*font-family: 'PT Serif', serif;*/
+  font-family: 'Open Sans', sans-serif;
   /*background-color: #E6EBE0;*/
   background-color: #D3D0CB;
 }
 
 h1 small {
-  color: #E2C044; 
+  color: #E2C044;
 }
 
 p {
@@ -284,4 +285,38 @@ html {
 
 .card-reveal {
     padding: 10px !important;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  width: 500px;
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+  border-left: 0 !important;
+}
+
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  color: #7a7a7a;
+}
+
+blockquote cite {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+
+blockquote cite:before {
+  content: "\2014 \2009";
 }

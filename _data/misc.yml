@@ -15,7 +15,7 @@ en:
   newsletterMailText: "Enter your email address"
   subscribe: "Subscribe"
   registerNow: "Register now!"
-  extraInfoText: "Session recordings are now live on <a href=\"https://www.youtube.com/c/powershellconferenceeu\" class=\"alert-link\">YouTube.</a><br>Session materials (slides and demos) are located on <a href=\"https://github.com/psconfeu/2016\" class=\"alert-link\">GitHub</a>."
+  extraInfoText: "Session recordings from PSConfEU 2016 are available at <a href=\"https://www.youtube.com/c/powershellconferenceeu\" class=\"alert-link\">YouTube.</a><br>Session materials (slides and demos) are located on <a href=\"https://github.com/psconfeu/2016\" class=\"alert-link\">GitHub</a>."
 
 de:
   map: "Karte"
