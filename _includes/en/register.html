@@ -2,10 +2,11 @@
 	<div class="container">
 		<h2>Register<!--<small>- {{site.data.event.seatsLeft }} seats left</small>--></h2>
 		<div class="row">
-			<div class="col-md-6">
+            <div class="col-md-6">
+                <!--
                 <div class="alert alert-warning" role="alert">
                     Last few seats available. When you register and receive an invoice, the seat is reserved for you.
-                </div>
+                </div>-->
                 <p>Registration fee is EUR 999 (19% VAT included, net price € 839,50). EUR 899 early bird contingent is exhausted.
                 Registration is limited, first come, first serve.
                 Registration fee covers all three conference days including coffee breaks, lunch, and the evening event.</p>
@@ -35,94 +36,27 @@
 			<div class="col-md-6">
 				<div class="panel panel-default box-shadow--3dp">
 				<div class="panel-body">
-				<form class="form-horizontal" id="registerForm" action="http://formspree.io/register@psconf.eu" method="post" data-toggle="validator">
-					<!-- Name -->
-					<div class="form-group">
-						<label for="attendeeName" class="col-sm-4">Attendee Name</label>
-						<div class="col-sm-8">
-							<input type="text" name="Name" class="form-control" id="attendeeName" placeholder="Full name of person attending the conference" required>
-						</div>
-					</div>
+                    <div id="wufoo-z1cygvfw1pmlcnc">
+Fill out my <a href="https://tobiaspsp.wufoo.com/forms/z1cygvfw1pmlcnc/">online form</a>.
+</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+<script type="text/javascript">var z1cygvfw1pmlcnc;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'tobiaspsp',
+'formHash':'z1cygvfw1pmlcnc',
+'autoResize':true,
+'height':'589',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { z1cygvfw1pmlcnc = new WufooForm();z1cygvfw1pmlcnc.initialize(options);z1cygvfw1pmlcnc.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
 
-					<!-- Company -->
-					<div class="form-group">
-						<label for="company" class="col-sm-4">Company</label>
-						<div class="col-sm-8">
-							<input type="text" name="Company" class="form-control" id="company" placeholder="Company">
-						</div>
-					</div>
-
-					<!-- Billing address -->
-					<div class="form-group">
-						<label for="billingAddress" class="col-sm-4">Billing Address</label>
-						<div class="col-sm-8">
-							<textarea class="form-control" name="Address" rows="3" id="billingAddress" placeholder="Complete address as it appears on invoice. Make sure this is the correct address you need." required></textarea>
-						</div>
-					</div>
-
-					<!-- VAT ID -->
-					<div class="form-group">
-						<label for="vatId" class="col-sm-4">VAT ID</label>
-						<div class="col-sm-8">
-							<input type="text" name="VAT" class="form-control" id="vatId" placeholder="If available, else leave blank">
-						</div>
-					</div>
-
-					<!-- Email address -->
-					<div class="form-group">
-						<label for="email" class="col-sm-4">Email address</label>
-						<div class="col-sm-8">
-							<input type="email" name="Email" class="form-control" id="email" placeholder="Invoice will be sent to this address" required>
-						</div>
-					</div>
-
-					<!-- Country -->
-					<div class="form-group">
-						<label for="countries_phone1" class="col-sm-4">Country</label>
-						<div class="col-sm-8">
-							<select id="countries_phone1" name="Country" class="form-control bfh-countries" data-country="DE" required></select>
-						</div>
-					</div>
-
-					<!-- Phone number -->
-					<div class="form-group">
-						<label for="phone" class="col-sm-4">Phone number</label>
-						<div class="col-sm-8">
-							<!--<input type="text" class="form-control" id="phone" placeholder="Phone number" aria-describedby="phoneHelp">-->
-							<input type="text" name="Phone" class="form-control bfh-phone" data-country="countries_phone1" required>
-						</div>
-					</div>
-
-					<!-- Other comments -->
-					<div class="form-group">
-						<label for="comments" class="col-sm-4">Other comments</label>
-						<div class="col-sm-8">
-							<textarea class="form-control" name="Comments" rows="3" id="billingAddress"></textarea>
-							<span class="help-block">If you have any addition information that you feel we should be aware of, for instance any dietary needs etc., please use this field to let us know.</span>
-						</div>
-					</div>
-
-					<!-- Pre-Conference -->
-					<div class="form-group">
-                        <label for="Pre-Conference" class="col-sm-4">Preconference</label>
-                        <div class="col-sm-8">
-                            <input type="checkbox" name="Pre-Conference" id="Pre-Conference" data-toggle="tooltip" data-placement="bottom" title="By checking this box you indicate that you wish to participate in the preconference, and an additional fee will be added to your incoice!" data-container="body" />
-                            <!--<span class="help-block">Please Check this box if you wish to attend the Pre-Conference Sessions and are happy to be invoiced for this on top of the Standard Conference Registration Fee </span>-->
-                        </div>
-                    </div>
-
-					<input type="hidden" name="_subject" value="New registration from site" />
-					<!--<input type="hidden" name="_next" value="/index.html" />-->
-					<input type="text" name="_gotcha" style="display:none" />
-
-                    <!-- Submit button -->
-					<div class="form-group">
-						<div class="col-sm-8">
-							<button type="submit" class="btn btn-default">Register</button>
-						</div>
-					</div>
-				</form>
-				</div>
 				</div>
 			</div>
 		</div>
