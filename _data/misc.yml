@@ -7,6 +7,7 @@ en:
   register: "Register"
   venue: "Venue"
   legal: "Legal"
+  lastyear: "2016"
   toggleNavigation: "Toggle navigation"
   footerHeading: "PowerShell Conference Europe"
   footerText: "This website is maintained by the European PowerShell community."
@@ -14,7 +15,7 @@ en:
   newsletterMailText: "Enter your email address"
   subscribe: "Subscribe"
   registerNow: "Register now!"
-  extraInfoText: "Session recordings are now live on <a href=\"https://www.youtube.com/c/powershellconferenceeu\" class=\"alert-link\">YouTube.</a><br>Session materials (slides and demos) are located on <a href=\"https://github.com/psconfeu/2016\" class=\"alert-link\">GitHub</a>."
+  extraInfoText: "Session recordings from PSConfEU 2016 are available at <a href=\"https://www.youtube.com/c/powershellconferenceeu\" class=\"alert-link\">YouTube.</a><br>Session materials (slides and demos) are located on <a href=\"https://github.com/psconfeu/2016\" class=\"alert-link\">GitHub</a>."
 
 de:
   map: "Karte"
@@ -25,6 +26,7 @@ de:
   register: "Anmelden"
   venue: "Veranstaltungsort"
   legal: "Impressum"
+  lastyear: "2016"
   toggleNavigation: "Toggle navigation"
   footerHeading: "PowerShell Conference Europe"
   footerText: "Diese Website wurde von der europäischen PowerShell Community erstellt."

@@ -17,6 +17,9 @@ en:
  - name: "Venue"
    link: "#venue"
 
+ - name: "2016"
+   link: "#2016"
+
 de:
  - name: "Home"
    link: "#page-top"
@@ -35,3 +38,7 @@ de:
    
  - name: "Veranstaltungsort"
    link: "#venue"
+
+ - name: "2016"
+   link: "#2016"
+   
