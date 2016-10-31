@@ -1,14 +1,8 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
-  /*padding-bottom: 20px;*/
   font-size: 18px;
-  /*font-family: 'EB Garamond', serif;*/
-  /*font-family: 'Gentium Book Basic', serif;*/
-  /*font-family: 'Merriweather', serif;*/
-  /*font-family: 'PT Serif', serif;*/
   font-family: 'Open Sans', sans-serif;
-  /*background-color: #E6EBE0;*/
   background-color: #D3D0CB;
 }
 
@@ -64,14 +58,11 @@ section {
 
 .jumbotron {
   text-align: center;
-  /*background-color: #bcd5d1;*/
-  /*background-color: #355C7D;*/
   background-color: #6E8898;
 }
 
 .jumbotron p{
   font-size:16px;
-  /*font-weight:200*/
 }
 
 @media screen and (min-width: 768px) {
