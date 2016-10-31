@@ -9,7 +9,18 @@ smoothScroll.init({
 // photogrid
 $('.photogrid').photosetGrid({
       // Set the gutter between columns and rows
-      gutter: '5px'
+      gutter: '5px',
+      highresLinks: true,
+      rel: 'venue-gallery',
+      onComplete: function(){
+            $('.photogrid').attr('style', '');
+            $('.photogrid a').colorbox({
+                  photo: true,
+                  scalePhotos: true,
+                  maxHeight:'90%',
+                  maxWidth:'90%'
+            });
+      }
 });
 
 // Scroll to top
