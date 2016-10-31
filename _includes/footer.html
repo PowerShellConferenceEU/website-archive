@@ -23,42 +23,48 @@
 			</div>
 			<div class="col-md-4">
 				{% if site.data.features.includeContact %}
-				<h3>{{ site.data.contact[page.lang].title }}</h3>
-				<form class="form" id="contactform" action="http://formspree.io/contact@psconf.eu" method="post" data-toggle="validator">
+					{% if page.lang == 'en' %}
+					<div id="wufoo-q1dvd4gc1inhctm">
+Fill out my <a href="https://tobiaspsp.wufoo.com/forms/q1dvd4gc1inhctm">online form</a>.
+</div>
+<script type="text/javascript">var q1dvd4gc1inhctm;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'tobiaspsp',
+'formHash':'q1dvd4gc1inhctm',
+'autoResize':true,
+'height':'519',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { q1dvd4gc1inhctm = new WufooForm();q1dvd4gc1inhctm.initialize(options);q1dvd4gc1inhctm.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+            {% else %}
+				<div id="wufoo-r17r8vjr09s896t">
+Fill out my <a href="https://tobiaspsp.wufoo.com/forms/r17r8vjr09s896t">online form</a>.
+</div>
+<script type="text/javascript">var r17r8vjr09s896t;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'tobiaspsp',
+'formHash':'r17r8vjr09s896t',
+'autoResize':true,
+'height':'519',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { r17r8vjr09s896t = new WufooForm();r17r8vjr09s896t.initialize(options);r17r8vjr09s896t.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+            {% endif %}
 
-				<!-- Name -->
-				<div class="form-group has-feedback">
-					<div class="input-group">
-						<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-						<input type="text" name="name" placeholder="{{ site.data.contact[page.lang].namePlaceholder }}" class="form-control" required>
-					</div>
-				</div>
-
-				<!-- Email -->
-				<div class="form-group has-feedback">
-					<div class="input-group">
-						<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-						<input type="email" name="email" placeholder="{{ site.data.contact[page.lang].emailPlaceholder }}" class="form-control" required>
-					</div>
-				</div>
-
-				<!-- Message -->
-				<div class="form-group has-feedback">
-					<div class="input-group">
-						<span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-						<textarea class="form-control" name="message" rows="6" placeholder="{{ site.data.contact[page.lang].messagePlaceholder }}" required></textarea>
-					</div>
-				</div>
-
-				<input type="hidden" name="_subject" value="Message from website" />
-				<input type="text" name="_gotcha" style="display:none" />
-
-				<!-- Send button -->
-				<div class="form-group">
-					<label class="control-label"></label>
-					<button type="submit" class="btn btn-default">{{ site.data.contact[page.lang].send }} <span class="glyphicon glyphicon-send"></span></button>
-				</div>
-				</form>
 				{% endif %}
 			</div>
 		</div>
