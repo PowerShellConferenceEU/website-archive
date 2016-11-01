@@ -3,7 +3,7 @@ includeExtraInfoBox: false
 includeCountdown: true
 includeEventStats: false
 includeAbout: true
-includeEveningEvent: false
+includeEveningEvent: true
 includeCallforSpeakers: true
 includeSpeakers: false
 includeSchedule : false
