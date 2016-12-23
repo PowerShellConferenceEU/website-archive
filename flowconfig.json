@@ -15,29 +15,8 @@
     },
     {
         "type": "photo",
-        "category": "USA",
-        "thumbnail": "http://www.psconf.eu/img/speakers/BrucePayette_200x300.jpg",
-        "title": "Bruce Payette",
-        "description": ""
-    },
-    {
-        "type": "photo",
-        "category": "USA",
-        "thumbnail": "http://www.psconf.eu/img/speakers/DavidWilson_200x300.jpg",
-        "title": "David Wilson",
-        "description": "David Wilson is a software engineer in the PowerShell team at Microsoft, primarily focused on development tools such as the PowerShell ISE, the PowerShell extension for Visual Studio Code, and PowerShell Editor Services.  His mission is to bring a first-class PowerShell authoring experience to all developers regardless of which editor they prefer.<br><br>You can find him on Twitter and GitHub at @daviwil"
-    },
-    {
-        "type": "photo",
-        "category": "",
-        "thumbnail": "http://www.psconf.eu/img/speakers/HemantMahawar_200x300.jpg",
-        "title": "Hemant Mahawar",
-        "description": "Hemant Mahawar is a Senior Program Manager in the Windows Server Division. He is responsible for various Windows PowerShell features across multiple releases that makes the foundation for Automation Platform for Windows Server.<br><br>Currently, Hemant is focused on various PowerShell Desired State Configuration (DSC) features. Prior to working on DSC, for PowerShell 3.0, Hemant managed PowerShell’s multi-machine management feature – PowerShell Workflows that integrates Windows PowerShell with Windows Workflow Foundation. Earlier, for PowerShell 2.0, Hemant was responsible for PowerShell's remoting capability that allows easy remote management as well as was responsible for PowerShell's rich API surface.<br><br>Hemant joined Microsoft in 2006 as a Program Manager on the Windows PowerShell team. Hemant holds a Master's and Doctorate degree in Computer Science from the Texas A&M University as well as a Bachelor’s in Electrical Engineering from the Indian Institute of Technology."
-    },
-    {
-        "type": "photo",
         "category": "Netherlands",
-        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi.png",
+        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
         "title": "Andre Kamman",
         "description": ""
     },
@@ -93,13 +72,6 @@
     {
         "type": "photo",
         "category": "United Kingdom",
-        "thumbnail": "http://www.psconf.eu/img/speakers/RichardSiddaway_200x300.jpg",
-        "title": "Richard Siddaway",
-        "description": ""
-    },
-    {
-        "type": "photo",
-        "category": "United Kingdom",
         "thumbnail": "http://www.psconf.eu/img/speakers/RobSewell_200x300.jpg",
         "title": "Rob Sewell",
         "description": "Rob is a SQL Server DBA with a passion for Powershell, Azure, Automation, and SQL (PaaS geddit?). He has volunteered and spoken at SQL community events through the UK and Europe and is a member of the committee that organises SQL Saturday Exeter. He is a proud supporter of the SQL and Powershell communities. <br><br>He relishes sharing and learning and can be found doing both via Twitter and his blog. He spends most of his time looking at a screen and loves to solve problems. He knows that looking at a screen so much is bad for him because his wife tells him so.  Thus, you can find him on the cricket field in the summer and flying a drone in the winter. <br><br>He has a fabulous beard."
@@ -113,44 +85,9 @@
     },
     {
         "type": "photo",
-        "category": "",
-        "thumbnail": "http://www.psconf.eu/img/speakers/ChristianKrueger_200x300.jpg",
-        "title": "Christian Krüger",
-        "description": ""
-    },
-    {
-        "type": "photo",
-        "category": "",
-        "thumbnail": "http://www.psconf.eu/img/speakers/WaldemarSchmidt_200x300.jpg",
-        "title": "Waldemar Schmidt",
-        "description": "Waldemar Schmidt works as a consultant for systems management at ITaCS in Berlin. He automates just about anything that can be automated. This includes automated deployment of demo and training environments as well as creating user provisioning solutions, and automated analysis of Active Directory, Sharepoint, and DSF data."
-    },
-    {
-        "type": "photo",
-        "category": "Sweden",
-        "thumbnail": "http://www.psconf.eu/img/speakers/SimonWahlin_200x300.jpg",
-        "title": "Simon Wåhlin",
-        "description": "Simon Wåhlin is a consultant at Knowledge Factory in Stockholm, Sweden and has a focus on PowerShell and automation. He helps customers with both strategy, design and implementation of modern infrastructure solutions. <br><br>He also teaches PowerShell, hosts user group meetings, blogs and talks at conferences. With a background in IT-support and IT-operations and a strong interest for development he is trying to find his place in the gap between Dev and Ops."
-    },
-    {
-        "type": "photo",
-        "category": "Netherlands",
-        "thumbnail": "http://www.psconf.eu/img/speakers/DimitriKoens_200x300.jpg",
-        "title": "Dimitri Koens",
-        "description": "Dimitri Koens is a self-employed consultant and trainer based in the Netherlands. He started working in the IT-industry in 1994. Nowadays he is specialized in System Center Operations Manager, SQL Server and PowerShell. He implements and optimizes infrastructure solutions and has trained thousands of students in infrastructure technology.<br><br>Dimitri holds numerous certifications including Microsoft (Private cloud, SQL, Windows Server, MCT), Certified Ethical Hacking, VMware VCP and CTT+.<br><br>He lives in Alphen aan den Rijn, is happily married and has two kids. When he has some spare time he connects Arduino to the internet, or can be found on a wakeboard on lake Zegerplas. He teaches programming in Python with Minecraft to kids from the age of 10."
-    },
-    {
-        "type": "photo",
         "category": "Netherlands",
         "thumbnail": "http://www.psconf.eu/img/speakers/JaapBrasser_200x300.jpg",
         "title": "Jaap Brasser",
-        "description": ""
-    },
-    {
-        "type": "photo",
-        "category": "",
-        "thumbnail": "http://www.psconf.eu/img/speakers/StephanKulla_200x300.jpg",
-        "title": "Stephan Kulla",
         "description": ""
     },
     {
@@ -159,20 +96,6 @@
         "thumbnail": "http://www.psconf.eu/img/speakers/ChrissyLeMaire_200x300.jpg",
         "title": "Chrissy LeMaire",
         "description": "Chrissy LeMaire is a Windows PowerShell MVP who has worked in IT for nearly 20 years. She currently serves as SQL Server DBA for NATO Special Ops in Belgium, and is pursuing an MS in Systems Engineering at Regis University. <br><br>In her spare time, she maintains her two websites, netnerds.net and RealCajunRecipes.com. She also contributes to the Hey, Scripting Guy! Blog and runs the Belgian PowerShell User Group with Luc Dekens. <br><br>You can follow her on Twitter at @cl."
-    },
-    {
-        "type": "photo",
-        "category": "Germany",
-        "thumbnail": "http://www.psconf.eu/img/speakers/ChristianLehrer_200x300.jpg",
-        "title": "Christian Lehrer",
-        "description": ""
-    },
-    {
-        "type": "photo",
-        "category": "USA",
-        "thumbnail": "http://www.psconf.eu/img/speakers/JuneBlender_200x300.jpg",
-        "title": "June Blender",
-        "description": "June Blender is a technology evangelist for SAPIEN Technologies, Inc., a Windows PowerShell MVP, an honorary Scripting Guy, and a PowerShell Hero. <br><br>She blogs, writes scripts and help, talks to conferences and groups, and teaches PowerShell at all levels. <br><br>In a previous life, she wrote the Get-Help content for Windows PowerShell 1.0 - 3.0, the Azure Active Directory SDK and Azure PowerShell Help, Windows Driver Kits, Windows Support Tools, and Windows Resource Kits. <br><br>She's is a frequent contributor to the Hey, Scripting Guy! Blog and PowerShell.org. <br><br>She lives in magnificent Escalante, Utah, where she works remotely when she's not out hiking, canyoneering, or convincing lost tourists to try Windows PowerShell. <br><br>You can follow her on Twitter at @juneb_get_help."
     },
     {
         "type": "photo",
@@ -190,24 +113,10 @@
     },
     {
         "type": "photo",
-        "category": "United Kingdom",
-        "thumbnail": "http://www.psconf.eu/img/speakers/RyanYates_200x300.jpg",
-        "title": "Ryan Yates",
-        "description": ""
-    },
-    {
-        "type": "photo",
         "category": "Poland",
         "thumbnail": "http://www.psconf.eu/img/speakers/BartekBielawski_200x300.jpg",
-        "title": "Bartek Bielawski",
+        "title": "Bartosz Bielawski",
         "description": "Bartosz (Bartek) Bielawski is a busy Windows engineer for Optiver, an international company. He loves PowerShell and automation and that love earned him the honor of Microsoft MVP. He shares his knowledge mainly in PowerShell Magazine, in his blogs, and through articles published in the Polish “IT Professional” magazine. He is also a co-author of the PowerShell Deep Dives book."
-    },
-    {
-        "type": "photo",
-        "category": "",
-        "thumbnail": "http://www.psconf.eu/img/speakers/KaiWilke_200x300.jpg",
-        "title": "Kai Wilke",
-        "description": ""
     },
     {
         "type": "photo",
@@ -233,22 +142,92 @@
     {
         "type": "photo",
         "category": "Netherlands",
-        "thumbnail": "http://www.psconf.eu/img/speakers/JeffWouters_200x300.jpg",
-        "title": "Jeff Wouters",
+        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "title": "Flynn Bundy",
         "description": ""
     },
     {
         "type": "photo",
-        "category": "",
-        "thumbnail": "http://www.psconf.eu/img/speakers/JanLindmeier_200x300.jpg",
-        "title": "Jan Lindmeier",
+        "category": "United Kingdom",
+        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "title": "Iain Brighton",
         "description": ""
     },
     {
         "type": "photo",
-        "category": "",
-        "thumbnail": "http://www.psconf.eu/img/speakers/NiklasAkerlund_200x300.jpg",
-        "title": "Niklas Akerlund",
+        "category": "Denmark",
+        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "title": "Jakob Gottlieb Svendsen",
+        "description": ""
+    },
+    {
+        "type": "photo",
+        "category": "United Kingdom",
+        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "title": "James O'Neill",
+        "description": ""
+    },
+    {
+        "type": "photo",
+        "category": "Norway",
+        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "title": "Jan Egil Ring",
+        "description": ""
+    },
+    {
+        "type": "photo",
+        "category": "Denmark",
+        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "title": "Mathias Jessen",
+        "description": ""
+    },
+    {
+        "type": "photo",
+        "category": "USA",
+        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "title": "Jason Yoder",
+        "description": ""
+    },
+    {
+        "type": "photo",
+        "category": "Singapore",
+        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "title": "Matthew Hitchcock",
+        "description": ""
+    },
+    {
+        "type": "photo",
+        "category": "USA",
+        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "title": "Matthew Graeber",
+        "description": ""
+    },
+    {
+        "type": "photo",
+        "category": "Netherlands",
+        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "title": "Matthew Hodkins",
+        "description": ""
+    },
+    {
+        "type": "photo",
+        "category": "Germany",
+        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "title": "Raimund Andree",
+        "description": ""
+    },
+    {
+        "type": "photo",
+        "category": "Canada",
+        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "title": "Will Anderson",
+        "description": ""
+    },
+    {
+        "type": "photo",
+        "category": "Netherlands",
+        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "title": "Esther Barthel",
         "description": ""
     }
 ]
