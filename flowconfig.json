@@ -142,21 +142,21 @@
     {
         "type": "photo",
         "category": "Netherlands",
-        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "thumbnail": "http://www.psconf.eu/img/speakers/FlynnBundy_300x200.jpg",
         "title": "Flynn Bundy",
         "description": ""
     },
     {
         "type": "photo",
         "category": "United Kingdom",
-        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "thumbnail": "http://www.psconf.eu/img/speakers/IainBrighton_300x200.jpg",
         "title": "Iain Brighton",
         "description": ""
     },
     {
         "type": "photo",
         "category": "Denmark",
-        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "thumbnail": "http://www.psconf.eu/img/speakers/JakobGSvendsen_300x200.jpg",
         "title": "Jakob Gottlieb Svendsen",
         "description": ""
     },
@@ -170,28 +170,28 @@
     {
         "type": "photo",
         "category": "Norway",
-        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "thumbnail": "http://www.psconf.eu/img/speakers/JanEgilRing_300x200.jpg",
         "title": "Jan Egil Ring",
         "description": ""
     },
     {
         "type": "photo",
         "category": "Denmark",
-        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "thumbnail": "http://www.psconf.eu/img/speakers/MathiasJessen_300x200.jpg",
         "title": "Mathias Jessen",
         "description": ""
     },
     {
         "type": "photo",
         "category": "USA",
-        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "thumbnail": "http://www.psconf.eu/img/speakers/JasonYoder_300x200.jpg",
         "title": "Jason Yoder",
         "description": ""
     },
     {
         "type": "photo",
         "category": "Singapore",
-        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "thumbnail": "http://www.psconf.eu/img/speakers/MatthewHitchcock_200x300.jpg",
         "title": "Matthew Hitchcock",
         "description": ""
     },
@@ -205,8 +205,15 @@
     {
         "type": "photo",
         "category": "Netherlands",
-        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
-        "title": "Matthew Hodkins",
+        "thumbnail": "http://www.psconf.eu/img/speakers/MatthewHodgkins_300x200.jpg",
+        "title": "Matthew Hodgkins",
+        "description": ""
+    },
+    {
+        "type": "photo",
+        "category": "Netherlands",
+        "thumbnail": "http://www.psconf.eu/img/speakers/EstherBarthel_300x200.jpg",
+        "title": "Esther Barthel",
         "description": ""
     },
     {
@@ -225,9 +232,23 @@
     },
     {
         "type": "photo",
-        "category": "Netherlands",
+        "category": "USA",
         "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
-        "title": "Esther Barthel",
+        "title": "?",
+        "description": ""
+    },
+    {
+        "type": "photo",
+        "category": "USA",
+        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "title": "?",
+        "description": ""
+    },
+    {
+        "type": "photo",
+        "category": "USA",
+        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "title": "?",
         "description": ""
     }
 ]
