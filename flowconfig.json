@@ -191,7 +191,7 @@
     {
         "type": "photo",
         "category": "Singapore",
-        "thumbnail": "http://www.psconf.eu/img/speakers/MatthewHitchcock_200x300.jpg",
+        "thumbnail": "http://www.psconf.eu/img/speakers/MatthewHitchcock2_200x300.jpg",
         "title": "Matthew Hitchcock",
         "description": ""
     },
@@ -232,9 +232,9 @@
     },
     {
         "type": "photo",
-        "category": "USA",
-        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
-        "title": "?",
+        "category": "",
+        "thumbnail": "http://www.psconf.eu/img/speakers/LucDekens_300x200.jpg",
+        "title": "Luc Dekens",
         "description": ""
     },
     {
