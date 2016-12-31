@@ -113,7 +113,7 @@ $('#speakers-gallery').flowGallery({
             loadItemChunks: false,
             enableSocialShare: false,
             showFileTypeIcons: false,
-            categoryFilters: ["United Kingdom","USA","Netherlands","Norway","Sweden","India","Germany","Serbia","Poland","Denmark","Canada"],
+            categoryFilters: ["United Kingdom","USA","Netherlands","Norway","Sweden","India","Germany","Serbia","Poland","Denmark","Canada","Belgium"],
             showFileTypeFilters: false,
             hideEmptyCategories: true,
             showFullscreenButton: false,
