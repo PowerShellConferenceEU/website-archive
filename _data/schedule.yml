@@ -33,7 +33,7 @@ days:
             description:
               de: "DE"
               en: "EN"
-            language: English
+            language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
       -
@@ -55,28 +55,28 @@ days:
             description:
               de: "DE"
               en: "EN"
-            language: English
+            language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
             description:
               de: "DE"
               en: "EN"
-            language: English
+            language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
             description:
               de: "DE"
               en: "EN"
-            language: English
+            language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
             description:
               de: "DE"
               en: "EN"
-            language: English
+            language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
     title:
@@ -155,11 +155,11 @@ days:
             description:
               de: "DE"
               en: "EN"
-            language: English
-            name: "Title"
+            language: German
+            name: "Pre-Con Title"
             speaker: "Speaker"
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
@@ -169,14 +169,14 @@ days:
         time:  "14:15 - 15:15"
         tracks:
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
@@ -187,14 +187,14 @@ days:
         time: "15:30 - 16:30"
         tracks:
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
@@ -204,10 +204,11 @@ days:
         time: "16:45 - 17:45"
         tracks:
           -
+            description:
               de: "DE"
               en: "EN"
-            language: English
-            name: "Title"
+            language: German
+            name: "Pre-Con Title"
             speaker: "Speaker"
             span: true
             spanLength: 2
@@ -216,14 +217,14 @@ days:
         time: "17:45 - 18:15"
         tracks:
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
             name: "Pre-Con Title"
-            speaker: "Speaker"
             span: true
             spanLength: 2
+            speaker: "All Speakers"
       -
         time: "18:45 - 01:00"
         tracks:
@@ -261,28 +262,28 @@ days:
         time: "09:00 - 10:00"
         tracks:
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
@@ -292,21 +293,28 @@ days:
         time: "10:15 - 11:15"
         tracks:
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
-              description:
+            description:
+              de: "DE"
+              en: "EN"
+            language: German
+            name: "Pre-Con Title"
+            speaker: "Speaker"
+          -
+            description:
               de: "DE"
               en: "EN"
             language: German
@@ -316,35 +324,35 @@ days:
         time: "11:30 - 12:30"
         tracks:
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
@@ -366,28 +374,28 @@ days:
         time: "13:30 - 14:30"
         tracks:
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
@@ -404,21 +412,21 @@ days:
         time: "14:45 - 15:45"
         tracks:
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
           -
-              description:
+            description:
               de: "DE"
               en: "EN"
             language: German
@@ -465,13 +473,6 @@ days:
       -
         time: "17:00 - 18:00"
         tracks:
-          -
-            description:
-              de: "DE"
-              en: "EN"
-            language: German
-            name: "Pre-Con Title"
-            speaker: "Speaker"
           -
             description:
               de: "DE"
@@ -564,13 +565,6 @@ days:
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
-          -
-            description:
-              de: "DE"
-              en: "EN"
-            language: German
-            name: "Pre-Con Title"
-            speaker: "Speaker"
       -
         time: "10:15 - 11:15"
         tracks:
@@ -613,7 +607,7 @@ days:
         time: "11:30 - 12:30"
         tracks:
           -
-            ddescription:
+            description:
               de: "DE"
               en: "EN"
             language: German
