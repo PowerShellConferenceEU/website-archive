@@ -106,12 +106,19 @@ days:
   -
 
     active: true
-    date: "20.04.2016"
+    date: "03.04.2017"
     id: day1
     timeSlots:
       -
         time: "09:00 - 10:30"
         tracks:
+          -
+            description:
+              de: "DE"
+              en: "EN"
+            language: German
+            name: "Pre-Con Title"
+            speaker: "Speaker"
           -
             description:
               de: "DE"
@@ -255,7 +262,7 @@ days:
           en: "Track 2 (German)"
   -
     active: false
-    date: "21.04.2016"
+    date: "04.04.2017"
     id: day2
     timeSlots:
       -
@@ -289,9 +296,23 @@ days:
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
+          -
+            description:
+              de: "DE"
+              en: "EN"
+            language: German
+            name: "Pre-Con Title"
+            speaker: "Speaker"
       -
         time: "10:15 - 11:15"
         tracks:
+          -
+            description:
+              de: "DE"
+              en: "EN"
+            language: German
+            name: "Pre-Con Title"
+            speaker: "Speaker"
           -
             description:
               de: "DE"
@@ -439,6 +460,13 @@ days:
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
+          -
+            description:
+              de: "DE"
+              en: "EN"
+            language: German
+            name: "Pre-Con Title"
+            speaker: "Speaker"
       -
         time: "16:00 - 17:00"
         tracks:
@@ -470,9 +498,23 @@ days:
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
+          -
+            description:
+              de: "DE"
+              en: "EN"
+            language: German
+            name: "Pre-Con Title"
+            speaker: "Speaker"
       -
         time: "17:00 - 18:00"
         tracks:
+          -
+            description:
+              de: "DE"
+              en: "EN"
+            language: German
+            name: "Pre-Con Title"
+            speaker: "Speaker"
           -
             description:
               de: "DE"
@@ -527,11 +569,11 @@ days:
           en: "Track 4 (ENG)"
       -
         title:
-          de: "Breakout Session"
-          en: "Breakout Session"
+          de: "Track 5 (ENG)"
+          en: "Track 5 (ENG)"
   -
     active: false
-    date: "22.04.2016"
+    date: "05.04.2017"
     id: day3
     timeSlots:
       -
@@ -565,6 +607,14 @@ days:
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
+          -
+            description:
+              de: "DE"
+              en: "EN"
+            language: German
+            name: "Pre-Con Title"
+            speaker: "Speaker"
+          
       -
         time: "10:15 - 11:15"
         tracks:
@@ -722,9 +772,23 @@ days:
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
+          -
+            description:
+              de: "DE"
+              en: "EN"
+            language: German
+            name: "Pre-Con Title"
+            speaker: "Speaker"
       -
         time: "16:00 - 17:00"
         tracks:
+          -
+            description:
+              de: "DE"
+              en: "EN"
+            language: German
+            name: "Pre-Con Title"
+            speaker: "Speaker"
           -
             description:
               de: "DE"
@@ -784,6 +848,13 @@ days:
             language: German
             name: "Pre-Con Title"
             speaker: "Speaker"
+          -
+            description:
+              de: "DE"
+              en: "EN"
+            language: German
+            name: "Pre-Con Title"
+            speaker: "Speaker"
     title:
       de: "Tag 3"
       en: "Day 3"
@@ -810,8 +881,8 @@ days:
           en: "Track 4 (ENG)"
       -
         title:
-          de: "Breakout Session"
-          en: "Breakout Session"
+          de: "Track 5 (ENG)"
+          en: "Track 5 (ENG)"
 de:
   schedule: Agenda
 en:
