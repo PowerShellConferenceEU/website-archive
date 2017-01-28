@@ -16,9 +16,9 @@
     {
         "type": "photo",
         "category": "Netherlands",
-        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "thumbnail": "http://www.psconf.eu/img/speakers/AndreKamman_200x300.jpg",
         "title": "Andre Kamman",
-        "description": ""
+        "description": "André is a SQL Server Solutions Architect at CloudDBA, based in The Netherlands. In previous roles he’s done a lot of DBA work on 100’s of servers where he discovered his love for Powershell and automating processes in general. Today the better part of his day he’s building and tuning Cloud migration scenarios, OLTP Systems, Data warehouses & ETL processes and even the occasional PDW. Enjoying automation so much, he's discovered BIML and is loving it. André is a SQL Server MPV, Dutch PASS Chapter Leader and organizer of SQL Rally Amsterdam and SQL Saturday Holland"
     },
     {
         "type": "photo",
@@ -54,6 +54,20 @@
         "thumbnail": "http://www.psconf.eu/img/speakers/BenGelens_200x300.jpg",
         "title": "Ben Gelens",
         "description": "Ben Gelens is a PowerShell MVP and technical consultant at Inovativ in the Netherlands where he works as a member of the CloudOS team. While building clouds for his customers, Ben’s primary focus is automation and orchestration. As such, Ben has a great deal of field experience on all kinds of PowerShell subjects (e.g. Remoting, Tool making, DSC, SMA, Workflow) in all kinds of areas (e.g. Windows Azure Pack, Active Directory, Office 365, Server Management, Azure). <br><br>Ben is an active IT community participant and speaker. He is a member of the Hyper-V.nu community, a member of the Dutch PowerShell User Group and a contributing author for PowerShell magazine."
+    },
+    {
+        "type": "photo",
+        "category": "USA",
+        "thumbnail": "http://www.psconf.eu/img/speakers/BrucePayette_200x300.jpg",
+        "title": "Bruce Payette",
+        "description": ""
+    },
+     {
+        "type": "photo",
+        "category": "USA",
+        "thumbnail": "http://www.psconf.eu/img/speakers/DavidWilson_200x300.jpg",
+        "title": "David Wilson",
+        "description": "David Wilson is a software engineer in the PowerShell team at Microsoft, primarily focused on development tools such as the PowerShell ISE, the PowerShell extension for Visual Studio Code, and PowerShell Editor Services.  His mission is to bring a first-class PowerShell authoring experience to all developers regardless of which editor they prefer.<br><br>You can find him on Twitter and GitHub at @daviwil"
     },
     {
         "type": "photo",
@@ -239,10 +253,10 @@
     },
     {
         "type": "photo",
-        "category": "USA",
-        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
-        "title": "?",
-        "description": ""
+        "category": "Germany",
+        "thumbnail": "http://www.psconf.eu/img/speakers/JanHendrikPeters.jpg",
+        "title": "Jan-Hendrik Peters",
+        "description": "Jan-Hendrik aka JHP is a Premier Field Engineer at Microsoft Germany based in Cologne. He is supporting Premier customers by delivering workshops for PowerShell, Desired State Configuration, Kerberos and DevOps on Azure as well as by taking on engagements in the area of Active Directory and automation in general."
     },
     {
         "type": "photo",
