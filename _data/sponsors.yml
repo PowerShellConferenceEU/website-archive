@@ -1,6 +1,6 @@
 ﻿# define bootstrap grid sizes for speaker list
-col_md: 6
-col_sm: 6
+col_md: 4
+col_sm: 4
 col_xs: 12
 
 sponsors:
@@ -10,3 +10,6 @@ sponsors:
   - name: "O'Reilly"
     img: "/img/sponsors/oreillyde.jpg"
     url: "http://www.oreilly.com/"
+  - name: "Manning Publications"
+    img: "/img/sponsors/Manning.jpg"
+    url: "https://www.manning.com/"
