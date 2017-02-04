@@ -29,14 +29,36 @@
 											<td>{{ slot.time }}</td>
 											{% for track in slot.tracks %}
                                                 {% if track.span == true %}
-                                                    <td colspan="{{track.spanLength}}">
+                                                    <td style="{{site.data.schedule.cellStyle[track.category]}}" colspan="{{track.spanLength}}">
                                                 {% else %}
-												    <td>
+												    <!--<td>-->
+													<td style="{{site.data.schedule.cellStyle[track.category]}}">
                                                 {% endif %}
 													{% if track.name != '' %}
-														<a href="#this" data-toggle="popover" data-html="true" data-trigger="focus" data-placement="bottom" data-container="body" data-content="{{track.description[page.lang]}}"><strong>{{ track.name }}</strong></a>
-                                                        {% if track.speaker != '' %}<br><i>{{ track.speaker }}</i>{% endif %}<br>
-														<!-- Language: {{ track.language }}<br><br>-->
+														{% if track.description[page.lang] == '' %}
+															<strong>
+																{% if track.language == 'English' %}
+																	<img src="{{ "/img/gb.png" | prepend: site.baseurl }}">
+																{% endif %}
+																{% if track.language == 'German' %}
+																	<img src="{{ "/img/de.png" | prepend: site.baseurl }}">
+																{% endif %}
+																{{ track.name }}
+															</strong>
+														{% else %}
+															<a href="#this" data-toggle="popover" data-html="true" data-trigger="focus" data-placement="bottom" data-container="body" data-content="{{track.description[page.lang]}}">
+																<strong>
+																	{% if track.language == 'English' %}
+																		<img src="{{ "/img/gb.png" | prepend: site.baseurl }}">
+																	{% endif %}
+																	{% if track.language == 'German' %}
+																		<img src="{{ "/img/de.png" | prepend: site.baseurl }}">
+																	{% endif %}
+																	{{ track.name }}
+																</strong>
+															</a>
+														{% endif %}
+														{% if track.speaker != '' %}<br><i>{{ track.speaker }}</i>{% endif %}<br>
 													{% endif %}
                                                     <!--
                                                     <br>
@@ -49,6 +71,17 @@
 										</tr>
 									{% endfor %}
 								</tbody>
+							</table>
+							<table class="table table-bordered table-condensed table-responsive">
+									<td style="{{site.data.schedule.cellStyle["PowerShell"]}}">PowerShell</td>
+									<td style="{{site.data.schedule.cellStyle["OpenSource"]}}">Cross-Platform & OpenSource</td>
+									<td style="{{site.data.schedule.cellStyle["Security"]}}">Security</td>
+									<td style="{{site.data.schedule.cellStyle["Testing"]}}">Pester & TDD</td>
+									<td style="{{site.data.schedule.cellStyle["DevOps"]}}">DSC & DevOps</td>
+									<td style="{{site.data.schedule.cellStyle["Automation"]}}">Automation</td>
+									<td style="{{site.data.schedule.cellStyle["Containers"]}}">PowerShell as a Service & Nanoserver</td>
+									<td style="{{site.data.schedule.cellStyle["Database"]}}">Database</td>
+									<td style="{{site.data.schedule.cellStyle["Microsoft"]}}">PowerShell Team</td>
 							</table>
 						</div>
 					</div>
