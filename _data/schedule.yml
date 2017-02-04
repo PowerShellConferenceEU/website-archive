@@ -148,7 +148,7 @@ days:
               de: ""
               en: ""
             language: ""
-            name: "Opening Ceremony"
+            name: "Opening Ceremony (Leibniz Saal)"
             span: true
             spanLength: 4
             speaker: ""
@@ -160,7 +160,7 @@ days:
               de: ""
               en: ""
             language: "English"
-            name: "Keynote"
+            name: "Keynote (Leibniz Saal)"
             category: "Microsoft"
             span: true
             spanLength: 4
@@ -173,7 +173,7 @@ days:
               de: ""
               en: ""
             language: "English"
-            name: "PowerShell Warm-Up: Quiz & Quirks"
+            name: "PowerShell Warm-Up: Quiz & Quirks (Leibniz Saal)"
             category: "PowerShell"
             span: true
             spanLength: 4
@@ -186,7 +186,7 @@ days:
               de: ""
               en: ""
             language: "English"
-            name: "Catch Me If You Can - PowerShell Red vs. Blue"
+            name: "Catch Me If You Can - PowerShell Red vs. Blue (Leibniz Saal)"
             category: "Security"
             span: true
             spanLength: 4
@@ -397,20 +397,20 @@ Every Job in Ola Hallengrens Maintenance Solution exists, is enabled, has a sche
           en: Time
       -
         title:
-          de: "Track 1"
-          en: "Track 1"
+          de: "Track 1<br>Room 11/13"
+          en: "Track 1<br>Room 11/13"
       -
         title:
-          de: "Track 2"
-          en: "Track 2"
+          de: "Track 2<br>Room 12/14"
+          en: "Track 2<br>Room 12/14"
       -
         title:
-          de: "Track 3"
-          en: "Track 3"
+          de: "Track 3<br>Room 24/26"
+          en: "Track 3<br>Room 24/26"
       -
         title:
-          de: "Track 4"
-          en: "Track 4"
+          de: "Track 4<br>Room 25"
+          en: "Track 4<br>Room 25"
   -
     active: false
     date: "04.05.2017"
@@ -767,24 +767,24 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
           en: Time
       -
         title:
-          de: "Track 1"
-          en: "Track 1"
+          de: "Track 1<br>Room 11/13"
+          en: "Track 1<br>Room 11/13"
       -
         title:
-          de: "Track 2"
-          en: "Track 2"
+          de: "Track 2<br>Room 12/14"
+          en: "Track 2<br>Room 12/14"
       -
         title:
-          de: "Track 3"
-          en: "Track 3"
+          de: "Track 3<br>Room 26"
+          en: "Track 3<br>Room 26"
       -
         title:
-          de: "Track 4"
-          en: "Track 4"
+          de: "Track 4<br>Room 25"
+          en: "Track 4<br>Room 25"
       -
         title:
-          de: "Track 5"
-          en: "Track 5"
+          de: "Track 5<br>Room 24"
+          en: "Track 5<br>Room 24"
   -
     active: false
     date: "05.05.2017"
@@ -1085,24 +1085,24 @@ This will focus on how DSC makes the life-cycle of application development and s
           en: Time
       -
         title:
-          de: "Track 1"
-          en: "Track 1"
+          de: "Track 1<br>Room 11/13"
+          en: "Track 1<br>Room 11/13"
       -
         title:
-          de: "Track 2"
-          en: "Track 2"
+          de: "Track 2<br>Room 12/14"
+          en: "Track 2<br>Room 12/14"
       -
         title:
-          de: "Track 3"
-          en: "Track 3"
+          de: "Track 3<br>Room 26"
+          en: "Track 3<br>Room 26"
       -
         title:
-          de: "Track 4"
-          en: "Track 4"
+          de: "Track 4<br>Room 25"
+          en: "Track 4<br>Room 25"
       -
         title:
-          de: "Track 5"
-          en: "Track 5"
+          de: "Track 5<br>Room 24"
+          en: "Track 5<br>Room 24"
 de:
   schedule: Agenda
 en:
