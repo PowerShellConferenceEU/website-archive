@@ -271,5 +271,12 @@
         "thumbnail": "http://www.psconf.eu/img/speakers/DanielBoth.jpg",
         "title": "Daniël Both",
         "description": "Daniël is an Infrastructure Engineer with 10 years of experience in IT. Started with scripting in batch and VBScript, but soon adapted PowerShell and loving it since. He’s currently working @ Optiver where he manages the storage, hypervisor and Windows infrastructure with the goal to serve the business best by automating as much as possible."
+    },
+    {
+        "type": "photo",
+        "category": "USA",
+        "thumbnail": "http://www.psconf.eu/img/speakers/JoeyAiello.jpg",
+        "title": "Joey Aiello",
+        "description": "Joey Aiello is a Program Manager on the PowerShell Team focusing on open-source and cross-platform efforts including PowerShell 6.0, OpenSSH, and the PowerShell plugin for VS Code. Areas of personal interest include cross-platform tooling, package management, and selfhosting ALL the preview bits."
     }
 ]
