@@ -278,5 +278,19 @@
         "thumbnail": "http://www.psconf.eu/img/speakers/JoeyAiello.jpg",
         "title": "Joey Aiello",
         "description": "Joey Aiello is a Program Manager on the PowerShell Team focusing on open-source and cross-platform efforts including PowerShell 6.0, OpenSSH, and the PowerShell plugin for VS Code. Areas of personal interest include cross-platform tooling, package management, and selfhosting ALL the preview bits."
+    },
+    {
+        "type": "photo",
+        "category": "USA",
+        "thumbnail": "http://www.psconf.eu/img/speakers/KennethHansen.jpg",
+        "title": "Kenneth Hansen",
+        "description": "Kenneth is the Lead Principal Program Manager for PowerShell and has enjoyed working on the PowerShell team for the past 14 years.  Prior to PowerShell, at Microsoft, Kenneth has also worked on IP Telephony, BackOffice, Exchange Apps, and Provisioning. Before Microsoft, Kenneth led software development for MasPar, a manufacturer of Massively Parallel Computers and even earlier worked in various startup tool and compiler teams."
+    },
+    {
+        "type": "photo",
+        "category": "USA",
+        "thumbnail": "http://www.psconf.eu/img/speakers/MarkGray.jpg",
+        "title": "Mark Gray",
+        "description": "Mark Gray is a Senior Program Manager in the PowerShell team at Microsoft. He is currently the PM owner for PowerShell Desired State Configuration. He has worked in various management technologies since joining Microsoft 10 years ago.  The future of management is extremely exciting with the advent of DevOps including Continuous Integration and Continuous Delivery (CI/CD) and he is incredibly thrilled to be part of the journey."
     }
 ]
