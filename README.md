@@ -43,6 +43,10 @@ Images the site uses are stored in this folder.
 **js**
 This folder holds local JavaScript files. Note that some JavaScript files are hosted on CDNs.
 
+About Speaker Pictures
+----------------------
+Speaker pictures should be in 300x200px (height x width). This will produce the best result with our current gallery plugin.
+
 Credits
 -------
 The following frameworks and third-party plugins/modules are used on this site:
