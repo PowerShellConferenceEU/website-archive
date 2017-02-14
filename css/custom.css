@@ -311,3 +311,7 @@ blockquote cite {
 blockquote cite:before {
   content: "\2014 \2009";
 }
+
+table a, a:visited, a::selection {
+  color: black;
+}
