@@ -212,7 +212,7 @@
     {
         "type": "photo",
         "category": "USA",
-        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "thumbnail": "http://www.psconf.eu/img/speakers/MattGraeber.jpg",
         "title": "Matthew Graeber",
         "description": ""
     },
@@ -233,14 +233,14 @@
     {
         "type": "photo",
         "category": "Germany",
-        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "thumbnail": "http://www.psconf.eu/img/speakers/RaimundAndree.jpg",
         "title": "Raimund Andree",
-        "description": ""
+        "description": "Raimund is a Premier Field Engineer at Microsoft based in Munich. His technical focus areas are everything around system automation, DevOps and Identity (AD, ADFS). He is participating in DevOps projects and is delivering Workshops in this area. Right now, he is engaged in projects driving DSC and automating Skype for Business. Raimund has also a developer background in C#."
     },
     {
         "type": "photo",
         "category": "Canada",
-        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
+        "thumbnail": "http://www.psconf.eu/img/speakers/WillAnderson.jpg",
         "title": "Will Anderson",
         "description": ""
     },
@@ -261,8 +261,36 @@
     {
         "type": "photo",
         "category": "USA",
-        "thumbnail": "http://www.psconf.eu/img/speakers/placeholder-hi_300x200.png",
-        "title": "?",
-        "description": ""
+        "thumbnail": "http://www.psconf.eu/img/speakers/AngelCalvo.jpg",
+        "title": "Angel Calvo",
+        "description": "Angel Calvo is a Partner Group Program Manager for Microsoft Azure Operations Management Suite (OMS). Angel is also the Community Product Lead for the PowerShell Open Source GitHub Projects. In his current role, Angel Calvo is responsible to drive the business and technology strategies, and leads the Program Management team responsible for delivering: The Azure OMS Configuration and Automation Service portfolio; PowerShell and DSC on Linux and Windows; Windows Remote Management Protocol (WinRM); OpenSSH for Windows; and the automation Platform that enables IT Professionals, DevOps and Hosters to configure and manage: Azure Services, Windows, OMS Solutions, Hybrid Clouds and Data Center infrastructures."
+    },
+    {
+        "type": "photo",
+        "category": "Germany",
+        "thumbnail": "http://www.psconf.eu/img/speakers/DanielBoth.jpg",
+        "title": "Daniël Both",
+        "description": "Daniël is an Infrastructure Engineer with 10 years of experience in IT. Started with scripting in batch and VBScript, but soon adapted PowerShell and loving it since. He’s currently working @ Optiver where he manages the storage, hypervisor and Windows infrastructure with the goal to serve the business best by automating as much as possible."
+    },
+    {
+        "type": "photo",
+        "category": "USA",
+        "thumbnail": "http://www.psconf.eu/img/speakers/JoeyAiello.jpg",
+        "title": "Joey Aiello",
+        "description": "Joey Aiello is a Program Manager on the PowerShell Team focusing on open-source and cross-platform efforts including PowerShell 6.0, OpenSSH, and the PowerShell plugin for VS Code. Areas of personal interest include cross-platform tooling, package management, and selfhosting ALL the preview bits."
+    },
+    {
+        "type": "photo",
+        "category": "USA",
+        "thumbnail": "http://www.psconf.eu/img/speakers/KennethHansen.jpg",
+        "title": "Kenneth Hansen",
+        "description": "Kenneth is the Lead Principal Program Manager for PowerShell and has enjoyed working on the PowerShell team for the past 14 years.  Prior to PowerShell, at Microsoft, Kenneth has also worked on IP Telephony, BackOffice, Exchange Apps, and Provisioning. Before Microsoft, Kenneth led software development for MasPar, a manufacturer of Massively Parallel Computers and even earlier worked in various startup tool and compiler teams."
+    },
+    {
+        "type": "photo",
+        "category": "USA",
+        "thumbnail": "http://www.psconf.eu/img/speakers/MarkGray.jpg",
+        "title": "Mark Gray",
+        "description": "Mark Gray is a Senior Program Manager in the PowerShell team at Microsoft. He is currently the PM owner for PowerShell Desired State Configuration. He has worked in various management technologies since joining Microsoft 10 years ago.  The future of management is extremely exciting with the advent of DevOps including Continuous Integration and Continuous Delivery (CI/CD) and he is incredibly thrilled to be part of the journey."
     }
 ]
