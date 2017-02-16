@@ -29,21 +29,20 @@ days:
             category: "DevOps"
             name: "DSC Introduction"
             speaker: "Ravi Ravikanth (MVP)"
-          -
+          -            
             description:
-              de: "Security is one of the premier topics in the main conference, and PowerrShell introduces with JEA (Just Enough Admin) a new approach how to safely manage role-based permissions. Join Alexandar to find your way into JEA, and prepare yourself for the security tracks waiting for you in the main conference."
-              en: "Security is one of the premier topics in the main conference, and PowerrShell introduces with JEA (Just Enough Admin) a new approach how to safely manage role-based permissions. Join Alexandar to find your way into JEA, and prepare yourself for the security tracks waiting for you in the main conference."
+              de: ""
+              en: ""
             language: English
-            category: "Security"
-            name: "JEA and Security"
+            name: "TBD"
             speaker: "Alexandar Nikolic (MVP)"
           -
             description:
-              de: "PowerShell ist zwar eine Automationssprache ohne GUI, wird aber zunehmend auch als Application Development Sprache eingesetzt, mit der man mit kleinem Aufwand hilfreiche Helpdesk-Tools oder Dashboards erstellen kann. David zeigt in diesem Workshop, welche Möglichkeiten Sie haben, PowerShell mit GUIs zu versehen. Dabei wird insbesondere zwischen den Technologien 'Windows Forms' und 'WPF' differenziert, um den Teilnehmern mit einer Fülle an Demos / Tools / Tipps und Tricks das Thema so nah zu bringen, dass Sie nach dem Workshop direkt loslegen können. Mit diesem Wissen können Sie die zahlreichen Inhalte der Hauptkonferenz in eigenen kleinen Anwendungen 'verpacken' und ihren Mitarbeitern bereitstellen - auf Wunsch sogar als ausführbare EXE-Anwendung"
-              en: "PowerShell ist zwar eine Automationssprache ohne GUI, wird aber zunehmend auch als Application Development Sprache eingesetzt, mit der man mit kleinem Aufwand hilfreiche Helpdesk-Tools oder Dashboards erstellen kann. David zeigt in diesem Workshop, welche Möglichkeiten Sie haben, PowerShell mit GUIs zu versehen. Dabei wird insbesondere zwischen den Technologien 'Windows Forms' und 'WPF' differenziert, um den Teilnehmern mit einer Fülle an Demos / Tools / Tipps und Tricks das Thema so nah zu bringen, dass Sie nach dem Workshop direkt loslegen können. Mit diesem Wissen können Sie die zahlreichen Inhalte der Hauptkonferenz in eigenen kleinen Anwendungen 'verpacken' und ihren Mitarbeitern bereitstellen - auf Wunsch sogar als ausführbare EXE-Anwendung"
+              de: "Was sind überhaupt die Security Basics im Powershell? Können Sie alle wichtigen Themen benennen? Kennen Sie alle Features und Funktionen, die in der aktuellsten Powershell-Version enthalten sind? Viele der Vorträge der Hauptkonferenz drehen sich um Security. In diesem Workshop haben Sie die Gelegenheit, die Grundprinzipien noch einmal zu  verinnerlichen. Powershell Remoting, JEA und Execution Policies sind nur die wichtigsten Themen – doch spätestens, wenn es um die Konfiguration dieser Themen geht, sind viele überfragt. In dieser Session werden die wichtigsten Themen komplett erklärt und beleuchtet –zusätzliche hat David für das zentralisierte Logging ein ganz besonderes Schmankerl parat."
+              en: "Was sind überhaupt die Security Basics im Powershell? Können Sie alle wichtigen Themen benennen? Kennen Sie alle Features und Funktionen, die in der aktuellsten Powershell-Version enthalten sind? Viele der Vorträge der Hauptkonferenz drehen sich um Security. In diesem Workshop haben Sie die Gelegenheit, die Grundprinzipien noch einmal zu  verinnerlichen. Powershell Remoting, JEA und Execution Policies sind nur die wichtigsten Themen – doch spätestens, wenn es um die Konfiguration dieser Themen geht, sind viele überfragt. In dieser Session werden die wichtigsten Themen komplett erklärt und beleuchtet –zusätzliche hat David für das zentralisierte Logging ein ganz besonderes Schmankerl parat."
             language: German
-            category: "PowerShell"
-            name: "GUIs und Toolmaking mit PowerShell"
+            category: "Security"
+            name: "PowerShell Security Einführung"
             speaker: "David des Neves (Microsoft)"
           -
             description:
@@ -77,18 +76,19 @@ days:
             speaker: "Ravi Ravikanth (MVP)"
           -
             description:
-              de: ""
-              en: ""
+              de: "Security is one of the premier topics in the main conference, and PowerrShell introduces with JEA (Just Enough Admin) a new approach how to safely manage role-based permissions. Join Alexandar to find your way into JEA, and prepare yourself for the security tracks waiting for you in the main conference."
+              en: "Security is one of the premier topics in the main conference, and PowerrShell introduces with JEA (Just Enough Admin) a new approach how to safely manage role-based permissions. Join Alexandar to find your way into JEA, and prepare yourself for the security tracks waiting for you in the main conference."
             language: English
-            name: "TBD"
+            category: "Security"
+            name: "JEA and Security"
             speaker: "Alexandar Nikolic (MVP)"
           -
             description:
-              de: "Was sind überhaupt die Security Basics im Powershell? Können Sie alle wichtigen Themen benennen? Kennen Sie alle Features und Funktionen, die in der aktuellsten Powershell-Version enthalten sind? Viele der Vorträge der Hauptkonferenz drehen sich um Security. In diesem Workshop haben Sie die Gelegenheit, die Grundprinzipien noch einmal zu  verinnerlichen. Powershell Remoting, JEA und Execution Policies sind nur die wichtigsten Themen – doch spätestens, wenn es um die Konfiguration dieser Themen geht, sind viele überfragt. In dieser Session werden die wichtigsten Themen komplett erklärt und beleuchtet –zusätzliche hat David für das zentralisierte Logging ein ganz besonderes Schmankerl parat."
-              en: "Was sind überhaupt die Security Basics im Powershell? Können Sie alle wichtigen Themen benennen? Kennen Sie alle Features und Funktionen, die in der aktuellsten Powershell-Version enthalten sind? Viele der Vorträge der Hauptkonferenz drehen sich um Security. In diesem Workshop haben Sie die Gelegenheit, die Grundprinzipien noch einmal zu  verinnerlichen. Powershell Remoting, JEA und Execution Policies sind nur die wichtigsten Themen – doch spätestens, wenn es um die Konfiguration dieser Themen geht, sind viele überfragt. In dieser Session werden die wichtigsten Themen komplett erklärt und beleuchtet –zusätzliche hat David für das zentralisierte Logging ein ganz besonderes Schmankerl parat."
+              de: "PowerShell ist zwar eine Automationssprache ohne GUI, wird aber zunehmend auch als Application Development Sprache eingesetzt, mit der man mit kleinem Aufwand hilfreiche Helpdesk-Tools oder Dashboards erstellen kann. David zeigt in diesem Workshop, welche Möglichkeiten Sie haben, PowerShell mit GUIs zu versehen. Dabei wird insbesondere zwischen den Technologien 'Windows Forms' und 'WPF' differenziert, um den Teilnehmern mit einer Fülle an Demos / Tools / Tipps und Tricks das Thema so nah zu bringen, dass Sie nach dem Workshop direkt loslegen können. Mit diesem Wissen können Sie die zahlreichen Inhalte der Hauptkonferenz in eigenen kleinen Anwendungen 'verpacken' und ihren Mitarbeitern bereitstellen - auf Wunsch sogar als ausführbare EXE-Anwendung"
+              en: "PowerShell ist zwar eine Automationssprache ohne GUI, wird aber zunehmend auch als Application Development Sprache eingesetzt, mit der man mit kleinem Aufwand hilfreiche Helpdesk-Tools oder Dashboards erstellen kann. David zeigt in diesem Workshop, welche Möglichkeiten Sie haben, PowerShell mit GUIs zu versehen. Dabei wird insbesondere zwischen den Technologien 'Windows Forms' und 'WPF' differenziert, um den Teilnehmern mit einer Fülle an Demos / Tools / Tipps und Tricks das Thema so nah zu bringen, dass Sie nach dem Workshop direkt loslegen können. Mit diesem Wissen können Sie die zahlreichen Inhalte der Hauptkonferenz in eigenen kleinen Anwendungen 'verpacken' und ihren Mitarbeitern bereitstellen - auf Wunsch sogar als ausführbare EXE-Anwendung"
             language: German
-            category: "Security"
-            name: "PowerShell Security Einführung"
+            category: "PowerShell"
+            name: "GUIs und Toolmaking mit PowerShell"
             speaker: "David des Neves (Microsoft)"
           -
             description:
@@ -251,12 +251,12 @@ days:
             speaker: "Raimund Andree, Jan-Hendrik Peters"
           -
             description:
-              de: "Nano Server is small. Nano Server is fast. And secure. Nano Server is the future of Windows Server. In this session we will show you different management techniques, the power of running Nano Server as a container, and what happens behind the scenes when you use Server Management Tools (SMT). Have you noticed I haven't mentioned PowerShell yet? PowerShell is the core of Nano Servers power."
-              en: "Nano Server is small. Nano Server is fast. And secure. Nano Server is the future of Windows Server. In this session we will show you different management techniques, the power of running Nano Server as a container, and what happens behind the scenes when you use Server Management Tools (SMT). Have you noticed I haven't mentioned PowerShell yet? PowerShell is the core of Nano Servers power."
+              de: "In this session I want take the audience on the journey of why, what and how Windows Server Containers. This session will cover real life scenarios that traditional teams run into and how to overcome these in a very modern agile approach. This session will contain numerous demos such as introducing the concept of Docker for Windows Server, Creating a highly available web application and some of the major advantages of virtual machines. This is aimed at people who may have little to no knowledge in Docker and or Containers on Nano Server."
+              en: "In this session I want take the audience on the journey of why, what and how Windows Server Containers. This session will cover real life scenarios that traditional teams run into and how to overcome these in a very modern agile approach. This session will contain numerous demos such as introducing the concept of Docker for Windows Server, Creating a highly available web application and some of the major advantages of virtual machines. This is aimed at people who may have little to no knowledge in Docker and or Containers on Nano Server."
             language: English
             category: "Containers"
-            name: "Look! Up in the sky! It's a bird. It's a plane. It's Nanoman!(B2)"
-            speaker: "Aleksandar Nikolic"
+            name: "Getting started with Windows Server Containers(B2)"
+            speaker: "Flynn Bundy"
           -
             description:
               de: "How sure are you that your PowerShell code is prepared to handle anything that a user might throw at it? What if the user was an attacker attempting to circumvent security controls by exploiting a vulnerability in your script? This may sound unrealistic but this is a legitimate concern of the PowerShell team when including PowerShell code in the operating system. In a high-security environment where strict AppLocker or Device Guard rules are deployed, PowerShell exposes a large attack surface that can be used to circumvent security controls. While constrained language mode goes a long way in preventing malicious PowerShell code from executing, attackers will seek out vulnerabilities in trusted signed code in order to circumvent security controls.
@@ -276,7 +276,7 @@ This talk will cover numerous different ways in which attackers can influence th
             language: English
             category: "OpenSource"
             name: "Creating and Maintaining Successful Open Source Projects(D2)"
-            speaker: "Chrissy LeMaire"
+            speaker: "Chrissy LeMaire & Rob Sewell"
       -
         time: "15:30 - 16:30"
         tracks:
@@ -306,12 +306,12 @@ faster code, algorithmic optimization and much much more!"
             speaker: "Mathias Jessen & Øyvind Kallstad"
           -
             description:
-              de: "In this session I want take the audience on the journey of why, what and how Windows Server Containers. This session will cover real life scenarios that traditional teams run into and how to overcome these in a very modern agile approach. This session will contain numerous demos such as introducing the concept of Docker for Windows Server, Creating a highly available web application and some of the major advantages of virtual machines. This is aimed at people who may have little to no knowledge in Docker and or Containers on Nano Server."
-              en: "In this session I want take the audience on the journey of why, what and how Windows Server Containers. This session will cover real life scenarios that traditional teams run into and how to overcome these in a very modern agile approach. This session will contain numerous demos such as introducing the concept of Docker for Windows Server, Creating a highly available web application and some of the major advantages of virtual machines. This is aimed at people who may have little to no knowledge in Docker and or Containers on Nano Server."
+              de: "Nano Server is small. Nano Server is fast. And secure. Nano Server is the future of Windows Server. In this session we will show you different management techniques, the power of running Nano Server as a container, and what happens behind the scenes when you use Server Management Tools (SMT). Have you noticed I haven't mentioned PowerShell yet? PowerShell is the core of Nano Servers power."
+              en: "Nano Server is small. Nano Server is fast. And secure. Nano Server is the future of Windows Server. In this session we will show you different management techniques, the power of running Nano Server as a container, and what happens behind the scenes when you use Server Management Tools (SMT). Have you noticed I haven't mentioned PowerShell yet? PowerShell is the core of Nano Servers power."
             language: English
             category: "Containers"
-            name: "Getting started with Windows Server Containers(A3)"
-            speaker: "Flynn Bundy"
+            name: "Look! Up in the sky! It's a bird. It's a plane. It's Nanoman!(A3)"
+            speaker: "Aleksandar Nikolic & Jan Egil Ring"
           -
             description:
               de: "More Organisations are beginning to evaluate or make the move to DevOps as technology has made it more practical. Microsoft have released a Release Pipeline whitepaper and demo guide to get you set up in TFS, but what does it mean to actually implement this?
@@ -380,10 +380,14 @@ Every Job in Ola Hallengrens Maintenance Solution exists, is enabled, has a sche
         tracks:
           -
             description:
-              de: ""
-              en: ""
+              de: "We'll leave at 18:30h from Leibniz Saal and walk down to the Zoo together.
+You can also get there on your own, take a car (if you have one and don't drink), the tram (one station), or a cab.
+Just make sure you are at the Zoo Main Entrance at 19:00h (7 pm) sharp, and <b>bring your badge. Your badge is required to enter the Zoo.</b>"
+              en: "We'll leave at 18:30h from Leibniz Saal and walk down to the Zoo together.
+You can also get there on your own, take a car (if you have one and don't drink), the tram (one station), or a cab.
+Just make sure you are at the Zoo Main Entrance at 19:00h (7 pm) sharp, and <b>bring your badge. Your badge is required to enter the Zoo.</b>"
             language: ""
-            name: "Evening Event at Yukon Bay/Zoo Hannover"
+            name: "Evening Event at Yukon Bay/Zoo Hannover - bring your badge!"
             span: true
             spanLength: 4
             speaker: "Dinner and Drinks"
@@ -435,12 +439,12 @@ Every Job in Ola Hallengrens Maintenance Solution exists, is enabled, has a sche
             speaker: "Jan-Hendrik Peters, Raimund Andrée"
           -
             description:
-              de: ""
-              en: ""
+              de: "Pilots joke that a landing you walk away from is OK, and if you can use the aircraft again it's a good landing. There is useful PowerShell at the 'crash landing' level - but we need a higher standard when sharing with peers, colleagues or the wider community. That's the difference between your hard work being used and recommended by others or being  forgotten. The presenter of the session wrote one of the most downloaded modules ever, and contributed the 10 cmdletments for reusable code to Manning's PowerShell Deep Dives book - but several years have passed since then and distributing code has become easier, and ideas of good and bad practice have evolved, so the time has come to see which established ideas still hold, and which new ones separate the modules that succeed from those that don't."
+              en: "Pilots joke that a landing you walk away from is OK, and if you can use the aircraft again it's a good landing. There is useful PowerShell at the 'crash landing' level - but we need a higher standard when sharing with peers, colleagues or the wider community. That's the difference between your hard work being used and recommended by others or being  forgotten. The presenter of the session wrote one of the most downloaded modules ever, and contributed the 10 cmdletments for reusable code to Manning's PowerShell Deep Dives book - but several years have passed since then and distributing code has become easier, and ideas of good and bad practice have evolved, so the time has come to see which established ideas still hold, and which new ones separate the modules that succeed from those that don't."
             language: English
-            category: "Microsoft"
-            name: "TBD (B5)"
-            speaker: "Joey Aiello (Microsoft)"
+            category: "PowerShell"
+            name: "What makes a good shared PowerShell module?(D5)"
+            speaker: "James O'Neill"
           -
             description:
               de: "We've seen in the last few years, how the traditional 'IT Pros' or Ops paradigm has shifted towards the practices previously embraced by the Devs only. But I believe Dev is the New Ops, so let's explore how SOA and Microservices applied to PowerShell can help the 'IT Pros'. In this session, after bootstrapping your Message Queue (MQ) knowledge and its use for Inter-Process Communication (IPC), we’ll introduce PSRabbitMQ, a module to interact with the message broker. Then we'll take a deep dive into a demo of PowerShell Microservices communicating using JSON messages sent via a Message Queue. In the second demo, we'll see a multi-node, multi-thread, cross-technology and cross-platform communications, with Python services using the Celery library being called, and calling PowerShell Services on distributed systems.
@@ -453,12 +457,12 @@ Since PowerShell and .Net core are now open-source and the RabbitMQ .Net client 
             speaker: "Gael Colas"
           -
             description:
-              de: "Pilots joke that a landing you walk away from is OK, and if you can use the aircraft again it's a good landing. There is useful PowerShell at the 'crash landing' level - but we need a higher standard when sharing with peers, colleagues or the wider community. That's the difference between your hard work being used and recommended by others or being  forgotten. The presenter of the session wrote one of the most downloaded modules ever, and contributed the 10 cmdletments for reusable code to Manning's PowerShell Deep Dives book - but several years have passed since then and distributing code has become easier, and ideas of good and bad practice have evolved, so the time has come to see which established ideas still hold, and which new ones separate the modules that succeed from those that don't."
-              en: "Pilots joke that a landing you walk away from is OK, and if you can use the aircraft again it's a good landing. There is useful PowerShell at the 'crash landing' level - but we need a higher standard when sharing with peers, colleagues or the wider community. That's the difference between your hard work being used and recommended by others or being  forgotten. The presenter of the session wrote one of the most downloaded modules ever, and contributed the 10 cmdletments for reusable code to Manning's PowerShell Deep Dives book - but several years have passed since then and distributing code has become easier, and ideas of good and bad practice have evolved, so the time has come to see which established ideas still hold, and which new ones separate the modules that succeed from those that don't."
+              de: ""
+              en: ""
             language: English
-            category: "PowerShell"
-            name: "What makes a good shared PowerShell module?(D5)"
-            speaker: "James O'Neill"
+            category: "Microsoft"
+            name: "TBD (B5)"
+            speaker: "Joey Aiello (Microsoft)"
           -
             description:
               de: "Still trying to get your head around Desired State Configuration? Start with what you know! Cloud and Datacenter Management MVP Will Anderson takes you through learning to build DSC configurations using scripts that you’ve already created. In this mega-session, you’ll learn: Why DSC is important when it comes to auditing, compliance, and enforcement & To familiarize yourself with the DSC declarative language format."
@@ -811,20 +815,20 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
             speaker: "Matt Hitchcock"
           -
             description:
+              de: "Following the latest Windows Server 2016 release, Lability has been expanded to support both Server 2016 and Nano server. Nano server - as you may aware - comes with its own set of unique management and deployment challenges. Fortunately, Lability helps abstract some of these changes and treats them the same as full Windows Server or Server Core (where possible). Come and join this session to see how we can use PowerShell Desired State Configuration (DSC) to deploy a hyper-converged Nano server cluster using nested virtualisation, Lability and a single configuration document."
+              en: "Following the latest Windows Server 2016 release, Lability has been expanded to support both Server 2016 and Nano server. Nano server - as you may aware - comes with its own set of unique management and deployment challenges. Fortunately, Lability helps abstract some of these changes and treats them the same as full Windows Server or Server Core (where possible). Come and join this session to see how we can use PowerShell Desired State Configuration (DSC) to deploy a hyper-converged Nano server cluster using nested virtualisation, Lability and a single configuration document."
+            language: English
+            category: "Containers"
+            name: "Deploying Nano server with Lability and DSC(A12)"
+            speaker: "Iain Brighton"
+          -
+            description:
               de: ""
               en: ""
             language: English
             category: "Microsoft"
-            name: "TBD (A12)"
+            name: "TBD (D12)"
             speaker: "David Wilson (Microsoft)"
-          -
-            description:
-              de: "“Never reinvent the wheel.” My professors taught me that this is the first rule of Computer Science.  PowerShell has a lot of hidden gems if you just dig deep enough to find them.  We are going to go through some of these mysterious variables and references and show you how to leverage them to your advantage.  A little deep dive and a little to make you laugh.  We will learn new tricks to use in your coding and a few to make the work place a little more fun. Why code more when the work has already been done for you?"
-              en: "“Never reinvent the wheel.” My professors taught me that this is the first rule of Computer Science.  PowerShell has a lot of hidden gems if you just dig deep enough to find them.  We are going to go through some of these mysterious variables and references and show you how to leverage them to your advantage.  A little deep dive and a little to make you laugh.  We will learn new tricks to use in your coding and a few to make the work place a little more fun. Why code more when the work has already been done for you?"
-            language: English
-            category: "PowerShell"
-            name: "Demystifying $THIS, $_, $PSITEM, $$, $Whatever…(D12)"
-            speaker: "Jason Yoder"
           -
             description:
               de: "A session packed with ideas for runbook design patterns, best practices and other useful tips and tricks. Get inspired and learn how a PowerShell runbooks should be designed and structured"
@@ -906,12 +910,12 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
             speaker: "Ravikanth Chaganti"
           -
             description:
-              de: "Following the latest Windows Server 2016 release, Lability has been expanded to support both Server 2016 and Nano server. Nano server - as you may aware - comes with its own set of unique management and deployment challenges. Fortunately, Lability helps abstract some of these changes and treats them the same as full Windows Server or Server Core (where possible). Come and join this session to see how we can use PowerShell Desired State Configuration (DSC) to deploy a hyper-converged Nano server cluster using nested virtualisation, Lability and a single configuration document."
-              en: "Following the latest Windows Server 2016 release, Lability has been expanded to support both Server 2016 and Nano server. Nano server - as you may aware - comes with its own set of unique management and deployment challenges. Fortunately, Lability helps abstract some of these changes and treats them the same as full Windows Server or Server Core (where possible). Come and join this session to see how we can use PowerShell Desired State Configuration (DSC) to deploy a hyper-converged Nano server cluster using nested virtualisation, Lability and a single configuration document."
+              de: "“Never reinvent the wheel.” My professors taught me that this is the first rule of Computer Science.  PowerShell has a lot of hidden gems if you just dig deep enough to find them.  We are going to go through some of these mysterious variables and references and show you how to leverage them to your advantage.  A little deep dive and a little to make you laugh.  We will learn new tricks to use in your coding and a few to make the work place a little more fun. Why code more when the work has already been done for you?"
+              en: "“Never reinvent the wheel.” My professors taught me that this is the first rule of Computer Science.  PowerShell has a lot of hidden gems if you just dig deep enough to find them.  We are going to go through some of these mysterious variables and references and show you how to leverage them to your advantage.  A little deep dive and a little to make you laugh.  We will learn new tricks to use in your coding and a few to make the work place a little more fun. Why code more when the work has already been done for you?"
             language: English
-            category: "Containers"
-            name: "Deploying Nano server with Lability and DSC(D14)"
-            speaker: "Iain Brighton"
+            category: "PowerShell"
+            name: "Demystifying $THIS, $_, $PSITEM, $$, $Whatever…(D14)"
+            speaker: "Jason Yoder"
           -
             description:
               de: "In this session we will go through all you need to know to start working with binary file formats with PowerShell."
@@ -941,7 +945,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: ""
             language: English
             category: "Microsoft"
-            name: "TBD (E15)"
+            name: "PowerShell Present and Future(E15)"
             speaker: "Angel Calvo (Microsoft)"
           -
             description:
