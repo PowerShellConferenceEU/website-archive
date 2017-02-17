@@ -641,11 +641,11 @@ This deep dive will take a look at various ways to gauge the speed of your code 
             speaker: "Ravikanth Chaganti"
           -
             description:
-              de: ""
-              en: ""
+              de: "A journey through DSC’s past, present and potential future: The lessons learned and how they could reshape future DSC features and functionality"
+              en: "A journey through DSC’s past, present and potential future: The lessons learned and how they could reshape future DSC features and functionality"
             language: English
-            category: "Microsoft"
-            name: "TBD (A9)"
+            category: "DevOps"
+            name: "Ghosts of DSC past, present and Yet-to-come"
             speaker: "Mark Gray (Microsoft)"
           -
             description:
@@ -737,11 +737,11 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
             speaker: "Jaap Brasser"
           -
             description:
-              de: ""
-              en: ""
+              de: "A perspective on how to implement DevOps in a way that will work across your organization"
+              en: "A perspective on how to implement DevOps in a way that will work across your organization"
             language: English
-            category: "Microsoft"
-            name: "TBD (D11)"
+            category: "DevOps"
+            name: "DevOps and the Harmonious Whole"
             speaker: "Kenneth Hansen (Microsoft)"
           -
             description:
@@ -825,11 +825,11 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
             speaker: "Iain Brighton"
           -
             description:
-              de: ""
-              en: ""
+              de: "In this session you’ll learn how to use the PowerShell extension for Visual Studio Code to write, test, and debug cross-platform PowerShell modules, even those containing C#-based cmdlets."
+              en: "In this session you’ll learn how to use the PowerShell extension for Visual Studio Code to write, test, and debug cross-platform PowerShell modules, even those containing C#-based cmdlets."
             language: English
             category: "Microsoft"
-            name: "TBD (D12)"
+            name: "Advanced PowerShell Module Development with Visual Studio Code"
             speaker: "David Wilson (Microsoft)"
           -
             description:
@@ -943,11 +943,11 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
         tracks:
           -
             description:
-              de: ""
-              en: ""
+              de: "Angel is General Product Manager at Microsoft for Azure Configuration Management and Automation. This includes PowerShell, DSC, OMS Automation and Configuration. So Angel is the perfect speaker to provide an update on Microsofts current and future plans for Windows, Linux and Azure, and the road ahead to make PowerShell the best tool for DevOps and to enable Artificial Intelligence for IT"
+              en: "Angel is General Product Manager at Microsoft for Azure Configuration Management and Automation. This includes PowerShell, DSC, OMS Automation and Configuration. So Angel is the perfect speaker to provide an update on Microsofts current and future plans for Windows, Linux and Azure, and the road ahead to make PowerShell the best tool for DevOps and to enable Artificial Intelligence for IT"
             language: English
-            category: "Microsoft"
-            name: "PowerShell Present and Future(E15)"
+            category: "PowerShell"
+            name: "PowerShell Present and Future"
             speaker: "Angel Calvo (Microsoft)"
           -
             description:
@@ -1045,11 +1045,11 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
             speaker: "Jakob Gottlieb Svendsen"
           -
             description:
-              de: ""
-              en: ""
+              de: "Bring your questions to the PowerShell team, and get first-hand answers"
+              en: "Bring your questions to the PowerShell team, and get first-hand answers"
             language: English
             category: "Microsoft"
-            name: "TBD (A17)"
+            name: "AMA - Ask Microsoft Anything"
             speaker: "PowerShell Team (Microsoft)"
           -
             description:
