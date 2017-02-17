@@ -462,7 +462,7 @@ Since PowerShell and .Net core are now open-source and the RabbitMQ .Net client 
               de: "Learn about the evolution and direction of PowerShell 6.0 across Windows, macOS, and Linux, and how you can influence its progress through Microsoft’s open-source channels."
               en: "Learn about the evolution and direction of PowerShell 6.0 across Windows, macOS, and Linux, and how you can influence its progress through Microsoft’s open-source channels."
             language: English
-            category: "PowerShell"
+            category: "Microsoft"
             name: "PowerShell 6: A living roadmap"
             speaker: "Joey Aiello (Microsoft)"
           -
@@ -545,7 +545,7 @@ In this deep dive, we will take a look at PowerShell remoting and learn how to u
               en: ""
             language: English
             category: "Microsoft"
-            name: "TBD (A7)"
+            name: "TBD"
             speaker: "Bruce Payette (Microsoft)"
           -
             description:
@@ -644,7 +644,7 @@ This deep dive will take a look at various ways to gauge the speed of your code 
               de: "A journey through DSC’s past, present and potential future: The lessons learned and how they could reshape future DSC features and functionality"
               en: "A journey through DSC’s past, present and potential future: The lessons learned and how they could reshape future DSC features and functionality"
             language: English
-            category: "DevOps"
+            category: "Microsoft"
             name: "Ghosts of DSC past, present and Yet-to-come"
             speaker: "Mark Gray (Microsoft)"
           -
@@ -740,7 +740,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               de: "A perspective on how to implement DevOps in a way that will work across your organization"
               en: "A perspective on how to implement DevOps in a way that will work across your organization"
             language: English
-            category: "DevOps"
+            category: "Microsoft"
             name: "DevOps and the Harmonious Whole"
             speaker: "Kenneth Hansen (Microsoft)"
           -
@@ -946,7 +946,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               de: "Angel is General Product Manager at Microsoft for Azure Configuration Management and Automation. This includes PowerShell, DSC, OMS Automation and Configuration. So Angel is the perfect speaker to provide an update on Microsofts current and future plans for Windows, Linux and Azure, and the road ahead to make PowerShell the best tool for DevOps and to enable Artificial Intelligence for IT"
               en: "Angel is General Product Manager at Microsoft for Azure Configuration Management and Automation. This includes PowerShell, DSC, OMS Automation and Configuration. So Angel is the perfect speaker to provide an update on Microsofts current and future plans for Windows, Linux and Azure, and the road ahead to make PowerShell the best tool for DevOps and to enable Artificial Intelligence for IT"
             language: English
-            category: "PowerShell"
+            category: "Microsoft"
             name: "PowerShell Present and Future"
             speaker: "Angel Calvo (Microsoft)"
           -
