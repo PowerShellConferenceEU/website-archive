@@ -657,11 +657,11 @@ This deep dive will take a look at various ways to gauge the speed of your code 
             speaker: "Rob Sewell"
           -
             description:
-              de: "As deployments get complex and thousands of devices are being used to perform similar tasks, the ability to programmatically control your networking device is essential for network owners. This session will provide practical tips and tricks for automating a NetScaler VPX deployment and configuration using NITRO (NetSCaler’s REST API) and PowerShell."
-              en: "As deployments get complex and thousands of devices are being used to perform similar tasks, the ability to programmatically control your networking device is essential for network owners. This session will provide practical tips and tricks for automating a NetScaler VPX deployment and configuration using NITRO (NetSCaler’s REST API) and PowerShell."
+              de: "This session will explain the REST API basics and show you how you can use my NITRO Module to automate your Citrix NetScaler configurations and deployments. A session packed with demos to show you how the NITRO Module can be used to create different NetScaler configurations"
+              en: "This session will explain the REST API basics and show you how you can use my NITRO Module to automate your Citrix NetScaler configurations and deployments. A session packed with demos to show you how the NITRO Module can be used to create different NetScaler configurations"
             language: English
             category: "Automation"
-            name: "NetScaler Automation – Talking NITRO with PowerShell(C9)"
+            name: "NetScaler Automation with the NITRO Module"
             speaker: "Esther Barthel"
       -
         time: "15:30 - 16:30"
@@ -700,11 +700,11 @@ This deep dive will take a look at various ways to gauge the speed of your code 
             speaker: "Mathias R Jessen"
           -
             description:
-              de: "This session will provide practical tips and tricks for automating a NetScaler VPX deployment and configuration using NITRO (NetScaler's REST API) and PowerShell."
-              en: "This session will provide practical tips and tricks for automating a NetScaler VPX deployment and configuration using NITRO (NetScaler's REST API) and PowerShell."
+              de: "This session will dive right into the code and explain the techniques behind the NITRO Module and how you can use the REST API interface more directly. You will learn how to build the JSON payloads and take your NetScaler automation to the next level"
+              en: "This session will dive right into the code and explain the techniques behind the NITRO Module and how you can use the REST API interface more directly. You will learn how to build the JSON payloads and take your NetScaler automation to the next level"
             language: English
             category: "Automation"
-            name: "NetScaler Automation – Talking NITRO with PowerShell(C10)"
+            name: "NetScaler Automation Deep Dive: Talking NITRO with PowerShell"
             speaker: "Esther Barthel"
       -
         time: "16:45 - 17:45"
