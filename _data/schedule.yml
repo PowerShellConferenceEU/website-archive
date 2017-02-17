@@ -459,11 +459,11 @@ Since PowerShell and .Net core are now open-source and the RabbitMQ .Net client 
             speaker: "Gael Colas"
           -
             description:
-              de: ""
-              en: ""
+              de: "Learn about the evolution and direction of PowerShell 6.0 across Windows, macOS, and Linux, and how you can influence its progress through Microsoft’s open-source channels."
+              en: "Learn about the evolution and direction of PowerShell 6.0 across Windows, macOS, and Linux, and how you can influence its progress through Microsoft’s open-source channels."
             language: English
-            category: "Microsoft"
-            name: "TBD (B5)"
+            category: "PowerShell"
+            name: "PowerShell 6: A living roadmap"
             speaker: "Joey Aiello (Microsoft)"
           -
             description:
