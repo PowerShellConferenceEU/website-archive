@@ -214,7 +214,7 @@ days:
               en: "Lernen Sie in dieser Session, warum ein Testing Framework witchtig ist für PowerShell und dessen Fortschritt. Erhalten Sie in dieser Session einen Einblick, wie Sie Pester auf Ihrem System Einrichten und die ersten 'Gehversuche' mit Pester im Unternehmen. Nehmen Sie einige Code-Snippets direkt für ihre Gehversuche mit nach Hause, die Ihren Start vereinfachen."
             language: German
             category: "Testing"
-            name: "Pester 101 (E1)"
+            name: "Pester 101"
             speaker: "Rinon Belegu"
           -
             description:
@@ -222,7 +222,7 @@ days:
               en: "PowerShell was always bound to the single operating system and for quite some time it was one of the core elements of Windows. It was hard to imagine it running on any other OS. Also, as a core element of Microsoft's flagship it didn't seem like a perfect candidate for an open source project. Last year both things changed. Join this session to see PowerShell running on Linux and to learn how important this change is to the entire PowerShell ecosystem. Learn how you can participate to make PowerShell better for everybody!"
             language: English
             category: "OpenSource"
-            name: "Hell freezing over: PowerShell on Linux and GitHub(B1)"
+            name: "Hell freezing over: PowerShell on Linux and GitHub"
             speaker: "Bartosz Bielawski"
           -
             description:
@@ -230,7 +230,7 @@ days:
               en: "Too many people having too many rights is a widespread problem. When the F1 team I worked for noticed that scripts were running as administrator, but could be modified by less privileged users, that was the spur to build a JEA solution and without using the aids introduced in WMF 5.0, it needed to be built from the ground up. It offered the chance to use centralized scripts to make IT tasks easier to carry out, and more consistent, as well as improving security. This 'notes from the field' session will explain how the solution was developed, covering constrained endpoints, solving credentials problems, and improving the experience for those who used the solution, and will also look at the lessons, technical and otherwise, that were learnt in the process."
             language: English
             category: "Security"
-            name: "Building a Just Enough Admin solution in formula one(A1)"
+            name: "Building a Just Enough Admin solution in formula one"
             speaker: "James O'Neill"
           -
             description:
@@ -238,7 +238,7 @@ days:
               en: "The GUI, calling it our mortal enemy would probably be a bit too far. There are some obvious use-cases in which using a GUI to discover new functionality and to get acquainted to a new product would be a solid approach. In this session we will do exactly that, we will setup a number of different components on a server while using PowerShell logging to record what is happening on the background. We will analyze these logs and retrieve a step-by-step playbook to reproduce the configuration.Level 300-400"
             language: English
             category: "PowerShell"
-            name: "Breakdown the GUI: PowerShell logging to automate everything(D1)"
+            name: "Breakdown the GUI: PowerShell logging to automate everything"
             speaker: "Jaap Brasser"
       -
         time: "14:15 - 15:15"
@@ -249,7 +249,7 @@ days:
               en: "Die Anforderung, One-Click Domain Controller deployment experience. Gegeben sind blanke Windows 2012 R2 oder 2016 Server. DSC soll genutzt werden, um alles vom Disk Layout über Netzwerkeinstellung über das DC Setup bis hin zur DNS Server Konfiguration und das in einer global verteilten Struktur. Die Konfigurationen werden via PowerShell aus einer Datenbank erstellt, um individuelle Anpassungen möglich zu machen und es sollen bestehende DSC Resourcen genutzt und erweitert werden. Erfahrungen aus einem Projekt mit einem global verteilten Unternehmen."
             language: German
             category: "DevOps"
-            name: "Automatisiertes DC Deployment mit DSC(E2)"
+            name: "Automatisiertes DC Deployment mit DSC"
             speaker: "Raimund Andree, Jan-Hendrik Peters"
           -
             description:
@@ -257,7 +257,7 @@ days:
               en: "In this session I want take the audience on the journey of why, what and how Windows Server Containers. This session will cover real life scenarios that traditional teams run into and how to overcome these in a very modern agile approach. This session will contain numerous demos such as introducing the concept of Docker for Windows Server, Creating a highly available web application and some of the major advantages of virtual machines. This is aimed at people who may have little to no knowledge in Docker and or Containers on Nano Server."
             language: English
             category: "Containers"
-            name: "Getting started with Windows Server Containers(B2)"
+            name: "Getting started with Windows Server Containers"
             speaker: "Flynn Bundy"
           -
             description:
@@ -269,7 +269,7 @@ This talk will cover numerous different ways in which attackers can influence th
 This talk will cover numerous different ways in which attackers can influence the execution of your code in unanticipated ways. A thorough discussion of mitigations against such attacks will then follow."
             language: English
             category: "Security"
-            name: "Defensive Coding Strategies for a High-Security Environment(A2)"
+            name: "Defensive Coding Strategies for a High-Security Environment"
             speaker: "Matthew Graeber"
           -
             description:
@@ -277,7 +277,7 @@ This talk will cover numerous different ways in which attackers can influence th
               en: "Looking to get more contributors for your Open Source project? Once you&#39;ve got them, what&#39;s awesome and what sucks about your baby being popular?In this session, Community Leader Rob Sewell and PowerShell MVP Chrissy LeMaire talk about their real world experiences with building popular PowerShell repos and the catalysts for their projects becoming owned and beloved by the open source community."
             language: English
             category: "OpenSource"
-            name: "Creating and Maintaining Successful Open Source Projects(D2)"
+            name: "Creating and Maintaining Successful Open Source Projects"
             speaker: "Chrissy LeMaire & Rob Sewell"
       -
         time: "15:30 - 16:30"
@@ -288,7 +288,7 @@ This talk will cover numerous different ways in which attackers can influence th
               en: "You think you know Hyper-V? Really? There are some awesome features hidden in Hyper-Vs belly you perhaps don´t know - but you have to use powershell to unleash them."
             language: German
             category: "Automation"
-            name: "Virtual Machines auf Ihrem Desktop mit Powershell und Hyper-V(E3)"
+            name: "Virtual Machines auf Ihrem Desktop mit Powershell und Hyper-V"
             speaker: "Holger Voges"
           -
             description:
@@ -304,7 +304,7 @@ them. We will also cover using Runspaces for parallel processing, utilizing the 
 faster code, algorithmic optimization and much much more!"
             language: English
             category: "PowerShell"
-            name: "When every second counts!(B3)"
+            name: "When every second counts!"
             speaker: "Mathias Jessen & Øyvind Kallstad"
           -
             description:
@@ -312,7 +312,7 @@ faster code, algorithmic optimization and much much more!"
               en: "Nano Server is small. Nano Server is fast. And secure. Nano Server is the future of Windows Server. In this session we will show you different management techniques, the power of running Nano Server as a container, and what happens behind the scenes when you use Server Management Tools (SMT). Have you noticed I haven't mentioned PowerShell yet? PowerShell is the core of Nano Servers power."
             language: English
             category: "Containers"
-            name: "Look! Up in the sky! It's a bird. It's a plane. It's Nanoman!(A3)"
+            name: "Look! Up in the sky! It's a bird. It's a plane. It's Nanoman!"
             speaker: "Aleksandar Nikolic & Jan Egil Ring"
           -
             description:
@@ -322,7 +322,7 @@ In this session, Matt will walk through how he has helped a large Microsoft cust
 In this session, Matt will walk through how he has helped a large Microsoft customer make the transition to Infra-as-Code for one of their core technologies. We will take a look at the timeline of events and activities that got us there, what a Release Pipeline actually looks like in practice with its supporting components and how it works together. More importantly, we will talk about the cultural resistance and challenges that were overcome along the way and what you might consider doing to get your organisation over those same hurdles."
             language: English
             category: "DevOps"
-            name: "The Release Pipeline in Practice(D3)"
+            name: "The Release Pipeline in Practice"
             speaker: "Matt Hitchcock"
       -
         time: "16:45 - 17:45"
@@ -333,7 +333,7 @@ In this session, Matt will walk through how he has helped a large Microsoft cust
               en: "Sie haben vielleicht mitbekommen, dass in PowerShell nun auch Klassen möglich sind. Nur, wissen Sie nicht, was eine Klasse, ein Objekt oder Konstruktoren sind? Was ist den bitte ein überladener Konstruktor? In dieser Session erhalten Sie eine Einführung in die objektorientierte Programmierung und wie es ihren PowerShell-Horizont erweitern kann."
             language: German
             category: "PowerShell"
-            name: "Sind Sie auch eine Klasse für sich? Oder doch 'nur' ein Objekt?(E4)"
+            name: "Sind Sie auch eine Klasse für sich? Oder doch 'nur' ein Objekt?"
             speaker: "Rinon Belegu"
           -
             description:
@@ -347,7 +347,7 @@ After this session you will have a basic understanding of how Pester works and t
 Every Job in Ola Hallengrens Maintenance Solution exists, is enabled, has a schedule, has succeeded, has 2 job steps, has a generate restore script job step, the root backup folder is contactable, for every database the correct folders exist for the full, differential and log backup depending on recovery model in that folder, that each of those backup folders has files in it, that the most recent file in each of those folders is less than the required frequency for those jobs."
             language: English
             category: "Testing"
-            name: "Green is bad Red is Good - Turning your Checklists into Pester Tests(B4)"
+            name: "Green is bad Red is Good - Turning your Checklists into Pester Tests"
             speaker: "Rob Sewell"
           -
             description:
@@ -355,7 +355,7 @@ Every Job in Ola Hallengrens Maintenance Solution exists, is enabled, has a sche
               en: "What administration and automation tool do state-sponsored actors like APT 29, criminal actors like Phineas Fisher, and IT staff all rely upon heavily? PowerShell. Integrated into many offensive toolkits, PowerShell is gaining respect in offensive circles as 'Microsoft's Post-Exploitation Language'. In a quest to combat this perceived threat, many defenders attempt to disable PowerShell rather than realizing its defensive potential. In this talk, we will cover PowerShell defensive tools and techniques that you can effectively use to detect malicious activity without the need for a bloated host-based agent.  Don't be afraid of PowerShell! Fight back, instill fear in the attacker, and reclaim your enterprise! It’s time to acknowledge PowerShell as 'Microsoft’s Incident Response Language'!"
             language: English
             category: "Security"
-            name: "Flip the Script: PowerShell “Microsoft’s Incident Response Language”(A4)"
+            name: "Flip the Script: PowerShell “Microsoft’s Incident Response Language”"
             speaker: "Jared Atkinson"
           -
             description:
@@ -363,7 +363,7 @@ Every Job in Ola Hallengrens Maintenance Solution exists, is enabled, has a sche
               en: "PS DSC existed for a few years now and has continuously evolved with new and Powerful features. This sessions rapidly demonstrates some tips and tricks and know-hows from complex real-world deployments."
             language: English
             category: "DevOps"
-            name: "PowerShell Desired State Configuration - A rapid fire. Tips and Tricks, Know-hows(D4)"
+            name: "PowerShell Desired State Configuration - A rapid fire. Tips and Tricks, Know-hows"
             speaker: "Ravikanth Chaganti"
       -
         time: "18:00 - 18:45"
@@ -437,7 +437,7 @@ Just make sure you are at the Zoo Main Entrance at 19:00h (7 pm) sharp, and <b>b
 - Ausblick: Automatisiertes erstellen komplexer Labs on Azure ohne Erstellung von JSON-Templates oder Runbooks"
             language: German
             category: "Automation"
-            name: "Azure 101 - PowerShell in der Cloud(E5)"
+            name: "Azure 101 - PowerShell in der Cloud"
             speaker: "Jan-Hendrik Peters, Raimund Andrée"
           -
             description:
@@ -445,7 +445,7 @@ Just make sure you are at the Zoo Main Entrance at 19:00h (7 pm) sharp, and <b>b
               en: "Pilots joke that a landing you walk away from is OK, and if you can use the aircraft again it's a good landing. There is useful PowerShell at the 'crash landing' level - but we need a higher standard when sharing with peers, colleagues or the wider community. That's the difference between your hard work being used and recommended by others or being  forgotten. The presenter of the session wrote one of the most downloaded modules ever, and contributed the 10 cmdletments for reusable code to Manning's PowerShell Deep Dives book - but several years have passed since then and distributing code has become easier, and ideas of good and bad practice have evolved, so the time has come to see which established ideas still hold, and which new ones separate the modules that succeed from those that don't."
             language: English
             category: "PowerShell"
-            name: "What makes a good shared PowerShell module?(D5)"
+            name: "What makes a good shared PowerShell module?"
             speaker: "James O'Neill"
           -
             description:
@@ -455,7 +455,7 @@ Since PowerShell and .Net core are now open-source and the RabbitMQ .Net client 
 Since PowerShell and .Net core are now open-source and the RabbitMQ .Net client will soon target .Net core, the tools and techniques demonstrated in this presentation may be a path to cross-platform PowerShell Microservices on Windows, Nano, Linux, and all sorts of containers!"
             language: English
             category: "DevOps"
-            name: "PowerShell Microservices: At the Service of DevOps(A5)"
+            name: "PowerShell Microservices: At the Service of DevOps"
             speaker: "Gael Colas"
           -
             description:
@@ -471,7 +471,7 @@ Since PowerShell and .Net core are now open-source and the RabbitMQ .Net client 
               en: "Still trying to get your head around Desired State Configuration? Start with what you know! Cloud and Datacenter Management MVP Will Anderson takes you through learning to build DSC configurations using scripts that you’ve already created. In this mega-session, you’ll learn: Why DSC is important when it comes to auditing, compliance, and enforcement & To familiarize yourself with the DSC declarative language format."
             language: English
             category: "DevOps"
-            name: "Conceptualizing Desired State Configuration Using Your Own Scripts (Part I)(C5)"
+            name: "Conceptualizing Desired State Configuration Using Your Own Scripts (Part I)"
             speaker: "Will Anderson"
       -
         time: "09:45 - 10:45"
@@ -482,7 +482,7 @@ Since PowerShell and .Net core are now open-source and the RabbitMQ .Net client 
               en: "For our Training-Center we had to automate the installation, Patching and deployment of the Student-PCs. I will show how we managed to automate the full process of deploying a training-environment with patching and resetting the Workstations after each training back to default without using System Center Configuration manager, just with Powershell and Windows PE."
             language: German
             category: "Automation"
-            name: "Ein Test-Lab mit reinen PowerShell Bordmitteln aufbauen(E6)"
+            name: "Ein Test-Lab mit reinen PowerShell Bordmitteln aufbauen"
             speaker: "Holger Voges"
           -
             description:
@@ -490,7 +490,7 @@ Since PowerShell and .Net core are now open-source and the RabbitMQ .Net client 
               en: "'If you want speed, you should not use Powershell for log parsing'. I bet you've heard this before. The alternative tool of choice seems to be Log Parser. Can it really outperform Powershell? And is this only because of speed? Does Powershell win the battle when it comes to complexity and flexibility? Let's have a competition! We will look at what both of them have to offer and how they work. We will also try to push the limits of these technologies to see how far we can go. Perhaps we can even cheat a bit in Powershell ;-)"
             language: English
             category: "PowerShell"
-            name: "Log parser vs Powershell smackdown(B6)"
+            name: "Log parser vs Powershell smackdown"
             speaker: "André Kamman"
           -
             description:
@@ -502,7 +502,7 @@ Sound familiar?  The problem that many IT Pros have with remoting endpoints is t
 In this deep dive, we will take a look at PowerShell remoting and learn how to use it to deploy constrained endpoints rapidly across your organization allowing you to follow the “Principle of Least Privilege” in the PowerShell world."
             language: English
             category: "Security"
-            name: "Accelerated Constrained Endpoint Deployment(A6)"
+            name: "Accelerated Constrained Endpoint Deployment"
             speaker: "Jason Yoder"
           -
             description:
@@ -510,7 +510,7 @@ In this deep dive, we will take a look at PowerShell remoting and learn how to u
               en: "Talk about OSS xPlat PS. Demo heavy. Based on my earlier session https://github.com/bgelens/Presentations/tree/master/092016_DuPSUG but updated of course :-)"
             language: English
             category: "OpenSource"
-            name: "Start-NewEra -Repo PowerShell(D6)"
+            name: "Start-NewEra -Repo PowerShell"
             speaker: "Ben Gelens"
           -
             description:
@@ -518,7 +518,7 @@ In this deep dive, we will take a look at PowerShell remoting and learn how to u
               en: "Still trying to get your head around Desired State Configuration? Start with what you know! Cloud and Datacenter Management MVP Will Anderson takes you through learning to build DSC configurations using scripts that you’ve already created. In this mega-session, you’ll learn: Why DSC is important when it comes to auditing, compliance, and enforcement & To familiarize yourself with the DSC declarative language format."
             language: English
             category: "DevOps"
-            name: "Conceptualizing Desired State Configuration Using Your Own Scripts (Part II)(C6)"
+            name: "Conceptualizing Desired State Configuration Using Your Own Scripts (Part II)"
             speaker: "Will Anderson"
       -
         time: "11:00 - 12:00"
@@ -529,7 +529,7 @@ In this deep dive, we will take a look at PowerShell remoting and learn how to u
               en: "Via Powershell ein komplettes Lab erstellen, sich nicht um Netzwerkkonfigurationen, DCs, PKI, differenzierte Festplatten kümmern - und das Ganze mit wenigen Zeilen Code. Und das egal ob Windows Server 2008 R2 oder 2016. Unmöglich? David und Raimund demonstrieren das Modul AutomatedLab im Einsatz mit vielen Beispielen on-Hands und erklären auch einige Deep-Dive-Bereich aus dem Code."
             language: German
             category: "Automation"
-            name: "AutomatedLab – das erste voll flexible Hydration Tool (E7)"
+            name: "AutomatedLab – das erste voll flexible Hydration Tool"
             speaker: "David das Neves, Raimund Andrée"
           -
             description:
@@ -537,7 +537,7 @@ In this deep dive, we will take a look at PowerShell remoting and learn how to u
               en: "What are your options when the script you write takes to long to run? I this session we take a deep dive in what you can do to make your PowerShell code as fast as possible. How can you measure it and solutions to common pitfalls. We will look at how classes can be used to speed up many operations, the costs of the pipeline, I/O, Linq etc."
             language: English
             category: "PowerShell"
-            name: "Performant PowerShell(B7)"
+            name: "Performant PowerShell"
             speaker: "Staffan Gustafsson"
           -
             description:
@@ -553,7 +553,7 @@ In this deep dive, we will take a look at PowerShell remoting and learn how to u
               en: "Are you in desperate need to enable your Linux folks a way to manage resources offered on your Windows servers? Would you like to understand techniques used and control what people can, and what they can’t do? If that is the case - this session is for you. I will try to cover multiple techniques you can use to allow such connection, including pywinrm with constrained endpoints, PowerShell Remoting over SSH, and if time allows (and Microsoft/community delivers) – via PowerShell remoting using WinRM."
             language: English
             category: "OpenSource"
-            name: "Knock, knock, knock – Linux at your door(D7) "
+            name: "Knock, knock, knock – Linux at your door"
             speaker: "Bartosz Bielawski"
           -
             description:
@@ -561,7 +561,7 @@ In this deep dive, we will take a look at PowerShell remoting and learn how to u
               en: "Ever thought about sending chat messages from your automation platform, for example to get rid of all that email? Or to get notified via chat when a critical system is down? In this session we will cover how to chat with PowerShell using the Lync SDK and the Skype for Business UCWA (Unified Communications Web API). As these don't cover posting messages to a persistent chat room, I'll also demo a poor man's solution on using a HTTP API to post messages to a persistent chat room."
             language: English
             category: "PowerShell"
-            name: "Chatting with PowerShell – Skype for Business(C7)"
+            name: "Chatting with PowerShell – Skype for Business"
             speaker: "Daniël Both"
       -
         time: "12:00 - 13:00"
@@ -584,7 +584,7 @@ In this deep dive, we will take a look at PowerShell remoting and learn how to u
               en: "Do you know about all the the pitfalls, craziness and exceptions in our beloved PowerShell? Join us for the Powershell QUIZ, where we will transform all the weirdness into an entertaining event. Yes, we will adopt the famous 'Who wants to be ..' format and crown the the successful winner. 'Phone a Friend' and prove that you're the greatest nerd! And of course: we will have some gorgeous winnings for YOU. Get-Fun -force"
             language: German
             category: "PowerShell"
-            name: "Who wants to be a Shellionaire?(E8)"
+            name: "Who wants to be a Shellionaire?"
             speaker: "Thorsten Butz"
           -
             description:
@@ -592,7 +592,7 @@ In this deep dive, we will take a look at PowerShell remoting and learn how to u
               en: "Step up your automation game by implementing an automated release pipeline! In this talk we will see how we can leverage the Release Pipeline for more than just publishing modules to the PowerShell Gallery. We will demonstrate how you can manage infrastructure deployment, change management and decommission using Cloud Templates, Configuration Management, Source Control and Continous Integration services."
             language: English
             category: "DevOps"
-            name: "Take your Automated Release Pipeline to the next level!(B8)"
+            name: "Take your Automated Release Pipeline to the next level!"
             speaker: "Jan Egil Ring & Øyvind Kallstad"
           -
             description:
@@ -600,7 +600,7 @@ In this deep dive, we will take a look at PowerShell remoting and learn how to u
               en: "I'm a DBA, and configuration drift is one of the most important battles I need to fight. Many, if not all, monitoring tools will warn you if something which has been configured has gone wrong. But not a lot of them will tell you if something was never configured in the first place. In my search for a solution I ran into Pester tests, and the Operations Validation Framework (OVF) in particular. The existing OVF framework itself was not 'dynamic' enough for my needs, so I decided to roll my own. Based on the Convention over Configuration paradigm my code tests the whole landscape and can quickly identify if some configuration does not adhere to (my own) best practices or even if exceptions that I've put in place are still configured as such. I will demo based on code that is actively used in production and my samples will use SQL Server because I'm a database guy. But this session is also useful if you're not a SQL admin."
             language: English
             category: "Testing"
-            name: "Fighting Configuration Drift with Dynamic Pester Tests(A8)"
+            name: "Fighting Configuration Drift with Dynamic Pester Tests"
             speaker: "André Kamman"
           -
             description:
@@ -610,7 +610,7 @@ This deep dive will take a look at various ways to gauge the speed of your code 
 This deep dive will take a look at various ways to gauge the speed of your code execution and tactics on how to accelerate your goals through the use of methods, background jobs, and simple coding techniques. Whether it is through remoting on-premises or reaching out to the cloud, we will make things happen faster."
             language: English
             category: "PowerShell"
-            name: "FASTER!!!! Make Your Code Run Faster!(D8)"
+            name: "FASTER!!!! Make Your Code Run Faster!"
             speaker: "Jason Yoder"
           -
             description:
@@ -618,7 +618,7 @@ This deep dive will take a look at various ways to gauge the speed of your code 
               en: "Although DSC has matured with WMF5, and the documentation around it is improving, it is difficult to find concrete example of DSC implementation treating servers like cattle and not pets, while keeping it flexible enough for real life. The basic principles of separating Configuration Data from Configuration code are well covered, but resources showing how to implement a flexible Configuration Data set for a real life environment are scarce. In this session we will revisit and expand on Steve Murawski's 2014 session 'Building Scalable Configurations with DSC' along with the module he created while at Stack Exchange, and updated by Dave Wyatt. We'll see how we can test our DSC configurations and data, integrate it to our Build Pipeline, leverage the information into Operation Validation, and how advanced configuration data management using the DscConfiguration module makes DSC a first class platform for Policy-Driven Infrastructure. We'll then look at how this file-based configuration registry can evolve to a database store such as a NoSQL database (i.e. Redis), acting as a CMDB and responding to dynamic events."
             language: English
             category: "DevOps"
-            name: "Making sense of DSC Configuration Data(C8)"
+            name: "Making sense of DSC Configuration Data"
             speaker: "Gael Colas"
       -
         time: "14:15 - 15:15"
@@ -629,7 +629,7 @@ This deep dive will take a look at various ways to gauge the speed of your code 
               en: "There are serveral Cmdlets to manage Group Policys with Powershell. I will show how to use them and then introduce my Powershell-Module for advanced administration and Group Policy Healtcheck"
             language: German
             category: "Automation"
-            name: "Group Policy Administration mit Powershell(E9)"
+            name: "Group Policy Administration mit Powershell"
             speaker: "Holger Voges"
           -
             description:
@@ -637,7 +637,7 @@ This deep dive will take a look at various ways to gauge the speed of your code 
               en: "Enterprise IT applications span across multiple infrastructures and usually include multiple tiers of services. PowerShell DSC evolved to be more than just a simple configuration management platform and covers more landscape than any other configuration management tool. In this session, we look at a complex enterprise application deployment completely using PowerShell DSC. In the process, we look at some best practices and guidance in creating such a complex end to end configuration using PSDSC."
             language: English
             category: "Automation"
-            name: "Approaching Complex On-premise deployments with PSDSC(B9)"
+            name: "Approaching Complex On-premise deployments with PSDSC"
             speaker: "Ravikanth Chaganti"
           -
             description:
@@ -653,7 +653,7 @@ This deep dive will take a look at various ways to gauge the speed of your code 
               en: "With the new sqlserver module released with SQL 2016 I decided to revisit the SQL Server Provider. Come and take a look through it with me and I will show you what works and what doesn’t and give you ideas on how you can make use of it."
             language: English
             category: "Database"
-            name: "Using the SQL Server Provider(D9)"
+            name: "Using the SQL Server Provider"
             speaker: "Rob Sewell"
           -
             description:
@@ -672,7 +672,7 @@ This deep dive will take a look at various ways to gauge the speed of your code 
               en: "Hyper-V und System Center Virtual Machine Manager 2016 setzten sich auf dem Virtualisierungsmarkt immer mehr durch. Lernen Sie in der Session, wie Sie den VMM mittels PowerShell Installieren und Konfigurieren. Erstellen Sie in handumdrehene Administrative Accounts, Netzwerk Konfigurationen und binden Sie Hyper-V Server ein. In dieser praktischen Session, wird der Virtual Machine Manager 2016 in Betrieb genommen und für eine Hybrid Lösung mit Azure Verbunden."
             language: German
             category: "Automation"
-            name: "Verwalten von System Center Virtual Machine Manager 2016 mit PowerShell(E10)"
+            name: "Verwalten von System Center Virtual Machine Manager 2016 mit PowerShell"
             speaker: "Rinon Belegu"
           -
             description:
@@ -680,7 +680,7 @@ This deep dive will take a look at various ways to gauge the speed of your code 
               en: "In a number of projects around DSC we wanted to focus on developing DSC Resources, DSC Configurations and testing this in a Multi-Pull Server scenario. Being able to rapidly deploy a lab specific to each with AD, PKI and DSC Pull Servers already deployed was a huge timesaver. This session will walk through the deployment process automated with AutomatedLab. We will also demo the result of a large DSC project to automate the configuration of domain controllers within this lab which covers DSC Partial Configurations on multiple DSC Pull Servers, automated creation of DSC Configurations and DSC Reporting."
             language: English
             category: "DevOps"
-            name: "Mastering a complex DSC lab infrastructure for rapid DSC deployment(B10)"
+            name: "Mastering a complex DSC lab infrastructure for rapid DSC deployment"
             speaker: "Raimund Andree, Jan-Hendrik Peters"
           -
             description:
@@ -688,7 +688,7 @@ This deep dive will take a look at various ways to gauge the speed of your code 
               en: "The escalation of privileges to Administrator rights is an extremely common step of many malicious attack chains. As patching practices have matured, attackers are less frequently able to rely upon actual exploits of the Windows operating system to achieve elevation. However, enterprise deployment of ‘gold’ workstation images nearly always include third party (and often in-house designed) software that often introduces misconfigurations which may lead to privilege escalation opportunities. This talk will cover my tool PowerUp, a PowerShell script that automates checks for many of these escalation vectors. I will cover several common misconfigurations that we’ve seen in the field, the technical implementations of the checks that PowerUp uses, and how PowerUp can help complicate an attacker’s workflow."
             language: English
             category: "Security"
-            name: "Defending Your 'Gold' (A10)"
+            name: "Defending Your 'Gold'"
             speaker: "Will Schroeder"
           -
             description:
@@ -696,7 +696,7 @@ This deep dive will take a look at various ways to gauge the speed of your code 
               en: "Advanced regular expression session with focus on accuracy, performance and Unicode support(!). Learn about common tricks, pattern construction and catastrophic backtracking"
             language: English
             category: "PowerShell"
-            name: "RegEx 2.0: Full Coverage(D10)"
+            name: "RegEx 2.0: Full Coverage"
             speaker: "Mathias R Jessen"
           -
             description:
@@ -717,7 +717,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
 We'll talk about apparently 'basic' file system tasks (sharing, mapping, configuring access control lists) as well as mandatory integrity levels and dynamic access control. You will learn, that explorer.exe is your single most dangerous predator and that using powershell.exe is most likely not the final solution but one giant leap towards your peace of mind. The session will cover: setting file system ACLs programmatically, gaining access to any file/folder disobeying permissions, dealing with system privs and integrity control  and circumscribing the bugs and missing features of the built-in toolchain."
             language: German
             category: "PowerShell"
-            name: "Everything You Always Wanted to Know About FileServices But Were Afraid to Ask(E11)"
+            name: "Everything You Always Wanted to Know About FileServices But Were Afraid to Ask"
             speaker: "Thorsten Butz"
           -
             description:
@@ -725,7 +725,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "I began running a DevOps enablement project in mid-2016. In this session I'll share some background & stories of what we got wrong (and a few things we got right) as well as resources, tools & ideas that really helped me."
             language: English
             category: "DevOps"
-            name: "From Zero to 4 Deployments a Week - Lessons Learned adopting Agile Ops Methodologies(B11)"
+            name: "From Zero to 4 Deployments a Week - Lessons Learned adopting Agile Ops Methodologies"
             speaker: "Benjamin Hodge"
           -
             description:
@@ -733,7 +733,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "Just Enough Administration, also known as JEA, has been around for several years. It has been actively updated by the PowerShell team and you might have experimented with the technology. In this session, I will take you through the process of setting up your first JEA configuration, discuss the pitfalls and common issues. Furthermore, I will show several ways to analyze and secure your configuration. Level 300"
             language: English
             category: "Security"
-            name: "Building your own JEA Configuration(A11)"
+            name: "Building your own JEA Configuration"
             speaker: "Jaap Brasser"
           -
             description:
@@ -749,7 +749,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "Deploying development and test environments via PowerShell Desired State Configuration (DSC) with Lability is a now breeze. Unfortunately, technologies such as Active Directory and Hyper-V are traditionally difficult to perform integration testing on due to numerous factors and platform requirements. Could we exploit Lability in a Continuous Integration or Continuous Delvery pipeline to facilitate integration testing?Join in this session to see how we can use Server 2016, Lability and DSC to deploy an Active Directory integration testing environment using nested virtualisation. We will then use the open source Active Directory DSC resource module from Github to perform some integration tests using Pester and the Operation Validation Framework (OVF)."
             language: English
             category: "DevOps"
-            name: "Integrating Lability in a CI/CD Release Pipeline(C11)"
+            name: "Integrating Lability in a CI/CD Release Pipeline"
             speaker: "Iain Brighton"
       -
         time: "17:45"
@@ -805,7 +805,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "From docker to Hyper-V containers, the latest and greatest variation in virtualization technology is omnipresent since Microsoft published Windows Server 2016. We will have an in-depth look into the different technologies, not only focussing Windows Server but also paying respect to the Linux inventors. Of course, we will find out how to use PoSh driven scripts to setup and maintain your on- and off-premise resources, either Linux or Windows."
             language: German
             category: "Automation"
-            name: "about_Containers #A note from the field(E12)"
+            name: "about_Containers #A note from the field"
             speaker: "Thorsten Butz"
           -
             description:
@@ -813,7 +813,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: ""
             language: English
             category: "Security"
-            name: "Using Credentials 'securely' in the Release Pipeline(B12)"
+            name: "Using Credentials 'securely' in the Release Pipeline"
             speaker: "Matt Hitchcock"
           -
             description:
@@ -821,7 +821,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "Following the latest Windows Server 2016 release, Lability has been expanded to support both Server 2016 and Nano server. Nano server - as you may aware - comes with its own set of unique management and deployment challenges. Fortunately, Lability helps abstract some of these changes and treats them the same as full Windows Server or Server Core (where possible). Come and join this session to see how we can use PowerShell Desired State Configuration (DSC) to deploy a hyper-converged Nano server cluster using nested virtualisation, Lability and a single configuration document."
             language: English
             category: "Containers"
-            name: "Deploying Nano server with Lability and DSC(A12)"
+            name: "Deploying Nano server with Lability and DSC"
             speaker: "Iain Brighton"
           -
             description:
@@ -837,7 +837,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "A session packed with ideas for runbook design patterns, best practices and other useful tips and tricks. Get inspired and learn how a PowerShell runbooks should be designed and structured"
             language: English
             category: "Automation"
-            name: "Azure Automation - Advanced Runbook Design(C12)"
+            name: "Azure Automation - Advanced Runbook Design"
             speaker: "Jakob Gottlieb Svendsen"
 
       -
@@ -849,7 +849,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "Für Unternehmen wird Powershell immer interessanter - kennen Sie jedoch auch alle relevanten Security Themen? Execution Policy, Logging und Powershell Remoting ist nur die elementare Sammlung, die Sie kennen sollten. In dieser Session führt David Sie im Schnellüberblick durch alle Themen, die für Unternehmen von Interesse sein sollten und macht Schluss mit weit verbreiteten Fehlannahmen."
             language: German
             category: "Security"
-            name: "PowerShell sicher im Unternehmen einsetzen(E13)"
+            name: "PowerShell sicher im Unternehmen einsetzen"
             speaker: "David das Neves"
           -
             description:
@@ -857,7 +857,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "A picture says more than a 1000 words is very true in the area of performance reporting.This session will show - how to collect such performance data in a vSphere environment in an efficient way- demonstrate several methods to visualise the collected data- discuss what to visualise, such as not to overwhelm the reader/viewer"
             language: English
             category: "Automation"
-            name: "Visualising performance in VMware vSphere(B13)"
+            name: "Visualising performance in VMware vSphere"
             speaker: "Luc Dekens"
           -
             description:
@@ -865,7 +865,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "In this session, I’ll feature some incredibly useful PowerShell commands from the dbatools module. This SQL Server-centric toolset, which has evolved into an open-source community project with over 20 contributors, includes commands like Remove-SqlDatabaseSafely, Set-SqlTempDbConfiguration, Find-SqlDuplicateIndex, and Test-SqlPowerPlan.Join for me for this electric, demo-heavy session to learn how to greatly simplify your life as a DBA."
             language: English
             category: "Database"
-            name: "Modern Database Administration using PowerShell and dbatools(A13)"
+            name: "Modern Database Administration using PowerShell and dbatools"
             speaker: "Chrissy LeMaire"
           -
             description:
@@ -873,7 +873,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "A joint session together with Jason Yoder we will go into the nitty gritty details of some fun and interesting things that you can do with PowerShell which it probably was never intended to do. We will cover several different concepts and examples. We will explain the code and the thoughts behind the design of the scripts, functions and blocks of code, in short you will get an uncensored view of the world of PowerShell. Level 200-300"
             language: English
             category: "PowerShell"
-            name: "PowerShell Uncensored(D13)"
+            name: "PowerShell Uncensored"
             speaker: "Jaap Brasser & Jason Yoder"
           -
             description:
@@ -881,7 +881,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "Written a ton of awesome PowerShell scripts but find it hard getting your end users or your support people to use them? Let's solve this with ChatOps. We will have a quick introduction to ChatOps and then dive into installing a Hubot (a chat bot) on Windows. After learning the basics of Hubot, we will run through some code examples so you can easily bring your scripts to users through chat. Finally we will touch on what security and authentication methods you can use when getting into ChatOps with PowerShell."
             language: English
             category: "Automation"
-            name: "ChatOps with PowerShell(C13)"
+            name: "ChatOps with PowerShell"
             speaker: "Matthew Hodgkins"
       -
         time: "11:00 - 12:00"
@@ -892,7 +892,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "In diesem Vortrag werden wir uns die neuen Möglichkeiten anschauen, die PowerShell unter Linux mit sich bringt. Angefangen bei dem Bezug von PowerShell für die verschiedenen Systeme werden wir anhand von Scripts erarbeiten, was die Vorteile von PowerShell im Vergleich zu klassischen nx Shells sind. PowerShell ist nicht vollständig ohne Desired State Configuration: Wir werden uns anschauen, welche Ressourcen unter Linux verfügbar sind und wie sie sich erfolgreich in Push- und Pull-Szenarien nutzen lassen."
             language: German
             category: "OpenSource"
-            name: "PowerShell on Linux - Cross-Platform skripten(E14)"
+            name: "PowerShell on Linux - Cross-Platform skripten"
             speaker: "Jan-Hendrik Peters"
           -
             description:
@@ -900,7 +900,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "Expect a fast-paced, demo-heavy session about Just Enough Administration (JEA), a new PowerShell security feature. Learn how to create boundaries for your users, and give them the minimal set of privileges they need to perform their tasks. In this session, we’ll demonstrate how to author, deploy, use, and audit a JEA including the improvements in the latest version of PowerShell. If you want PowerPoint slides, look for another session."
             language: English
             category: "Security"
-            name: "JEA Deep Dive in 45 Minutes(B14)"
+            name: "JEA Deep Dive in 45 Minutes"
             speaker: "Aleksandar Nikolic"
           -
             description:
@@ -908,7 +908,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "Nano server, the new deployment model in Windows Server 2016, allows faster deployment and servicing of not just virtual environments but bare-metal servers too. When we combine Nano Server deployment model with configuration management platform like PowerShell DSC and build a release pipeline, we get an immutable infrastructure. This session demonstrates a complete release pipeline built with Nano and PowerShell DSC and demonstrates how an immutable web infrastructure gets deployed and serviced. This session also includes some interesting demos of using IoT enabled devices to monitor the release pipeline and infrastructure configuration."
             language: English
             category: "DevOps"
-            name: "Build an immutable application infrastructure with Nano Server, PowerShell DSC, and the release pipeline(A14)"
+            name: "Build an immutable application infrastructure with Nano Server, PowerShell DSC, and the release pipeline"
             speaker: "Ravikanth Chaganti"
           -
             description:
@@ -916,7 +916,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "“Never reinvent the wheel.” My professors taught me that this is the first rule of Computer Science.  PowerShell has a lot of hidden gems if you just dig deep enough to find them.  We are going to go through some of these mysterious variables and references and show you how to leverage them to your advantage.  A little deep dive and a little to make you laugh.  We will learn new tricks to use in your coding and a few to make the work place a little more fun. Why code more when the work has already been done for you?"
             language: English
             category: "PowerShell"
-            name: "Demystifying $THIS, $_, $PSITEM, $$, $Whatever…(D14)"
+            name: "Demystifying $THIS, $_, $PSITEM, $$, $Whatever…"
             speaker: "Jason Yoder"
           -
             description:
@@ -924,7 +924,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "In this session we will go through all you need to know to start working with binary file formats with PowerShell."
             language: English
             category: "PowerShell"
-            name: "Working with binary file formats(C14)"
+            name: "Working with binary file formats"
             speaker: "Øyvind Kallstad"
       -
         time: "12:00 - 13:00"
@@ -955,7 +955,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "With the relentless proliferation of compiled and script-based malware, trusting prevention and detection to antivirus solutions alone simply won&#39;t cut it. The only ideal method of effectively blocking binaries and scripts on a host is with a robust whitelisting solution. Device Guard is one such solution offered by Microsoft for Windows 10 and Server 2016 and if implemented properly, can eliminate an entire suite of attacks your organization may face. Additionally, the only interface into configuring Device Guard is with PowerShell. Device Guard, like any other whitelisting solution, will never be impervious to bypasses, however. A robust solution will, however, provide mechanisms to block known bypasses. Device Guard provides such functionality in addition to providing features that can effectively block rogue administrators from altering policies or disabling the service. This talk will cover PowerShell-based configuration and deployment of a restrictive whitelisting policy, bypasses to the policy through exploitation of trusted applications, and mitigation strategies for effectively blocking such bypasses."
             language: English
             category: "Security"
-            name: "Architecting a Modern Defense using Device Guard and PowerShell(B15)"
+            name: "Architecting a Modern Defense using Device Guard and PowerShell"
             speaker: "Matthew Graeber"
           -
             description:
@@ -963,7 +963,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "What do you have to do to make your cmdlets as usable as the best of the ones that ship with PowerShell? We look at handling of Paths, globbing, typed output, ShouldProcess and how to design your cmdlets and types together so they flow in a pipeline."
             language: English
             category: "PowerShell"
-            name: "Professional cmdlets and module design(A15)"
+            name: "Professional cmdlets and module design"
             speaker: "Staffan Gustafsson"
           -
             description:
@@ -971,7 +971,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "Understanding Agile IT Operations systems like Continuous Delivery & Continuous Integration can be difficult to visualise & understand when you're trying to get started. In this session we'll build a complete CI/CD Pipeline in Azure to show you how the different stages & elements work together & make it easier to understand the benefits & thinking behind the theory."
             language: English
             category: "Automation"
-            name: "Building Your First CI/CD Pipeline in Azure(D15)"
+            name: "Building Your First CI/CD Pipeline in Azure"
             speaker: "Benjamin Hodge"
           -
             description:
@@ -979,7 +979,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "Cloud and Datacenter Management MVP Will Anderson takes you through the use of Azure’s Desired State Configuration to deliver VM deployment solutions in the cloud that conform to your organizations’ requirements. Learn the different methods to deploy your desired state configurations into the Azure environment to manage both your Service Management and Resource Manager IaaS deployments."
             language: English
             category: "DevOps"
-            name: "Using Desired State Configuration in Azure(C15)"
+            name: "Using Desired State Configuration in Azure"
             speaker: "Will Anderson"
       -
         time: "14:15 - 15:15"
@@ -990,7 +990,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "Testing code is now a requirement for the majority of open-source projects - including the Microsoft DSC resources on GitHub. Most of us have probably written a Pester test or two, but! Do you know what makes a good or a bad unit test? When you look at your code do you know what you should or shouldn’t be testing? Can you tell the difference between an integration test and a unit test? In this session we will use personal examples of tests written when first starting out to highlight both good and bad testing practices, unit and integration tests and maybe a few Pester tips and gotchas. Note: whilst this session uses Pester for its examples, this session is more about the philosophy of software testing and less about the intricacies of Pester."
             language: English
             category: "Testing"
-            name: "Writing Effective Tests(E16)"
+            name: "Writing Effective Tests"
             speaker: "Iain Brighton"
           -
             description:
@@ -998,7 +998,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "It all started as a side project created by (at the time) former member of the PowerShell team, Jason Shirk. After Jason got back “home”, this project made its way back to the PowerShell core. In this session I will try to share with you current “state of the art”, and show you how you can create dynamic completers for your modules. I will also share how adding custom completers will look in the future, when PowerShell version 5 will become de facto standard version. Expect a lot of demos and some examples of how you can create module/command specific completers and completers that will work for any command on your system."
             language: English
             category: "PowerShell"
-            name: "TabExpansionPlusPlus in examples(B16)"
+            name: "TabExpansionPlusPlus in examples"
             speaker: "Bartosz Bielawski"
           -
             description:
@@ -1006,7 +1006,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "In August of 2016, Microsoft officially open sourced the PowerShell project. This is an important step towards making PowerShell a single platform for automation of management/administration tasks on all operating system variants, not just Windows. Naturally, many open source powershell developers rushed to make sure their script modules were compatible with PowerShell Core and open source PowerShell on non-Windows operating systems. Porting script modules turns out to be a “relatively” painless process, but binary modules create additional problems to overcome. In this presentation, I will discuss writing Binary PowerShell Modules targeting the PowerShell Core and open source PowerShell, specifically focused on modules built to run in *nix environments. I will cover writing P/Invoke definitions for Linux and Mac OSX function calls, reviewing source code to see how Microsoft does it, and how to add operating system detection logic.  Finally, I will demonstrate running PowerForensics on a non-Windows platform."
             language: English
             category: "OpenSource"
-            name: "Porting Binary PowerShell Modules to Linux/OSX(A16)"
+            name: "Porting Binary PowerShell Modules to Linux/OSX"
             speaker: "Jared Atkinson"
           -
             description:
@@ -1014,7 +1014,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "In this session we'll explore using the script resource, resource kit resources and creation your own resource."
             language: English
             category: "DevOps"
-            name: "What to do when inbox DSC Resources don't cover your goal(D16)"
+            name: "What to do when inbox DSC Resources don't cover your goal"
             speaker: "Ben Gelens"
           -
             description:
@@ -1022,7 +1022,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "Developers know what Continuous Delivery means and we don't really have to explain to them what's available and why it is important. ITPros though, have a bigger challenge. Testing our code can be complicated, because it often touches the infrastructure. Do we then need a complete test infrastructure? Doesn't that make the test project time-consuming and cumbersome? In this session I'll show what can be done out of the box, and we will investigate what is possible if we think outside of that box a bit. (And we'll talk about the limitations as well of course)"
             language: English
             category: "PowerShell"
-            name: "Test your Powershell code with AppVeyor for ITPros(C16)"
+            name: "Test your Powershell code with AppVeyor for ITPros"
             speaker: "André Kamman"
       -
         time: "15:30 - 16:30"
@@ -1033,7 +1033,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "To use DSC in a 'foreign' environment, some hurdles have to be taken. The vSphereDSC module is one attempt at doing this. It allows one to use DSC to manage a VMware vSphere environment. The session shows the concepts behind the vSphereDSC DSC Resource module, how to add resources in the module and how to use the module."
             language: English
             category: "DevOps"
-            name: "DSC in a vSphere Environment(E17)"
+            name: "DSC in a vSphere Environment"
             speaker: "Luc Dekens"
           -
             description:
@@ -1041,7 +1041,7 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
               en: "This session will focus on concepts of automation using OMS/Azure Automation, which is part of Microsoft Operational Suite (OMS). It will showcase a number of scenarios while explaining the technology behind them. Join this session for advanced integrations using Microsoft Graph API, Web Services and more!"
             language: English
             category: "Automation"
-            name: "Automation in a hybrid world(B17)"
+            name: "Automation in a hybrid world"
             speaker: "Jakob Gottlieb Svendsen"
           -
             description:
@@ -1059,7 +1059,7 @@ This will focus on how DSC makes the life-cycle of application development and s
 This will focus on how DSC makes the life-cycle of application development and server configuration that bit easier. The session will focus on a few key pieces of Windows tech such as CI/CD with Appveyor, Chocolatey for Package Management, Github for Source Control and of course DSC for configuration management. I will also focus on some of the pain points for developers and Ops guys and point out ways a proper CI/CD pipeline can solve these. This presentation will be based on how we use DSC within our CI/CD pipeline at my place of work (Coolblue)."
             language: English
             category: "DevOps"
-            name: "DSC: From commit to production.(D17)"
+            name: "DSC: From commit to production"
             speaker: "Flynn Bundy"
           -
             description:
@@ -1067,7 +1067,7 @@ This will focus on how DSC makes the life-cycle of application development and s
               en: "SCOM provides a lot of monitoring out of the box. When there is a need for extending the built-in monitoring, PowerShell is there to help you out. This session will cover how to create discoveries, monitors and performance collection rules using PowerShell in a SCOM management pack. In this session we'll also cover how to get data out of SCOM with PowerShell using command channels and subscriptions."
             language: English
             category: "Automation"
-            name: "Monitoring with PowerShell in SCOM(C17)"
+            name: "Monitoring with PowerShell in SCOM"
             speaker: "Daniël Both"
       -
         time: "16:30"
