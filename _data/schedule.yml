@@ -31,10 +31,10 @@ days:
             speaker: "Ravi Ravikanth (MVP)"
           -            
             description:
-              de: ""
-              en: ""
+              de: "In this workshop, Aleksandar reviews the different ways of how to access remote systems via PowerShell. He'll be talking about PowerShell Remoting and its prerequisites, PowerShell Direct, and also PowerShell over SSH. This workshop helps you evaluate the different options of remote communications, polishes your fundamental knowledge, and brings you up to speed for cross-platform remote communications in the light of 'PowerShell on Linux'."
+              en: "In this workshop, Aleksandar reviews the different ways of how to access remote systems via PowerShell. He'll be talking about PowerShell Remoting and its prerequisites, PowerShell Direct, and also PowerShell over SSH. This workshop helps you evaluate the different options of remote communications, polishes your fundamental knowledge, and brings you up to speed for cross-platform remote communications in the light of 'PowerShell on Linux'."
             language: English
-            name: "TBD"
+            name: "PowerShell Remoting Fundamentals"
             speaker: "Alexandar Nikolic (MVP)"
           -
             description:
