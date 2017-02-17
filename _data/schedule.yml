@@ -70,10 +70,11 @@ days:
         tracks:
           -
             description:
-              de: ""
-              en: ""
+              de: "PowerShell DSC uses the concept of DSC resource modules and the resource modules can be written as simple PowerShell modules. This workshop looks at building world-class DSC resource modules that follow the High-Quality Resource Module guidance prescribed by Microsoft. At the end of this workshop, attendees will have a good understanding of building custom DSC resource modules that adhere to the HQRM guidelines."
+              en: "PowerShell DSC uses the concept of DSC resource modules and the resource modules can be written as simple PowerShell modules. This workshop looks at building world-class DSC resource modules that follow the High-Quality Resource Module guidance prescribed by Microsoft. At the end of this workshop, attendees will have a good understanding of building custom DSC resource modules that adhere to the HQRM guidelines."
             language: English
-            name: "TBD"
+            category: "DevOps"
+            name: "Writing world-class DSC resource modules"
             speaker: "Ravi Ravikanth (MVP)"
           -
             description:
