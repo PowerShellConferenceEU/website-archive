@@ -44,7 +44,7 @@ days:
             language: German
             category: "Security"
             name: "PowerShell Security Einführung"
-            speaker: "David des Neves (Microsoft)"
+            speaker: "David das Neves (Microsoft)"
           -
             description:
               de: "Mit dem Nano-Server bietet Microsoft erstmals einen vollkommen 'headless' Server an, der ohne GUI nur noch über Konsolen wie PowerShell steuerbar ist. Lernen Sie in diesem Workshop kennen, was genau Nano-Server bieten, und wie sie von Powershell aus verwaltet werden, und bereiten Sie sich damit auf die Automations-Tracks der Hauptkonfernz vor. Rinon demonstriert außerdem, was es mit 'Containern' auf sich hat, ein weiterer Baustein für die Automation."
@@ -91,7 +91,7 @@ days:
             language: German
             category: "PowerShell"
             name: "GUIs und Toolmaking mit PowerShell"
-            speaker: "David des Neves (Microsoft)"
+            speaker: "David das Neves (Microsoft)"
           -
             description:
               de: "Wie verteilt man PowerShell Code optimal im Unternehmen? Rinon zeigt in diesem Workshop zunächst, wie sich eigene PowerShell-Module erstellen lassen. Anschließend lernen Sie das neue PowerShellGet kennen, mit dem sie eigene Modul-Verteilungsknoten im Unternehmen bereitstellen können - einschließlich Versionsverwaltung. Bei dieser Gelegenheit grenzt Rinon PowerShellGet von der allgemeinen Paketverwaltung 'Chocolatey' ab, über die PowerShell auch 'ganz normale' Anwendungsprogramme verteilen kann. Nehmen Sie in diesem Workshop zahlreiche Ideen mit, und bereiten Sie sich auf die Vorträge der Hauptkonferenz vor, die sich mit Team-Zusammenarbeit an PowerShell-Projekten beschäftigen."
@@ -541,11 +541,11 @@ In this deep dive, we will take a look at PowerShell remoting and learn how to u
             speaker: "Staffan Gustafsson"
           -
             description:
-              de: ""
-              en: ""
+              de: "PowerShell scoping can be a complex beast. Find out the details of how scoping works in modules, scripts, closures and APIs"
+              en: "PowerShell scoping can be a complex beast. Find out the details of how scoping works in modules, scripts, closures and APIs"
             language: English
             category: "Microsoft"
-            name: "TBD"
+            name: "Scoping in Depth"
             speaker: "Bruce Payette (Microsoft)"
           -
             description:
