@@ -580,8 +580,8 @@ In this deep dive, we will take a look at PowerShell remoting and learn how to u
         tracks:
           -
             description:
-              de: "Du kennst Dich aus in den dunklen, gefährlichen Abgründen unser geliebten PowerShell? Dann sei beim PowerShell QUIZ dabei, in dem wir Wissenswertes und Absonderliches zu einer unterhaltsamen "Show" zusammen bringen. Ja, richtig verstanden, wir übernehmen das Format "Wer wird Millionär" und suchen den glorreichsten Powershell-Nerd, inklusive Telefonjoker und Publikumsbefragung. Und selbstverständlich gibt es auch etwas zu gewinnen. Get-Fun -Force"
-              en: "Du kennst Dich aus in den dunklen, gefährlichen Abgründen unser geliebten PowerShell? Dann sei beim PowerShell QUIZ dabei, in dem wir Wissenswertes und Absonderliches zu einer unterhaltsamen "Show" zusammen bringen. Ja, richtig verstanden, wir übernehmen das Format "Wer wird Millionär" und suchen den glorreichsten Powershell-Nerd, inklusive Telefonjoker und Publikumsbefragung. Und selbstverständlich gibt es auch etwas zu gewinnen. Get-Fun -Force"
+              de: "Du kennst Dich aus in den dunklen, gefährlichen Abgründen unser geliebten PowerShell? Dann sei beim PowerShell QUIZ dabei, in dem wir Wissenswertes und Absonderliches zu einer unterhaltsamen 'Show' zusammen bringen. Ja, richtig verstanden, wir übernehmen das Format 'Wer wird Millionär' und suchen den glorreichsten Powershell-Nerd, inklusive Telefonjoker und Publikumsbefragung. Und selbstverständlich gibt es auch etwas zu gewinnen. Get-Fun -Force"
+              en: "Du kennst Dich aus in den dunklen, gefährlichen Abgründen unser geliebten PowerShell? Dann sei beim PowerShell QUIZ dabei, in dem wir Wissenswertes und Absonderliches zu einer unterhaltsamen 'Show' zusammen bringen. Ja, richtig verstanden, wir übernehmen das Format 'Wer wird Millionär' und suchen den glorreichsten Powershell-Nerd, inklusive Telefonjoker und Publikumsbefragung. Und selbstverständlich gibt es auch etwas zu gewinnen. Get-Fun -Force"
             language: German
             category: "PowerShell"
             name: "Wer wird Shellionaire?"
