@@ -580,11 +580,11 @@ In this deep dive, we will take a look at PowerShell remoting and learn how to u
         tracks:
           -
             description:
-              de: "Do you know about all the the pitfalls, craziness and exceptions in our beloved PowerShell? Join us for the Powershell QUIZ, where we will transform all the weirdness into an entertaining event. Yes, we will adopt the famous 'Who wants to be ..' format and crown the the successful winner. 'Phone a Friend' and prove that you're the greatest nerd! And of course: we will have some gorgeous winnings for YOU. Get-Fun -force"
-              en: "Do you know about all the the pitfalls, craziness and exceptions in our beloved PowerShell? Join us for the Powershell QUIZ, where we will transform all the weirdness into an entertaining event. Yes, we will adopt the famous 'Who wants to be ..' format and crown the the successful winner. 'Phone a Friend' and prove that you're the greatest nerd! And of course: we will have some gorgeous winnings for YOU. Get-Fun -force"
+              de: "Du kennst Dich aus in den dunklen, gefährlichen Abgründen unser geliebten PowerShell? Dann sei beim PowerShell QUIZ dabei, in dem wir Wissenswertes und Absonderliches zu einer unterhaltsamen 'Show' zusammen bringen. Ja, richtig verstanden, wir übernehmen das Format 'Wer wird Millionär' und suchen den glorreichsten Powershell-Nerd, inklusive Telefonjoker und Publikumsbefragung. Und selbstverständlich gibt es auch etwas zu gewinnen. Get-Fun -Force"
+              en: "Du kennst Dich aus in den dunklen, gefährlichen Abgründen unser geliebten PowerShell? Dann sei beim PowerShell QUIZ dabei, in dem wir Wissenswertes und Absonderliches zu einer unterhaltsamen 'Show' zusammen bringen. Ja, richtig verstanden, wir übernehmen das Format 'Wer wird Millionär' und suchen den glorreichsten Powershell-Nerd, inklusive Telefonjoker und Publikumsbefragung. Und selbstverständlich gibt es auch etwas zu gewinnen. Get-Fun -Force"
             language: German
             category: "PowerShell"
-            name: "Who wants to be a Shellionaire?"
+            name: "Wer wird Shellionaire?"
             speaker: "Thorsten Butz"
           -
             description:
@@ -711,13 +711,11 @@ This deep dive will take a look at various ways to gauge the speed of your code 
         tracks:
           -
             description:
-              de: "Do you know a single topic which is - at the same time - more convoluted, challenging but basic and tedious as file services? I do not.
-We'll talk about apparently 'basic' file system tasks (sharing, mapping, configuring access control lists) as well as mandatory integrity levels and dynamic access control. You will learn, that explorer.exe is your single most dangerous predator and that using powershell.exe is most likely not the final solution but one giant leap towards your peace of mind. The session will cover: setting file system ACLs programmatically, gaining access to any file/folder disobeying permissions, dealing with system privs and integrity control  and circumscribing the bugs and missing features of the built-in toolchain."
-              en: "Do you know a single topic which is - at the same time - more convoluted, challenging but basic and tedious as file services? I do not.
-We'll talk about apparently 'basic' file system tasks (sharing, mapping, configuring access control lists) as well as mandatory integrity levels and dynamic access control. You will learn, that explorer.exe is your single most dangerous predator and that using powershell.exe is most likely not the final solution but one giant leap towards your peace of mind. The session will cover: setting file system ACLs programmatically, gaining access to any file/folder disobeying permissions, dealing with system privs and integrity control  and circumscribing the bugs and missing features of the built-in toolchain."
+              de: "Kennen Sie ein ein anderes Thema, dass gleichzeitig so herausfordernd und gespickt mit Besonderheiten ist und doch eigentlich Basiswissen darstellt? Ich nicht. Wir sprechen über vermeintlich einfache Konfigurationsaufgaben (Freigaben, Zugriffsrechte, Laufwerksmapping) wie auch über Mandatory Integrity Level und Dynamic Access Control. Sie werden lernen, dass explorer.exe der natürliche Fein der Administratoren ist und dasss powershell.exe vielleicht nicht die endgültige Lösung darstellt, jedoch einen großen Schritt in Richtung Ihres Seelensfriedens darstellen kann. Wir lernen, wie man Dateisystem ACLs mittels PowerShell konfiguriert, auf beliebige Ordner unabhängig von den vorgefundenen Berechtigungen Zugriff erlangt und wie man die vielen Ungereimtheiten der Bordmittel bei der Konfiguration von Fileservern umschifft."
+              en: "Kennen Sie ein ein anderes Thema, dass gleichzeitig so herausfordernd und gespickt mit Besonderheiten ist und doch eigentlich Basiswissen darstellt? Ich nicht. Wir sprechen über vermeintlich einfache Konfigurationsaufgaben (Freigaben, Zugriffsrechte, Laufwerksmapping) wie auch über Mandatory Integrity Level und Dynamic Access Control. Sie werden lernen, dass explorer.exe der natürliche Fein der Administratoren ist und dasss powershell.exe vielleicht nicht die endgültige Lösung darstellt, jedoch einen großen Schritt in Richtung Ihres Seelensfriedens darstellen kann. Wir lernen, wie man Dateisystem ACLs mittels PowerShell konfiguriert, auf beliebige Ordner unabhängig von den vorgefundenen Berechtigungen Zugriff erlangt und wie man die vielen Ungereimtheiten der Bordmittel bei der Konfiguration von Fileservern umschifft."
             language: German
             category: "PowerShell"
-            name: "Everything You Always Wanted to Know About FileServices But Were Afraid to Ask"
+            name: "Was Sie schon immer über Fileserver wissen wollten, aber bisher nicht zu fragen wagten"
             speaker: "Thorsten Butz"
           -
             description:
@@ -801,8 +799,8 @@ We'll talk about apparently 'basic' file system tasks (sharing, mapping, configu
         tracks:
           -
             description:
-              de: "From docker to Hyper-V containers, the latest and greatest variation in virtualization technology is omnipresent since Microsoft published Windows Server 2016. We will have an in-depth look into the different technologies, not only focussing Windows Server but also paying respect to the Linux inventors. Of course, we will find out how to use PoSh driven scripts to setup and maintain your on- and off-premise resources, either Linux or Windows."
-              en: "From docker to Hyper-V containers, the latest and greatest variation in virtualization technology is omnipresent since Microsoft published Windows Server 2016. We will have an in-depth look into the different technologies, not only focussing Windows Server but also paying respect to the Linux inventors. Of course, we will find out how to use PoSh driven scripts to setup and maintain your on- and off-premise resources, either Linux or Windows."
+              de: "Von Docker bis zu Hyper-V Containern, seit Microsoft mit Windows Server 2016 und Windows 10 Container eingeführt hat, sind diese in aller Munde. Wir werden einen praktischen Blick auf die junge Technologie werfen - nicht nur in Hinblick auf Microsofts Implementierung sondern auch in Hinblick auf das Original unter Linux. Natürlich steht auch hier die PowerShell im Mittelpunkt, wenn es um Setup und Wartung der Ressourcen geht."
+              en: "Von Docker bis zu Hyper-V Containern, seit Microsoft mit Windows Server 2016 und Windows 10 Container eingeführt hat, sind diese in aller Munde. Wir werden einen praktischen Blick auf die junge Technologie werfen - nicht nur in Hinblick auf Microsofts Implementierung sondern auch in Hinblick auf das Original unter Linux. Natürlich steht auch hier die PowerShell im Mittelpunkt, wenn es um Setup und Wartung der Ressourcen geht."
             language: German
             category: "Automation"
             name: "about_Containers #A note from the field"
