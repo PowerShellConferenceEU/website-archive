@@ -6,7 +6,7 @@ col_xs: 12
 sponsors:
   - name: "c't"
     img: "/img/sponsors/ct-xs.jpg"
-    url: "https://www.heise.de/ct/
+    url: "https://www.heise.de/ct/"
   - name: "PowerShell.com"
     img: "/img/sponsors/SystemFrontier.png"
     url: "http://systemfrontier.com/powershell"
