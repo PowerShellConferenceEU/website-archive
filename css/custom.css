@@ -207,6 +207,16 @@ html {
   margin-bottom:25px;
 }
 
+.candids ul {
+  padding:0 0 0 0;
+  margin:0 0 0 0;
+}
+
+.candids li {
+  list-style:none;
+  margin-bottom:25px;
+}
+
 .row-flex, .row-flex > div[class*='col-'] {
     display: -webkit-box;
     display: -moz-box;
@@ -265,6 +275,12 @@ html {
 }
 
 #speakers-gallery p {
+    text-align: left !important;
+    text-justify: auto !important;
+    font-size: 12px !important;
+}
+
+#candids-gallery p {
     text-align: left !important;
     text-justify: auto !important;
     font-size: 12px !important;

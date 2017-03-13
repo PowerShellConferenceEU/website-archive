@@ -60,6 +60,11 @@ layout: scaffolding
 	{% include map.html %}
 {% endif %}
 
+<!-- Candids -->
+{% if site.data.features.includeCandids %}
+	{% include candids.html %}
+{% endif %}
+
 <!-- Sponsors -->
 {% if site.data.features.includeSponsors %}
 	{% include sponsors.html %}

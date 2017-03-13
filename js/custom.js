@@ -125,3 +125,35 @@ $('#speakers-gallery').flowGallery({
             menuFixOffset: 50,
             configUrl: 'flowconfig.json'
         });
+
+        $('#candids-gallery').flowGallery({
+            gridType: 'columns',
+            columns: {320: 1, 480: 2, 720: 2, 960: 3, 1200: 4},
+            //columns: 6,
+            //rowItemMinWidth: 150,
+            //justifyLastRow: false,
+            horizontalGutter: 10,
+            verticalGutter: 10,
+            items: {style: 'card'},
+            card: {
+                alwaysShowCaption: true,
+                descriptionInCaption: false
+            },
+            captionShowAnimation: 'pushUp',
+            enableCache: false,
+            enableDeepLinking: false,
+            loadItemChunks: false,
+            enableSocialShare: false,
+            showFileTypeIcons: false,
+            categoryFilters: ["United Kingdom","USA","Netherlands","Norway","Sweden","India","Germany","Serbia","Poland","Denmark","Canada","Belgium"],
+            showFileTypeFilters: false,
+            hideEmptyCategories: true,
+            showFullscreenButton: false,
+            showFilterMenu: true,
+            showSearchFilter: true,
+            showGalleryMenuBar: false,
+            sortBy: [],
+            fixMenuOnScroll: true,
+            menuFixOffset: 50,
+            configUrl: 'candidsflowconfig.json'
+        });
