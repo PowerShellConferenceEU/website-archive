@@ -830,7 +830,7 @@ This deep dive will take a look at various ways to gauge the speed of your code 
             name: "Advanced PowerShell Module Development with Visual Studio Code"
             speaker: "David Wilson (Microsoft)"
           -
-          description:
+            description:
               de: "This session will focus on concepts of automation using OMS/Azure Automation, which is part of Microsoft Operational Suite (OMS). It will showcase a number of scenarios while explaining the technology behind them. Join this session for advanced integrations using Microsoft Graph API, Web Services and more!"
               en: "This session will focus on concepts of automation using OMS/Azure Automation, which is part of Microsoft Operational Suite (OMS). It will showcase a number of scenarios while explaining the technology behind them. Join this session for advanced integrations using Microsoft Graph API, Web Services and more!"
             language: English
