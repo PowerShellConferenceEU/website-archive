@@ -850,12 +850,12 @@ This deep dive will take a look at various ways to gauge the speed of your code 
             speaker: "David das Neves"
           -
             description:
-              de: "Written a ton of awesome PowerShell scripts but find it hard getting your end users or your support people to use them? Let's solve this with ChatOps. We will have a quick introduction to ChatOps and then dive into installing a Errbot (a chat bot) on Windows. After learning the basics of Errbot, we will run through some code examples so you can easily bring your scripts to users through chat. Finally we will touch on what security when it comes to ChatOps with PowerShell."
-              en: "Written a ton of awesome PowerShell scripts but find it hard getting your end users or your support people to use them? Let's solve this with ChatOps. We will have a quick introduction to ChatOps and then dive into installing a Errbot (a chat bot) on Windows. After learning the basics of Errbot, we will run through some code examples so you can easily bring your scripts to users through chat. Finally we will touch on what security when it comes to ChatOps with PowerShell."
+              de: "A picture says more than a 1000 words is very true in the area of performance reporting.This session will show - how to collect such performance data in a vSphere environment in an efficient way- demonstrate several methods to visualise the collected data- discuss what to visualise, such as not to overwhelm the reader/viewer"
+              en: "A picture says more than a 1000 words is very true in the area of performance reporting.This session will show - how to collect such performance data in a vSphere environment in an efficient way- demonstrate several methods to visualise the collected data- discuss what to visualise, such as not to overwhelm the reader/viewer"
             language: English
             category: "Automation"
-            name: "ChatOps with PowerShell"
-            speaker: "Matthew Hodgkins"
+            name: "Visualising performance in VMware vSphere"
+            speaker: "Luc Dekens"
           -
             description:
               de: "In this session, I’ll feature some incredibly useful PowerShell commands from the dbatools module. This SQL Server-centric toolset, which has evolved into an open-source community project with over 20 contributors, includes commands like Remove-SqlDatabaseSafely, Set-SqlTempDbConfiguration, Find-SqlDuplicateIndex, and Test-SqlPowerPlan.Join for me for this electric, demo-heavy session to learn how to greatly simplify your life as a DBA."
@@ -1034,12 +1034,12 @@ This deep dive will take a look at various ways to gauge the speed of your code 
             speaker: "Luc Dekens"
           -
             description:
-              de: "A picture says more than a 1000 words is very true in the area of performance reporting.This session will show - how to collect such performance data in a vSphere environment in an efficient way- demonstrate several methods to visualise the collected data- discuss what to visualise, such as not to overwhelm the reader/viewer"
-              en: "A picture says more than a 1000 words is very true in the area of performance reporting.This session will show - how to collect such performance data in a vSphere environment in an efficient way- demonstrate several methods to visualise the collected data- discuss what to visualise, such as not to overwhelm the reader/viewer"
+              de: "Written a ton of awesome PowerShell scripts but find it hard getting your end users or your support people to use them? Let's solve this with ChatOps. We will have a quick introduction to ChatOps and then dive into installing a Errbot (a chat bot) on Windows. After learning the basics of Errbot, we will run through some code examples so you can easily bring your scripts to users through chat. Finally we will touch on what security when it comes to ChatOps with PowerShell."
+              en: "Written a ton of awesome PowerShell scripts but find it hard getting your end users or your support people to use them? Let's solve this with ChatOps. We will have a quick introduction to ChatOps and then dive into installing a Errbot (a chat bot) on Windows. After learning the basics of Errbot, we will run through some code examples so you can easily bring your scripts to users through chat. Finally we will touch on what security when it comes to ChatOps with PowerShell."
             language: English
             category: "Automation"
-            name: "Visualising performance in VMware vSphere"
-            speaker: "Luc Dekens"
+            name: "ChatOps with PowerShell"
+            speaker: "Matthew Hodgkins"
           -
             description:
               de: "Bring your questions to the PowerShell team, and get first-hand answers"
