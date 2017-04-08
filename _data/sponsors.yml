@@ -1,7 +1,7 @@
 ﻿# define bootstrap grid sizes for speaker list
-col_md: 4
-col_sm: 4
-col_xs: 12
+col_md: 3
+col_sm: 3
+col_xs: 3
 
 sponsors:
   - name: "c't"
