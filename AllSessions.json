@@ -836,7 +836,7 @@
         "StartTime":  "2017-05-05 08:30",
         "EndTime":  "2017-05-05 09:30",
         "Audience":  "English",
-        "TracksList":  "DSC and DevOps,Automation",
+        "TracksList":  "DSC and DevOps",
         "Description":  ""
     },
     {
@@ -1040,16 +1040,6 @@
         "Description":  "Testing code is now a requirement for the majority of open-source projects - including the Microsoft DSC resources on GitHub. Most of us have probably written a Pester test or two, but! Do you know what makes a good or a bad unit test? When you look at your code do you know what you should or shouldn’t be testing? Can you tell the difference between an integration test and a unit test?\nIn this session we will use personal examples of tests written when first starting out to highlight both good and bad testing practices, unit and integration tests and maybe a few Pester tips and gotchas.\nNote: whilst this session uses Pester for its examples, this session is more about the philosophy of software testing and less about the intricacies of Pester."
     },
     {
-        "Title":  "Visualising performance in VMware vSphere",
-        "SpeakerList":  "Luc Dekens",
-        "Room":  "12+14",
-        "StartTime":  "2017-05-05 14:15",
-        "EndTime":  "2017-05-05 15:15",
-        "Audience":  "English",
-        "TracksList":  "Automation",
-        "Description":  "A picture says more than a 1000 words is very true in the area of performance reporting.This session will show - how to collect such performance data in a vSphere environment in an efficient way- demonstrate several methods to visualise the collected data- discuss what to visualise, such as not to overwhelm the reader/viewer"
-    },
-    {
         "Title":  "TabExpansionPlusPlus in examples",
         "SpeakerList":  "Bartosz Bielawski",
         "Room":  "12+14",
@@ -1088,6 +1078,16 @@
         "Audience":  "English",
         "TracksList":  "PowerShell",
         "Description":  "Developers know what Continuous Delivery means and we don\u0027t really have to explain to them what\u0027s available and why it is important. ITPros though, have a bigger challenge. Testing our code can be complicated, because it often touches the infrastructure. Do we then need a complete test infrastructure? Doesn\u0027t that make the test project time-consuming and cumbersome? In this session I\u0027ll show what can be done out of the box, and we will investigate what is possible if we think outside of that box a bit. (And we\u0027ll talk about the limitations as well of course)"
+    },
+    {
+        "Title":  "Visualising performance in VMware vSphere",
+        "SpeakerList":  "Luc Dekens",
+        "Room":  "11+13",
+        "StartTime":  "2017-05-05 15:15",
+        "EndTime":  "2017-05-05 16:15",
+        "Audience":  "English",
+        "TracksList":  "Automation",
+        "Description":  "A picture says more than a 1000 words is very true in the area of performance reporting.This session will show - how to collect such performance data in a vSphere environment in an efficient way- demonstrate several methods to visualise the collected data- discuss what to visualise, such as not to overwhelm the reader/viewer"
     },
     {
         "Title":  "AMA - Ask Microsoft Anything",
