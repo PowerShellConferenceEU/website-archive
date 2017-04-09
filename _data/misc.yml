@@ -15,7 +15,7 @@ en:
   newsletterMailText: "Enter your email address"
   subscribe: "Subscribe"
   registerNow: "Register now!"
-  extraInfoText: "Use PowerShell to view and search the most current version of our conference agenda! Run this: (iwr powershell.love -UseB).Content.SubString(1) | ConvertFrom-Json | %{$_} | ogv <br>Participate in our grand Agenda Competition! Details: <a href=\"http://www.powertheshell.com/agendacompetition/\">http://www.powertheshell.com/agendacompetition/</a>"
+  extraInfoText: "Use PowerShell to view and search the most current version of our conference agenda! Run this: <br>(iwr powershell.love -UseB).Content.SubString(1) | ConvertFrom-Json | %{$_} | ogv <br>Participate in our grand Agenda Competition! Details: <a href=\"http://www.powertheshell.com/agendacompetition/\">http://www.powertheshell.com/agendacompetition/</a>"
 
 de:
   map: "Karte"
@@ -36,4 +36,4 @@ de:
   registerNow: "Jetzt Registrieren!"
   sponsors: "Sponsoren"
   sponsorText: "<h4>Your logo could be here!</h4><p>If you want to sponsor this event, please contact <a href=\"mailto:tobias.weltner@email.de\">Tobias Weltner</a>.</p>"
-  extraInfoText: "Use PowerShell to view and search the most current version of our conference agenda! Run this: (iwr powershell.love -UseB).Content.SubString(1) | ConvertFrom-Json | %{$_} | ogv <br>Participate in our grand Agenda Competition! Details: <a href=\"http://www.powertheshell.com/agendacompetition/\">http://www.powertheshell.com/agendacompetition/</a>"
+  extraInfoText: "Use PowerShell to view and search the most current version of our conference agenda! Run this: <br>(iwr powershell.love -UseB).Content.SubString(1) | ConvertFrom-Json | %{$_} | ogv <br>Participate in our grand Agenda Competition! Details: <a href=\"http://www.powertheshell.com/agendacompetition/\">http://www.powertheshell.com/agendacompetition/</a>"

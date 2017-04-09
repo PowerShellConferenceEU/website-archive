@@ -24,6 +24,12 @@ layout: scaffolding
 	{% include {{page.lang}}/about.html %}
 {% endif %}
 
+<!-- Info for delegates, posted shortly before conference -->
+
+{% if site.data.features.includeDelegateInfo %}
+	{% include {{page.lang}}/delegateinfo.html %}
+{% endif %}
+
 <!-- Call for Speakers -->
 {% if site.data.features.includeCallforSpeakers %}
 	{% include {{page.lang}}/callforspeakers.html %}

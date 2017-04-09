@@ -5,6 +5,7 @@ includeEventStats: false
 includeAbout: true
 includeEveningEvent: true
 includeCallforSpeakers: false
+includeDelegateInfo: true
 includeSpeakers: true
 includeSchedule : true
 includeRegister: true
