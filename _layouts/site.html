@@ -19,15 +19,14 @@ layout: scaffolding
 	{% include extrainfobox.html %}
 {% endif %}
 
+<!-- Info for delegates, posted shortly before conference -->
+{% if site.data.features.includeDelegateInfo %}
+	{% include {{page.lang}}/delegateinfo.html %}
+{% endif %}
+
 <!-- About -->
 {% if site.data.features.includeAbout %}
 	{% include {{page.lang}}/about.html %}
-{% endif %}
-
-<!-- Info for delegates, posted shortly before conference -->
-
-{% if site.data.features.includeDelegateInfo %}
-	{% include {{page.lang}}/delegateinfo.html %}
 {% endif %}
 
 <!-- Call for Speakers -->
