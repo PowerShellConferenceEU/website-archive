@@ -19,6 +19,11 @@ layout: scaffolding
 	{% include extrainfobox.html %}
 {% endif %}
 
+<!-- Info for delegates -->
+{% if site.data.features.includeDelegateInfo %}
+	{% include delegateinfo.html %}
+{% endif %}
+
 <!-- About -->
 {% if site.data.features.includeAbout %}
 	{% include {{page.lang}}/about.html %}

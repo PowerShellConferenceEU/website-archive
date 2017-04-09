@@ -128,7 +128,7 @@ $('#speakers-gallery').flowGallery({
 
         $('#candids-gallery').flowGallery({
             gridType: 'columns',
-            columns: {320: 1, 480: 2, 720: 2, 960: 3, 1200: 4},
+            columns: {320: 2, 480: 3, 720: 4, 960: 5, 1200: 6},
             //columns: 6,
             //rowItemMinWidth: 150,
             //justifyLastRow: false,
