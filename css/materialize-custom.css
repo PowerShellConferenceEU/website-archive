@@ -3,20 +3,20 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit; }
-
+/*
 ul {
   list-style-type: none; }
-
+*/
 a {
   color: #039be5;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent; }
-
+/*
 ul {
   padding: 0; }
   ul li {
     list-style-type: none; }
-
+*/
 .clearfix {
   clear: both; }
 
