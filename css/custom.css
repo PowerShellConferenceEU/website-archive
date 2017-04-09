@@ -217,11 +217,6 @@ html {
   margin-bottom:25px;
 }
 
-section[id=delegateinfo] div[class=container] ul {
-  list-style-type:square;
-  list-style-position:outside;
-}
-
 .row-flex, .row-flex > div[class*='col-'] {
     display: -webkit-box;
     display: -moz-box;
