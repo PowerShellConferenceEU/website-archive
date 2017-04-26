@@ -939,7 +939,6 @@ This deep dive will take a look at various ways to gauge the speed of your code 
             category: "PowerShell"
             name: "Demystifying $THIS, $_, $PSITEM, $$, $Whatever…"
             speaker: "Jason Yoder"
-
       -
         time: "12:00 - 13:00"
         tracks:
