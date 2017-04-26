@@ -856,14 +856,21 @@ This deep dive will take a look at various ways to gauge the speed of your code 
       -
         time: "09:45 - 10:45"
         tracks:
-
           -
             description:
-              de: "A picture says more than a 1000 words is very true in the area of performance reporting.This session will show - how to collect such performance data in a vSphere environment in an efficient way- demonstrate several methods to visualise the collected data- discuss what to visualise, such as not to overwhelm the reader/viewer"
-              en: "A picture says more than a 1000 words is very true in the area of performance reporting.This session will show - how to collect such performance data in a vSphere environment in an efficient way- demonstrate several methods to visualise the collected data- discuss what to visualise, such as not to overwhelm the reader/viewer"
+              de: "Testing code is now a requirement for the majority of open-source projects - including the Microsoft DSC resources on GitHub. Most of us have probably written a Pester test or two, but! Do you know what makes a good or a bad unit test? When you look at your code do you know what you should or shouldn’t be testing? Can you tell the difference between an integration test and a unit test? In this session we will use personal examples of tests written when first starting out to highlight both good and bad testing practices, unit and integration tests and maybe a few Pester tips and gotchas. Note: whilst this session uses Pester for its examples, this session is more about the philosophy of software testing and less about the intricacies of Pester."
+              en: "Testing code is now a requirement for the majority of open-source projects - including the Microsoft DSC resources on GitHub. Most of us have probably written a Pester test or two, but! Do you know what makes a good or a bad unit test? When you look at your code do you know what you should or shouldn’t be testing? Can you tell the difference between an integration test and a unit test? In this session we will use personal examples of tests written when first starting out to highlight both good and bad testing practices, unit and integration tests and maybe a few Pester tips and gotchas. Note: whilst this session uses Pester for its examples, this session is more about the philosophy of software testing and less about the intricacies of Pester."
             language: English
-            category: "Automation"
-            name: "Visualising performance in VMware vSphere"
+            category: "Testing"
+            name: "Writing Effective Tests"
+            speaker: "Iain Brighton"
+          -
+            description:
+              de: "To use DSC in a 'foreign' environment, some hurdles have to be taken. The vSphereDSC module is one attempt at doing this. It allows one to use DSC to manage a VMware vSphere environment. The session shows the concepts behind the vSphereDSC DSC Resource module, how to add resources in the module and how to use the module."
+              en: "To use DSC in a 'foreign' environment, some hurdles have to be taken. The vSphereDSC module is one attempt at doing this. It allows one to use DSC to manage a VMware vSphere environment. The session shows the concepts behind the vSphereDSC DSC Resource module, how to add resources in the module and how to use the module."
+            language: English
+            category: "DevOps"
+            name: "DSC in a vSphere Environment"
             speaker: "Luc Dekens"
           -
             description:
@@ -892,7 +899,30 @@ This deep dive will take a look at various ways to gauge the speed of your code 
       -
         time: "11:00 - 12:00"
         tracks:
-
+          -
+            description:
+              de: "In this session we will go through all you need to know to start working with binary file formats with PowerShell."
+              en: "In this session we will go through all you need to know to start working with binary file formats with PowerShell."
+            language: English
+            category: "PowerShell"
+            name: "Working with binary file formats"
+            speaker: "Øyvind Kallstad"
+          -
+            description:
+              de: "A picture says more than a 1000 words is very true in the area of performance reporting.This session will show - how to collect such performance data in a vSphere environment in an efficient way- demonstrate several methods to visualise the collected data- discuss what to visualise, such as not to overwhelm the reader/viewer"
+              en: "A picture says more than a 1000 words is very true in the area of performance reporting.This session will show - how to collect such performance data in a vSphere environment in an efficient way- demonstrate several methods to visualise the collected data- discuss what to visualise, such as not to overwhelm the reader/viewer"
+            language: English
+            category: "Automation"
+            name: "Visualising performance in VMware vSphere"
+            speaker: "Luc Dekens"
+          -
+            description:
+              de: "Programming or scripting has rules, it has guidelines and standards. But how to make scripts that your colleagues write conform to the standards you, as a company, decided on? Of course you can educate and in time people will write scripts the way you all want. But this takes time, and mistakes can slip through. Trust is good, but control is better. During this session I’ll show and teach you how PSScriptAnalyzer can help you, your colleagues and you company with this."
+              en: "Programming or scripting has rules, it has guidelines and standards. But how to make scripts that your colleagues write conform to the standards you, as a company, decided on? Of course you can educate and in time people will write scripts the way you all want. But this takes time, and mistakes can slip through. Trust is good, but control is better. During this session I’ll show and teach you how PSScriptAnalyzer can help you, your colleagues and you company with this."
+            language: English
+            category: "PowerShell"
+            name: "PSScriptAnalyzer - All shall bow down to your rules"
+            speaker: "Jeff Wouters"
           -
             description:
               de: "Expect a fast-paced, demo-heavy session about Just Enough Administration (JEA), a new PowerShell security feature. Learn how to create boundaries for your users, and give them the minimal set of privileges they need to perform their tasks. In this session, we’ll demonstrate how to author, deploy, use, and audit a JEA including the improvements in the latest version of PowerShell. If you want PowerPoint slides, look for another session."
@@ -903,28 +933,13 @@ This deep dive will take a look at various ways to gauge the speed of your code 
             speaker: "Aleksandar Nikolic"
           -
             description:
-              de: "Nano server, the new deployment model in Windows Server 2016, allows faster deployment and servicing of not just virtual environments but bare-metal servers too. When we combine Nano Server deployment model with configuration management platform like PowerShell DSC and build a release pipeline, we get an immutable infrastructure. This session demonstrates a complete release pipeline built with Nano and PowerShell DSC and demonstrates how an immutable web infrastructure gets deployed and serviced. This session also includes some interesting demos of using IoT enabled devices to monitor the release pipeline and infrastructure configuration."
-              en: "Nano server, the new deployment model in Windows Server 2016, allows faster deployment and servicing of not just virtual environments but bare-metal servers too. When we combine Nano Server deployment model with configuration management platform like PowerShell DSC and build a release pipeline, we get an immutable infrastructure. This session demonstrates a complete release pipeline built with Nano and PowerShell DSC and demonstrates how an immutable web infrastructure gets deployed and serviced. This session also includes some interesting demos of using IoT enabled devices to monitor the release pipeline and infrastructure configuration."
-            language: English
-            category: "DevOps"
-            name: "Build an immutable application infrastructure with Nano Server, PowerShell DSC, and the release pipeline"
-            speaker: "Ravikanth Chaganti"
-          -
-            description:
               de: "“Never reinvent the wheel.” My professors taught me that this is the first rule of Computer Science.  PowerShell has a lot of hidden gems if you just dig deep enough to find them.  We are going to go through some of these mysterious variables and references and show you how to leverage them to your advantage.  A little deep dive and a little to make you laugh.  We will learn new tricks to use in your coding and a few to make the work place a little more fun. Why code more when the work has already been done for you?"
               en: "“Never reinvent the wheel.” My professors taught me that this is the first rule of Computer Science.  PowerShell has a lot of hidden gems if you just dig deep enough to find them.  We are going to go through some of these mysterious variables and references and show you how to leverage them to your advantage.  A little deep dive and a little to make you laugh.  We will learn new tricks to use in your coding and a few to make the work place a little more fun. Why code more when the work has already been done for you?"
             language: English
             category: "PowerShell"
             name: "Demystifying $THIS, $_, $PSITEM, $$, $Whatever…"
             speaker: "Jason Yoder"
-          -
-            description:
-              de: "In this session we will go through all you need to know to start working with binary file formats with PowerShell."
-              en: "In this session we will go through all you need to know to start working with binary file formats with PowerShell."
-            language: English
-            category: "PowerShell"
-            name: "Working with binary file formats"
-            speaker: "Øyvind Kallstad"
+
       -
         time: "12:00 - 13:00"
         tracks:
@@ -933,6 +948,7 @@ This deep dive will take a look at various ways to gauge the speed of your code 
               de: Lunch
               en: Lunch
             language: ""
+            category: "Food"
             name: "Lunch & Ask the Experts"
             span: true
             spanLength: 5
@@ -985,12 +1001,12 @@ This deep dive will take a look at various ways to gauge the speed of your code 
         tracks:
           -
             description:
-              de: "Testing code is now a requirement for the majority of open-source projects - including the Microsoft DSC resources on GitHub. Most of us have probably written a Pester test or two, but! Do you know what makes a good or a bad unit test? When you look at your code do you know what you should or shouldn’t be testing? Can you tell the difference between an integration test and a unit test? In this session we will use personal examples of tests written when first starting out to highlight both good and bad testing practices, unit and integration tests and maybe a few Pester tips and gotchas. Note: whilst this session uses Pester for its examples, this session is more about the philosophy of software testing and less about the intricacies of Pester."
-              en: "Testing code is now a requirement for the majority of open-source projects - including the Microsoft DSC resources on GitHub. Most of us have probably written a Pester test or two, but! Do you know what makes a good or a bad unit test? When you look at your code do you know what you should or shouldn’t be testing? Can you tell the difference between an integration test and a unit test? In this session we will use personal examples of tests written when first starting out to highlight both good and bad testing practices, unit and integration tests and maybe a few Pester tips and gotchas. Note: whilst this session uses Pester for its examples, this session is more about the philosophy of software testing and less about the intricacies of Pester."
-            language: English
-            category: "Testing"
-            name: "Writing Effective Tests"
-            speaker: "Iain Brighton"
+              de: "You think you know Hyper-V? Really? There are some awesome features hidden in Hyper-Vs belly you perhaps don´t know - but you have to use powershell to unleash them."
+              en: "You think you know Hyper-V? Really? There are some awesome features hidden in Hyper-Vs belly you perhaps don´t know - but you have to use powershell to unleash them."
+            language: German
+            category: "Automation"
+            name: "Virtual Machines auf Ihrem Desktop mit Powershell und Hyper-V"
+            speaker: "Holger Voges"
           -
             description:
               de: "It all started as a side project created by (at the time) former member of the PowerShell team, Jason Shirk. After Jason got back “home”, this project made its way back to the PowerShell core. In this session I will try to share with you current “state of the art”, and show you how you can create dynamic completers for your modules. I will also share how adding custom completers will look in the future, when PowerShell version 5 will become de facto standard version. Expect a lot of demos and some examples of how you can create module/command specific completers and completers that will work for any command on your system."
@@ -1028,12 +1044,12 @@ This deep dive will take a look at various ways to gauge the speed of your code 
         tracks:
           -
             description:
-              de: "To use DSC in a 'foreign' environment, some hurdles have to be taken. The vSphereDSC module is one attempt at doing this. It allows one to use DSC to manage a VMware vSphere environment. The session shows the concepts behind the vSphereDSC DSC Resource module, how to add resources in the module and how to use the module."
-              en: "To use DSC in a 'foreign' environment, some hurdles have to be taken. The vSphereDSC module is one attempt at doing this. It allows one to use DSC to manage a VMware vSphere environment. The session shows the concepts behind the vSphereDSC DSC Resource module, how to add resources in the module and how to use the module."
-            language: English
-            category: "DevOps"
-            name: "DSC in a vSphere Environment"
-            speaker: "Luc Dekens"
+              de: "For our Training-Center we had to automate the installation, Patching and deployment of the Student-PCs. I will show how we managed to automate the full process of deploying a training-environment with patching and resetting the Workstations after each training back to default without using System Center Configuration manager, just with Powershell and Windows PE."
+              en: "For our Training-Center we had to automate the installation, Patching and deployment of the Student-PCs. I will show how we managed to automate the full process of deploying a training-environment with patching and resetting the Workstations after each training back to default without using System Center Configuration manager, just with Powershell and Windows PE."
+            language: German
+            category: "Automation"
+            name: "Ein Test-Lab mit reinen PowerShell Bordmitteln aufbauen"
+            speaker: "Holger Voges"
           -
             description:
               de: "Written a ton of awesome PowerShell scripts but find it hard getting your end users or your support people to use them? Let's solve this with ChatOps. We will have a quick introduction to ChatOps and then dive into installing a Errbot (a chat bot) on Windows. After learning the basics of Errbot, we will run through some code examples so you can easily bring your scripts to users through chat. Finally we will touch on what security when it comes to ChatOps with PowerShell."
@@ -1098,16 +1114,16 @@ This will focus on how DSC makes the life-cycle of application development and s
           en: "Track 2<br>Room 12/14"
       -
         title:
-          de: "Track 3<br>Room 26"
-          en: "Track 3<br>Room 26"
+          de: "Track 3<br>Room 24/26"
+          en: "Track 3<br>Room 24/26"
       -
         title:
-          de: "Track 4<br>Room 25"
-          en: "Track 4<br>Room 25"
+          de: "Track 4<br>Roter Saal"
+          en: "Track 4<br>Roter Saal"
       -
         title:
-          de: "Track 5<br>Room 24"
-          en: "Track 5<br>Room 24"
+          de: "Track 5<br>Room 25"
+          en: "Track 5<br>Room 25"
 de:
   schedule: Agenda
 en:
