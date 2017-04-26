@@ -1037,7 +1037,7 @@ This deep dive will take a look at various ways to gauge the speed of your code 
             language: English
             category: "PowerShell"
             name: "Test your Powershell code with AppVeyor for ITPros"
-            speaker: "André Kamman"
+            speaker: "André Kamman & Rob Sewell"
       -
         time: "15:30 - 16:30"
         tracks:
