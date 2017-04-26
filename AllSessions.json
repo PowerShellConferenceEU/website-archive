@@ -11,13 +11,13 @@
     },
     {
         "Title":  "DSC Introduction",
-        "SpeakerList":  "Ravikanth Chaganti",
+        "SpeakerList":  "Ben Gelens",
         "Room":  "24+26",
         "StartTime":  "2017-05-02 09:00",
         "EndTime":  "2017-05-02 12:00",
         "Audience":  "English",
         "TracksList":  "DSC and DevOps",
-        "Description":  "If you are new to DSC (Desired State Configuration) and would like to get up to speed, Ravi introduces you to the core concepts, demos the concepts behind DSC, and provides all the information you need to follow the DSC tracks in the main conference."
+        "Description":  "If you are new to DSC (Desired State Configuration) and would like to get up to speed, Ben introduces you to the core concepts, demos the concepts behind DSC, and provides all the information you need to follow the DSC tracks in the main conference."
     },
     {
         "Title":  "PowerShell Remoting",
@@ -61,7 +61,7 @@
     },
     {
         "Title":  "Writing world-class DSC resource modules",
-        "SpeakerList":  "Ravikanth Chaganti",
+        "SpeakerList":  "Ben Gelens",
         "Room":  "24+26",
         "StartTime":  "2017-05-02 13:00",
         "EndTime":  "2017-05-02 16:00",
@@ -114,7 +114,7 @@
         "SpeakerList":  "Tobias Weltner",
         "Room":  "Leibnitz Saal",
         "StartTime":  "2017-05-03 09:00",
-        "EndTime":  "2017-05-03 09:15",
+        "EndTime":  "2017-05-03 09:30",
         "Audience":  "",
         "TracksList":  "Automation",
         "Description":  "Conference organizer Dr. Tobias Weltner kicks off the event and provides all delegates with last minute information and guidance."
@@ -123,8 +123,8 @@
         "Title":  "Keynote: State of the Union",
         "SpeakerList":  "Jeffrey Snover",
         "Room":  "Leibnitz Saal",
-        "StartTime":  "2017-05-03 09:15",
-        "EndTime":  "2017-05-03 10:00",
+        "StartTime":  "2017-05-03 09:30",
+        "EndTime":  "2017-05-03 10:15",
         "Audience":  "",
         "TracksList":  "PowerShell Team",
         "Description":  "PowerShell inventor and Technical Fellow Jeffrey Snover gives an overview where the PowerShell ecosystem stands and what to expect next"
@@ -133,8 +133,8 @@
         "Title":  "Coffee Break",
         "SpeakerList":  "All None",
         "Room":  "Leibnitz Saal",
-        "StartTime":  "2017-05-03 10:00",
-        "EndTime":  "2017-05-03 10:15",
+        "StartTime":  "2017-05-03 10:15",
+        "EndTime":  "2017-05-03 10:30",
         "Audience":  "",
         "TracksList":  "Coffee",
         "Description":  "Enjoy coffee, tea, or cold drinks, and have a chat with friends and colleagues"
@@ -143,8 +143,8 @@
         "Title":  "PowerShell Warm-Up: Quiz \u0026 Quirks",
         "SpeakerList":  "Tobias Weltner",
         "Room":  "Leibnitz Saal",
-        "StartTime":  "2017-05-03 10:15",
-        "EndTime":  "2017-05-03 11:00",
+        "StartTime":  "2017-05-03 10:30",
+        "EndTime":  "2017-05-03 11:15",
         "Audience":  "",
         "TracksList":  "PowerShell",
         "Description":  "Start the day with an interactive code review session where we look at really stupid questions asked by true PowerShell experts. Would you have been able to solve these puzzles?"
@@ -153,21 +153,11 @@
         "Title":  "Catch Me If You Can - PowerShell Red vs. Blue",
         "SpeakerList":  "Will Schroeder",
         "Room":  "Leibnitz Saal",
-        "StartTime":  "2017-05-03 11:00",
-        "EndTime":  "2017-05-03 11:45",
+        "StartTime":  "2017-05-03 11:15",
+        "EndTime":  "2017-05-03 12:00",
         "Audience":  "",
         "TracksList":  "Security",
         "Description":  "Attackers’ love for PowerShell is now no longer a secret, with 2016 producing an explosion in offensive PowerShell toolsets. Unfortunately, the offensive community often fails to research or share relevant mitigations with their defensive counterparts. This leaves many defenders without the information they need to protect themselves and their networks from these attacks. This talk will demonstrate several commonly used malicious techniques and toolsets, including PowerPick (running PowerShell without powershell.exe), subversive PowerShell profiles and ps1xml’s, malicious ACL downgrades, and more. I will then cover current mitigations and/or detections for each offensive technique or tool, demonstrating how to best handle this new offensive reality. Offensive PowerShell isn’t unstoppable- come learn how to defend your network from the bad guys."
-    },
-    {
-        "Title":  "General Q\u0026A",
-        "SpeakerList":  "Jeffrey Snover,Tobias Weltner,Will Schroeder",
-        "Room":  "Leibnitz Saal",
-        "StartTime":  "2017-05-03 11:45",
-        "EndTime":  "2017-05-03 12:00",
-        "Audience":  "German,English",
-        "TracksList":  "Commons",
-        "Description":  "Let\u0027s discuss the morning sessions and any questions you may have. We then all walk over to the workshop area to have lunch."
     },
     {
         "Title":  "Lunch and Ask The Experts",
@@ -270,14 +260,14 @@
         "Description":  "Looking to get more contributors for your Open Source project? Once you\u0027ve got them, what\u0027s awesome and what sucks about your baby being popular?In this session, Community Leader Rob Sewell and PowerShell MVP Chrissy LeMaire talk about their real world experiences with building popular PowerShell repos and the catalysts for their projects becoming owned and beloved by the open source community."
     },
     {
-        "Title":  "Virtual Machines auf Ihrem Desktop mit Powershell und Hyper-V",
-        "SpeakerList":  "Holger Voges",
+        "Title":  "Sind Sie auch eine Klasse für sich? Oder doch \"nur\" ein Objekt?",
+        "SpeakerList":  "Rinon Belegu",
         "Room":  "11+13",
         "StartTime":  "2017-05-03 15:15",
         "EndTime":  "2017-05-03 16:15",
         "Audience":  "German",
-        "TracksList":  "Automation",
-        "Description":  "You think you know Hyper-V? Really? There are some awesome features hidden in Hyper-Vs belly you perhaps don´t know - but you have to use powershell to unleash them."
+        "TracksList":  "PowerShell",
+        "Description":  "Sie haben vielleicht mitbekommen, dass in PowerShell nun auch Klassen möglich sind.\nNur, wissen Sie nicht, was eine Klasse, ein Objekt oder Konstruktoren sind?\nWas ist den bitte ein überladener Konstruktor? \nIn dieser Session erhalten Sie eine Einführung in die objektorientierte Programmierung und wie es ihren PowerShell-Horizont erweitern kann."
     },
     {
         "Title":  "When every second counts!",
@@ -320,14 +310,14 @@
         "Description":  "Enjoy coffee, tea, or cold drinks, and have a chat with friends and colleagues"
     },
     {
-        "Title":  "Sind Sie auch eine Klasse für sich? Oder doch \"nur\" ein Objekt?",
-        "SpeakerList":  "Rinon Belegu",
+        "Title":  "Group Policy Administration mit Powershell",
+        "SpeakerList":  "Holger Voges",
         "Room":  "11+13",
         "StartTime":  "2017-05-03 16:30",
         "EndTime":  "2017-05-03 17:30",
         "Audience":  "German",
-        "TracksList":  "PowerShell",
-        "Description":  "Sie haben vielleicht mitbekommen, dass in PowerShell nun auch Klassen möglich sind.\nNur, wissen Sie nicht, was eine Klasse, ein Objekt oder Konstruktoren sind?\nWas ist den bitte ein überladener Konstruktor? \nIn dieser Session erhalten Sie eine Einführung in die objektorientierte Programmierung und wie es ihren PowerShell-Horizont erweitern kann."
+        "TracksList":  "Automation",
+        "Description":  "There are serveral Cmdlets to manage Group Policys with Powershell. I will show how to use them and then introduce my Powershell-Module for advanced administration and Group Policy Healtcheck"
     },
     {
         "Title":  "Green is bad Red is Good - Turning your Checklists into Pester Tests",
@@ -350,14 +340,14 @@
         "Description":  "What administration and automation tool do state-sponsored actors like APT 29, criminal actors like Phineas Fisher, and IT staff all rely upon heavily? PowerShell. Integrated into many offensive toolkits, PowerShell is gaining respect in offensive circles as “Microsoft’s Post-Exploitation Language”. In a quest to combat this perceived threat, many defenders attempt to disable PowerShell rather than realizing its defensive potential. In this talk, we will cover PowerShell defensive tools and techniques that you can effectively use to detect malicious activity without the need for a bloated host-based agent.  Don’t be afraid of PowerShell! Fight back, instill fear in the attacker, and reclaim your enterprise! It’s time to acknowledge PowerShell as \"Microsoft’s Incident Response Language\"!"
     },
     {
-        "Title":  "PowerShell Desired State Configuration - A rapid fire. Tips and Tricks, Know-hows",
-        "SpeakerList":  "Ravikanth Chaganti",
+        "Title":  "Auto-generated User Interfaces with Phosphor",
+        "SpeakerList":  "David Wilson",
         "Room":  "25",
         "StartTime":  "2017-05-03 16:30",
         "EndTime":  "2017-05-03 17:30",
         "Audience":  "English",
-        "TracksList":  "DSC and DevOps",
-        "Description":  "PS DSC existed for a few years now and has continuously evolved with new and Powerful features. This sessions rapidly demonstrates some tips and tricks and know-hows from complex real-world deployments."
+        "TracksList":  "PowerShell",
+        "Description":  "In this session we’ll be discussing a new PowerShell module project codenamed “Phosphor” which aims to provide desktop and web user interfaces generated from PowerShell modules.  We’ll discuss the overall goals and approach with an early demo of what we’ve accomplished so far.  We’ll also discuss how you can get involved in the code!"
     },
     {
         "Title":  "Come-Together and Take-Off to the Zoo",
@@ -440,14 +430,14 @@
         "Description":  "Enjoy coffee, tea, or cold drinks, and have a chat with friends and colleagues"
     },
     {
-        "Title":  "Ein Test-Lab mit reinen PowerShell Bordmitteln aufbauen",
-        "SpeakerList":  "Holger Voges",
+        "Title":  "PowerShell sicher im Unternehmen einsetzen",
+        "SpeakerList":  "David das Neves",
         "Room":  "11+13",
         "StartTime":  "2017-05-04 09:45",
         "EndTime":  "2017-05-04 10:45",
         "Audience":  "German",
-        "TracksList":  "Automation",
-        "Description":  "For our Training-Center we had to automate the installation, Patching and deployment of the Student-PCs. I will show how we managed to automate the full process of deploying a training-environment with patching and resetting the Workstations after each training back to default without using System Center Configuration manager, just with Powershell and Windows PE."
+        "TracksList":  "Security",
+        "Description":  "Für Unternehmen wird Powershell immer interessanter - kennen Sie jedoch auch alle relevanten Security Themen? Execution Policy, Logging und Powershell Remoting ist nur die elementare Sammlung, die Sie kennen sollten. In dieser Session führt David Sie im Schnellüberblick durch alle Themen, die für Unternehmen von Interesse sein sollten und macht Schluss mit weit verbreiteten Fehlannahmen."
     },
     {
         "Title":  "Log parser vs Powershell smackdown",
@@ -620,24 +610,24 @@
         "Description":  "Enjoy coffee, tea, or cold drinks, and have a chat with friends and colleagues"
     },
     {
-        "Title":  "Group Policy Administration mit Powershell",
-        "SpeakerList":  "Holger Voges",
+        "Title":  "Was Sie schon immer über Fileserver wissen wollten, aber bisher nicht zu fragen wagten",
+        "SpeakerList":  "Thorsten Butz",
         "Room":  "11+13",
         "StartTime":  "2017-05-04 14:15",
         "EndTime":  "2017-05-04 15:15",
         "Audience":  "German",
-        "TracksList":  "Automation",
-        "Description":  "There are serveral Cmdlets to manage Group Policys with Powershell. I will show how to use them and then introduce my Powershell-Module for advanced administration and Group Policy Healtcheck"
+        "TracksList":  "PowerShell",
+        "Description":  "Kennen Sie ein ein anderes Thema, dass gleichzeitig so herausfordernd und gespickt mit Besonderheiten ist und doch eigentlich Basiswissen darstellt? Ich nicht. \nWir sprechen über vermeintlich einfache Konfigurationsaufgaben (Freigaben, Zugriffsrechte, Laufwerksmapping) wie auch über \"Mandatory Integrity Level\" und \"Dynamic Access Control\". Sie werden lernen, dass explorer.exe der natürliche Fein der Administratoren ist und dasss powershell.exe vielleicht nicht die endgültige Lösung darstellt, jedoch einen großen Schritt in Richtung Ihres Seelensfriedens darstellen kann.\nWir lernen, wie man Dateisystem ACLs mittels PowerShell konfiguriert, auf beliebige Ordner unabhängig von den vorgefundenen Berechtigungen Zugriff erlangt und wie man die vielen Ungereimtheiten der Bordmittel bei der Konfiguration von Fileservern umschifft. "
     },
     {
-        "Title":  "Approaching Complex On-premise deployments with PSDSC",
-        "SpeakerList":  "Ravikanth Chaganti",
+        "Title":  "The psychology to building a team that automates, scripts and DevOps\u0027",
+        "SpeakerList":  "Jeff Wouters",
         "Room":  "12+14",
         "StartTime":  "2017-05-04 14:15",
         "EndTime":  "2017-05-04 15:15",
         "Audience":  "English",
-        "TracksList":  "Automation",
-        "Description":  "Enterprise IT applications span across multiple infrastructures and usually include multiple tiers of services. PowerShell DSC evolved to be more than just a simple configuration management platform and covers more landscape than any other configuration management tool. In this session, we look at a complex enterprise application deployment completely using PowerShell DSC. In the process, we look at some best practices and guidance in creating such a complex end to end configuration using PSDSC."
+        "TracksList":  "PowerShell",
+        "Description":  "See what I did there in the title? Did I just made DevOps a verb?! Yes, because it takes actual work. Over the years I’ve been to many customers helping them automate, script and work get the Operation teams to work with their developers, instead of making things ‘not their problem’. During this session I’ll take you with me on a 5+ year journey, building teams with a DevOps mindset, changing the behaviour of developers, it-professionals and even managers or project leaders. Stereo-types can be recognized, positioned, managed or used. All have their own strengths and with the right techniques and methods can empore the people around them. I’ll teach you techniques that will make you the key component between departments and enable you to facilitate change that will elevate your team, department or company to show an agile behaviour."
     },
     {
         "Title":  "Ghosts of DSC past, present and Yet-to-come ",
@@ -740,14 +730,14 @@
         "Description":  "Enjoy coffee, tea, or cold drinks, and have a chat with friends and colleagues"
     },
     {
-        "Title":  "Was Sie schon immer über Fileserver wissen wollten, aber bisher nicht zu fragen wagten",
-        "SpeakerList":  "Thorsten Butz",
+        "Title":  "Writing Effective Tests",
+        "SpeakerList":  "Iain Brighton",
         "Room":  "11+13",
         "StartTime":  "2017-05-04 16:45",
         "EndTime":  "2017-05-04 17:45",
-        "Audience":  "German",
-        "TracksList":  "PowerShell",
-        "Description":  "Kennen Sie ein ein anderes Thema, dass gleichzeitig so herausfordernd und gespickt mit Besonderheiten ist und doch eigentlich Basiswissen darstellt? Ich nicht. \nWir sprechen über vermeintlich einfache Konfigurationsaufgaben (Freigaben, Zugriffsrechte, Laufwerksmapping) wie auch über \"Mandatory Integrity Level\" und \"Dynamic Access Control\". Sie werden lernen, dass explorer.exe der natürliche Fein der Administratoren ist und dasss powershell.exe vielleicht nicht die endgültige Lösung darstellt, jedoch einen großen Schritt in Richtung Ihres Seelensfriedens darstellen kann.\nWir lernen, wie man Dateisystem ACLs mittels PowerShell konfiguriert, auf beliebige Ordner unabhängig von den vorgefundenen Berechtigungen Zugriff erlangt und wie man die vielen Ungereimtheiten der Bordmittel bei der Konfiguration von Fileservern umschifft. "
+        "Audience":  "English",
+        "TracksList":  "Pester \u0026amp; TDD",
+        "Description":  "Testing code is now a requirement for the majority of open-source projects - including the Microsoft DSC resources on GitHub. Most of us have probably written a Pester test or two, but! Do you know what makes a good or a bad unit test? When you look at your code do you know what you should or shouldn’t be testing? Can you tell the difference between an integration test and a unit test?\nIn this session we will use personal examples of tests written when first starting out to highlight both good and bad testing practices, unit and integration tests and maybe a few Pester tips and gotchas.\nNote: whilst this session uses Pester for its examples, this session is more about the philosophy of software testing and less about the intricacies of Pester."
     },
     {
         "Title":  "From Zero to 4 Deployments a Week - Lessons Learned adopting Agile Ops Methodologies",
@@ -850,14 +840,14 @@
         "Description":  "Enjoy coffee, tea, or cold drinks, and have a chat with friends and colleagues"
     },
     {
-        "Title":  "PowerShell sicher im Unternehmen einsetzen",
-        "SpeakerList":  "David das Neves",
+        "Title":  "PowerShell on Linux - Cross-Platform skripten",
+        "SpeakerList":  "Jan-Hendrik Peters",
         "Room":  "11+13",
         "StartTime":  "2017-05-05 09:45",
         "EndTime":  "2017-05-05 10:45",
         "Audience":  "German",
-        "TracksList":  "Security",
-        "Description":  "Für Unternehmen wird Powershell immer interessanter - kennen Sie jedoch auch alle relevanten Security Themen? Execution Policy, Logging und Powershell Remoting ist nur die elementare Sammlung, die Sie kennen sollten. In dieser Session führt David Sie im Schnellüberblick durch alle Themen, die für Unternehmen von Interesse sein sollten und macht Schluss mit weit verbreiteten Fehlannahmen."
+        "TracksList":  "Cross-Platform and Open Source",
+        "Description":  "In diesem Vortrag werden wir uns die neuen Möglichkeiten anschauen, die PowerShell unter Linux mit sich bringt. Angefangen bei dem Bezug von PowerShell für die verschiedenen Systeme werden wir anhand von Scripts erarbeiten, was die Vorteile von PowerShell im Vergleich zu klassischen nx Shells sind. PowerShell ist nicht vollständig ohne Desired State Configuration: Wir werden uns anschauen, welche Ressourcen unter Linux verfügbar sind und wie sie sich erfolgreich in Push- und Pull-Szenarien nutzen lassen.\n- Bezug/Installation\n- Scripting unter Linux - Was geht, was sind die Vorteile gegenüber klassischen nx Shells?\n- DSC unter Linux – OMI, Bezug/Installation, verfügbare Ressourcen, Verwendung eines Pull-Servers, Pushen von Konfigurationen"
     },
     {
         "Title":  "DSC in a vSphere Environment",
@@ -910,19 +900,19 @@
         "Description":  "Enjoy coffee, tea, or cold drinks, and have a chat with friends and colleagues"
     },
     {
-        "Title":  "PowerShell on Linux - Cross-Platform skripten",
-        "SpeakerList":  "Jan-Hendrik Peters",
-        "Room":  "11+13",
+        "Title":  "Visualising performance in VMware vSphere",
+        "SpeakerList":  "Luc Dekens",
+        "Room":  "12+14",
         "StartTime":  "2017-05-05 11:00",
         "EndTime":  "2017-05-05 12:00",
-        "Audience":  "German",
-        "TracksList":  "Cross-Platform and Open Source",
-        "Description":  "In diesem Vortrag werden wir uns die neuen Möglichkeiten anschauen, die PowerShell unter Linux mit sich bringt. Angefangen bei dem Bezug von PowerShell für die verschiedenen Systeme werden wir anhand von Scripts erarbeiten, was die Vorteile von PowerShell im Vergleich zu klassischen nx Shells sind. PowerShell ist nicht vollständig ohne Desired State Configuration: Wir werden uns anschauen, welche Ressourcen unter Linux verfügbar sind und wie sie sich erfolgreich in Push- und Pull-Szenarien nutzen lassen.\n- Bezug/Installation\n- Scripting unter Linux - Was geht, was sind die Vorteile gegenüber klassischen nx Shells?\n- DSC unter Linux – OMI, Bezug/Installation, verfügbare Ressourcen, Verwendung eines Pull-Servers, Pushen von Konfigurationen"
+        "Audience":  "English",
+        "TracksList":  "Automation",
+        "Description":  "A picture says more than a 1000 words is very true in the area of performance reporting.This session will show - how to collect such performance data in a vSphere environment in an efficient way- demonstrate several methods to visualise the collected data- discuss what to visualise, such as not to overwhelm the reader/viewer"
     },
     {
         "Title":  "JEA Deep Dive in 45 Minutes",
         "SpeakerList":  "Aleksandar Nikolic",
-        "Room":  "12+14",
+        "Room":  "Roter Saal",
         "StartTime":  "2017-05-05 11:00",
         "EndTime":  "2017-05-05 12:00",
         "Audience":  "English",
@@ -930,19 +920,19 @@
         "Description":  "Expect a fast-paced, demo-heavy session about Just Enough Administration (JEA), a new PowerShell security feature. Learn how to create boundaries for your users, and give them the minimal set of privileges they need to perform their tasks. In this session, we’ll demonstrate how to author, deploy, use, and audit a JEA including the improvements in the latest version of PowerShell. If you want PowerPoint slides, look for another session."
     },
     {
-        "Title":  "Build an immutable application infrastructure with Nano Server, PowerShell DSC, and the release pipeline",
-        "SpeakerList":  "Ravikanth Chaganti",
+        "Title":  "PSScriptAnalyzer - All shall bow down to your rules",
+        "SpeakerList":  "Jeff Wouters",
         "Room":  "24+26",
         "StartTime":  "2017-05-05 11:00",
         "EndTime":  "2017-05-05 12:00",
         "Audience":  "English",
-        "TracksList":  "DSC and DevOps",
-        "Description":  "Nano server, the new deployment model in Windows Server 2016, allows faster deployment and servicing of not just virtual environments but bare-metal servers too. When we combine Nano Server deployment model with configuration management platform like PowerShell DSC and build a release pipeline, we get an immutable infrastructure. This session demonstrates a complete release pipeline built with Nano and PowerShell DSC and demonstrates how an immutable web infrastructure gets deployed and serviced. This session also includes some interesting demos of using IoT enabled devices to monitor the release pipeline and infrastructure configuration."
+        "TracksList":  "PowerShell",
+        "Description":  "Programming or scripting has rules, it has guidelines and standards. But how to make scripts that your colleagues write conform to the standards you, as a company, decided on? Of course you can educate and in time people will write scripts the way you all want. But this takes time, and mistakes can slip through. Trust is good, but control is better. During this session I’ll show and teach you how PSScriptAnalyzer can help you, your colleagues and you company with this."
     },
     {
         "Title":  "Demystifying $THIS, $_, $PSITEM, $$, $Whatever…",
         "SpeakerList":  "Jason Yoder",
-        "Room":  "Roter Saal",
+        "Room":  "25",
         "StartTime":  "2017-05-05 11:00",
         "EndTime":  "2017-05-05 12:00",
         "Audience":  "English",
@@ -952,7 +942,7 @@
     {
         "Title":  "Working with binary file formats",
         "SpeakerList":  "Øyvind Kallstad",
-        "Room":  "25",
+        "Room":  "11+13",
         "StartTime":  "2017-05-05 11:00",
         "EndTime":  "2017-05-05 12:00",
         "Audience":  "English",
@@ -1030,14 +1020,14 @@
         "Description":  "Enjoy coffee, tea, or cold drinks, and have a chat with friends and colleagues"
     },
     {
-        "Title":  "Writing Effective Tests",
-        "SpeakerList":  "Iain Brighton",
+        "Title":  "Virtual Machines auf Ihrem Desktop mit Powershell und Hyper-V",
+        "SpeakerList":  "Holger Voges",
         "Room":  "11+13",
         "StartTime":  "2017-05-05 14:15",
         "EndTime":  "2017-05-05 15:15",
-        "Audience":  "English",
-        "TracksList":  "Pester \u0026amp; TDD",
-        "Description":  "Testing code is now a requirement for the majority of open-source projects - including the Microsoft DSC resources on GitHub. Most of us have probably written a Pester test or two, but! Do you know what makes a good or a bad unit test? When you look at your code do you know what you should or shouldn’t be testing? Can you tell the difference between an integration test and a unit test?\nIn this session we will use personal examples of tests written when first starting out to highlight both good and bad testing practices, unit and integration tests and maybe a few Pester tips and gotchas.\nNote: whilst this session uses Pester for its examples, this session is more about the philosophy of software testing and less about the intricacies of Pester."
+        "Audience":  "German",
+        "TracksList":  "Automation",
+        "Description":  "You think you know Hyper-V? Really? There are some awesome features hidden in Hyper-Vs belly you perhaps don´t know - but you have to use powershell to unleash them."
     },
     {
         "Title":  "TabExpansionPlusPlus in examples",
@@ -1080,14 +1070,14 @@
         "Description":  "Developers know what Continuous Delivery means and we don\u0027t really have to explain to them what\u0027s available and why it is important. ITPros though, have a bigger challenge. Testing our code can be complicated, because it often touches the infrastructure. Do we then need a complete test infrastructure? Doesn\u0027t that make the test project time-consuming and cumbersome? In this session I\u0027ll show what can be done out of the box, and we will investigate what is possible if we think outside of that box a bit. (And we\u0027ll talk about the limitations as well of course)"
     },
     {
-        "Title":  "Visualising performance in VMware vSphere",
-        "SpeakerList":  "Luc Dekens",
+        "Title":  "Ein Test-Lab mit reinen PowerShell Bordmitteln aufbauen",
+        "SpeakerList":  "Holger Voges",
         "Room":  "11+13",
         "StartTime":  "2017-05-05 15:15",
         "EndTime":  "2017-05-05 16:15",
-        "Audience":  "English",
+        "Audience":  "German",
         "TracksList":  "Automation",
-        "Description":  "A picture says more than a 1000 words is very true in the area of performance reporting.This session will show - how to collect such performance data in a vSphere environment in an efficient way- demonstrate several methods to visualise the collected data- discuss what to visualise, such as not to overwhelm the reader/viewer"
+        "Description":  "For our Training-Center we had to automate the installation, Patching and deployment of the Student-PCs. I will show how we managed to automate the full process of deploying a training-environment with patching and resetting the Workstations after each training back to default without using System Center Configuration manager, just with Powershell and Windows PE."
     },
     {
         "Title":  "AMA - Ask Microsoft Anything",
