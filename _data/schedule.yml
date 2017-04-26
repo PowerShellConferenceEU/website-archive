@@ -246,7 +246,7 @@ days:
             language: English
             category: "Security"
             name: "Building a Just Enough Admin solution in formula one"
-            speaker: ""
+            speaker: "James O'Neill"
           -
             description:
               de: "The GUI, calling it our mortal enemy would probably be a bit too far. There are some obvious use-cases in which using a GUI to discover new functionality and to get acquainted to a new product would be a solid approach. In this session we will do exactly that, we will setup a number of different components on a server while using PowerShell logging to record what is happening on the background. We will analyze these logs and retrieve a step-by-step playbook to reproduce the configuration.Level 300-400"
