@@ -23,12 +23,12 @@ days:
         tracks:
           -
             description:
-              de: "If you are new to DSC (Desired State Configuration) and would like to get up to speed, Ravi introduces you to the core concepts, demos the concepts behind DSC, and provides all the information you need to follow the DSC tracks in the main conference."
-              en: "If you are new to DSC (Desired State Configuration) and would like to get up to speed, Ravi introduces you to the core concepts, demos the concepts behind DSC, and provides all the information you need to follow the DSC tracks in the main conference."
+              de: "If you are new to DSC (Desired State Configuration) and would like to get up to speed, Ben introduces you to the core concepts, demos the concepts behind DSC, and provides all the information you need to follow the DSC tracks in the main conference."
+              en: "If you are new to DSC (Desired State Configuration) and would like to get up to speed, Ben introduces you to the core concepts, demos the concepts behind DSC, and provides all the information you need to follow the DSC tracks in the main conference."
             language: English
             category: "DevOps"
             name: "DSC Introduction"
-            speaker: "Ravi Ravikanth (MVP)"
+            speaker: "Ben Gelens (MVP)"
           -            
             description:
               de: "In this workshop, Aleksandar reviews the different ways of how to access remote systems via PowerShell. He'll be talking about PowerShell Remoting and its prerequisites, PowerShell Direct, and also PowerShell over SSH. This workshop helps you evaluate the different options of remote communications, polishes your fundamental knowledge, and brings you up to speed for cross-platform remote communications in the light of 'PowerShell on Linux'."
@@ -75,7 +75,7 @@ days:
             language: English
             category: "DevOps"
             name: "Writing world-class DSC resource modules"
-            speaker: "Ravi Ravikanth (MVP)"
+            speaker: "Ben Gelens (MVP)"
           -
             description:
               de: "Security is one of the premier topics in the main conference, and PowerrShell introduces with JEA (Just Enough Admin) a new approach how to safely manage role-based permissions. Join Aleksandar to find your way into JEA, and prepare yourself for the security tracks waiting for you in the main conference."
@@ -135,32 +135,33 @@ days:
         tracks:
           -
             description:
-              de: ""
-              en: ""
+              de: "Please bring photo ID and your registration/invoice ID to register and receive your delegate badge."
+              en: "Please bring photo ID and your registration/invoice ID to register and receive your delegate badge."
             language: ""
             name: "Delegate Registration"
             span: true
             spanLength: 4
             speaker: ""
       -
-        time: "09:00 - 09:15"
+        time: "09:00 - 09:30"
         tracks:
           -
             description:
-              de: ""
-              en: ""
+              de: "Conference organizer Dr. Tobias Weltner kicks off the event and provides all delegates with last minute information and guidance."
+              en: "Conference organizer Dr. Tobias Weltner kicks off the event and provides all delegates with last minute information and guidance."
             language: ""
             name: "Opening Ceremony (Leibniz Saal)"
+            category: "Automation"
             span: true
             spanLength: 4
-            speaker: ""
+            speaker: "Tobias Weltner"
       -
-        time: "09:15 - 10:00"
+        time: "09:30 - 10:15"
         tracks:
           -
             description:
-              de: ""
-              en: ""
+              de: "PowerShell inventor and Technical Fellow Jeffrey Snover gives an overview where the PowerShell ecosystem stands and what to expect next."
+              en: "PowerShell inventor and Technical Fellow Jeffrey Snover gives an overview where the PowerShell ecosystem stands and what to expect next."
             language: "English"
             name: "Keynote (Leibniz Saal)"
             category: "Microsoft"
@@ -168,12 +169,25 @@ days:
             spanLength: 4
             speaker: "Jeffrey Snover"
       -
-        time: "10:15 - 11:00"
+        time: "10:15 - 10:30"
         tracks:
           -
             description:
-              de: ""
-              en: ""
+              de: "Enjoy coffee, tea, or cold drinks, and have a chat with friends and colleagues."
+              en: "Enjoy coffee, tea, or cold drinks, and have a chat with friends and colleagues."
+            language: ""
+            name: "Coffee Break"
+            category: "Coffee"
+            span: true
+            spanLength: 4
+            speaker: ""
+      -
+        time: "10:30 - 11:15"
+        tracks:
+          -
+            description:
+              de: "Start the day with an interactive code review session where we look at really stupid questions asked by true PowerShell experts. Would you have been able to solve these puzzles?"
+              en: "Start the day with an interactive code review session where we look at really stupid questions asked by true PowerShell experts. Would you have been able to solve these puzzles?"
             language: "English"
             name: "PowerShell Warm-Up: Quiz & Quirks (Leibniz Saal)"
             category: "PowerShell"
@@ -181,12 +195,12 @@ days:
             spanLength: 4
             speaker: "Tobias Weltner"
       -
-        time: "11:00 - 11:45"
+        time: "11:15 - 12:00"
         tracks:
           -
             description:
-              de: ""
-              en: ""
+              de: "Attackers’ love for PowerShell is now no longer a secret, with 2016 producing an explosion in offensive PowerShell toolsets. Unfortunately, the offensive community often fails to research or share relevant mitigations with their defensive counterparts. This leaves many defenders without the information they need to protect themselves and their networks from these attacks. This talk will demonstrate several commonly used malicious techniques and toolsets, including PowerPick (running PowerShell without powershell.exe), subversive PowerShell profiles and ps1xml’s, malicious ACL downgrades, and more. I will then cover current mitigations and/or detections for each offensive technique or tool, demonstrating how to best handle this new offensive reality. Offensive PowerShell isn’t unstoppable - come learn how to defend your network from the bad guys."
+              en: "Attackers’ love for PowerShell is now no longer a secret, with 2016 producing an explosion in offensive PowerShell toolsets. Unfortunately, the offensive community often fails to research or share relevant mitigations with their defensive counterparts. This leaves many defenders without the information they need to protect themselves and their networks from these attacks. This talk will demonstrate several commonly used malicious techniques and toolsets, including PowerPick (running PowerShell without powershell.exe), subversive PowerShell profiles and ps1xml’s, malicious ACL downgrades, and more. I will then cover current mitigations and/or detections for each offensive technique or tool, demonstrating how to best handle this new offensive reality. Offensive PowerShell isn’t unstoppable - come learn how to defend your network from the bad guys."
             language: "English"
             name: "Catch Me If You Can - PowerShell Red vs. Blue (Leibniz Saal)"
             category: "Security"
@@ -198,10 +212,11 @@ days:
         tracks:
           -
             description:
-              de: ""
-              en: ""
+              de: "Enjoy great food and drinks in one of the lunch areas. Lunch areas have designated 'Ask the Experts' areas where you can socialize with your favorite experts and peers, and get connected."
+              en: "Enjoy great food and drinks in one of the lunch areas. Lunch areas have designated 'Ask the Experts' areas where you can socialize with your favorite experts and peers, and get connected."
             language: ""
-            name: "Lunch"
+            name: "Lunch and Ask the Experts"
+            category: "Food"
             span: true
             spanLength: 4
             speaker: ""
@@ -231,7 +246,7 @@ days:
             language: English
             category: "Security"
             name: "Building a Just Enough Admin solution in formula one"
-            speaker: "James O'Neill"
+            speaker: ""
           -
             description:
               de: "The GUI, calling it our mortal enemy would probably be a bit too far. There are some obvious use-cases in which using a GUI to discover new functionality and to get acquainted to a new product would be a solid approach. In this session we will do exactly that, we will setup a number of different components on a server while using PowerShell logging to record what is happening on the background. We will analyze these logs and retrieve a step-by-step playbook to reproduce the configuration.Level 300-400"
@@ -284,12 +299,12 @@ This talk will cover numerous different ways in which attackers can influence th
         tracks:
           -
             description:
-              de: "You think you know Hyper-V? Really? There are some awesome features hidden in Hyper-Vs belly you perhaps don´t know - but you have to use powershell to unleash them."
-              en: "You think you know Hyper-V? Really? There are some awesome features hidden in Hyper-Vs belly you perhaps don´t know - but you have to use powershell to unleash them."
+              de: "Sie haben vielleicht mitbekommen, dass in PowerShell nun auch Klassen möglich sind. Nur, wissen Sie nicht, was eine Klasse, ein Objekt oder Konstruktoren sind? Was ist den bitte ein überladener Konstruktor? In dieser Session erhalten Sie eine Einführung in die objektorientierte Programmierung und wie es ihren PowerShell-Horizont erweitern kann."
+              en: "Sie haben vielleicht mitbekommen, dass in PowerShell nun auch Klassen möglich sind. Nur, wissen Sie nicht, was eine Klasse, ein Objekt oder Konstruktoren sind? Was ist den bitte ein überladener Konstruktor? In dieser Session erhalten Sie eine Einführung in die objektorientierte Programmierung und wie es ihren PowerShell-Horizont erweitern kann."
             language: German
-            category: "Automation"
-            name: "Virtual Machines auf Ihrem Desktop mit Powershell und Hyper-V"
-            speaker: "Holger Voges"
+            category: "PowerShell"
+            name: "Sind Sie auch eine Klasse für sich? Oder doch 'nur' ein Objekt?"
+            speaker: "Rinon Belegu"
           -
             description:
               de: "In this session Mathias and Øyvind will walk you through a real-life scenario and look
@@ -329,12 +344,12 @@ In this session, Matt will walk through how he has helped a large Microsoft cust
         tracks:
           -
             description:
-              de: "Sie haben vielleicht mitbekommen, dass in PowerShell nun auch Klassen möglich sind. Nur, wissen Sie nicht, was eine Klasse, ein Objekt oder Konstruktoren sind? Was ist den bitte ein überladener Konstruktor? In dieser Session erhalten Sie eine Einführung in die objektorientierte Programmierung und wie es ihren PowerShell-Horizont erweitern kann."
-              en: "Sie haben vielleicht mitbekommen, dass in PowerShell nun auch Klassen möglich sind. Nur, wissen Sie nicht, was eine Klasse, ein Objekt oder Konstruktoren sind? Was ist den bitte ein überladener Konstruktor? In dieser Session erhalten Sie eine Einführung in die objektorientierte Programmierung und wie es ihren PowerShell-Horizont erweitern kann."
+              de: "Für Unternehmen wird Powershell immer interessanter - kennen Sie jedoch auch alle relevanten Security Themen? Execution Policy, Logging und Powershell Remoting ist nur die elementare Sammlung, die Sie kennen sollten. In dieser Session führt David Sie im Schnellüberblick durch alle Themen, die für Unternehmen von Interesse sein sollten und macht Schluss mit weit verbreiteten Fehlannahmen."
+              en: "Für Unternehmen wird Powershell immer interessanter - kennen Sie jedoch auch alle relevanten Security Themen? Execution Policy, Logging und Powershell Remoting ist nur die elementare Sammlung, die Sie kennen sollten. In dieser Session führt David Sie im Schnellüberblick durch alle Themen, die für Unternehmen von Interesse sein sollten und macht Schluss mit weit verbreiteten Fehlannahmen."
             language: German
-            category: "PowerShell"
-            name: "Sind Sie auch eine Klasse für sich? Oder doch 'nur' ein Objekt?"
-            speaker: "Rinon Belegu"
+            category: "Security"
+            name: "PowerShell sicher im Unternehmen einsetzen"
+            speaker: "David das Neves"
           -
             description:
               de: "Relevant to any technicians who use checklists. Intro level and idea forming, getting people to look at the way they can use Pester
@@ -359,35 +374,35 @@ Every Job in Ola Hallengrens Maintenance Solution exists, is enabled, has a sche
             speaker: "Jared Atkinson"
           -
             description:
-              de: "PS DSC existed for a few years now and has continuously evolved with new and Powerful features. This sessions rapidly demonstrates some tips and tricks and know-hows from complex real-world deployments."
-              en: "PS DSC existed for a few years now and has continuously evolved with new and Powerful features. This sessions rapidly demonstrates some tips and tricks and know-hows from complex real-world deployments."
+              de: "In this session we’ll be discussing a new PowerShell module project codenamed 'Phosphor' which aims to provide desktop and web user interfaces generated from PowerShell modules.  We’ll discuss the overall goals and approach with an early demo of what we’ve accomplished so far.  We’ll also discuss how you can get involved in the code!"
+              en: "In this session we’ll be discussing a new PowerShell module project codenamed 'Phosphor' which aims to provide desktop and web user interfaces generated from PowerShell modules.  We’ll discuss the overall goals and approach with an early demo of what we’ve accomplished so far.  We’ll also discuss how you can get involved in the code!"
             language: English
-            category: "DevOps"
-            name: "PowerShell Desired State Configuration - A rapid fire. Tips and Tricks, Know-hows"
-            speaker: "Ravikanth Chaganti"
+            category: "PowerShell"
+            name: "Auto-generated User Interfaces with Phosphor"
+            speaker: "David Wilson"
       -
         time: "18:00 - 18:45"
         tracks:
           -
             description:
-              de: ""
-              en: ""
+              de: "And the end of conference day 1, we all gather again in the Grand Leibniz Saal. We'll then all walk down to the Hannover Zoo together to enjoy the evening event. If you'd prefer to quickly refresh in your hotel room, then please make sure you come to the Hannover Zoo main entrance at 18:45 (6:45pm) DO NOT FORGET YOUR BADGE! YOUR BADGE IS YOUR ENTRY PASS FOR THE ZOO."
+              en: "And the end of conference day 1, we all gather again in the Grand Leibniz Saal. We'll then all walk down to the Hannover Zoo together to enjoy the evening event. If you'd prefer to quickly refresh in your hotel room, then please make sure you come to the Hannover Zoo main entrance at 18:45 (6:45pm) DO NOT FORGET YOUR BADGE! YOUR BADGE IS YOUR ENTRY PASS FOR THE ZOO."
             language: "English"
-            name: "Ask the Speakers Roundtable"
+            name: "Get Together to Go to the Zoo"
             span: true
             spanLength: 4
             speaker: ""
       -
-        time: "19:00 - 01:00"
+        time: "18:45 - 00:00"
         tracks:
           -
             description:
               de: "We'll leave at 18:30h from Leibniz Saal and walk down to the Zoo together.
 You can also get there on your own, take a car (if you have one and don't drink), the tram (one station), or a cab.
-Just make sure you are at the Zoo Main Entrance at 19:00h (7 pm) sharp, and <b>bring your badge. Your badge is required to enter the Zoo.</b>"
+Just make sure you are at the Zoo Main Entrance at 18:45h (6:45 pm) sharp, and <b>bring your badge. Your badge is required to enter the Zoo.</b>"
               en: "We'll leave at 18:30h from Leibniz Saal and walk down to the Zoo together.
 You can also get there on your own, take a car (if you have one and don't drink), the tram (one station), or a cab.
-Just make sure you are at the Zoo Main Entrance at 19:00h (7 pm) sharp, and <b>bring your badge. Your badge is required to enter the Zoo.</b>"
+Just make sure you are at the Zoo Main Entrance at 18:45h (6:45 pm) sharp, and <b>bring your badge. Your badge is required to enter the Zoo.</b>"
             language: ""
             name: "Evening Event at Yukon Bay/Zoo Hannover - bring your badge!"
             span: true
@@ -407,8 +422,8 @@ Just make sure you are at the Zoo Main Entrance at 19:00h (7 pm) sharp, and <b>b
           en: "Track 1<br>Room 11/13"
       -
         title:
-          de: "Track 2<br>Room 12/14"
-          en: "Track 2<br>Room 12/14"
+          de: "Track 2<br>Leibnitz Saal"
+          en: "Track 2<br>Leibnitz Saal"
       -
         title:
           de: "Track 3<br>Room 24/26"
@@ -840,14 +855,7 @@ This deep dive will take a look at various ways to gauge the speed of your code 
       -
         time: "09:45 - 10:45"
         tracks:
-          -
-            description:
-              de: "Für Unternehmen wird Powershell immer interessanter - kennen Sie jedoch auch alle relevanten Security Themen? Execution Policy, Logging und Powershell Remoting ist nur die elementare Sammlung, die Sie kennen sollten. In dieser Session führt David Sie im Schnellüberblick durch alle Themen, die für Unternehmen von Interesse sein sollten und macht Schluss mit weit verbreiteten Fehlannahmen."
-              en: "Für Unternehmen wird Powershell immer interessanter - kennen Sie jedoch auch alle relevanten Security Themen? Execution Policy, Logging und Powershell Remoting ist nur die elementare Sammlung, die Sie kennen sollten. In dieser Session führt David Sie im Schnellüberblick durch alle Themen, die für Unternehmen von Interesse sein sollten und macht Schluss mit weit verbreiteten Fehlannahmen."
-            language: German
-            category: "Security"
-            name: "PowerShell sicher im Unternehmen einsetzen"
-            speaker: "David das Neves"
+
           -
             description:
               de: "A picture says more than a 1000 words is very true in the area of performance reporting.This session will show - how to collect such performance data in a vSphere environment in an efficient way- demonstrate several methods to visualise the collected data- discuss what to visualise, such as not to overwhelm the reader/viewer"
