@@ -191,7 +191,7 @@
     },
     {
         "Title":  "Building a Just Enough Admin solution in formula one",
-        "SpeakerList":  "James O\u0027Neill",
+        "SpeakerList":  "",
         "Room":  "24+26",
         "StartTime":  "2017-05-03 13:00",
         "EndTime":  "2017-05-03 14:00",
@@ -310,14 +310,14 @@
         "Description":  "Enjoy coffee, tea, or cold drinks, and have a chat with friends and colleagues"
     },
     {
-        "Title":  "Group Policy Administration mit Powershell",
-        "SpeakerList":  "Holger Voges",
+        "Title":  "PowerShell sicher im Unternehmen einsetzen",
+        "SpeakerList":  "David das Neves",
         "Room":  "11+13",
         "StartTime":  "2017-05-03 16:30",
         "EndTime":  "2017-05-03 17:30",
         "Audience":  "German",
-        "TracksList":  "Automation",
-        "Description":  "There are serveral Cmdlets to manage Group Policys with Powershell. I will show how to use them and then introduce my Powershell-Module for advanced administration and Group Policy Healtcheck"
+        "TracksList":  "Security",
+        "Description":  "Für Unternehmen wird Powershell immer interessanter - kennen Sie jedoch auch alle relevanten Security Themen? Execution Policy, Logging und Powershell Remoting ist nur die elementare Sammlung, die Sie kennen sollten. In dieser Session führt David Sie im Schnellüberblick durch alle Themen, die für Unternehmen von Interesse sein sollten und macht Schluss mit weit verbreiteten Fehlannahmen."
     },
     {
         "Title":  "Green is bad Red is Good - Turning your Checklists into Pester Tests",
@@ -430,14 +430,14 @@
         "Description":  "Enjoy coffee, tea, or cold drinks, and have a chat with friends and colleagues"
     },
     {
-        "Title":  "PowerShell sicher im Unternehmen einsetzen",
-        "SpeakerList":  "David das Neves",
+        "Title":  "PowerShell on Linux - Cross-Platform skripten",
+        "SpeakerList":  "Jan-Hendrik Peters",
         "Room":  "11+13",
         "StartTime":  "2017-05-04 09:45",
         "EndTime":  "2017-05-04 10:45",
         "Audience":  "German",
-        "TracksList":  "Security",
-        "Description":  "Für Unternehmen wird Powershell immer interessanter - kennen Sie jedoch auch alle relevanten Security Themen? Execution Policy, Logging und Powershell Remoting ist nur die elementare Sammlung, die Sie kennen sollten. In dieser Session führt David Sie im Schnellüberblick durch alle Themen, die für Unternehmen von Interesse sein sollten und macht Schluss mit weit verbreiteten Fehlannahmen."
+        "TracksList":  "Cross-Platform and Open Source",
+        "Description":  "In diesem Vortrag werden wir uns die neuen Möglichkeiten anschauen, die PowerShell unter Linux mit sich bringt. Angefangen bei dem Bezug von PowerShell für die verschiedenen Systeme werden wir anhand von Scripts erarbeiten, was die Vorteile von PowerShell im Vergleich zu klassischen nx Shells sind. PowerShell ist nicht vollständig ohne Desired State Configuration: Wir werden uns anschauen, welche Ressourcen unter Linux verfügbar sind und wie sie sich erfolgreich in Push- und Pull-Szenarien nutzen lassen.\n- Bezug/Installation\n- Scripting unter Linux - Was geht, was sind die Vorteile gegenüber klassischen nx Shells?\n- DSC unter Linux – OMI, Bezug/Installation, verfügbare Ressourcen, Verwendung eines Pull-Servers, Pushen von Konfigurationen"
     },
     {
         "Title":  "Log parser vs Powershell smackdown",
@@ -730,14 +730,14 @@
         "Description":  "Enjoy coffee, tea, or cold drinks, and have a chat with friends and colleagues"
     },
     {
-        "Title":  "Writing Effective Tests",
-        "SpeakerList":  "Iain Brighton",
+        "Title":  "Group Policy Administration mit Powershell",
+        "SpeakerList":  "Holger Voges",
         "Room":  "11+13",
         "StartTime":  "2017-05-04 16:45",
         "EndTime":  "2017-05-04 17:45",
-        "Audience":  "English",
-        "TracksList":  "Pester \u0026amp; TDD",
-        "Description":  "Testing code is now a requirement for the majority of open-source projects - including the Microsoft DSC resources on GitHub. Most of us have probably written a Pester test or two, but! Do you know what makes a good or a bad unit test? When you look at your code do you know what you should or shouldn’t be testing? Can you tell the difference between an integration test and a unit test?\nIn this session we will use personal examples of tests written when first starting out to highlight both good and bad testing practices, unit and integration tests and maybe a few Pester tips and gotchas.\nNote: whilst this session uses Pester for its examples, this session is more about the philosophy of software testing and less about the intricacies of Pester."
+        "Audience":  "German",
+        "TracksList":  "Automation",
+        "Description":  "There are serveral Cmdlets to manage Group Policys with Powershell. I will show how to use them and then introduce my Powershell-Module for advanced administration and Group Policy Healtcheck"
     },
     {
         "Title":  "From Zero to 4 Deployments a Week - Lessons Learned adopting Agile Ops Methodologies",
@@ -751,7 +751,7 @@
     },
     {
         "Title":  "Building your own JEA Configuration",
-        "SpeakerList":  "Jaap Brasser",
+        "SpeakerList":  "",
         "Room":  "24+26",
         "StartTime":  "2017-05-04 16:45",
         "EndTime":  "2017-05-04 17:45",
@@ -840,16 +840,6 @@
         "Description":  "Enjoy coffee, tea, or cold drinks, and have a chat with friends and colleagues"
     },
     {
-        "Title":  "PowerShell on Linux - Cross-Platform skripten",
-        "SpeakerList":  "Jan-Hendrik Peters",
-        "Room":  "11+13",
-        "StartTime":  "2017-05-05 09:45",
-        "EndTime":  "2017-05-05 10:45",
-        "Audience":  "German",
-        "TracksList":  "Cross-Platform and Open Source",
-        "Description":  "In diesem Vortrag werden wir uns die neuen Möglichkeiten anschauen, die PowerShell unter Linux mit sich bringt. Angefangen bei dem Bezug von PowerShell für die verschiedenen Systeme werden wir anhand von Scripts erarbeiten, was die Vorteile von PowerShell im Vergleich zu klassischen nx Shells sind. PowerShell ist nicht vollständig ohne Desired State Configuration: Wir werden uns anschauen, welche Ressourcen unter Linux verfügbar sind und wie sie sich erfolgreich in Push- und Pull-Szenarien nutzen lassen.\n- Bezug/Installation\n- Scripting unter Linux - Was geht, was sind die Vorteile gegenüber klassischen nx Shells?\n- DSC unter Linux – OMI, Bezug/Installation, verfügbare Ressourcen, Verwendung eines Pull-Servers, Pushen von Konfigurationen"
-    },
-    {
         "Title":  "DSC in a vSphere Environment",
         "SpeakerList":  "Luc Dekens",
         "Room":  "12+14",
@@ -858,6 +848,16 @@
         "Audience":  "English",
         "TracksList":  "DSC and DevOps",
         "Description":  "To use DSC in a \"foreign\" environment, some hurdles have to be taken.\nThe vSphereDSC module is one attempt at doing this. It allows one to use DSC to manage a VMware vSphere environment.\nThe session shows the concepts behind the vSphereDSC DSC Resource module, how to add resources in the module and how to use the module."
+    },
+    {
+        "Title":  "Writing Effective Tests",
+        "SpeakerList":  "Iain Brighton",
+        "Room":  "11+13",
+        "StartTime":  "2017-05-05 09:45",
+        "EndTime":  "2017-05-05 10:45",
+        "Audience":  "English",
+        "TracksList":  "Pester \u0026amp; TDD",
+        "Description":  "Testing code is now a requirement for the majority of open-source projects - including the Microsoft DSC resources on GitHub. Most of us have probably written a Pester test or two, but! Do you know what makes a good or a bad unit test? When you look at your code do you know what you should or shouldn’t be testing? Can you tell the difference between an integration test and a unit test?\nIn this session we will use personal examples of tests written when first starting out to highlight both good and bad testing practices, unit and integration tests and maybe a few Pester tips and gotchas.\nNote: whilst this session uses Pester for its examples, this session is more about the philosophy of software testing and less about the intricacies of Pester."
     },
     {
         "Title":  "Modern Database Administration using PowerShell and dbatools",
