@@ -110,8 +110,8 @@ days:
           en: Time
       -
         title:
-          de: "Workshop 1 <br> Room 24"
-          en: "Workshop 1 <br> Room 24"
+          de: "Workshop 1 <br> Room 24/26"
+          en: "Workshop 1 <br> Room 24/26"
       -
         title:
           de: "Workshop 2 <br> Room 25"
@@ -295,7 +295,7 @@ This talk will cover numerous different ways in which attackers can influence th
             name: "Creating and Maintaining Successful Open Source Projects"
             speaker: "Chrissy LeMaire & Rob Sewell"
       -
-        time: "15:30 - 16:30"
+        time: "15:15 - 16:15"
         tracks:
           -
             description:
@@ -340,7 +340,7 @@ In this session, Matt will walk through how he has helped a large Microsoft cust
             name: "The Release Pipeline in Practice"
             speaker: "Matt Hitchcock"
       -
-        time: "16:45 - 17:45"
+        time: "16:30 - 17:30"
         tracks:
           -
             description:
@@ -381,14 +381,14 @@ Every Job in Ola Hallengrens Maintenance Solution exists, is enabled, has a sche
             name: "Auto-generated User Interfaces with Phosphor"
             speaker: "David Wilson"
       -
-        time: "18:00 - 18:45"
+        time: "17:30 - 18:45"
         tracks:
           -
             description:
-              de: "And the end of conference day 1, we all gather again in the Grand Leibniz Saal. We'll then all walk down to the Hannover Zoo together to enjoy the evening event. If you'd prefer to quickly refresh in your hotel room, then please make sure you come to the Hannover Zoo main entrance at 18:45 (6:45pm) DO NOT FORGET YOUR BADGE! YOUR BADGE IS YOUR ENTRY PASS FOR THE ZOO."
-              en: "And the end of conference day 1, we all gather again in the Grand Leibniz Saal. We'll then all walk down to the Hannover Zoo together to enjoy the evening event. If you'd prefer to quickly refresh in your hotel room, then please make sure you come to the Hannover Zoo main entrance at 18:45 (6:45pm) DO NOT FORGET YOUR BADGE! YOUR BADGE IS YOUR ENTRY PASS FOR THE ZOO."
+              de: "And the end of conference day 1, we all gather again in the Grand Leibniz Saal, where you'll have the chance to ask the speakers questions. We'll then all walk down to the Hannover Zoo together to enjoy the evening event. If you'd prefer to quickly refresh in your hotel room, then please make sure you come to the Hannover Zoo main entrance at 18:45 (6:45pm) DO NOT FORGET YOUR BADGE! YOUR BADGE IS YOUR ENTRY PASS FOR THE ZOO."
+              en: "And the end of conference day 1, we all gather again in the Grand Leibniz Saal, where you'll have the chance to ask the speakers questions. We'll then all walk down to the Hannover Zoo together to enjoy the evening event. If you'd prefer to quickly refresh in your hotel room, then please make sure you come to the Hannover Zoo main entrance at 18:45 (6:45pm) DO NOT FORGET YOUR BADGE! YOUR BADGE IS YOUR ENTRY PASS FOR THE ZOO."
             language: "English"
-            name: "Get Together to Go to the Zoo"
+            name: "Ask the Speakers & Get Together to Go to the Zoo"
             span: true
             spanLength: 4
             speaker: ""
@@ -1039,7 +1039,7 @@ This deep dive will take a look at various ways to gauge the speed of your code 
             name: "Test your Powershell code with AppVeyor for ITPros"
             speaker: "André Kamman & Rob Sewell"
       -
-        time: "15:30 - 16:30"
+        time: "15:15 - 16:15"
         tracks:
           -
             description:
@@ -1084,16 +1084,17 @@ This will focus on how DSC makes the life-cycle of application development and s
             name: "Monitoring with PowerShell in SCOM"
             speaker: "Daniël Both"
       -
-        time: "16:30"
+        time: "16:15-16:30"
         tracks:
           -
             description:
-              de: ""
-              en: ""
-            language: English
-            name: "Conference ends"
+              de: "All good things must come to an end - have one last coffee with your new and old friends before you leave!"
+              en: "All good things must come to an end - have one last coffee with your new and old friends before you leave!"
+            language: ""
+            name: "Coffee Break and End of PowerShell Conference EU 2017"
+            category: "Coffee"
             span: true
-            spanLength: 5
+            spanLength: 4
             speaker: ""
     title:
       de: "Tag 3"
