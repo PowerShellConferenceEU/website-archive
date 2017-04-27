@@ -1,7 +1,7 @@
 ﻿[
     {
         "Title":  "Preconf Registration",
-        "SpeakerList":  "All None",
+        "SpeakerList":  "",
         "Room":  "Workshop Area",
         "StartTime":  "2017-05-02 08:00",
         "EndTime":  "2017-05-02 09:00",
@@ -51,7 +51,7 @@
     },
     {
         "Title":  "Lunch",
-        "SpeakerList":  "All None",
+        "SpeakerList":  "",
         "Room":  "Lunch Areas",
         "StartTime":  "2017-05-02 12:00",
         "EndTime":  "2017-05-02 13:00",
@@ -141,7 +141,7 @@
     },
     {
         "Title":  "PowerShell Warm-Up: Quiz \u0026 Quirks",
-        "SpeakerList":  "Tobias Weltner",
+        "SpeakerList":  "",
         "Room":  "Leibnitz Saal",
         "StartTime":  "2017-05-03 10:30",
         "EndTime":  "2017-05-03 11:15",
@@ -191,7 +191,7 @@
     },
     {
         "Title":  "Building a Just Enough Admin solution in formula one",
-        "SpeakerList":  "",
+        "SpeakerList":  "James O\u0027Neill",
         "Room":  "24+26",
         "StartTime":  "2017-05-03 13:00",
         "EndTime":  "2017-05-03 14:00",
@@ -350,14 +350,14 @@
         "Description":  "In this session we’ll be discussing a new PowerShell module project codenamed “Phosphor” which aims to provide desktop and web user interfaces generated from PowerShell modules.  We’ll discuss the overall goals and approach with an early demo of what we’ve accomplished so far.  We’ll also discuss how you can get involved in the code!"
     },
     {
-        "Title":  "Come-Together and Take-Off to the Zoo",
+        "Title":  "Ask the Speakers \u0026 Take-Off to the Zoo",
         "SpeakerList":  "",
         "Room":  "Leibnitz Saal",
         "StartTime":  "2017-05-03 17:30",
-        "EndTime":  "2017-05-03 18:00",
+        "EndTime":  "2017-05-03 18:15",
         "Audience":  "German,English",
         "TracksList":  "Commons",
-        "Description":  "And the end of conference day 1, we all come together again in the Grand Leibniz Saal. We\u0027ll then all together walk down to the Hannover Zoo to enjoy the evening event.\nIf you\u0027d rather prefer to quickly refresh in your hotel room, then please make sure you come to the Hannover Zoo main entrance at 18:45 (6:45pm).\nDO NOT FORGET YOUR BADGE! YOUR BADGE IS YOUR ENTRY PASS FOR THE ZOO."
+        "Description":  "And the end of conference day 1, we all come together again in the Grand Leibniz Saal for an Ask-the-Speakers round. We all have a chance to answer questions that remained unanswered throughout the day, or discuss anything else that comes up to our minds. If you like, and your hotel is nearby, you may as well go to your room, refresh yourself, and get ready for the evening event.\nWhatever you do, at 18:15 (6:15pm) we take off and together walk down to the Zoo/Evening Event.\nIf you\u0027d rather like to get to the evening event on your own (using your car, a cab, or public transportation), make sure you are the Hannover Zoo main entrance by18:45 (6:45pm). DO NOT FORGET YOUR BADGE! YOUR BADGE IS YOUR ENTRY PASS FOR THE ZOO."
     },
     {
         "Title":  "Evening Event",
@@ -751,7 +751,7 @@
     },
     {
         "Title":  "Building your own JEA Configuration",
-        "SpeakerList":  "",
+        "SpeakerList":  "Jaap Brasser",
         "Room":  "24+26",
         "StartTime":  "2017-05-04 16:45",
         "EndTime":  "2017-05-04 17:45",
