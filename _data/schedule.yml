@@ -264,7 +264,7 @@ days:
               en: "Die Anforderung, One-Click Domain Controller deployment experience. Gegeben sind blanke Windows 2012 R2 oder 2016 Server. DSC soll genutzt werden, um alles vom Disk Layout über Netzwerkeinstellung über das DC Setup bis hin zur DNS Server Konfiguration und das in einer global verteilten Struktur. Die Konfigurationen werden via PowerShell aus einer Datenbank erstellt, um individuelle Anpassungen möglich zu machen und es sollen bestehende DSC Resourcen genutzt und erweitert werden. Erfahrungen aus einem Projekt mit einem global verteilten Unternehmen."
             language: German
             category: "DevOps"
-            name: "Automatisiertes DC Deployment mit DSC"
+            name: "Automatisiertes DC Deployment mit DSC bei der BMW-Group"
             speaker: "Raimund Andree, Jan-Hendrik Peters"
           -
             description:
@@ -662,7 +662,7 @@ This deep dive will take a look at various ways to gauge the speed of your code 
             language: English
             category: "Microsoft"
             name: "Ghosts of DSC past, present and Yet-to-come"
-            speaker: "Mark Gray (Microsoft)"
+            speaker: "Bruce Payette (Microsoft)"
           -
             description:
               de: "With the new sqlserver module released with SQL 2016 I decided to revisit the SQL Server Provider. Come and take a look through it with me and I will show you what works and what doesn’t and give you ideas on how you can make use of it."
@@ -696,7 +696,7 @@ This deep dive will take a look at various ways to gauge the speed of your code 
               en: "In a number of projects around DSC we wanted to focus on developing DSC Resources, DSC Configurations and testing this in a Multi-Pull Server scenario. Being able to rapidly deploy a lab specific to each with AD, PKI and DSC Pull Servers already deployed was a huge timesaver. This session will walk through the deployment process automated with AutomatedLab. We will also demo the result of a large DSC project to automate the configuration of domain controllers within this lab which covers DSC Partial Configurations on multiple DSC Pull Servers, automated creation of DSC Configurations and DSC Reporting."
             language: English
             category: "DevOps"
-            name: "Mastering a complex DSC lab infrastructure for rapid DSC deployment"
+            name: "Mastering a complex DSC lab infrastructure – The story of the BMW Group DC"
             speaker: "Raimund Andree, Jan-Hendrik Peters"
           -
             description:
