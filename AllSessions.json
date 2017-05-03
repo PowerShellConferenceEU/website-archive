@@ -1,7 +1,7 @@
 ﻿[
     {
         "Title":  "Preconf Registration",
-        "SpeakerList":  "",
+        "SpeakerList":  "All None",
         "Room":  "Workshop Area",
         "StartTime":  "2017-05-02 08:00",
         "EndTime":  "2017-05-02 09:00",
@@ -51,7 +51,7 @@
     },
     {
         "Title":  "Lunch",
-        "SpeakerList":  "",
+        "SpeakerList":  "All None",
         "Room":  "Lunch Areas",
         "StartTime":  "2017-05-02 12:00",
         "EndTime":  "2017-05-02 13:00",
@@ -141,7 +141,7 @@
     },
     {
         "Title":  "PowerShell Warm-Up: Quiz \u0026 Quirks",
-        "SpeakerList":  "",
+        "SpeakerList":  "Tobias Weltner",
         "Room":  "Leibnitz Saal",
         "StartTime":  "2017-05-03 10:30",
         "EndTime":  "2017-05-03 11:15",
@@ -220,7 +220,7 @@
         "Description":  "Enjoy coffee, tea, or cold drinks, and have a chat with friends and colleagues"
     },
     {
-        "Title":  "Automatisiertes DC Deployment mit DSC",
+        "Title":  "Automatisiertes DC Deployment mit DSC bei der BMW-Group",
         "SpeakerList":  "Jan-Hendrik Peters,Raimund Andree",
         "Room":  "11+13",
         "StartTime":  "2017-05-03 14:15",
@@ -631,7 +631,7 @@
     },
     {
         "Title":  "Ghosts of DSC past, present and Yet-to-come ",
-        "SpeakerList":  "Mark Gray",
+        "SpeakerList":  "Bruce Payette",
         "Room":  "24+26",
         "StartTime":  "2017-05-04 14:15",
         "EndTime":  "2017-05-04 15:15",
@@ -680,7 +680,7 @@
         "Description":  "Hyper-V und System Center Virtual Machine Manager 2016 setzten sich auf dem Virtualisierungsmarkt immer mehr durch.\nLernen Sie in der Session, wie Sie den VMM mittels PowerShell Installieren und Konfigurieren.\nErstellen Sie in handumdrehene Administrative Accounts, Netzwerk Konfigurationen und binden Sie Hyper-V Server ein.\nIn dieser praktischen Session, wird der Virtual Machine Manager 2016 in Betrieb genommen und für eine Hybrid Lösung mit Azure Verbunden."
     },
     {
-        "Title":  "Mastering a complex DSC lab infrastructure for rapid DSC deployment",
+        "Title":  "Mastering a complex DSC lab infrastructure – The story of the BMW Group DC deployment",
         "SpeakerList":  "Jan-Hendrik Peters,Raimund Andree",
         "Room":  "12+14",
         "StartTime":  "2017-05-04 15:30",
@@ -815,7 +815,7 @@
         "Room":  "Roter Saal",
         "StartTime":  "2017-05-05 08:30",
         "EndTime":  "2017-05-05 09:30",
-        "Audience":  "German",
+        "Audience":  "English",
         "TracksList":  "PowerShell Team",
         "Description":  "In this session you’ll learn how to use the PowerShell extension for Visual Studio Code to write, test, and debug cross-platform PowerShell modules, even those containing C#-based cmdlets."
     },
