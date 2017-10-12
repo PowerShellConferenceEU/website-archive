@@ -2,17 +2,17 @@
 includeExtraInfoBox: true
 includeCountdown: false
 includeEventStats: false
-includeAbout: true
-includeEveningEvent: true
-includeCallforSpeakers: false
+includeAbout: false
+includeEveningEvent: false
+includeCallforSpeakers: true
 includeDelegateInfo: false
-includeSpeakers: true
-includeSchedule : true
+includeSpeakers: false
+includeSchedule : false
 includeRegister: false
-includeVenue: true
+includeVenue: false
 includeLegal: true
-includeMap: true
+includeMap: false
 includeCandids: false
-includeSponsors: true
+includeSponsors: false
 includeContact: true
 includeFooter: true
