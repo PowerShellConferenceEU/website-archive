@@ -53,24 +53,24 @@
             });
 
             // set the date we're counting down to
-            var target_date = new Date('Jun, 4, 2019').getTime();
-            var days, hours, minutes, seconds;
-            var countdown = document.getElementById('countdown');
-            setInterval(function () {
-                var current_date = new Date().getTime();
-                var seconds_left = (target_date - current_date) / 1000;
-                days = parseInt(seconds_left / 86400);
-                seconds_left = seconds_left % 86400;
-                hours = parseInt(seconds_left / 3600);
-                seconds_left = seconds_left % 3600;
-                minutes = parseInt(seconds_left / 60);
-                seconds = parseInt(seconds_left % 60);
-                countdown.innerHTML = '<span class="days">' + days +
-                    ' <b>Days</b></span> <span class="hours">' + hours +
-                    ' <b>Hours</b></span> <span class="minutes">' +
-                    minutes + ' <b>Minutes</b></span> <span class="seconds">' + seconds +
-                    ' <b>Seconds</b></span>';
-            }, 1000);
+            // var target_date = new Date('Jun, 4, 2019').getTime();
+            // var days, hours, minutes, seconds;
+            // var countdown = document.getElementById('countdown');
+            // setInterval(function () {
+            //     var current_date = new Date().getTime();
+            //     var seconds_left = (target_date - current_date) / 1000;
+            //     days = parseInt(seconds_left / 86400);
+            //     seconds_left = seconds_left % 86400;
+            //     hours = parseInt(seconds_left / 3600);
+            //     seconds_left = seconds_left % 3600;
+            //     minutes = parseInt(seconds_left / 60);
+            //     seconds = parseInt(seconds_left % 60);
+            //     countdown.innerHTML = '<span class="days">' + days +
+            //         ' <b>Days</b></span> <span class="hours">' + hours +
+            //         ' <b>Hours</b></span> <span class="minutes">' +
+            //         minutes + ' <b>Minutes</b></span> <span class="seconds">' + seconds +
+            //         ' <b>Seconds</b></span>';
+            // }, 1000);
         });
     </script>
 </head>
@@ -103,7 +103,7 @@
                     <li>
                         <a href="#about">About</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#agenda">Agenda</a>
                     </li>
                     <li>
@@ -111,7 +111,7 @@
                     </li>
                     <li>
                         <a href="#sponsor">Sponsor</a>
-                    </li>
+                    </li> -->
                     <!-- <li>
                         <a href="#venue">Venue</a>
                     </li> -->
@@ -137,7 +137,7 @@
                                         Hannover, Germany - June 4-7 2019
                                     </p>
                                     <br>
-                                    <div id="countdown" class="boxed animation fade-down"></div>
+                                    <div id="countdown" class="boxed animation fade-down">THIS SITE IS AN ARCHIVE OF THE 2019 SITE</div>
                                     <!-- /#Countdown Div -->
                                 </div>
                             </div>
@@ -195,13 +195,13 @@
                         <p>
                             psconf.eu is a blend of conference and training experience, so however you like to call it, you can choose whether you want us to bill you for a conference or a training event.
                         </p>
-                        <p>
+                        <!-- <p>
                             <u><a href="#register">Secure your seat and click here to register</a></u>
-                        </p>
-                        <p>
+                        </p> -->
+                        <!-- <p>
                             You can also <a href="https://github.com/PowerShellConferenceEU/PowerShellConferenceEU.github.io/raw/master/files/proposal.pdf"><u>download
                             a proposal here.</u></a>. And if you need to convince your boss, simply do the math: psconf.eu is cheaper than most public trainings, and in a fast-paced world where scripts and automation are part of business-critical processes, once a year it’s just due to come together, update know-how, learn about latest security challenges and mitigations, and bring home fresh ideas, best practices, and inspiration.
-                        </p>
+                        </p> -->
                         <br>
                         <img src="images/sadjoey.jpg" class="img-responsive">
                         <br>
@@ -220,179 +220,6 @@
             </div>
         </section>
 
-        <!-- Agenda -->
-        <section id="agenda" class="divider-section">
-            <div class="container">
-                <div class="gap"></div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="center gap section-heading">
-                            <h2 class="main-title">Agenda</h2>
-                            <hr>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        Download our free conference app, and start building your personal agenda wherever you are: <u><a href="https://my.eventraft.com/psconfeu">https://my.eventraft.com/psconfeu</a></u>
-                        <br>
-                        <br>
-                        <iframe width='100%' height='1000' scrolling='auto' frameborder='0' allowTransparency='true' src='http://sessions.eventraft.com/psconfeu'></iframe>                
-                        <br>
-                        Click here to open the agenda in a separate window: <u><a href="https://sessions.eventraft.com/psconfeu">https://sessions.eventraft.com/psconfeu</a></u>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Register -->
-        <section id="register" class="white">
-            <div class="container">
-                <div class="gap"></div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="center gap section-heading">
-                            <h2 class="main-title">Register</h2>
-                            <hr>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        <div id="wufoo-z1cygvfw1pmlcnc">
-
-                            Fill out my <a href="https://tobiaspsp.wufoo.com/forms/z1cygvfw1pmlcnc">online form</a>.
-
-                        </div>
-
-                        <script type="text/javascript">var z1cygvfw1pmlcnc; (function (d, t) {
-                                var s = d.createElement(t), options = {
-                                    'userName': 'tobiaspsp',
-                                    'formHash': 'z1cygvfw1pmlcnc',
-                                    'autoResize': true,
-                                    'height': '1427',
-                                    'async': true,
-                                    'host': 'wufoo.com',
-                                    'header': 'show',
-                                    'ssl': true
-                                };
-                                s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-                                s.onload = s.onreadystatechange = function () {
-                                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-                                    try { z1cygvfw1pmlcnc = new WufooForm(); z1cygvfw1pmlcnc.initialize(options); z1cygvfw1pmlcnc.display(); } catch (e) { }
-                                };
-                                var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-                            })(document, 'script');</script>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Sponsor -->
-        <section id="sponsor" class="white">
-            <div class="container">
-                <div class="gap"></div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="center gap section-heading">
-                            <h2 class="main-title">Sponsor</h2>
-                            <hr>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        <p>
-                            If you would like to know more about sponsoring psconf.eu, <a href="https://github.com/PowerShellConferenceEU/PowerShellConferenceEU.github.io/raw/master/files/sponsors.pdf"><u>download our sponsor information here.</u></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Venue -->
-        <!-- <section id="venue" class="white">
-            <div class="container">
-                <div class="gap"></div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="center gap fade-down section-heading">
-                            <h2 class="main-title">Venue</h2>
-                            <hr>
-                            <p>The place to be!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gap"></div>
-                <div class="col-md-10 col-md-offset-1 fade-up">
-                    <p>
-                        The conference takes place in the
-                        <a href="http://www.hcc.de/" target="_blank">Hannover Conference Centrum (HCC)</a>
-                        in Hannover, Germany.
-                    </p>
-                    <p>
-                        Please note that hotel cost and hotel reservations are not included or covered in any way in the conference fee. Any booking
-                        arrangement is between you and the hotel.
-                    </p>
-
-                    <div class="gap"></div>
-                    <div id="mapwrapper">
-                        <div id="map"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </section> -->
-
-
-        <!-- Contact -->
-        <section id="contact" class="white">
-            <div class="container">
-                <div class="gap"></div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="center gap section-heading">
-                            <h2 class="main-title">Contact</h2>
-                            <hr>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        <div id="wufoo-q1dvd4gc1inhctm">
-                            Fill out my <a href="https://tobiaspsp.wufoo.com/forms/q1dvd4gc1inhctm">online form</a>.
-                        </div>
-                        <script type="text/javascript">var q1dvd4gc1inhctm; (function (d, t) {
-                                var s = d.createElement(t), options = {
-                                    'userName': 'tobiaspsp',
-                                    'formHash': 'q1dvd4gc1inhctm',
-                                    'autoResize': true,
-                                    'height': '519',
-                                    'async': true,
-                                    'host': 'wufoo.com',
-                                    'header': 'show',
-                                    'ssl': true
-                                };
-                                s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-                                s.onload = s.onreadystatechange = function () {
-                                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-                                    try { q1dvd4gc1inhctm = new WufooForm(); q1dvd4gc1inhctm.initialize(options); q1dvd4gc1inhctm.display(); } catch (e) { }
-                                };
-                                var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-                            })(document, 'script');
-                        </script>
-                    </div>
-                </div>
-            </div>
-        </section>
     </div>
     <!-- Footer -->
     <div id="footer-wrapper">
