@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+                <p><img class="logo" width="105" src="assets/images/psconfeu-logo.png"></p>
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <ul class="actions">
+                    <li><a href="#two" class="button next scrolly">Call for Speakers</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+                <header class="major">
+                    <h2>Call for Speakers open until January 3, 2020</h2>
+                </header>
+                <p>{{ content }}</p>
+                <ul class="actions">
+                    <li><a href="https://sessionize.com/psconfeu/" class="button next">More information</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- One -->
+        {% include tiles.html %}
+
+        <section id="four">
+                <div class="inner">
+                    <header class="major">
+                        <h2>Call for Speakers open until January 3, 2020</h2>
+                    </header>
+                    <p>{{ content }}</p>
+                    <ul class="actions">
+                        <li><a href="https://sessionize.com/psconfeu/" class="button next">More information</a></li>
+                    </ul>
+                </div>
+            </section>
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
