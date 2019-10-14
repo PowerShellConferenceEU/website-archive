@@ -6,7 +6,7 @@ image: assets/images/sadjoey.jpg
 nav-menu: true
 ---
 
-Welcome to Europe’s largest PowerShell-themed annual conference!
+<h2>Welcome to Europe’s largest PowerShell-themed annual conference!</h2>
 
 In 2020, we’ll have 350 delegate seats again and 40 international speakers. You will be able to build your personal agenda from 3 parallel tracks using our conference app (iOS, Android). Agenda information becomes available by end of January 2020.
 
