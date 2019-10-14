@@ -8,7 +8,7 @@ nav-menu: true
 
 Welcome to Europe’s largest PowerShell-themed annual conference!
 
-In 2020, we’ll have 350 delegate seats again and 40 international speakers. You will be able to build your personal agenda from 3 parallel tracks using our conference app (iOS, Android). Agenda information becomes available by end of January 2019.
+In 2020, we’ll have 350 delegate seats again and 40 international speakers. You will be able to build your personal agenda from 3 parallel tracks using our conference app (iOS, Android). Agenda information becomes available by end of January 2020.
 
 
 <h2 id="content">Here is why people from 35 countries travel to Hannover to attend:</h2>
