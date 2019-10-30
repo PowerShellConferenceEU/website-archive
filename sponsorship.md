@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Sponsorship
-description: Sponsorship
+description: Information on why and how to sponsor PowerShell Conference EU 2020
 nav-menu: true
 ---
 
-Sponsorship brochure/information coming soon.
+<div class="inner">
+<p>Sponsorship brochure/information coming soon.</p>
+</div>
