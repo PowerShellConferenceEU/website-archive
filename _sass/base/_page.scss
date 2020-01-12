@@ -59,3 +59,29 @@
 	.wufoo-bg {
 		background: _palette(wufoo-bg);
 	}
+
+	// Sessionize overrides
+	h2.sz-cssgrid__time-label {
+		color: #000000;
+	}
+
+	h1.sz-day__title {
+		display: none;
+	}
+
+	span.sz-cssgrid__track-label {
+		background: #000000;
+	}
+
+	#sessionize.sessionize-wrapper ul.sz-tabs {
+		margin-bottom: 32px;
+	}
+
+	#sessionize small.sz-powered-by {
+		display: none;
+	}
+
+	#sessionize * {
+		font-family: _font(family);
+	}
+	
