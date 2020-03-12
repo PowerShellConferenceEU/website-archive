@@ -84,4 +84,20 @@
 	#sessionize * {
 		font-family: _font(family);
 	}
+
+	#updatebanner {
+	// green status banner
+	  background-color: #24e347;
+	
+	//uncomment the below line for a red banner
+		//background-color: #ff0000;	
+		border: 1px;
+		padding: 10px;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	.updated {
+		font-size: 16px;
+	}
 	

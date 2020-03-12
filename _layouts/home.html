@@ -20,6 +20,7 @@
                 <h1>{{ page.landing-title }}</h1>
             </header>
             <div class="content">
+                {% include conference_status.html %}
                 <p style="text-transform: uppercase;">{{ site.description }}</p>
                 <ul class="actions">
                     <li><a href="#one" class="button next scrolly">Register</a>&nbsp;</li>
@@ -31,7 +32,7 @@
     <!-- Main -->
     <div id="main">
 
-        {% include tiles.html %}
+        <!-- {% include tiles.html %} -->
         
         <section id="two">
             <div class="inner">
