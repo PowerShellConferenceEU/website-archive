@@ -86,18 +86,34 @@
 	}
 
 	#updatebanner {
-	// green status banner
-	  background-color: #24e347;
-	
 	//uncomment the below line for a red banner
-		//background-color: #ff0000;	
+		background-color: #ff0000;	
 		border: 1px;
 		padding: 10px;
 		font-size: 18px;
 		font-weight: bold;
+		text-align: center;
 	}
 
 	.updated {
 		font-size: 16px;
 	}
 	
+	.bordered {
+		border: 1px solid #9696963f;
+		background: #0500369f;
+		padding: 20px;
+	}
+
+	#sponsors {
+		margin-top: 70px;
+	}
+
+	.psconflogo {
+		width: 10em;
+	}
+
+	.sponsor-title {
+		margin-top: 5em;
+		margin-bottom: 0;
+	}

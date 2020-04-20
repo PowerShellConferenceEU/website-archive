@@ -22,12 +22,9 @@
 		max-height: 32em;
 		min-height: 22em;
 		position: relative;
-		top: -3.25em;
+		top: 0;
 
 		&:after {
-			@include vendor('transition', 'opacity #{_duration(banner)} ease');
-			@include vendor('transition-delay', '0.75s');
-			@include vendor('pointer-events', 'none');
 			background-color: _palette(bg);
 			content: '';
 			display: block;
@@ -45,12 +42,6 @@
 		}
 
 		> .inner {
-			@include vendor('transition', (
-				'opacity 1.5s ease',
-				'transform 0.5s ease-out',
-				'filter 0.5s ease',
-				'-webkit-filter 0.5s ease'
-			));
 			padding: 0 !important;
 			position: relative;
 			z-index: 2;
@@ -95,7 +86,7 @@
 		}
 
 		&.major {
-			height: 75vh;
+			height: 60vh;
 			min-height: 30em;
 			max-height: 50em;
 
@@ -119,7 +110,7 @@
 			> .inner {
 				@include vendor('filter', 'blur(0.125em)');
 				@include vendor('transform', 'translateX(-0.5em)');
-				opacity: 0;
+				opacity: 1.0;
 			}
 		}
 

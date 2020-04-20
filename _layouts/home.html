@@ -13,37 +13,25 @@
     {% include header.html %}
 
     <!-- Banner -->
+    <section>
+            {% include conference_status.html %}
+    </section>
     <section id="banner" class="major">
-        <div class="inner">
-                <p><img width="150" src="assets/svg/psconfeu-logo-blue.svg" alt="PS Conf EU logo"></p>
+        <div class="inner align-center">
+                <p><img class="psconflogo" src="assets/svg/psconfeu-logo-blue.svg" alt="PowerShell Conference Europe logo"></p>
             <header class="major">
                 <h1>{{ page.landing-title }}</h1>
+                <div class="bordered">
+                <h3>CONFERENCE CANCELLED</h3>
+                <div>
+                    Due to the global situation with Corona/COVID-19, the PowerShell Conference Europe 2020 has been cancelled.
+                </div>
+                <a href="https://powershell.one/psconfeu/psconf.eu-2020/corona" alt="More information">More information.</a>
+                </div>
             </header>
-            <div class="content">
-                {% include conference_status.html %}
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
-                <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Register</a>&nbsp;</li>
-                </ul>
-            </div>
         </div>
     </section>
-
-    <!-- Main -->
-    <div id="main">
-
-        <!-- {% include tiles.html %} -->
-        
-        <section id="two">
-            <div class="inner">
-                <p>{{ content }}</p>
-            </div>
-        </section>
-
-    </div>
-
     {% include footer.html %}
-
 </body>
 
 </html>
