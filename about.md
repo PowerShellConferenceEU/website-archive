@@ -9,8 +9,8 @@ show_tile: true
 
 <div class="inner">
 <p>We believe that PowerShell Conference Europe is the perfect place for PowerShell experts, PowerShell team members and people passionate about PowerShell from around the world to meet, share, network, learn and also have a great time!</p>
-<p>In 2020, we’ll have 350 delegate seats again and 40 international speakers. You will be able to build your personal agenda from 3 parallel tracks using our conference app (iOS, Android). Agenda information becomes available by end of January 2020.</p>
-<h2>Here is why people from 35 countries travel to Hannover to attend:</h2>
+<p>In 2020, sessions were <a href="http://powershell.video">recorded</a> and we hosted a <a href="http://powershell.love">live streaming event across two days</a>.</p>
+<h2>Here are some of the reasons that make our conference unique:</h2>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
@@ -34,9 +34,9 @@ show_tile: true
 	</div>
 </div>
 
-<h3>Ready to register?</h3>
-<p>We would love to see you in Hannover in June 2020!</p>
-<ul class="actions">
+<h3>Ready for PowerShell Conference Europe, 2021?</h3>
+<p>We would love to see you in Hannover in June 2021! Watch this space - registrations will open later this year!</p>
+<!-- <ul class="actions">
 	<li><a href="/register" class="button">Register</a></li>
-</ul>
+</ul> -->
 </div>

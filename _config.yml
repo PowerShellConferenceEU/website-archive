@@ -1,8 +1,8 @@
 # site settings
 title: PSConf EU 2020
-subtitle: "Hannover, Germany"
+subtitle: "Virtual"
 email: tobias@powertheshell.com
-description: June 2-5, 2020&nbsp;<br />Hannover, Germany
+description: A virtual event, hosted online on June 2-3, 2020
 baseurl: # the subpath of your site, e.g. /blog
 url: //psconf.eu
 author:
